@@ -23,8 +23,8 @@ script. Treat the output as "whatever surfaced," not a comprehensive
 report.
 
 Required environment variables (set as GitHub repo secrets):
-  OPENAI_API_KEY   — for the structured-output parse
-  CFBD_API_KEY     — for determining the current week + matchups
+  ANTHROPIC_API_KEY — for the structured-output parse (Claude)
+  CFBD_API_KEY       — for determining the current week + matchups
 """
 
 import json
@@ -34,8 +34,8 @@ from datetime import datetime, timezone
 from typing import Optional, Literal
 
 import requests
-from pydantic import BaseModel, Field
-from openai import OpenAI
+from pydantic import BaseModel, Field, ValidationError
+import anthropic
 
 CFBD_BASE = "https://api.collegefootballdata.com"
 ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports/football/college-football"
@@ -43,7 +43,9 @@ ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports/football/college-foot
 CFBD_KEY = os.environ["CFBD_API_KEY"]
 CFBD_HEADERS = {"Authorization": f"Bearer {CFBD_KEY}"}
 
-client = OpenAI()  # reads OPENAI_API_KEY from env automatically
+CLAUDE_MODEL = "claude-haiku-4-5-20251001"  # cheap/fast model, plenty for headline parsing
+
+client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from env automatically
 
 
 # ============================================================
@@ -64,22 +66,63 @@ class InjuryReport(BaseModel):
     )
 
 
+INJURY_TOOL_SCHEMA = {
+    "name": "record_injury_report",
+    "description": "Record structured injury/availability data extracted from a CFB news headline.",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "is_injury_news": {
+                "type": "boolean",
+                "description": "True if the text contains CFB injury/availability updates, False otherwise.",
+            },
+            "player_name": {"type": ["string", "null"], "description": "Full name of the player."},
+            "team_name": {"type": ["string", "null"], "description": "Full team name (e.g., Georgia Bulldogs, Texas A&M)."},
+            "position": {"type": ["string", "null"], "description": "Player position abbreviation (e.g., QB, LT, CB)."},
+            "status": {
+                "type": ["string", "null"],
+                "enum": ["OUT", "QUESTIONABLE", "PROBABLE", "DOUBTFUL", "UNKNOWN", None],
+                "description": "Standardized status based on the report.",
+            },
+            "body_part": {"type": ["string", "null"], "description": "Specific injury if mentioned (e.g., Hamstring, ACL, Ankle)."},
+            "confidence_score": {
+                "type": "number",
+                "description": "Confidence from 0.0 to 1.0 that this report is verified news and not speculation.",
+            },
+        },
+        "required": ["is_injury_news", "confidence_score"],
+    },
+}
+
+
 def parse_injury_text(headline_text: str) -> InjuryReport:
     system_prompt = (
         "You are an expert college football sports data parser. Your task is to extract "
         "player injury status updates from news headlines and short article blurbs. "
         "Only extract definitive updates or high-confidence practice observations. "
-        "If the text isn't about an injury/availability status at all, set is_injury_news to False."
+        "If the text isn't about an injury/availability status at all, set is_injury_news to False. "
+        "Always respond by calling the record_injury_report tool."
     )
-    completion = client.beta.chat.completions.parse(
-        model="gpt-4o-mini",
+    message = client.messages.create(
+        model=CLAUDE_MODEL,
+        max_tokens=512,
+        system=system_prompt,
         messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": f"Extract injury data from this text:\n\n\"{headline_text}\""},
+            {"role": "user", "content": f'Extract injury data from this text:\n\n"{headline_text}"'},
         ],
-        response_format=InjuryReport,
+        tools=[INJURY_TOOL_SCHEMA],
+        tool_choice={"type": "tool", "name": "record_injury_report"},
     )
-    return completion.choices[0].message.parsed
+
+    tool_use_block = next((b for b in message.content if b.type == "tool_use"), None)
+    if tool_use_block is None:
+        # Claude didn't call the tool for some reason — treat as "not injury news" rather than crash
+        return InjuryReport(is_injury_news=False, confidence_score=0.0)
+
+    try:
+        return InjuryReport(**tool_use_block.input)
+    except ValidationError:
+        return InjuryReport(is_injury_news=False, confidence_score=0.0)
 
 
 # ============================================================
