@@ -1,0 +1,2615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Saturday Line — CFB Predictions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --field-navy: #0e1a26;
+    --field-navy-2: #142434;
+    --chalk: #f2efe6;
+    --chalk-dim: #b8c2c9;
+    --lights: #e8a941;
+    --turf: #2f5d46;
+    --good: #6fbf94;
+    --bad: #e8837a;
+    --card-bg: #17293a;
+    --card-border: #26394a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--field-navy);
+    color: var(--chalk);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    padding: 32px 20px 60px;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; }
+
+  header { margin-bottom: 28px; }
+  .kicker {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--lights);
+    font-size: 14px;
+    margin: 0 0 4px;
+  }
+  h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.02;
+    margin: 0 0 10px;
+    color: var(--chalk);
+  }
+  .sub {
+    color: var(--chalk-dim);
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 56ch;
+    margin: 0;
+  }
+
+  .panel {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 24px;
+  }
+  .field-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: end; }
+  .field { flex: 1; min-width: 120px; }
+  label {
+    display: block;
+    font-size: 12px;
+    color: var(--chalk-dim);
+    margin-bottom: 6px;
+  }
+  input, select {
+    width: 100%;
+    background: var(--field-navy-2);
+    border: 1px solid var(--card-border);
+    color: var(--chalk);
+    padding: 10px 11px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+  }
+  input:focus, select:focus { outline: 2px solid var(--lights); outline-offset: 1px; }
+  input::placeholder { color: #5c7080; }
+
+  button.primary {
+    background: var(--lights);
+    color: #1a1508;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 11px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    white-space: nowrap;
+  }
+  button.primary:hover { filter: brightness(1.08); }
+  button.primary:disabled { opacity: 0.5; cursor: default; }
+
+  .key-note {
+    font-size: 12.5px;
+    color: var(--chalk-dim);
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  .key-note a { color: var(--lights); }
+
+  .status {
+    margin-top: 18px;
+    font-size: 14px;
+    color: var(--chalk-dim);
+    display: none;
+  }
+  .status.show { display: block; }
+  .status.error { color: var(--bad); }
+
+  .progress-track {
+    height: 4px;
+    background: var(--field-navy-2);
+    border-radius: 2px;
+    margin-top: 10px;
+    overflow: hidden;
+    display: none;
+  }
+  .progress-track.show { display: block; }
+  .progress-fill {
+    height: 100%;
+    background: var(--lights);
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+
+  #results { margin-top: 28px; }
+  .week-heading {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 14px;
+    color: var(--chalk);
+  }
+
+  .game-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: border-color 0.15s ease, transform 0.1s ease;
+  }
+  .game-card:hover { border-color: var(--lights); }
+  .game-card:active { transform: scale(0.995); }
+  .matchup-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    gap: 8px 10px;
+  }
+  .card-tags { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .matchup-line .at { color: var(--chalk-dim); font-weight: 500; font-size: 15px; margin: 0 6px; }
+  .spread-tag {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    background: var(--turf);
+    color: var(--chalk);
+    padding: 3px 10px;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+  .plain-english {
+    font-size: 14.5px;
+    line-height: 1.55;
+    color: var(--chalk-dim);
+    margin: 0;
+  }
+  .plain-english b { color: var(--chalk); font-weight: 600; }
+  .no-line-note {
+    font-size: 12.5px;
+    color: #8a97a3;
+    margin-top: 6px;
+    font-style: italic;
+  }
+  .tap-hint {
+    font-size: 11.5px;
+    color: #6d7f8c;
+    margin-top: 8px;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--chalk-dim);
+    font-size: 14px;
+  }
+
+  /* ---------- Modal ---------- */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(5, 10, 15, 0.72);
+    z-index: 1000;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  .modal-overlay.show { display: block; }
+  .modal-box {
+    background: var(--field-navy-2);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    max-width: 640px;
+    margin: 20px auto 40px;
+    overflow: hidden;
+  }
+  .modal-header {
+    padding: 20px 22px 0;
+    position: relative;
+  }
+  .modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: var(--chalk-dim);
+    font-size: 22px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 4px;
+  }
+  .modal-close:hover { color: var(--chalk); }
+  .modal-matchup {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 0 4px;
+    padding-right: 30px;
+  }
+  .modal-venue-line {
+    color: var(--chalk-dim);
+    font-size: 13.5px;
+    margin: 0 0 16px;
+  }
+  .rivalry-badge {
+    display: inline-block;
+    background: var(--lights);
+    color: #1a1508;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 100px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+
+  .tab-bar {
+    display: flex;
+    border-bottom: 1px solid var(--card-border);
+    padding: 0 22px;
+    gap: 4px;
+    overflow-x: auto;
+  }
+  .tab-btn {
+    background: none;
+    border: none;
+    color: var(--chalk-dim);
+    font-family: 'Inter', sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+    padding: 11px 12px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    white-space: nowrap;
+  }
+  .tab-btn.active { color: var(--lights); border-bottom-color: var(--lights); }
+  .tab-panel { display: none; padding: 20px 22px; }
+  .tab-panel.active { display: block; }
+
+  .modal-loading {
+    padding: 40px 22px;
+    text-align: center;
+    color: var(--chalk-dim);
+    font-size: 14px;
+  }
+
+  .info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 0;
+    border-bottom: 1px solid var(--card-border);
+    font-size: 14px;
+  }
+  .info-row:last-child { border-bottom: none; }
+  .info-row .k { color: var(--chalk-dim); }
+  .info-row .v { color: var(--chalk); font-weight: 600; text-align: right; }
+
+  .news-link-row {
+    display: flex;
+    gap: 8px;
+    margin-top: 14px;
+    flex-wrap: wrap;
+  }
+  a.news-link {
+    display: inline-block;
+    font-size: 13px;
+    color: var(--lights);
+    text-decoration: none;
+    border: 1px solid var(--card-border);
+    padding: 7px 12px;
+    border-radius: 6px;
+  }
+  a.news-link:hover { border-color: var(--lights); }
+
+  .disclaimer-mini {
+    font-size: 11.5px;
+    color: #6d7f8c;
+    line-height: 1.5;
+    margin-top: 14px;
+    font-style: italic;
+  }
+
+  .lines-table { width: 100%; border-collapse: collapse; margin-bottom: 4px; }
+  .lines-table th, .lines-table td {
+    text-align: right;
+    padding: 8px 6px;
+    font-size: 13.5px;
+    border-bottom: 1px solid var(--card-border);
+  }
+  .lines-table th { color: var(--chalk-dim); font-weight: 500; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.03em; }
+  .lines-table td:first-child, .lines-table th:first-child { text-align: left; color: var(--chalk); font-weight: 600; }
+
+  .model-box {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin: 14px 0;
+  }
+  .injury-box {
+    background: var(--card-bg);
+    border: 1px dashed var(--card-border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin: 14px 0;
+  }
+  .injury-toggle-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0;
+    font-size: 13.5px;
+  }
+  .injury-toggle-row input[type="checkbox"] { width: 16px; height: 16px; accent-color: var(--lights); }
+  .injury-penalty-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+    font-size: 13px;
+    color: var(--chalk-dim);
+  }
+  .injury-penalty-row input[type="number"] { width: 60px; padding: 5px 8px; }
+  .espn-injury-item {
+    font-size: 13px;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--card-border);
+  }
+  .espn-injury-item:last-child { border-bottom: none; }
+  .espn-injury-item b { color: var(--chalk); }
+  .predicted-score {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 10px;
+  }
+  .edge-badge {
+    display: inline-block;
+    font-size: 12.5px;
+    font-weight: 700;
+    padding: 3px 9px;
+    border-radius: 100px;
+  }
+  .edge-badge.positive { background: var(--good); color: #0e2418; }
+  .edge-badge.negative { background: var(--bad); color: #2b0c08; }
+  .edge-badge.neutral { background: var(--card-border); color: var(--chalk-dim); }
+
+  .winprob-bar {
+    display: flex;
+    height: 24px;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 10px 0 6px;
+  }
+  .winprob-seg { display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; }
+  .winprob-home { background: var(--turf); color: var(--chalk); }
+  .winprob-away { background: var(--card-border); color: var(--chalk-dim); }
+
+  .suggestion-box {
+    border: 1px solid var(--lights);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-top: 16px;
+  }
+  .suggestion-box.pass { border-color: var(--card-border); }
+  .suggestion-box.strong { border-color: var(--good); border-width: 2px; }
+  .suggestion-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: var(--lights);
+    text-transform: uppercase;
+    margin: 0 0 4px;
+  }
+  .suggestion-box.pass .suggestion-label { color: var(--chalk-dim); }
+  .suggestion-box.strong .suggestion-label { color: var(--good); }
+  .suggestion-text { font-size: 14px; line-height: 1.5; margin: 0; }
+
+  .market-breakdown {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .market-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--card-border);
+  }
+  .market-row:last-child { border-bottom: none; }
+  .market-row .m-name { color: var(--chalk-dim); }
+  .tier-pill {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 9px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  .tier-pill.strong { background: var(--good); color: #0e2418; }
+  .tier-pill.lean { background: var(--lights); color: #1a1508; }
+  .tier-pill.pass { background: var(--card-border); color: var(--chalk-dim); }
+
+  .spot-flag {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--card-border);
+  }
+  .spot-flag:last-child { border-bottom: none; }
+  .spot-icon {
+    width: 22px; height: 22px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 700; flex-shrink: 0; margin-top: 1px;
+  }
+  .spot-icon.on { background: var(--lights); color: #1a1508; }
+  .spot-icon.off { background: var(--card-border); color: var(--chalk-dim); }
+  .spot-text { font-size: 13.5px; line-height: 1.5; }
+  .spot-text b { color: var(--chalk); }
+
+  .trend-block { margin-bottom: 18px; }
+  .trend-heading { font-size: 12.5px; color: var(--chalk-dim); text-transform: uppercase; letter-spacing: 0.03em; margin: 0 0 8px; }
+
+  .modal-footer {
+    display: flex;
+    gap: 10px;
+    padding: 16px 22px 22px;
+    border-top: 1px solid var(--card-border);
+    flex-wrap: wrap;
+  }
+  button.betslip-btn, button.track-pick-btn {
+    flex: 1;
+    min-width: 150px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 13.5px;
+    padding: 11px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  button.betslip-btn {
+    background: var(--lights);
+    color: #1a1508;
+    border: none;
+  }
+  button.betslip-btn:hover { filter: brightness(1.08); }
+  button.track-pick-btn {
+    background: transparent;
+    border: 1px solid var(--card-border);
+    color: var(--chalk);
+  }
+  button.track-pick-btn:hover { border-color: var(--lights); }
+
+  .stake-bar {
+    display: flex;
+    align-items: flex-end;
+    gap: 14px;
+    padding: 14px 22px;
+    border-top: 1px solid var(--card-border);
+    flex-wrap: wrap;
+  }
+  .stake-bar input[type="number"] { width: 100%; }
+
+  .pick-form {
+    padding: 0 22px 20px;
+    border-top: 1px solid var(--card-border);
+    display: none;
+  }
+  .pick-form.show { display: block; }
+  .pick-form-row { display: flex; gap: 10px; margin: 12px 0; flex-wrap: wrap; }
+  .pick-form-row select { flex: 1; min-width: 130px; }
+  .confirm-save-btn {
+    background: var(--turf);
+    color: var(--chalk);
+    border: none;
+    font-weight: 600;
+    font-size: 13.5px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  /* ---------- Page-level tabs (Predictions / Track record / My picks) ---------- */
+  .page-tab-bar {
+    display: flex;
+    gap: 4px;
+    margin-top: 26px;
+    border-bottom: 1px solid var(--card-border);
+    overflow-x: auto;
+  }
+  .page-tab-btn {
+    background: none;
+    border: none;
+    color: var(--chalk-dim);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    white-space: nowrap;
+  }
+  .page-tab-btn.active { color: var(--lights); border-bottom-color: var(--lights); }
+  .page-tab-btn:hover:not(.active) { color: var(--chalk); }
+  .page-tab-content { display: none; }
+  .page-tab-content.active { display: block; }
+
+  /* ---------- Track record + My Picks (bottom sections) ---------- */
+  .track-record {
+    margin-top: 36px;
+    border-top: 1px solid var(--card-border);
+    padding-top: 28px;
+  }
+  .section-heading {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 6px;
+  }
+  .section-sub {
+    color: var(--chalk-dim);
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 0 16px;
+    max-width: 58ch;
+  }
+  button.secondary {
+    background: transparent;
+    border: 1px solid var(--lights);
+    color: var(--lights);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 9px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+  }
+  button.secondary:hover { background: rgba(232, 169, 65, 0.1); }
+  button.secondary:disabled { opacity: 0.5; cursor: default; }
+  .btn-row { display: flex; gap: 10px; flex-wrap: wrap; }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 12px;
+    margin: 18px 0;
+  }
+  .stat-box {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 14px;
+  }
+  .stat-value {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--chalk);
+    line-height: 1;
+  }
+  .stat-label { font-size: 11.5px; color: var(--chalk-dim); margin-top: 5px; }
+  .stat-value.good { color: var(--good); }
+
+  .result-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--card-border);
+    font-size: 13.5px;
+    gap: 10px;
+  }
+  .result-row:last-child { border-bottom: none; }
+  .result-matchup { color: var(--chalk); flex: 1; }
+  .result-nums { color: var(--chalk-dim); text-align: right; white-space: nowrap; }
+  .result-nums b { color: var(--chalk); }
+
+  .pick-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--card-border);
+    gap: 10px;
+  }
+  .pick-row:last-child { border-bottom: none; }
+  .pick-main { font-size: 13.5px; color: var(--chalk); }
+  .pick-sub { font-size: 12px; color: var(--chalk-dim); margin-top: 3px; }
+  .pick-status {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+  .pick-status.pending { background: var(--card-border); color: var(--chalk-dim); }
+  .pick-status.win { background: var(--good); color: #0e2418; }
+  .pick-status.loss { background: var(--bad); color: #2b0c08; }
+  .pick-status.push { background: var(--lights); color: #1a1508; }
+
+  .recalibrate-box {
+    background: var(--card-bg);
+    border: 1px solid var(--lights);
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 16px;
+  }
+  .calib-compare { display: flex; gap: 24px; margin-top: 10px; flex-wrap: wrap; }
+  .calib-col { font-size: 13px; color: var(--chalk-dim); }
+  .calib-col b { color: var(--chalk); }
+
+  footer.disclaimer {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #63737f;
+    line-height: 1.6;
+    border-top: 1px solid var(--card-border);
+    padding-top: 16px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="kicker">SATURDAY LINE</p>
+    <h1>College football predictions, in plain English</h1>
+    <p class="sub">Pulls live data from CollegeFootballData.com, blends opponent-adjusted team ratings with the current market line, and tells you who's favored and by how much. Click any game for the full breakdown.</p>
+  </header>
+
+  <div class="page-tab-bar">
+    <button class="page-tab-btn active" data-page-tab="predictions">Predictions</button>
+    <button class="page-tab-btn" data-page-tab="track-record">Track record</button>
+    <button class="page-tab-btn" data-page-tab="my-picks">My picks</button>
+  </div>
+
+  <div class="page-tab-content active" id="page-predictions">
+    <div class="panel">
+      <div class="field-row">
+        <div class="field" style="flex: 2;">
+          <label for="apiKey">CFBD API key</label>
+          <input type="password" id="apiKey" placeholder="Paste your free key from collegefootballdata.com/key">
+        </div>
+        <div class="field">
+          <label for="yearSelect">Season</label>
+          <select id="yearSelect"></select>
+        </div>
+        <div class="field">
+          <label for="weekSelect">Week</label>
+          <select id="weekSelect"></select>
+        </div>
+        <div class="field" style="flex: 0;">
+          <button class="primary" id="runBtn">Get predictions</button>
+        </div>
+      </div>
+      <p class="key-note">Your key stays in this browser tab only — it's never saved or sent anywhere but CollegeFootballData.com. Get a free one at <a href="https://collegefootballdata.com/key" target="_blank">collegefootballdata.com/key</a>.</p>
+      <div class="progress-track" id="progressTrack"><div class="progress-fill" id="progressFill"></div></div>
+      <p class="status" id="statusText"></p>
+    </div>
+
+    <div id="results">
+      <div class="empty-state">Enter your API key, pick a season and week, and click "Get predictions."</div>
+    </div>
+  </div>
+
+  <div class="page-tab-content" id="page-track-record">
+    <div class="track-record" style="margin-top: 0; border-top: none; padding-top: 0;">
+      <h2 class="section-heading">Track record</h2>
+      <p class="section-sub">Every prediction you generate is saved in this browser. Once games are played, check here to see how far off the model was — and let it recalibrate itself using the real results.</p>
+      <div class="btn-row">
+        <button class="secondary" id="checkResultsBtn">Check results so far</button>
+        <button class="secondary" id="clearHistoryBtn">Clear saved predictions</button>
+      </div>
+      <p class="status" id="trackStatus"></p>
+      <div id="trackResults"></div>
+    </div>
+  </div>
+
+  <div class="page-tab-content" id="page-my-picks">
+    <div class="track-record" id="myPicksSection" style="margin-top: 0; border-top: none; padding-top: 0;">
+      <h2 class="section-heading">My picks</h2>
+      <p class="section-sub">Bets you've added from a game's detail view. Check results once games finish to see how your picks actually did.</p>
+
+      <div class="model-box" id="bankrollBox">
+        <p class="trend-heading" style="margin-top:0;">Bankroll</p>
+        <div class="pick-form-row" style="margin: 10px 0;">
+          <label style="flex:1; min-width:150px;">
+            <span style="display:block; font-size:12px; color:var(--chalk-dim); margin-bottom:6px;">Starting tokens</span>
+            <input type="number" id="bankrollStartInput" value="100" min="1" step="1">
+          </label>
+          <button class="secondary" id="setBankrollBtn" style="align-self:flex-end;">Set / reset bankroll</button>
+        </div>
+        <div id="bankrollSummary"></div>
+      </div>
+
+      <div class="btn-row">
+        <button class="secondary" id="checkPicksBtn">Check my picks</button>
+        <button class="secondary" id="clearPicksBtn">Clear all picks</button>
+      </div>
+      <p class="status" id="picksStatus"></p>
+      <div id="picksResults"></div>
+    </div>
+  </div>
+
+  <footer class="disclaimer">
+    Predictions blend an opponent-adjusted efficiency rating (built from offensive/defensive EPA per play) with the current betting market line, weighted 50/50. Early-season weeks blend in the previous season's final rating to reduce small-sample noise. Betting suggestions are rules-based on the size of the disagreement between model and market and default to "pass" when the edge is small or data is thin — this reflects that backtesting shows the model performs close to, not clearly better than, the market. This is a research and entertainment tool, not licensed betting or financial advice, and it does not account for injuries, weather, or breaking news beyond what's noted. If sports betting isn't fun for you anymore, the National Council on Problem Gambling helpline is 1-800-522-4700.
+  </footer>
+
+</div>
+
+<!-- ---------- Game Detail Modal ---------- -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-box">
+    <div class="modal-header">
+      <button class="modal-close" id="modalCloseBtn">&times;</button>
+      <h2 class="modal-matchup" id="modalMatchupTitle"></h2>
+      <p class="modal-venue-line" id="modalVenueLine"></p>
+    </div>
+    <div class="tab-bar">
+      <button class="tab-btn active" data-tab="overview">Overview</button>
+      <button class="tab-btn" data-tab="market">Market &amp; Model</button>
+      <button class="tab-btn" data-tab="situational">Situational</button>
+      <button class="tab-btn" data-tab="trends">Trends</button>
+    </div>
+    <div id="modalBody">
+      <div class="modal-loading">Loading game details…</div>
+    </div>
+    <div class="stake-bar" id="stakeBar">
+      <label style="flex:1; min-width:110px;">
+        <span style="display:block; font-size:12px; color:var(--chalk-dim); margin-bottom:6px;">Stake (tokens)</span>
+        <input type="number" id="pickStake" value="10" min="1" step="1">
+      </label>
+      <p class="disclaimer-mini" id="tokensRemainingNote" style="flex:2; min-width:180px; margin:0;"></p>
+    </div>
+    <div class="pick-form" id="pickForm">
+      <p class="trend-heading" style="margin-top:16px;" id="pickFormHeading">Choose side to track</p>
+      <div class="pick-form-row">
+        <select id="pickType">
+          <option value="spread">Spread</option>
+          <option value="total">Total (O/U)</option>
+          <option value="moneyline">Moneyline</option>
+        </select>
+        <select id="pickSide"></select>
+      </div>
+      <button class="confirm-save-btn" id="confirmPickBtn">Save pick</button>
+    </div>
+    <div class="modal-footer">
+      <button class="betslip-btn" id="addToBetslipBtn">+ Add to betslip</button>
+      <button class="track-pick-btn" id="trackPickBtn">Track this pick</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const API_BASE = "https://api.collegefootballdata.com";
+
+// Storage shim: backed by localStorage so this works on any static host.
+const storage = {
+  async get(key) {
+    const raw = localStorage.getItem(key);
+    return raw === null ? null : { key, value: raw };
+  },
+  async set(key, value) {
+    localStorage.setItem(key, value);
+    return { key, value };
+  },
+  async delete(key) {
+    localStorage.removeItem(key);
+    return { key, deleted: true };
+  },
+  async list(prefix) {
+    const keys = Object.keys(localStorage).filter(k => !prefix || k.startsWith(prefix));
+    return { keys, prefix };
+  }
+};
+
+// Validated calibration constants — overwritten by whatever's saved in
+// storage once you've recalibrated at least once against real results.
+let EFFICIENCY_SCALE = 58.06;
+let HOME_FIELD_ADVANTAGE = 3.97;
+let MARKET_WEIGHT = 0.5;
+let CALIBRATION_LAST_UPDATED = null;
+
+// A curated (not exhaustive) list of well-known rivalries, used only to
+// flag "this is a rivalry game" in the Overview tab. Order within each
+// pair doesn't matter — checked both ways.
+const RIVALRIES = [
+  ["Alabama", "Auburn"], ["Ohio State", "Michigan"], ["Texas", "Oklahoma"],
+  ["Florida", "Georgia"], ["USC", "Notre Dame"], ["Army", "Navy"],
+  ["Clemson", "South Carolina"], ["Florida", "Florida State"],
+  ["Michigan", "Michigan State"], ["Oregon", "Oregon State"],
+  ["Washington", "Washington State"], ["UCLA", "USC"], ["Stanford", "California"],
+  ["Texas A&M", "LSU"], ["Georgia", "Auburn"], ["Tennessee", "Alabama"],
+  ["Miami", "Florida State"], ["Kansas", "Kansas State"],
+  ["Oklahoma", "Oklahoma State"], ["West Virginia", "Pittsburgh"],
+  ["Louisville", "Kentucky"], ["Duke", "North Carolina"],
+  ["NC State", "North Carolina"], ["Wisconsin", "Minnesota"],
+  ["Iowa", "Iowa State"], ["Missouri", "Kansas"], ["Colorado", "Nebraska"],
+  ["Notre Dame", "USC"], ["Virginia", "Virginia Tech"],
+  ["Texas", "Texas A&M"], ["Mississippi State", "Ole Miss"],
+  ["South Carolina", "Clemson"], ["BYU", "Utah"], ["Utah", "Utah State"],
+  ["Boise State", "Fresno State"], ["Cincinnati", "Miami (OH)"],
+  ["Indiana", "Purdue"], ["Illinois", "Northwestern"], ["Baylor", "TCU"],
+  ["Arizona", "Arizona State"], ["Colorado State", "Wyoming"],
+  ["Memphis", "Tulane"], ["Rutgers", "Penn State"], ["Syracuse", "Boston College"],
+  ["Nevada", "UNLV"], ["San Diego State", "Fresno State"],
+];
+
+function isRivalryGame(teamA, teamB) {
+  return RIVALRIES.some(([x, y]) =>
+    (x === teamA && y === teamB) || (x === teamB && y === teamA)
+  );
+}
+
+async function loadCalibration() {
+  try {
+    const result = await storage.get('calibration');
+    if (result && result.value) {
+      const calib = JSON.parse(result.value);
+      EFFICIENCY_SCALE = calib.efficiencyScale;
+      HOME_FIELD_ADVANTAGE = calib.homeFieldAdvantage;
+      MARKET_WEIGHT = calib.marketWeight;
+      CALIBRATION_LAST_UPDATED = calib.lastUpdated;
+    }
+  } catch (e) { /* stick with defaults */ }
+}
+
+async function saveCalibration(scale, hfa, marketWeight) {
+  const calib = {
+    efficiencyScale: scale,
+    homeFieldAdvantage: hfa,
+    marketWeight: marketWeight,
+    lastUpdated: new Date().toISOString(),
+  };
+  await storage.set('calibration', JSON.stringify(calib));
+  EFFICIENCY_SCALE = scale;
+  HOME_FIELD_ADVANTAGE = hfa;
+  MARKET_WEIGHT = marketWeight;
+  CALIBRATION_LAST_UPDATED = calib.lastUpdated;
+}
+
+async function savePrediction(season, week, game, homeR, awayR, marketSpread, blendedSpread, totalInfo) {
+  const key = `prediction:${season}:${week}:${game.id}`;
+  const record = {
+    season, week, gameId: game.id,
+    homeTeam: game.homeTeam, awayTeam: game.awayTeam,
+    homeRating: homeR, awayRating: awayR, ratingDiff: homeR - awayR,
+    marketSpread: marketSpread ?? null, blendedSpread: blendedSpread,
+    // Total-market fields (values only — the O/U engine itself, which
+    // computes these, is untouched). Stored so results-checking can score
+    // O/U accuracy later without needing to re-derive anything.
+    predictedTotal: totalInfo?.predictedTotal ?? null,
+    marketTotalAtPrediction: totalInfo?.marketTotal ?? null,
+    totalDirection: totalInfo?.direction ?? null,
+    savedAt: new Date().toISOString(),
+  };
+  try {
+    await storage.set(key, JSON.stringify(record));
+  } catch (e) { console.warn('Could not save prediction for', key, e); }
+}
+
+function linearRegression(xs, ys) {
+  const n = xs.length;
+  const meanX = xs.reduce((a, b) => a + b, 0) / n;
+  const meanY = ys.reduce((a, b) => a + b, 0) / n;
+  let num = 0, den = 0;
+  for (let i = 0; i < n; i++) {
+    num += (xs[i] - meanX) * (ys[i] - meanY);
+    den += (xs[i] - meanX) ** 2;
+  }
+  const slope = den === 0 ? 0 : num / den;
+  const intercept = meanY - slope * meanX;
+  return { slope, intercept };
+}
+
+const yearSelect = document.getElementById('yearSelect');
+const weekSelect = document.getElementById('weekSelect');
+const runBtn = document.getElementById('runBtn');
+const statusText = document.getElementById('statusText');
+const resultsDiv = document.getElementById('results');
+const progressTrack = document.getElementById('progressTrack');
+const progressFill = document.getElementById('progressFill');
+
+const CURRENT_YEAR = new Date().getFullYear();
+for (let y = CURRENT_YEAR; y >= CURRENT_YEAR - 3; y--) {
+  const opt = document.createElement('option');
+  opt.value = y; opt.textContent = y;
+  yearSelect.appendChild(opt);
+}
+for (let w = 1; w <= 15; w++) {
+  const opt = document.createElement('option');
+  opt.value = w; opt.textContent = `Week ${w}`;
+  weekSelect.appendChild(opt);
+}
+
+function setStatus(msg, isError = false) {
+  statusText.textContent = msg;
+  statusText.className = 'status show' + (isError ? ' error' : '');
+}
+function clearStatus() { statusText.className = 'status'; }
+function setProgress(pct) {
+  progressTrack.classList.add('show');
+  progressFill.style.width = pct + '%';
+}
+function hideProgress() {
+  progressTrack.classList.remove('show');
+  progressFill.style.width = '0%';
+}
+
+async function cfbdGet(path, params, apiKey) {
+  const url = new URL(API_BASE + path);
+  Object.entries(params).forEach(([k, v]) => {
+    if (v !== undefined && v !== null) url.searchParams.set(k, v);
+  });
+  const resp = await fetch(url.toString(), { headers: { Authorization: `Bearer ${apiKey}` } });
+  if (!resp.ok) throw new Error(`Request to ${path} failed: ${resp.status} ${resp.statusText}`);
+  return resp.json();
+}
+
+function solveOpponentAdjustedRatings(games, metricKey, iterations = 25, ridgeLambda = 0.15) {
+  const teams = [...new Set(games.map(g => g.team))];
+  let ratings = Object.fromEntries(teams.map(t => [t, 0.0]));
+  for (let iter = 0; iter < iterations; iter++) {
+    const sums = {}, counts = {};
+    for (const g of games) {
+      const oppRating = ratings[g.opponent] ?? 0.0;
+      const adjMetric = g[metricKey] - oppRating * 0.5;
+      sums[g.team] = (sums[g.team] ?? 0) + adjMetric;
+      counts[g.team] = (counts[g.team] ?? 0) + 1;
+    }
+    const newRatings = {};
+    for (const t of teams) {
+      const avg = counts[t] ? sums[t] / counts[t] : 0.0;
+      newRatings[t] = avg * (1 - ridgeLambda) + (ratings[t] ?? 0) * ridgeLambda;
+    }
+    ratings = newRatings;
+  }
+  return ratings;
+}
+
+function blendPriorWithInseason(prior, inseason, gamesPlayed, fullConfidenceAtWeek = 8) {
+  let weightInseason = Math.min(gamesPlayed / fullConfidenceAtWeek, 1.0);
+  weightInseason = Math.pow(weightInseason, 1.3);
+  return (1 - weightInseason) * prior + weightInseason * inseason;
+}
+
+async function buildSeasonRatings(season, fbsTeamNames, apiKey) {
+  const gameStats = await cfbdGet('/stats/game/advanced', { year: season }, apiKey);
+  const games = gameStats
+    .filter(g => fbsTeamNames.has(g.team) && fbsTeamNames.has(g.opponent))
+    .map(g => ({
+      team: g.team, opponent: g.opponent, week: g.week,
+      off_epa: g.offense?.ppa ?? 0, def_epa: g.defense?.ppa ?? 0,
+    }));
+  const offRatings = solveOpponentAdjustedRatings(games, 'off_epa');
+  const defRatings = solveOpponentAdjustedRatings(games, 'def_epa');
+  const overall = {};
+  const teams = [...new Set(games.map(g => g.team))];
+  for (const t of teams) overall[t] = (offRatings[t] ?? 0) - (defRatings[t] ?? 0);
+  const gamesPlayedCount = {};
+  for (const g of games) gamesPlayedCount[g.team] = (gamesPlayedCount[g.team] ?? 0) + 1;
+  return { overall, gamesPlayedCount };
+}
+
+function englishPrediction(homeTeam, awayTeam, spread, hasMarket) {
+  const favored = spread >= 0 ? homeTeam : awayTeam;
+  const underdog = spread >= 0 ? awayTeam : homeTeam;
+  const marginRounded = Math.round(Math.abs(spread));
+  let closeness;
+  if (Math.abs(spread) < 3) closeness = "a virtual toss-up, leaning";
+  else if (Math.abs(spread) < 7) closeness = "a mild favorite in";
+  else if (Math.abs(spread) < 14) closeness = "a clear favorite in";
+  else if (Math.abs(spread) < 24) closeness = "a heavy favorite in";
+  else closeness = "an overwhelming favorite in";
+  const basis = hasMarket
+    ? "blending team performance with the current market line"
+    : "based on team performance alone — no market line was available yet for this game";
+  return `<b>${favored}</b> is ${closeness} what projects as roughly a <b>${marginRounded}-point</b> game over <b>${underdog}</b>, ${basis}.`;
+}
+
+// ---------- Win probability / predicted score / betting suggestion ----------
+
+function spreadToWinProb(spread) {
+  // Rough logistic approximation, NOT a validated probability model —
+  // calibrated loosely to typical college football scoring variance.
+  const homeProb = 1 / (1 + Math.exp(-spread / 6.5));
+  return { home: homeProb, away: 1 - homeProb };
+}
+
+function moneylineImpliedProb(americanOdds) {
+  if (americanOdds == null) return null;
+  return americanOdds > 0 ? 100 / (americanOdds + 100) : -americanOdds / (-americanOdds + 100);
+}
+
+function estimatePredictedScore(finalSpread, total) {
+  const home = (total + finalSpread) / 2;
+  const away = (total - finalSpread) / 2;
+  return { home: Math.round(home), away: Math.round(away), totalUsed: total };
+}
+
+// Independent estimate of a game's total, built from each team's own
+// season scoring average (points scored / allowed) — NOT derived from
+// the market total, so it can actually be compared against the market
+// as a real edge check instead of just echoing it back.
+function computeTeamScoringAverage(teamGames, team) {
+  const list = teamGames[team] || [];
+  let scored = 0, allowed = 0, n = 0;
+  for (const g of list) {
+    if (g.homePoints == null || g.awayPoints == null) continue;
+    scored += g.isHome ? g.homePoints : g.awayPoints;
+    allowed += g.isHome ? g.awayPoints : g.homePoints;
+    n++;
+  }
+  return n > 0 ? { avgFor: scored / n, avgAgainst: allowed / n, n } : null;
+}
+
+function estimateModelTotal(teamGames, homeTeam, awayTeam) {
+  const homeStats = computeTeamScoringAverage(teamGames, homeTeam);
+  const awayStats = computeTeamScoringAverage(teamGames, awayTeam);
+  // Require at least 2 completed games each — with 0-1 games, an average
+  // is mostly noise (same small-sample problem as the spread ratings).
+  if (!homeStats || !awayStats || homeStats.n < 2 || awayStats.n < 2) return null;
+  const expectedHome = (homeStats.avgFor + awayStats.avgAgainst) / 2;
+  const expectedAway = (awayStats.avgFor + homeStats.avgAgainst) / 2;
+  return expectedHome + expectedAway;
+}
+
+// Key numbers matter disproportionately in football because so many games
+// are decided by a field goal (3) or touchdown+XP (7) — a line crossing one
+// of these changes the probability distribution of outcomes more than the
+// raw point gap suggests. When the model and market spread straddle a key
+// number, we lower the bar for calling it actionable.
+const KEY_NUMBERS = [3, 7, -3, -7];
+function crossesKeyNumber(marketSpread, modelSpread) {
+  const lo = Math.min(marketSpread, modelSpread);
+  const hi = Math.max(marketSpread, modelSpread);
+  return KEY_NUMBERS.some(k => k >= lo && k <= hi);
+}
+
+function tierLabel(tier) {
+  return { strong: 'Strong value', lean: 'Lean', pass: 'Market aligned' }[tier];
+}
+
+// Short label for the game-card badge, shown before any click — e.g.
+// "RICE UNDER 48.5 · STRONG VALUE" instead of only ever showing the spread.
+function bestBetPillText(suggestion, game, market) {
+  if (suggestion.type === 'spread') {
+    const side = suggestion.all.spread.edge > 0 ? game.homeTeam : game.awayTeam;
+    return `${side.split(' ').pop().toUpperCase()} SPREAD`;
+  }
+  if (suggestion.type === 'total') {
+    const dir = suggestion.all.total.edge > 0 ? 'OVER' : 'UNDER';
+    return `${dir}${market?.overUnder != null ? ' ' + market.overUnder : ''}`;
+  }
+  if (suggestion.type === 'moneyline') {
+    const side = suggestion.all.moneyline.side === 'away' ? game.awayTeam : game.homeTeam;
+    return `${side.split(' ').pop().toUpperCase()} ML`;
+  }
+  return '';
+}
+
+function evaluateSpreadMarket(finalSpread, marketSpread) {
+  if (marketSpread == null) return { tier: 'pass', edge: null, text: "No spread posted yet." };
+  const edge = finalSpread - marketSpread;
+  const absEdge = Math.abs(edge);
+  const keyCross = crossesKeyNumber(marketSpread, finalSpread);
+
+  // Normal thresholds: Strong 3.0+, Lean 1.0-2.9, Pass <1.0.
+  // Key-number exception: crossing 3 or 7 lowers the bar (Strong 1.5+, Lean 0.75+),
+  // since that crossing carries outsized real-world weight regardless of raw gap size.
+  const strongThreshold = keyCross ? 1.5 : 3.0;
+  const leanThreshold = keyCross ? 0.75 : 1.0;
+
+  let tier = 'pass';
+  if (absEdge >= strongThreshold) tier = 'strong';
+  else if (absEdge >= leanThreshold) tier = 'lean';
+
+  const side = edge > 0 ? 'home team' : 'away team';
+  const keyNote = keyCross ? " This also crosses a key number (3 or 7), which matters more than the raw point gap suggests." : "";
+  let text;
+  if (tier === 'pass') {
+    text = "The model's spread is close enough to the market that there's no real edge to act on.";
+  } else {
+    text = `The model differs from the market by ${absEdge.toFixed(1)} points, favoring the ${side} relative to the line.${keyNote} Edges in this range covered at roughly a 58% clip in backtesting — real, but not a lock.`;
+  }
+  return { tier, edge, keyCross, text, market: 'spread' };
+}
+
+function evaluateTotalMarket(marketTotal, modelTotalEstimate) {
+  if (marketTotal == null || modelTotalEstimate == null) {
+    return { tier: 'pass', edge: null, text: "Not enough data to independently estimate a total for this game yet." };
+  }
+  const edge = modelTotalEstimate - marketTotal;
+  const absEdge = Math.abs(edge);
+  let tier = 'pass';
+  if (absEdge >= 4) tier = 'strong';
+  else if (absEdge >= 2) tier = 'lean';
+
+  const dir = edge > 0 ? 'over' : 'under';
+  let text;
+  if (tier === 'pass') {
+    text = "The model's total estimate is close enough to the market line that there's no real edge here.";
+  } else {
+    text = `Based on each team's own scoring this season, the model's total (~${modelTotalEstimate.toFixed(0)}) differs from the market total (${marketTotal}) by ${absEdge.toFixed(1)} points, leaning ${dir}. Total estimates are rougher and less validated than the spread model — treat this as a real but softer signal.`;
+  }
+  return { tier, edge, text, market: 'total' };
+}
+
+function evaluateMoneylineMarket(homeML, awayML, winProb, marketSpread) {
+  if (homeML == null || awayML == null) {
+    return { tier: 'pass', edge: null, text: "No moneyline posted yet." };
+  }
+  const impliedHome = moneylineImpliedProb(homeML);
+  const impliedAway = moneylineImpliedProb(awayML);
+  const homeGap = winProb.home - impliedHome;
+  const awayGap = winProb.away - impliedAway;
+  const isCloseGame = marketSpread != null && Math.abs(marketSpread) < 3;
+
+  const [side, gap, odds] = awayGap > homeGap ? ['away', awayGap, awayML] : ['home', homeGap, homeML];
+  const gapPts = gap * 100;
+
+  let tier = 'pass';
+  if (gapPts >= 10) tier = 'strong';
+  else if (gapPts >= 5) tier = 'lean';
+
+  let text;
+  if (tier === 'pass') {
+    text = "The moneyline roughly matches the model's own win probability — no real value here.";
+  } else {
+    const prob = side === 'away' ? winProb.away : winProb.home;
+    const closeNote = isCloseGame ? " Close-spread games like this one are exactly where moneyline value tends to hide even when the spread itself looks unremarkable." : "";
+    text = `The model gives the ${side === 'away' ? 'away team' : 'home team'} roughly a ${(prob * 100).toFixed(0)}% chance to win outright, about ${gapPts.toFixed(0)} points higher than what the ${odds > 0 ? '+' : ''}${odds} moneyline implies.${closeNote} A real gap, but still a single-game read — not a lock.`;
+  }
+  return { tier, edge: gapPts, side, odds, text, market: 'moneyline' };
+}
+
+const TIER_RANK = { strong: 2, lean: 1, pass: 0 };
+
+function computeBettingSuggestion(finalSpread, marketSpread, marketTotal, modelTotalEstimate, homeML, awayML, winProb) {
+  const spreadEval = evaluateSpreadMarket(finalSpread, marketSpread);
+  const totalEval = evaluateTotalMarket(marketTotal, modelTotalEstimate);
+  const mlEval = evaluateMoneylineMarket(homeML, awayML, winProb, marketSpread);
+
+  if (marketSpread == null && marketTotal == null && homeML == null) {
+    return {
+      type: 'pass',
+      text: "No market lines are posted for this game yet — not enough information to suggest a bet.",
+      all: { spread: spreadEval, total: totalEval, moneyline: mlEval },
+    };
+  }
+
+  // Pick whichever market shows the strongest tier; break ties by priority
+  // spread > total > moneyline, since the spread model is the one with the
+  // most extensive backtesting behind it.
+  const candidates = [spreadEval, totalEval, mlEval];
+  candidates.sort((a, b) => TIER_RANK[b.tier] - TIER_RANK[a.tier]);
+  const best = candidates[0];
+
+  if (best.tier === 'pass') {
+    return {
+      type: 'pass',
+      tier: 'pass',
+      text: "The model's numbers are close to the market across spread, total, and moneyline — no meaningful edge anywhere. Pass on this one.",
+      all: { spread: spreadEval, total: totalEval, moneyline: mlEval },
+    };
+  }
+
+  return {
+    type: best.market,
+    tier: best.tier,
+    text: best.text,
+    all: { spread: spreadEval, total: totalEval, moneyline: mlEval },
+  };
+}
+
+// ---------- Season-level caches (built lazily per season, on first game click) ----------
+
+const seasonCache = {}; // season -> { games, lines, teamRestByGameId, venuesById }
+
+async function getSeasonCache(season, apiKey) {
+  if (seasonCache[season]) return seasonCache[season];
+
+  const [games, lines, venues] = await Promise.all([
+    cfbdGet('/games', { year: season }, apiKey),
+    cfbdGet('/lines', { year: season }, apiKey).catch(() => []),
+    cfbdGet('/venues', {}, apiKey).catch(() => []),
+  ]);
+
+  const venuesById = Object.fromEntries(venues.map(v => [v.id, v]));
+
+  // Build per-team schedule sorted by date, for rest-day calculations
+  const teamGames = {};
+  for (const g of games) {
+    if (!g.startDate) continue;
+    (teamGames[g.homeTeam] = teamGames[g.homeTeam] || []).push({ ...g, isHome: true });
+    (teamGames[g.awayTeam] = teamGames[g.awayTeam] || []).push({ ...g, isHome: false });
+  }
+  for (const t of Object.keys(teamGames)) {
+    teamGames[t].sort((a, b) => new Date(a.startDate) - new Date(b.startDate));
+  }
+
+  // Attach a flat market-spread lookup (home-favored-positive) per game
+  const marketByGameId = {};
+  for (const lineGame of lines) {
+    if (lineGame.lines && lineGame.lines.length > 0) {
+      const l = lineGame.lines[0];
+      marketByGameId[lineGame.id] = {
+        spread: l.spread != null ? -l.spread : null,
+        spreadOpen: l.spreadOpen != null ? -l.spreadOpen : null,
+        overUnder: l.overUnder ?? null,
+        overUnderOpen: l.overUnderOpen ?? null,
+        homeMoneyline: l.homeMoneyline ?? null,
+        awayMoneyline: l.awayMoneyline ?? null,
+        provider: l.provider ?? null,
+      };
+    }
+  }
+
+  seasonCache[season] = { games, lines, venuesById, teamGames, marketByGameId };
+  return seasonCache[season];
+}
+
+function computeRestDays(teamGames, team, gameId) {
+  const list = teamGames[team];
+  if (!list) return null;
+  const idx = list.findIndex(g => g.id === gameId);
+  if (idx <= 0) return null;
+  const days = (new Date(list[idx].startDate) - new Date(list[idx - 1].startDate)) / (1000 * 60 * 60 * 24);
+  return Math.round(days);
+}
+
+function computeLookaheadLetdown(teamGames, ratings, team, gameId) {
+  const list = teamGames[team];
+  if (!list) return { lookahead: false, letdown: false };
+  const idx = list.findIndex(g => g.id === gameId);
+  if (idx === -1) return { lookahead: false, letdown: false };
+
+  const currentGame = list[idx];
+  const currentOpponent = currentGame.isHome ? currentGame.awayTeam : currentGame.homeTeam;
+  const currentOppRating = ratings[currentOpponent] ?? 0;
+
+  let lookahead = false;
+  if (idx + 1 < list.length) {
+    const nextGame = list[idx + 1];
+    const nextOpponent = nextGame.isHome ? nextGame.awayTeam : nextGame.homeTeam;
+    const nextOppRating = ratings[nextOpponent] ?? 0;
+    if (nextOppRating - currentOppRating > 0.15 || isRivalryGame(team, nextOpponent)) {
+      lookahead = true;
+    }
+  }
+
+  let letdown = false;
+  if (idx > 0) {
+    const prevGame = list[idx - 1];
+    const prevOpponent = prevGame.isHome ? prevGame.awayTeam : prevGame.homeTeam;
+    const prevOppRating = ratings[prevOpponent] ?? 0;
+    const teamWonPrev = prevGame.isHome
+      ? (prevGame.homePoints ?? 0) > (prevGame.awayPoints ?? 0)
+      : (prevGame.awayPoints ?? 0) > (prevGame.homePoints ?? 0);
+    const prevMargin = Math.abs((prevGame.homePoints ?? 0) - (prevGame.awayPoints ?? 0));
+    const emotionalWin = teamWonPrev && (prevMargin <= 3 || prevOppRating > 0.1);
+    if (emotionalWin && currentOppRating < -0.05) letdown = true;
+  }
+
+  return { lookahead, letdown };
+}
+
+function computeATSAndConferenceRecord(teamGames, marketByGameId, team) {
+  const list = teamGames[team] || [];
+  let homeAts = { w: 0, l: 0, p: 0 }, awayAts = { w: 0, l: 0, p: 0 };
+  let favAts = { w: 0, l: 0, p: 0 }, dogAts = { w: 0, l: 0, p: 0 };
+  let confRecord = { w: 0, l: 0 }, nonConfRecord = { w: 0, l: 0 };
+  let streak = [];
+
+  for (const g of list) {
+    if (g.homePoints == null || g.awayPoints == null) continue;
+    const actualMargin = g.homePoints - g.awayPoints;
+    const teamWon = g.isHome ? actualMargin > 0 : actualMargin < 0;
+
+    if (g.conferenceGame) {
+      teamWon ? confRecord.w++ : confRecord.l++;
+    } else {
+      teamWon ? nonConfRecord.w++ : nonConfRecord.l++;
+    }
+
+    const market = marketByGameId[g.id];
+    if (!market || market.spread == null) continue;
+
+    const coverMarginForHome = actualMargin - market.spread;
+    let covered;
+    if (coverMarginForHome === 0) {
+      covered = 'push';
+    } else if (g.isHome) {
+      covered = coverMarginForHome > 0 ? 'win' : 'loss';
+    } else {
+      covered = coverMarginForHome < 0 ? 'win' : 'loss';
+    }
+
+    const sideRecord = g.isHome ? homeAts : awayAts;
+    if (covered === 'push') sideRecord.p++;
+    else if (covered === 'win') sideRecord.w++;
+    else sideRecord.l++;
+
+    const isFavorite = g.isHome ? market.spread > 0 : market.spread < 0;
+    const favRecord = isFavorite ? favAts : dogAts;
+    if (covered === 'push') favRecord.p++;
+    else if (covered === 'win') favRecord.w++;
+    else favRecord.l++;
+
+    if (covered !== 'push') streak.push(covered);
+  }
+
+  let currentStreak = 0, streakType = null;
+  for (let i = streak.length - 1; i >= 0; i--) {
+    if (streakType === null) { streakType = streak[i]; currentStreak = 1; }
+    else if (streak[i] === streakType) currentStreak++;
+    else break;
+  }
+
+  return { homeAts, awayAts, favAts, dogAts, confRecord, nonConfRecord, currentStreak, streakType };
+}
+
+function fmtRecord(r) { return `${r.w}-${r.l}${r.p ? '-' + r.p : ''}`; }
+
+// ---------- Modal wiring ----------
+
+// ---------- ESPN injury spot-check (experimental, unofficial, sparse) ----------
+// CFBD has no injuries endpoint at all. ESPN's undocumented API technically
+// has one, but a recent check found it returns almost nothing for college
+// football (a handful of reports league-wide, vs. hundreds for the NFL) —
+// so this is a best-effort spot-check, not a reliable feed. An empty result
+// here does NOT mean a team is healthy; it usually just means the data
+// isn't there. Wrapped defensively throughout since this is an unofficial,
+// undocumented API that could change shape or block requests at any time.
+
+let espnTeamIdMapPromise = null;
+async function getEspnTeamIdMap() {
+  if (espnTeamIdMapPromise) return espnTeamIdMapPromise;
+  espnTeamIdMapPromise = (async () => {
+    const resp = await fetch('https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams?limit=400');
+    if (!resp.ok) throw new Error('ESPN team list request failed');
+    const data = await resp.json();
+    const map = {};
+    const teams = data?.sports?.[0]?.leagues?.[0]?.teams ?? [];
+    for (const t of teams) {
+      const team = t.team;
+      if (!team) continue;
+      const candidates = [team.location, team.name, team.displayName, team.shortDisplayName].filter(Boolean);
+      for (const c of candidates) map[c.toLowerCase().trim()] = team.id;
+    }
+    return map;
+  })();
+  return espnTeamIdMapPromise;
+}
+
+function findEspnTeamId(map, teamName) {
+  const norm = teamName.toLowerCase().trim();
+  if (map[norm]) return map[norm];
+  for (const key of Object.keys(map)) {
+    if (key.startsWith(norm) || norm.startsWith(key)) return map[key];
+  }
+  return null;
+}
+
+const espnInjuriesCache = {}; // teamId -> results array (cached per session — "cache aggressively" per ESPN's own unofficial-API etiquette)
+
+function summarizeEspnInjury(injury) {
+  const athleteName = injury?.athlete?.displayName || injury?.athlete?.fullName || injury?.athlete?.shortName || 'Unnamed player';
+  const status = injury?.status || injury?.type?.description || injury?.details?.type || 'Status unknown';
+  const note = injury?.shortComment || injury?.longComment || injury?.details?.detail || '';
+  return { athleteName, status, note };
+}
+
+async function fetchEspnInjuriesForTeam(teamName) {
+  if (espnInjuriesCache[teamName] !== undefined) return espnInjuriesCache[teamName];
+  try {
+    const map = await getEspnTeamIdMap();
+    const teamId = findEspnTeamId(map, teamName);
+    if (!teamId) { espnInjuriesCache[teamName] = { ok: false, reason: 'no-match', items: [] }; return espnInjuriesCache[teamName]; }
+
+    const resp = await fetch(`https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/teams/${teamId}/injuries`);
+    if (!resp.ok) throw new Error(`status ${resp.status}`);
+    const data = await resp.json();
+    const rawItems = (data?.items ?? []).slice(0, 8); // cap detail fetches — coverage is sparse anyway
+
+    const detailed = [];
+    for (const item of rawItems) {
+      try {
+        if (item.$ref) {
+          const r2 = await fetch(item.$ref);
+          if (r2.ok) detailed.push(summarizeEspnInjury(await r2.json()));
+        } else {
+          detailed.push(summarizeEspnInjury(item));
+        }
+      } catch (e) { /* skip individual failures, keep the rest */ }
+    }
+    espnInjuriesCache[teamName] = { ok: true, items: detailed };
+  } catch (err) {
+    espnInjuriesCache[teamName] = { ok: false, reason: err.message, items: [] };
+  }
+  return espnInjuriesCache[teamName];
+}
+
+
+const modalBody = document.getElementById('modalBody');
+const modalMatchupTitle = document.getElementById('modalMatchupTitle');
+const modalVenueLine = document.getElementById('modalVenueLine');
+let currentModalGame = null; // holds the full context object for the open game
+
+function closeModal() {
+  modalOverlay.classList.remove('show');
+  document.getElementById('pickForm').classList.remove('show');
+}
+document.getElementById('modalCloseBtn').addEventListener('click', closeModal);
+modalOverlay.addEventListener('click', (e) => { if (e.target === modalOverlay) closeModal(); });
+
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+  });
+});
+
+async function openGameModal(gameCtx) {
+  currentModalGame = gameCtx;
+  const { game, season } = gameCtx;
+
+  modalMatchupTitle.innerHTML = `${game.awayTeam} <span style="color:var(--chalk-dim); font-weight:500;">at</span> ${game.homeTeam}` +
+    (isRivalryGame(game.homeTeam, game.awayTeam) ? '<span class="rivalry-badge">RIVALRY</span>' : '');
+  modalVenueLine.textContent = game.venue ? `${game.venue}${game.neutralSite ? ' (neutral site)' : ''}` : 'Venue TBD';
+  modalOverlay.classList.add('show');
+  modalBody.innerHTML = '<div class="modal-loading">Loading game details…</div>';
+  document.querySelectorAll('.tab-btn')[0].click();
+
+  if (!gameCtx.injuryOverride) {
+    gameCtx.injuryOverride = { homeQBOut: false, awayQBOut: false, penalty: 10 };
+  }
+
+  try {
+    const apiKey = document.getElementById('apiKey').value.trim();
+    const cache = await getSeasonCache(season, apiKey);
+    const venue = cache.venuesById[game.venueId];
+
+    const restHome = computeRestDays(cache.teamGames, game.homeTeam, game.id);
+    const restAway = computeRestDays(cache.teamGames, game.awayTeam, game.id);
+
+    const ratings = gameCtx.blendedRatings;
+    const homeSpot = computeLookaheadLetdown(cache.teamGames, ratings, game.homeTeam, game.id);
+    const awaySpot = computeLookaheadLetdown(cache.teamGames, ratings, game.awayTeam, game.id);
+
+    const homeATS = computeATSAndConferenceRecord(cache.teamGames, cache.marketByGameId, game.homeTeam);
+    const awayATS = computeATSAndConferenceRecord(cache.teamGames, cache.marketByGameId, game.awayTeam);
+
+    // ESPN injury spot-check — fetched once per modal open (not re-fetched
+    // when the manual toggle changes), and cached per team for the session.
+    const [espnHome, espnAway] = await Promise.all([
+      fetchEspnInjuriesForTeam(game.homeTeam),
+      fetchEspnInjuriesForTeam(game.awayTeam),
+    ]);
+
+    gameCtx._modalData = { cache, venue, restHome, restAway, homeSpot, awaySpot, homeATS, awayATS, espnHome, espnAway };
+
+    renderModalContent(gameCtx);
+
+  } catch (err) {
+    modalBody.innerHTML = `<div class="modal-loading">Couldn't load full details: ${err.message}</div>`;
+  }
+}
+
+function renderModalContent(gameCtx) {
+  const { game, homeR, awayR, finalSpread, market } = gameCtx;
+  const { venue, restHome, restAway, homeSpot, awaySpot, homeATS, awayATS, espnHome, espnAway } = gameCtx._modalData;
+  const ov = gameCtx.injuryOverride;
+
+  // Manual injury adjustment: a plain, transparent post-hoc shift applied
+  // ONLY when the user flags it — not something the model infers on its
+  // own (the data to do that reliably doesn't exist, per the ESPN coverage
+  // check). The penalty amount is a rough, adjustable heuristic, not a
+  // separately validated figure.
+  const injuryShift = (ov.homeQBOut ? -ov.penalty : 0) + (ov.awayQBOut ? ov.penalty : 0);
+  const activeSpread = finalSpread + injuryShift;
+  const injuryActive = ov.homeQBOut || ov.awayQBOut;
+
+  const winProb = spreadToWinProb(activeSpread);
+  const modelTotalEstimate = gameCtx.modelTotalEstimate ?? estimateModelTotal(gameCtx._modalData.cache.teamGames, game.homeTeam, game.awayTeam);
+
+  let totalForScoreSplit, totalIsEstimated;
+  if (modelTotalEstimate != null) { totalForScoreSplit = modelTotalEstimate; totalIsEstimated = false; }
+  else if (market?.overUnder != null) { totalForScoreSplit = market.overUnder; totalIsEstimated = true; }
+  else { totalForScoreSplit = 55; totalIsEstimated = true; }
+
+  const predictedScore = estimatePredictedScore(activeSpread, totalForScoreSplit);
+  predictedScore.wasEstimatedTotal = totalIsEstimated;
+
+  const suggestion = computeBettingSuggestion(
+    activeSpread, market?.spread ?? null, market?.overUnder ?? null,
+    modelTotalEstimate, market?.homeMoneyline ?? null, market?.awayMoneyline ?? null, winProb
+  );
+
+  // These are what "Add to betslip" / "Track this pick" will read — so a
+  // saved pick reflects whatever adjustment (if any) was active at save time.
+  gameCtx.suggestion = suggestion;
+  gameCtx.predictedScore = predictedScore;
+  gameCtx.winProb = winProb;
+  gameCtx.venue = venue;
+  gameCtx.market = market;
+  gameCtx.activeSpread = activeSpread;
+  gameCtx.injuryActive = injuryActive;
+
+  // ---- Overview tab ----
+  const newsQuery = (team) => `https://www.google.com/search?q=${encodeURIComponent(team + ' football news injuries')}`;
+  const renderEspnResult = (teamName, result) => {
+    if (!result.ok) {
+      return `<p class="disclaimer-mini">${teamName}: ESPN's feed couldn't be checked (${result.reason === 'no-match' ? "couldn't match this team" : 'request failed'}).</p>`;
+    }
+    if (result.items.length === 0) {
+      return `<p class="disclaimer-mini">${teamName}: no injuries currently listed in ESPN's feed. Coverage for college football is sparse — this does NOT mean the team is healthy, just that nothing showed up here.</p>`;
+    }
+    return `<p class="trend-heading" style="margin-top:10px;">${teamName}</p>` + result.items.map(i =>
+      `<div class="espn-injury-item"><b>${i.athleteName}</b> — ${i.status}${i.note ? ` <span style="color:var(--chalk-dim);">(${i.note})</span>` : ''}</div>`
+    ).join('');
+  };
+  const overviewHtml = `
+    <div class="info-row"><span class="k">Venue</span><span class="v">${game.venue || 'TBD'}${venue?.city ? ` — ${venue.city}, ${venue.state || ''}` : ''}</span></div>
+    <div class="info-row"><span class="k">Neutral site</span><span class="v">${game.neutralSite ? 'Yes' : 'No'}</span></div>
+    <div class="info-row"><span class="k">Conference game</span><span class="v">${game.conferenceGame ? 'Yes' : 'No'}</span></div>
+    <div class="info-row"><span class="k">Rivalry matchup</span><span class="v">${isRivalryGame(game.homeTeam, game.awayTeam) ? 'Yes' : 'Not flagged'}</span></div>
+
+    <p class="trend-heading" style="margin-top:16px;">ESPN injury spot-check (experimental)</p>
+    <p class="disclaimer-mini" style="margin-top:0;">Unofficial feed, sparse coverage for college football specifically — treat this as a quick spot-check, not a reliable report. Use the manual toggle in the Market &amp; Model tab if you know something this feed missed.</p>
+    ${renderEspnResult(game.homeTeam, espnHome)}
+    ${renderEspnResult(game.awayTeam, espnAway)}
+
+    <p class="trend-heading" style="margin-top:16px;">Search for the latest news</p>
+    <div class="news-link-row">
+      <a class="news-link" href="${newsQuery(game.homeTeam)}" target="_blank">${game.homeTeam} news →</a>
+      <a class="news-link" href="${newsQuery(game.awayTeam)}" target="_blank">${game.awayTeam} news →</a>
+    </div>
+  `;
+
+  // ---- Market & Model tab ----
+  const fmtSpread = (s) => s == null ? '—' : (s > 0 ? `${game.homeTeam.split(' ').pop()} -${s.toFixed(1)}` : `${game.awayTeam.split(' ').pop()} -${Math.abs(s).toFixed(1)}`);
+  const edge = market?.spread != null ? activeSpread - market.spread : null;
+  const marketHtml = `
+    <table class="lines-table">
+      <tr><th></th><th>Spread</th><th>Total</th><th>Moneyline</th></tr>
+      <tr><td>Current</td><td>${fmtSpread(market?.spread)}</td><td>${market?.overUnder ?? '—'}</td><td>${market?.homeMoneyline != null ? `${game.homeTeam.split(' ').pop()} ${market.homeMoneyline > 0 ? '+' : ''}${market.homeMoneyline} / ${game.awayTeam.split(' ').pop()} ${market.awayMoneyline > 0 ? '+' : ''}${market.awayMoneyline}` : '—'}</td></tr>
+      <tr><td>Opening</td><td>${fmtSpread(market?.spreadOpen)}</td><td>${market?.overUnderOpen ?? '—'}</td><td>—</td></tr>
+    </table>
+    <p class="disclaimer-mini">Only open-vs-current is available (not a full timestamped history) — the free CFBD API provides one snapshot, not a live tick-by-tick feed.</p>
+
+    <div class="injury-box">
+      <p class="trend-heading" style="margin-top:0;">Manual injury adjustment</p>
+      <div class="injury-toggle-row"><input type="checkbox" id="homeQBOutToggle" ${ov.homeQBOut ? 'checked' : ''}><label for="homeQBOutToggle">${game.homeTeam} starting QB out</label></div>
+      <div class="injury-toggle-row"><input type="checkbox" id="awayQBOutToggle" ${ov.awayQBOut ? 'checked' : ''}><label for="awayQBOutToggle">${game.awayTeam} starting QB out</label></div>
+      <div class="injury-penalty-row">Point penalty: <input type="number" id="injuryPenaltyInput" value="${ov.penalty}" min="1" max="25" step="1"> (rough heuristic, not separately validated — adjust if you have a better estimate)</div>
+      ${injuryActive ? `<p class="disclaimer-mini" style="margin-top:10px;">Applied: model spread shifted from ${fmtSpread(finalSpread)} to ${fmtSpread(activeSpread)}. Everything below (score, win probability, best bet) reflects the adjusted number.</p>` : ''}
+    </div>
+
+    <div class="model-box">
+      <p class="predicted-score">${game.awayTeam} ${predictedScore.away} – ${game.homeTeam} ${predictedScore.home}</p>
+      <div class="info-row"><span class="k">Model spread${injuryActive ? ' (adjusted)' : ''}</span><span class="v">${fmtSpread(activeSpread)}</span></div>
+      <div class="info-row"><span class="k">Market spread</span><span class="v">${fmtSpread(market?.spread)}</span></div>
+      <div class="info-row"><span class="k">Edge</span><span class="v">${edge != null ? `<span class="edge-badge ${Math.abs(edge) < 1 ? 'neutral' : edge > 0 ? 'positive' : 'negative'}">${Math.abs(edge).toFixed(1)} pts</span>` : '—'}</span></div>
+      ${predictedScore.wasEstimatedTotal ? '<p class="disclaimer-mini">The model doesn\'t have enough games played yet to estimate its own total independently, so this score borrows the market\'s total instead — treat the exact numbers loosely.</p>' : '<p class="disclaimer-mini">Score is derived directly from the model\'s own spread and total above — (total + spread) / 2 and (total − spread) / 2 — so it always matches the numbers shown in this tab.</p>'}
+    </div>
+
+    <p class="trend-heading">Win probability</p>
+    <div class="winprob-bar">
+      <div class="winprob-seg winprob-home" style="width:${(winProb.home * 100).toFixed(0)}%">${(winProb.home * 100).toFixed(0)}%</div>
+      <div class="winprob-seg winprob-away" style="width:${(winProb.away * 100).toFixed(0)}%">${(winProb.away * 100).toFixed(0)}%</div>
+    </div>
+    <div class="info-row" style="border:none; padding-top:0;"><span class="k">${game.homeTeam}</span><span class="v" style="text-align:left;">${game.awayTeam}</span></div>
+    <p class="disclaimer-mini">A rough approximation from the spread, not a separately validated probability model.</p>
+
+    <div class="suggestion-box ${suggestion.tier || 'pass'}">
+      <p class="suggestion-label">${suggestion.type === 'pass' ? 'Best bet: Pass' : `Best bet: ${suggestion.type} — ${tierLabel(suggestion.tier)}`}</p>
+      <p class="suggestion-text">${suggestion.text}</p>
+      <div class="market-breakdown">
+        <div class="market-row"><span class="m-name">Spread</span><span class="tier-pill ${suggestion.all.spread.tier}">${tierLabel(suggestion.all.spread.tier)}${suggestion.all.spread.edge != null ? ` · ${Math.abs(suggestion.all.spread.edge).toFixed(1)} pts` : ''}</span></div>
+        <div class="market-row"><span class="m-name">Total</span><span class="tier-pill ${suggestion.all.total.tier}">${tierLabel(suggestion.all.total.tier)}${suggestion.all.total.edge != null ? ` · ${Math.abs(suggestion.all.total.edge).toFixed(1)} pts` : ''}</span></div>
+        <div class="market-row"><span class="m-name">Moneyline</span><span class="tier-pill ${suggestion.all.moneyline.tier}">${tierLabel(suggestion.all.moneyline.tier)}${suggestion.all.moneyline.edge != null ? ` · ${suggestion.all.moneyline.edge.toFixed(0)} pp` : ''}</span></div>
+      </div>
+      <p class="disclaimer-mini">Checked across all three markets — the one shown above is whichever cleared the highest confidence tier. "Strong value" needs a 3+ point spread edge (or 1.5+ if it crosses a key number like 3 or 7), a 4+ point total edge, or a 10+ point moneyline probability gap. "Lean" is a lower bar meant for people who want a lean on every game, not a confident pick.</p>
+    </div>
+  `;
+
+  // ---- Situational tab ----
+  const spotRow = (on, text) => `<div class="spot-flag"><div class="spot-icon ${on ? 'on' : 'off'}">${on ? '!' : '—'}</div><div class="spot-text">${text}</div></div>`;
+  const situationalHtml = `
+    <div class="info-row"><span class="k">${game.homeTeam} rest</span><span class="v">${restHome != null ? restHome + ' days' : '—'}</span></div>
+    <div class="info-row"><span class="k">${game.awayTeam} rest</span><span class="v">${restAway != null ? restAway + ' days' : '—'}</span></div>
+    ${restHome != null && restAway != null ? `<div class="info-row"><span class="k">Rest edge</span><span class="v">${restHome === restAway ? 'Even' : (restHome > restAway ? game.homeTeam : game.awayTeam) + ` +${Math.abs(restHome - restAway)} days`}</span></div>` : ''}
+    <p class="trend-heading" style="margin-top:16px;">Spot checks</p>
+    ${spotRow(homeSpot.lookahead, `<b>${game.homeTeam}</b> may be looking ahead to a tougher game next week.`)}
+    ${spotRow(awaySpot.lookahead, `<b>${game.awayTeam}</b> may be looking ahead to a tougher game next week.`)}
+    ${spotRow(homeSpot.letdown, `<b>${game.homeTeam}</b> is coming off an emotional win and could be flat here.`)}
+    ${spotRow(awaySpot.letdown, `<b>${game.awayTeam}</b> is coming off an emotional win and could be flat here.`)}
+    <p class="disclaimer-mini">These are heuristic flags based on schedule position and opponent strength — not a certainty, just a "worth double-checking" signal.</p>
+  `;
+
+  // ---- Trends tab ----
+  const trendsHtml = `
+    <div class="trend-block">
+      <p class="trend-heading">${game.homeTeam} — ATS this season</p>
+      <div class="info-row"><span class="k">Home ATS</span><span class="v">${fmtRecord(homeATS.homeAts)}</span></div>
+      <div class="info-row"><span class="k">Away ATS</span><span class="v">${fmtRecord(homeATS.awayAts)}</span></div>
+      <div class="info-row"><span class="k">As favorite</span><span class="v">${fmtRecord(homeATS.favAts)}</span></div>
+      <div class="info-row"><span class="k">As underdog</span><span class="v">${fmtRecord(homeATS.dogAts)}</span></div>
+      <div class="info-row"><span class="k">Current streak</span><span class="v">${homeATS.currentStreak > 0 ? homeATS.currentStreak + ' ' + homeATS.streakType : '—'}</span></div>
+      <div class="info-row"><span class="k">Conf / Non-conf record</span><span class="v">${homeATS.confRecord.w}-${homeATS.confRecord.l} / ${homeATS.nonConfRecord.w}-${homeATS.nonConfRecord.l}</span></div>
+    </div>
+    <div class="trend-block">
+      <p class="trend-heading">${game.awayTeam} — ATS this season</p>
+      <div class="info-row"><span class="k">Home ATS</span><span class="v">${fmtRecord(awayATS.homeAts)}</span></div>
+      <div class="info-row"><span class="k">Away ATS</span><span class="v">${fmtRecord(awayATS.awayAts)}</span></div>
+      <div class="info-row"><span class="k">As favorite</span><span class="v">${fmtRecord(awayATS.favAts)}</span></div>
+      <div class="info-row"><span class="k">As underdog</span><span class="v">${fmtRecord(awayATS.dogAts)}</span></div>
+      <div class="info-row"><span class="k">Current streak</span><span class="v">${awayATS.currentStreak > 0 ? awayATS.currentStreak + ' ' + awayATS.streakType : '—'}</span></div>
+      <div class="info-row"><span class="k">Conf / Non-conf record</span><span class="v">${awayATS.confRecord.w}-${awayATS.confRecord.l} / ${awayATS.nonConfRecord.w}-${awayATS.nonConfRecord.l}</span></div>
+    </div>
+    <p class="disclaimer-mini">ATS records are computed from this season's closing lines and results only.</p>
+  `;
+
+  // Preserve whichever tab was active across re-renders (e.g. after toggling the injury checkboxes)
+  const activeTabBtn = document.querySelector('.tab-btn.active');
+  const activeTab = activeTabBtn ? activeTabBtn.dataset.tab : 'overview';
+
+  modalBody.innerHTML = `
+    <div class="tab-panel ${activeTab === 'overview' ? 'active' : ''}" id="tab-overview">${overviewHtml}</div>
+    <div class="tab-panel ${activeTab === 'market' ? 'active' : ''}" id="tab-market">${marketHtml}</div>
+    <div class="tab-panel ${activeTab === 'situational' ? 'active' : ''}" id="tab-situational">${situationalHtml}</div>
+    <div class="tab-panel ${activeTab === 'trends' ? 'active' : ''}" id="tab-trends">${trendsHtml}</div>
+  `;
+
+  // Re-attach listeners for the newly-inserted injury controls — re-render
+  // on change (recomputes instantly, no re-fetching of anything).
+  const homeToggle = document.getElementById('homeQBOutToggle');
+  const awayToggle = document.getElementById('awayQBOutToggle');
+  const penaltyInput = document.getElementById('injuryPenaltyInput');
+  if (homeToggle) homeToggle.addEventListener('change', () => {
+    gameCtx.injuryOverride.homeQBOut = homeToggle.checked;
+    renderModalContent(gameCtx);
+  });
+  if (awayToggle) awayToggle.addEventListener('change', () => {
+    gameCtx.injuryOverride.awayQBOut = awayToggle.checked;
+    renderModalContent(gameCtx);
+  });
+  if (penaltyInput) penaltyInput.addEventListener('change', () => {
+    gameCtx.injuryOverride.penalty = Math.max(1, parseFloat(penaltyInput.value) || 10);
+    renderModalContent(gameCtx);
+  });
+
+  updatePickSideOptions();
+  refreshTokensRemainingNote();
+}
+
+async function getBankrollStart() {
+  try {
+    const r = await storage.get('bankroll_starting');
+    return r && r.value ? parseFloat(r.value) : 100;
+  } catch (e) { return 100; }
+}
+async function setBankrollStart(val) {
+  await storage.set('bankroll_starting', String(val));
+}
+
+async function getPendingStakeSum() {
+  const listResult = await storage.list('pick:');
+  const keys = listResult ? listResult.keys : [];
+  let sum = 0;
+  for (const key of keys) {
+    try {
+      const r = await storage.get(key);
+      if (r && r.value) {
+        const p = JSON.parse(r.value);
+        if ((p.status ?? 'pending') === 'pending') sum += (p.stake || 0);
+      }
+    } catch (e) { /* skip */ }
+  }
+  return sum;
+}
+
+async function refreshTokensRemainingNote() {
+  const start = await getBankrollStart();
+  const pendingStake = await getPendingStakeSum();
+  const remaining = start - pendingStake;
+  document.getElementById('tokensRemainingNote').textContent =
+    `${remaining.toFixed(0)} of ${start.toFixed(0)} tokens not yet wagered (across pending picks).`;
+}
+
+document.getElementById('bankrollStartInput').addEventListener('focus', async (e) => {
+  e.target.value = await getBankrollStart();
+});
+
+function updatePickSideOptions() {
+  if (!currentModalGame) return;
+  const type = document.getElementById('pickType').value;
+  const sideSelect = document.getElementById('pickSide');
+  const { game } = currentModalGame;
+  if (type === 'spread') {
+    sideSelect.innerHTML = `<option value="home">${game.homeTeam}</option><option value="away">${game.awayTeam}</option>`;
+  } else if (type === 'total') {
+    sideSelect.innerHTML = `<option value="over">Over</option><option value="under">Under</option>`;
+  } else {
+    sideSelect.innerHTML = `<option value="home">${game.homeTeam} ML</option><option value="away">${game.awayTeam} ML</option>`;
+  }
+}
+document.getElementById('pickType').addEventListener('change', updatePickSideOptions);
+
+async function savePick(pickDetails) {
+  const stakeInput = document.getElementById('pickStake');
+  const stake = Math.max(1, parseFloat(stakeInput.value) || 10);
+  const key = `pick:${Date.now()}:${currentModalGame.game.id}`;
+  const record = {
+    gameId: currentModalGame.game.id,
+    season: currentModalGame.season,
+    week: currentModalGame.week,
+    homeTeam: currentModalGame.game.homeTeam,
+    awayTeam: currentModalGame.game.awayTeam,
+    stake,
+    // Record whether a manual injury adjustment was active when this pick
+    // was saved, so a track-record review later doesn't wonder why the
+    // saved spread differs from the "pure" model number for this game.
+    injuryAdjustmentApplied: currentModalGame.injuryActive ? { ...currentModalGame.injuryOverride } : null,
+    ...pickDetails,
+    savedAt: new Date().toISOString(),
+    status: 'pending',
+  };
+  const result = await storage.set(key, JSON.stringify(record));
+
+  // Read the key straight back to confirm it actually landed — don't just
+  // trust that storage.set() resolving means it worked (private-browsing
+  // modes and full storage quotas can fail silently in some browsers).
+  const verify = await storage.get(key);
+  if (!verify || verify.value !== JSON.stringify(record)) {
+    throw new Error('The pick did not persist to browser storage — it may be blocked by private/incognito mode or a full storage quota.');
+  }
+  return result;
+}
+
+// "Add to betslip" is a one-click save of the model's own suggestion,
+// using whatever stake is currently set (defaults to 10 tokens the first
+// time). Use "Track this pick" instead if you want to choose your own
+// side or set a custom stake before saving.
+document.getElementById('addToBetslipBtn').addEventListener('click', async () => {
+  if (!currentModalGame || !currentModalGame.suggestion) return;
+  const s = currentModalGame.suggestion;
+  if (s.type === 'pass') {
+    alert('The model suggests passing on this game — nothing to add to the betslip.');
+    return;
+  }
+
+  document.getElementById('pickType').value = s.type;
+  updatePickSideOptions();
+  const sideSelect = document.getElementById('pickSide');
+  let pickSide;
+  if (s.type === 'spread') pickSide = s.all.spread.edge > 0 ? 'home' : 'away';
+  else if (s.type === 'total') pickSide = s.all.total.edge > 0 ? 'over' : 'under';
+  else pickSide = s.all.moneyline.side === 'away' ? 'away' : 'home';
+  sideSelect.value = pickSide;
+
+  let moneylineAtPick = null;
+  if (s.type === 'moneyline' && currentModalGame.market) {
+    moneylineAtPick = pickSide === 'home' ? currentModalGame.market.homeMoneyline : currentModalGame.market.awayMoneyline;
+  }
+
+  const btn = document.getElementById('addToBetslipBtn');
+  try {
+    await savePick({
+      pickType: s.type,
+      pickSide,
+      marketSpreadAtPick: currentModalGame.market?.spread ?? null,
+      marketTotalAtPick: currentModalGame.market?.overUnder ?? null,
+      moneylineAtPick,
+      source: 'model_suggestion',
+    });
+    const stakeUsed = document.getElementById('pickStake').value || 10;
+    btn.textContent = `✓ Added (${stakeUsed} tokens)`;
+    setTimeout(() => { btn.textContent = '+ Add to betslip'; }, 1800);
+    await renderPendingPicksLocally();
+  } catch (err) {
+    alert(`Couldn't save this pick: ${err.message}`);
+    btn.textContent = '+ Add to betslip';
+  }
+});
+
+document.getElementById('trackPickBtn').addEventListener('click', async () => {
+  document.getElementById('pickFormHeading').textContent = 'Track this pick';
+  updatePickSideOptions();
+  await refreshTokensRemainingNote();
+  document.getElementById('pickForm').classList.toggle('show');
+});
+
+document.getElementById('confirmPickBtn').addEventListener('click', async () => {
+  const pickType = document.getElementById('pickType').value;
+  const pickSide = document.getElementById('pickSide').value;
+
+  // For moneyline picks, capture the actual odds for the chosen side so
+  // payout can be computed correctly later (not just standard -110).
+  let moneylineAtPick = null;
+  if (pickType === 'moneyline' && currentModalGame.market) {
+    moneylineAtPick = pickSide === 'home' ? currentModalGame.market.homeMoneyline : currentModalGame.market.awayMoneyline;
+  }
+
+  const btn = document.getElementById('trackPickBtn');
+  try {
+    await savePick({
+      pickType, pickSide,
+      marketSpreadAtPick: currentModalGame.market?.spread ?? null,
+      marketTotalAtPick: currentModalGame.market?.overUnder ?? null,
+      moneylineAtPick,
+      source: 'user_custom',
+    });
+    document.getElementById('pickForm').classList.remove('show');
+    btn.textContent = '✓ Pick saved';
+    setTimeout(() => { btn.textContent = 'Track this pick'; }, 1500);
+    await renderPendingPicksLocally();
+  } catch (err) {
+    alert(`Couldn't save this pick: ${err.message}`);
+  }
+});
+
+// ---------- Main "Get predictions" flow ----------
+
+runBtn.addEventListener('click', async () => {
+  const apiKey = document.getElementById('apiKey').value.trim();
+  const season = parseInt(yearSelect.value, 10);
+  const week = parseInt(weekSelect.value, 10);
+
+  if (!apiKey) { setStatus('Enter your CFBD API key first.', true); return; }
+
+  runBtn.disabled = true;
+  resultsDiv.innerHTML = '';
+  clearStatus();
+  setProgress(5);
+  setStatus('Loading FBS team list…');
+
+  try {
+    const fbsTeams = await cfbdGet('/teams/fbs', { year: season }, apiKey);
+    const fbsTeamNames = new Set(fbsTeams.map(t => t.school));
+    setProgress(20);
+
+    setStatus("Pulling this season's team performance data…");
+    const { overall: currentRatings, gamesPlayedCount } = await buildSeasonRatings(season, fbsTeamNames, apiKey);
+    setProgress(45);
+
+    const maxGamesPlayed = Math.max(0, ...Object.values(gamesPlayedCount));
+    let blendedRatings = currentRatings;
+
+    if (maxGamesPlayed > 0 && maxGamesPlayed <= 6) {
+      setStatus("Early season — blending in last year's final ratings to stabilize small samples…");
+      try {
+        const fbsTeamsPrior = await cfbdGet('/teams/fbs', { year: season - 1 }, apiKey);
+        const fbsTeamNamesPrior = new Set(fbsTeamsPrior.map(t => t.school));
+        const { overall: priorRatings } = await buildSeasonRatings(season - 1, fbsTeamNamesPrior, apiKey);
+        blendedRatings = {};
+        for (const t of fbsTeamNames) {
+          const prior = priorRatings[t] ?? 0.0;
+          const inseason = currentRatings[t] ?? 0.0;
+          const gamesPlayed = gamesPlayedCount[t] ?? 0;
+          blendedRatings[t] = blendPriorWithInseason(prior, inseason, gamesPlayed);
+        }
+      } catch (e) {
+        setStatus('Could not load prior-season data — using current-season ratings only (may be noisy this early).');
+        blendedRatings = currentRatings;
+      }
+    }
+    setProgress(65);
+
+    setStatus("Pulling this week's matchups…");
+    const weekGames = await cfbdGet('/games', { year: season, week: week }, apiKey);
+    setProgress(78);
+
+    setStatus('Pulling betting lines…');
+    let lines = [];
+    try { lines = await cfbdGet('/lines', { year: season, week: week }, apiKey); } catch (e) { lines = []; }
+
+    const marketData = {};
+    for (const g of lines) {
+      if (g.lines && g.lines.length > 0) {
+        const l = g.lines[0];
+        marketData[`${g.homeTeam}|${g.awayTeam}`] = {
+          spread: l.spread != null ? -l.spread : null,
+          spreadOpen: l.spreadOpen != null ? -l.spreadOpen : null,
+          overUnder: l.overUnder ?? null,
+          overUnderOpen: l.overUnderOpen ?? null,
+          homeMoneyline: l.homeMoneyline ?? null,
+          awayMoneyline: l.awayMoneyline ?? null,
+          provider: l.provider ?? null,
+        };
+      }
+    }
+    setProgress(90);
+
+    const fbsGames = weekGames.filter(g => fbsTeamNames.has(g.homeTeam) && fbsTeamNames.has(g.awayTeam));
+
+    if (fbsGames.length === 0) {
+      resultsDiv.innerHTML = '<div class="empty-state">No FBS games found for that season/week combination. Double-check the week number — some early/late weeks have limited or no games.</div>';
+      hideProgress(); clearStatus(); runBtn.disabled = false;
+      return;
+    }
+
+    // Load the full season cache now (not lazily per-click) so the "best
+    // bet" tier — which needs each team's season scoring average for the
+    // total estimate — can be shown on the card itself, before any click.
+    setStatus('Evaluating spread, total, and moneyline markets for each game…');
+    const seasonCacheData = await getSeasonCache(season, apiKey);
+
+    const cards = [];
+    for (const g of fbsGames) {
+      const homeR = blendedRatings[g.homeTeam] ?? 0;
+      const awayR = blendedRatings[g.awayTeam] ?? 0;
+      const efficiencySpread = (homeR - awayR) * EFFICIENCY_SCALE + HOME_FIELD_ADVANTAGE;
+      const market = marketData[`${g.homeTeam}|${g.awayTeam}`];
+      const hasMarket = market && market.spread != null;
+      const finalSpread = hasMarket
+        ? (1 - MARKET_WEIGHT) * efficiencySpread + MARKET_WEIGHT * market.spread
+        : efficiencySpread;
+
+      const favored = finalSpread >= 0 ? g.homeTeam : g.awayTeam;
+      const tagText = `${favored} by ${Math.abs(finalSpread).toFixed(1)}`;
+
+      // Full three-market evaluation, computed now so it can show on the
+      // card itself rather than only after the user clicks in.
+      const winProb = spreadToWinProb(finalSpread);
+      const modelTotalEstimate = estimateModelTotal(seasonCacheData.teamGames, g.homeTeam, g.awayTeam);
+      const suggestion = computeBettingSuggestion(
+        finalSpread, market?.spread ?? null, market?.overUnder ?? null,
+        modelTotalEstimate, market?.homeMoneyline ?? null, market?.awayMoneyline ?? null, winProb
+      );
+
+      // Only record a total "direction" when both numbers needed to form
+      // one actually exist — otherwise there's nothing to check later.
+      const totalDirection = (modelTotalEstimate != null && market?.overUnder != null)
+        ? (suggestion.all.total.edge > 0 ? 'over' : 'under')
+        : null;
+
+      await savePrediction(season, week, g, homeR, awayR, hasMarket ? market.spread : null, finalSpread, {
+        predictedTotal: modelTotalEstimate,
+        marketTotal: market?.overUnder ?? null,
+        direction: totalDirection,
+      });
+
+      const gameCtx = { game: g, homeR, awayR, finalSpread, market, season, week, blendedRatings, winProb, modelTotalEstimate, suggestion };
+
+      const betPill = suggestion.type !== 'pass'
+        ? `<span class="tier-pill ${suggestion.tier}" style="margin-left:6px;">${bestBetPillText(suggestion, g, market)} · ${tierLabel(suggestion.tier)}</span>`
+        : '';
+
+      cards.push({ html: `
+        <div class="game-card" data-game-id="${g.id}">
+          <div class="matchup-line">
+            <span>${g.awayTeam}<span class="at">at</span>${g.homeTeam}</span>
+            <span class="card-tags">
+              <span class="spread-tag">${tagText}</span>${betPill}
+            </span>
+          </div>
+          <p class="plain-english">${englishPrediction(g.homeTeam, g.awayTeam, finalSpread, hasMarket)}</p>
+          ${!hasMarket ? '<p class="no-line-note">No market line posted yet for this game.</p>' : ''}
+          <p class="tap-hint">Tap for full breakdown →</p>
+        </div>
+      `, ctx: gameCtx });
+    }
+
+    const calibNote = CALIBRATION_LAST_UPDATED
+      ? `<p class="section-sub" style="margin-top:-6px;">Using your recalibrated model (last updated ${new Date(CALIBRATION_LAST_UPDATED).toLocaleDateString()}) instead of the original defaults.</p>`
+      : '';
+
+    resultsDiv.innerHTML = `<h2 class="week-heading">${season} — Week ${week} predictions (${fbsGames.length} games)</h2>${calibNote}${cards.map(c => c.html).join('')}`;
+
+    // Wire up click handlers now that the cards are in the DOM
+    document.querySelectorAll('.game-card').forEach((cardEl, i) => {
+      cardEl.addEventListener('click', () => openGameModal(cards[i].ctx));
+    });
+
+    hideProgress(); clearStatus();
+
+  } catch (err) {
+    hideProgress();
+    const corsHint = err.message.includes('Failed to fetch')
+      ? ' This looks like it may be a browser CORS restriction rather than a bad key — the CFBD API may not allow direct in-browser requests from this environment.'
+      : '';
+    setStatus(`Something went wrong: ${err.message}.${corsHint}`, true);
+  }
+
+  runBtn.disabled = false;
+});
+
+// ---------- Track record: compare saved predictions against real results ----------
+
+const checkResultsBtn = document.getElementById('checkResultsBtn');
+const clearHistoryBtn = document.getElementById('clearHistoryBtn');
+const trackStatus = document.getElementById('trackStatus');
+const trackResults = document.getElementById('trackResults');
+
+function setTrackStatus(msg, isError = false) {
+  trackStatus.textContent = msg;
+  trackStatus.className = 'status show' + (isError ? ' error' : '');
+}
+
+checkResultsBtn.addEventListener('click', async () => {
+  const apiKey = document.getElementById('apiKey').value.trim();
+  if (!apiKey) { setTrackStatus("Enter your CFBD API key above first — it's needed to pull actual scores.", true); return; }
+
+  checkResultsBtn.disabled = true;
+  trackResults.innerHTML = '';
+  setTrackStatus('Loading your saved predictions…');
+
+  try {
+    const listResult = await storage.list('prediction:');
+    const keys = listResult ? listResult.keys : [];
+
+    if (!keys || keys.length === 0) {
+      setTrackStatus('No saved predictions yet — generate some above first, then come back after those games are played.');
+      checkResultsBtn.disabled = false;
+      return;
+    }
+
+    const predictions = [];
+    for (const key of keys) {
+      try {
+        const r = await storage.get(key);
+        if (r && r.value) predictions.push(JSON.parse(r.value));
+      } catch (e) { /* skip */ }
+    }
+
+    const groups = {};
+    for (const p of predictions) {
+      const gk = `${p.season}|${p.week}`;
+      (groups[gk] = groups[gk] || []).push(p);
+    }
+
+    setTrackStatus(`Checking results for ${predictions.length} saved prediction(s) across ${Object.keys(groups).length} week(s)…`);
+
+    const completed = [];
+    for (const gk of Object.keys(groups)) {
+      const [season, week] = gk.split('|').map(Number);
+      const games = await cfbdGet('/games', { year: season, week: week }, apiKey);
+      const byId = Object.fromEntries(games.map(g => [g.id, g]));
+      for (const p of groups[gk]) {
+        const g = byId[p.gameId];
+        if (g && g.homePoints != null && g.awayPoints != null) {
+          completed.push({ ...p, actualMargin: g.homePoints - g.awayPoints, actualTotal: g.homePoints + g.awayPoints });
+        }
+      }
+    }
+
+    if (completed.length === 0) {
+      setTrackStatus("None of your saved predictions have final scores yet — check back after those games are played.");
+      checkResultsBtn.disabled = false;
+      return;
+    }
+
+    const modelErrors = completed.map(p => Math.abs(p.blendedSpread - p.actualMargin));
+    const modelMAE = modelErrors.reduce((a, b) => a + b, 0) / modelErrors.length;
+
+    const withMarket = completed.filter(p => p.marketSpread !== null);
+    const marketMAE = withMarket.length > 0
+      ? withMarket.reduce((sum, p) => sum + Math.abs(p.marketSpread - p.actualMargin), 0) / withMarket.length
+      : null;
+
+    const disagreements = withMarket.filter(p => Math.abs(p.blendedSpread - p.marketSpread) > 2);
+    let atsWinRate = null;
+    if (disagreements.length > 0) {
+      const wins = disagreements.filter(p => {
+        const modelSide = Math.sign(p.blendedSpread - p.marketSpread);
+        const actualSide = Math.sign(p.actualMargin - p.marketSpread);
+        return modelSide === actualSide;
+      }).length;
+      atsWinRate = wins / disagreements.length;
+    }
+
+    // ---- Straight-up winner, O/U, confidence tiers, upsets ----
+    // (This reads the stored outputs of the O/U engine — predictedTotal /
+    // marketTotalAtPrediction / totalDirection / actualTotal — without
+    // touching how that engine computes them.)
+    const CONF_TIERS = { TIER1: 'Tier 1 — High confidence', TIER2: 'Tier 2 — Moderate', TIER3: 'Tier 3 — Toss-up' };
+    function tierFor(margin) {
+      if (margin >= 14) return 'TIER1';
+      if (margin >= 7) return 'TIER2';
+      return 'TIER3';
+    }
+
+    let correctWinnerCount = 0;
+    const tierStats = { TIER1: { n: 0, correct: 0 }, TIER2: { n: 0, correct: 0 }, TIER3: { n: 0, correct: 0 } };
+    const upsets = [];
+
+    for (const p of completed) {
+      const predictedMargin = Math.abs(p.blendedSpread);
+      const predictedFavorite = p.blendedSpread >= 0 ? p.homeTeam : p.awayTeam;
+      const actualWinner = p.actualMargin > 0 ? p.homeTeam : p.actualMargin < 0 ? p.awayTeam : null;
+      const winnerCorrect = actualWinner !== null && predictedFavorite === actualWinner;
+      if (winnerCorrect) correctWinnerCount++;
+
+      const tier = tierFor(predictedMargin);
+      tierStats[tier].n++;
+      if (winnerCorrect) tierStats[tier].correct++;
+
+      // Upset Alert: a toss-up-tier game (<7) where the model's slight
+      // favorite lost. We don't store per-game volatility flags (lookahead/
+      // letdown/rest) alongside saved predictions, so this uses "toss-up
+      // tier + wrong winner" as a practical stand-in, not the full
+      // volatility-factor definition — noted plainly to the user below.
+      if (tier === 'TIER3' && !winnerCorrect) {
+        upsets.push({ ...p, predictedMargin, predictedFavorite, actualWinner });
+      }
+    }
+
+    const ouRows = completed.filter(p => p.predictedTotal != null && p.marketTotalAtPrediction != null && p.totalDirection != null && p.actualTotal != null);
+    let ouCorrect = 0, ouPush = 0, bothCorrectCount = 0;
+    for (const p of ouRows) {
+      let result;
+      if (p.actualTotal === p.marketTotalAtPrediction) { result = 'push'; ouPush++; }
+      else if (p.totalDirection === 'over') { result = p.actualTotal > p.marketTotalAtPrediction ? 'win' : 'loss'; }
+      else { result = p.actualTotal < p.marketTotalAtPrediction ? 'win' : 'loss'; }
+      if (result === 'win') ouCorrect++;
+
+      const predictedFavorite = p.blendedSpread >= 0 ? p.homeTeam : p.awayTeam;
+      const actualWinner = p.actualMargin > 0 ? p.homeTeam : p.actualMargin < 0 ? p.awayTeam : null;
+      const winnerCorrect = actualWinner !== null && predictedFavorite === actualWinner;
+      if (winnerCorrect && result === 'win') bothCorrectCount++;
+    }
+    const ouDenominator = ouRows.length - ouPush;
+
+    const straightUpAcc = completed.length > 0 ? correctWinnerCount / completed.length : null;
+    const ouAcc = ouDenominator > 0 ? ouCorrect / ouDenominator : null;
+    const bothAcc = ouDenominator > 0 ? bothCorrectCount / ouDenominator : null;
+
+    const statsHtml = `
+      <div class="stat-grid">
+        <div class="stat-box"><div class="stat-value">${completed.length}</div><div class="stat-label">Games checked</div></div>
+        <div class="stat-box"><div class="stat-value">${modelMAE.toFixed(2)}</div><div class="stat-label">Model MAE (pts)</div></div>
+        <div class="stat-box"><div class="stat-value">${marketMAE !== null ? marketMAE.toFixed(2) : '—'}</div><div class="stat-label">Market MAE (pts)</div></div>
+        <div class="stat-box"><div class="stat-value ${atsWinRate !== null && atsWinRate > 0.524 ? 'good' : ''}">${atsWinRate !== null ? (atsWinRate * 100).toFixed(0) + '%' : '—'}</div><div class="stat-label">Win rate when model disagreed w/ market (${disagreements.length} games)</div></div>
+      </div>
+
+      <table class="lines-table" style="width:100%; margin-top:6px;">
+        <tr><th style="text-align:left; color:var(--chalk-dim); text-transform:none; font-size:13px;">Metric</th><th>Result</th></tr>
+        <tr><td>Games analyzed</td><td><b>${completed.length}</b></td></tr>
+        <tr><td>Correct winner</td><td><b>${correctWinnerCount} / ${completed.length}</b></td></tr>
+        <tr><td>Straight-up accuracy</td><td><b>${straightUpAcc != null ? (straightUpAcc * 100).toFixed(1) + '%' : '—'}</b></td></tr>
+        <tr><td>O/U predictions with a total</td><td><b>${ouCorrect} / ${ouDenominator}</b>${ouPush > 0 ? ` <span style="color:var(--chalk-dim); font-weight:400;">(${ouPush} push)</span>` : ''}</td></tr>
+        <tr><td>O/U accuracy</td><td><b>${ouAcc != null ? (ouAcc * 100).toFixed(1) + '%' : '—'}</b></td></tr>
+        <tr><td>Games where BOTH winner + O/U were correct</td><td><b>${bothCorrectCount} / ${ouDenominator}</b></td></tr>
+        <tr><td>Both correct rate</td><td><b>${bothAcc != null ? (bothAcc * 100).toFixed(1) + '%' : '—'}</b></td></tr>
+        <tr><td>Average predicted-margin error</td><td><b>${modelMAE.toFixed(1)} points</b></td></tr>
+      </table>
+
+      <p class="trend-heading" style="margin-top:18px;">Confidence tiers</p>
+      <table class="lines-table" style="width:100%;">
+        <tr><th style="text-align:left; color:var(--chalk-dim); text-transform:none; font-size:13px;">Tier</th><th>Games</th><th>Winner accuracy</th></tr>
+        <tr><td>${CONF_TIERS.TIER1} (margin ≥ 14)</td><td>${tierStats.TIER1.n}</td><td>${tierStats.TIER1.n > 0 ? (tierStats.TIER1.correct / tierStats.TIER1.n * 100).toFixed(0) + '%' : '—'}</td></tr>
+        <tr><td>${CONF_TIERS.TIER2} (7–13.9)</td><td>${tierStats.TIER2.n}</td><td>${tierStats.TIER2.n > 0 ? (tierStats.TIER2.correct / tierStats.TIER2.n * 100).toFixed(0) + '%' : '—'}</td></tr>
+        <tr><td>${CONF_TIERS.TIER3} (&lt; 7)</td><td>${tierStats.TIER3.n}</td><td>${tierStats.TIER3.n > 0 ? (tierStats.TIER3.correct / tierStats.TIER3.n * 100).toFixed(0) + '%' : '—'}</td></tr>
+      </table>
+      <p class="disclaimer-mini">"Upset Alert" below flags Tier 3 (toss-up) games where the model's slight favorite lost — a practical stand-in for a full volatility-factor check, since per-game volatility flags (lookahead/letdown/rest) aren't stored alongside saved predictions yet.</p>
+      ${upsets.length > 0 ? `
+        <p class="trend-heading" style="margin-top:14px;">Upset alerts (${upsets.length})</p>
+        ${upsets.map(u => `<div class="result-row"><span class="result-matchup">${u.awayTeam} at ${u.homeTeam}</span><span class="result-nums">picked <b>${u.predictedFavorite}</b> by ${u.predictedMargin.toFixed(1)} · <b>${u.actualWinner}</b> won</span></div>`).join('')}
+      ` : ''}
+
+      <p class="trend-heading" style="margin-top:18px;">Final assessment</p>
+      <p class="plain-english">${buildFinalAssessment({ completed, straightUpAcc, ouAcc, bothAcc, modelMAE, marketMAE, tierStats, upsets, ouDenominator })}</p>
+    `;
+
+    const rows = completed.map(p => {
+      const err = Math.abs(p.blendedSpread - p.actualMargin).toFixed(1);
+      return `<div class="result-row"><span class="result-matchup">${p.awayTeam} at ${p.homeTeam}</span><span class="result-nums">predicted <b>${p.blendedSpread.toFixed(1)}</b> · actual <b>${p.actualMargin}</b> · off by <b>${err}</b></span></div>`;
+    }).join('');
+
+    const canRecalibrate = completed.length >= 15;
+    const recalibrateHtml = canRecalibrate ? `
+      <div class="recalibrate-box">
+        <b>Ready to recalibrate.</b> With ${completed.length} completed games, the model can re-solve its scale factor, home-field constant, and market blend weight using your actual results.
+        <div class="btn-row" style="margin-top:10px;"><button class="secondary" id="recalibrateBtn">Recalibrate now</button></div>
+        <div id="recalibrateOutput"></div>
+      </div>
+    ` : `<p class="section-sub" style="margin-top:14px;">Recalibration unlocks at 15+ completed, checked predictions (currently ${completed.length}).</p>`;
+
+    trackResults.innerHTML = statsHtml + recalibrateHtml + `<p class="trend-heading" style="margin-top:18px;">Game-by-game (spread)</p><div>${rows}</div>`;
+    setTrackStatus(''); trackStatus.className = 'status';
+
+    if (canRecalibrate) {
+      document.getElementById('recalibrateBtn').addEventListener('click', () => runRecalibration(completed));
+    }
+  } catch (err) {
+    setTrackStatus(`Couldn't check results: ${err.message}`, true);
+  }
+  checkResultsBtn.disabled = false;
+});
+
+function buildFinalAssessment({ completed, straightUpAcc, ouAcc, bothAcc, modelMAE, marketMAE, tierStats, upsets, ouDenominator }) {
+  const parts = [];
+
+  if (straightUpAcc != null) {
+    if (straightUpAcc >= 0.70) {
+      parts.push(`Straight-up accuracy of ${(straightUpAcc * 100).toFixed(1)}% is strong for this sample — well above a coin flip, and in the range you'd expect from a model that's mostly picking recognizable favorites correctly.`);
+    } else if (straightUpAcc >= 0.55) {
+      parts.push(`Straight-up accuracy of ${(straightUpAcc * 100).toFixed(1)}% is solidly better than a coin flip, in line with picking favorites reasonably well.`);
+    } else {
+      parts.push(`Straight-up accuracy of ${(straightUpAcc * 100).toFixed(1)}% is close to a coin flip — worth watching over more games before drawing conclusions, since this sample may just be a rough stretch.`);
+    }
+  }
+
+  if (tierStats.TIER1.n > 0 && tierStats.TIER3.n > 0) {
+    const t1 = tierStats.TIER1.correct / tierStats.TIER1.n;
+    const t3 = tierStats.TIER3.correct / tierStats.TIER3.n;
+    if (t1 > t3 + 0.1) {
+      parts.push(`As expected, high-confidence Tier 1 calls (${(t1 * 100).toFixed(0)}%) were more reliable than Tier 3 toss-ups (${(t3 * 100).toFixed(0)}%) — toss-ups landing closer to 50/50 isn't a flaw, it's what "toss-up" is supposed to mean.`);
+    } else if (t3 > t1) {
+      parts.push(`Tier 3 toss-ups (${(t3 * 100).toFixed(0)}%) actually outperformed Tier 1 high-confidence calls (${(t1 * 100).toFixed(0)}%) this stretch — likely small-sample noise rather than a real pattern, but worth re-checking once more games accumulate.`);
+    }
+  }
+
+  if (ouAcc != null && ouDenominator >= 10) {
+    if (ouAcc >= 0.58) {
+      parts.push(`O/U accuracy of ${(ouAcc * 100).toFixed(1)}% is a genuinely encouraging sign for a total model that hasn't been backtested the way the spread model has — though ${ouDenominator} games is still a small sample to trust fully.`);
+    } else if (ouAcc <= 0.45) {
+      parts.push(`O/U accuracy of ${(ouAcc * 100).toFixed(1)}% is below what you'd want, and matches the earlier finding that the total estimate is the least validated part of this model — worth leaning on it less than the spread until it's been checked over more seasons.`);
+    } else {
+      parts.push(`O/U accuracy of ${(ouAcc * 100).toFixed(1)}% is close to break-even, which is roughly what you'd expect from an unvalidated total model on a market that's typically efficient — not a red flag, just a reminder to treat total picks as a lean, not a strong signal.`);
+    }
+  } else if (ouDenominator > 0) {
+    parts.push(`Only ${ouDenominator} games had enough data for an O/U check — too few yet to say much about total accuracy specifically.`);
+  }
+
+  if (marketMAE != null) {
+    if (modelMAE <= marketMAE) {
+      parts.push(`The model's average margin error (${modelMAE.toFixed(1)} pts) matched or beat the market's own (${marketMAE.toFixed(1)} pts) over this stretch — a good sign, though consistent with the model tracking the market closely rather than beating it outright.`);
+    } else {
+      parts.push(`The model's average margin error (${modelMAE.toFixed(1)} pts) ran a bit higher than the market's (${marketMAE.toFixed(1)} pts) this stretch — within normal variance for a model built to track the market, not something to overreact to on its own.`);
+    }
+  }
+
+  if (upsets.length > 0) {
+    parts.push(`${upsets.length} toss-up game${upsets.length > 1 ? 's' : ''} went the other way this stretch — normal for genuine toss-ups, and worth a look at whether any shared a common thread (rest, travel, a key injury) rather than assuming the model missed something systematic.`);
+  }
+
+  parts.push(`Where to focus next: keep leaning on the spread model (the only piece with real multi-season backtesting behind it), treat total and moneyline suggestions as softer leans, and let this sample grow — ${completed.length} games is still small next to the ~1,600-game backtest the core model was validated on.`);
+
+  return parts.join(' ');
+}
+
+function runRecalibration(completed) {
+  const withRatingDiff = completed.filter(p => p.ratingDiff !== undefined && p.ratingDiff !== null);
+  const xs = withRatingDiff.map(p => p.ratingDiff);
+  const ys = withRatingDiff.map(p => p.actualMargin);
+  const { slope: newScale, intercept: newHFA } = linearRegression(xs, ys);
+
+  const withMarket = completed.filter(p => p.marketSpread !== null && p.ratingDiff !== undefined);
+  let bestWeight = MARKET_WEIGHT, bestMAE = Infinity;
+  for (let w = 0; w <= 1.001; w += 0.05) {
+    const errors = withMarket.map(p => {
+      const effSpread = p.ratingDiff * newScale + newHFA;
+      const blended = (1 - w) * effSpread + w * p.marketSpread;
+      return Math.abs(blended - p.actualMargin);
+    });
+    const mae = errors.length ? errors.reduce((a, b) => a + b, 0) / errors.length : Infinity;
+    if (mae < bestMAE) { bestMAE = mae; bestWeight = w; }
+  }
+
+  const oldErrors = completed.map(p => Math.abs(p.blendedSpread - p.actualMargin));
+  const oldMAE = oldErrors.reduce((a, b) => a + b, 0) / oldErrors.length;
+
+  const output = document.getElementById('recalibrateOutput');
+  output.innerHTML = `
+    <div class="calib-compare">
+      <div class="calib-col">Old scale/HFA/weight<br><b>${EFFICIENCY_SCALE.toFixed(2)} / ${HOME_FIELD_ADVANTAGE.toFixed(2)} / ${MARKET_WEIGHT.toFixed(2)}</b><br>MAE: <b>${oldMAE.toFixed(2)}</b></div>
+      <div class="calib-col">New scale/HFA/weight<br><b>${newScale.toFixed(2)} / ${newHFA.toFixed(2)} / ${bestWeight.toFixed(2)}</b><br>MAE: <b>${bestMAE.toFixed(2)}</b></div>
+    </div>
+    <div class="btn-row" style="margin-top:12px;"><button class="secondary" id="applyCalibBtn">Apply new calibration to future predictions</button></div>
+    <p class="section-sub" style="margin-top:10px;">Based on ${withRatingDiff.length} games — still small next to the original ~1,600-game backtest. Treat as a nudge, not a replacement.</p>
+  `;
+  document.getElementById('applyCalibBtn').addEventListener('click', async () => {
+    await saveCalibration(newScale, newHFA, bestWeight);
+    output.innerHTML += '<p class="section-sub" style="color:var(--good);">Applied — future predictions on this device use the updated calibration.</p>';
+  });
+}
+
+clearHistoryBtn.addEventListener('click', async () => {
+  if (!confirm('This will delete all saved predictions and any recalibration on this device. Continue?')) return;
+  try {
+    const listResult = await storage.list('prediction:');
+    for (const key of (listResult ? listResult.keys : [])) await storage.delete(key);
+    await storage.delete('calibration');
+    EFFICIENCY_SCALE = 58.06; HOME_FIELD_ADVANTAGE = 3.97; MARKET_WEIGHT = 0.5; CALIBRATION_LAST_UPDATED = null;
+    trackResults.innerHTML = '';
+    setTrackStatus('Cleared. Calibration reset to the original validated defaults.');
+  } catch (err) {
+    setTrackStatus(`Couldn't clear history: ${err.message}`, true);
+  }
+});
+
+// ---------- My Picks ----------
+
+const checkPicksBtn = document.getElementById('checkPicksBtn');
+const clearPicksBtn = document.getElementById('clearPicksBtn');
+const picksStatus = document.getElementById('picksStatus');
+// No-network view of whatever's currently saved — called right after a
+// pick is added (so it shows up immediately, without waiting on a "Check
+// my picks" API round-trip) and again whenever the My Picks tab loads.
+// "Check my picks" below replaces this with the REAL resolved win/loss/push
+// status; this function only ever shows PENDING, since it can't know
+// results without fetching scores.
+async function renderPendingPicksLocally() {
+  try {
+    const listResult = await storage.list('pick:');
+    const keys = listResult ? listResult.keys : [];
+    if (!keys || keys.length === 0) {
+      picksResults.innerHTML = '';
+      return;
+    }
+    const picks = [];
+    for (const key of keys) {
+      try {
+        const r = await storage.get(key);
+        if (r && r.value) picks.push(JSON.parse(r.value));
+      } catch (e) { /* skip unreadable entries */ }
+    }
+    picks.sort((a, b) => new Date(b.savedAt) - new Date(a.savedAt));
+    const rows = picks.map(p => `
+      <div class="pick-row">
+        <div>
+          <div class="pick-main">${p.awayTeam} at ${p.homeTeam}</div>
+          <div class="pick-sub">${describePick(p)} · ${p.stake ?? 10} tokens · Week ${p.week}</div>
+        </div>
+        <span class="pick-status pending">PENDING</span>
+      </div>
+    `).join('');
+    picksResults.innerHTML = `<p class="disclaimer-mini" style="margin-bottom:10px;">Showing ${picks.length} saved pick${picks.length === 1 ? '' : 's'} — click "Check my picks" once games are final to see real win/loss/push results and update your bankroll.</p>${rows}`;
+  } catch (err) {
+    console.warn('Could not render pending picks', err);
+  }
+}
+
+const picksResults = document.getElementById('picksResults');
+
+function setPicksStatus(msg, isError = false) {
+  picksStatus.textContent = msg;
+  picksStatus.className = 'status show' + (isError ? ' error' : '');
+}
+
+function describePick(p) {
+  let base;
+  if (p.pickType === 'spread') {
+    const side = p.pickSide === 'home' ? p.homeTeam : p.pickSide === 'away' ? p.awayTeam : null;
+    base = side ? `${side} spread` : `Spread — ${p.detail || ''}`;
+  } else if (p.pickType === 'total') {
+    base = `${p.pickSide === 'over' ? 'Over' : 'Under'} ${p.marketTotalAtPick ?? ''}`;
+  } else if (p.pickType === 'moneyline') {
+    const side = p.pickSide === 'home' ? p.homeTeam : p.pickSide === 'away' ? p.awayTeam : null;
+    base = side ? `${side} moneyline` : `Moneyline — ${p.detail || ''}`;
+  } else {
+    base = p.detail || p.pickType;
+  }
+  if (p.injuryAdjustmentApplied) {
+    const ov = p.injuryAdjustmentApplied;
+    const who = ov.homeQBOut && ov.awayQBOut ? 'both QBs' : ov.homeQBOut ? `${p.homeTeam} QB` : `${p.awayTeam} QB`;
+    base += ` · injury-adjusted (${who} out, -${ov.penalty}pt)`;
+  }
+  return base;
+}
+
+// Standard -110 juice for spread/total (typical sportsbook default);
+// moneyline uses the actual odds captured at pick time.
+function profitForWin(p) {
+  if (p.pickType === 'moneyline' && p.moneylineAtPick != null) {
+    return p.moneylineAtPick > 0
+      ? p.stake * (p.moneylineAtPick / 100)
+      : p.stake * (100 / Math.abs(p.moneylineAtPick));
+  }
+  return p.stake * (100 / 110); // spread/total standard juice
+}
+
+function resolvePickWithPayout(p, actualHomePoints, actualAwayPoints) {
+  const actualMargin = actualHomePoints - actualAwayPoints;
+  let status = 'push';
+
+  if (p.pickType === 'spread' && p.marketSpreadAtPick != null) {
+    const coverMarginForHome = actualMargin - p.marketSpreadAtPick;
+    if (coverMarginForHome === 0) status = 'push';
+    else if (p.pickSide === 'home') status = coverMarginForHome > 0 ? 'win' : 'loss';
+    else if (p.pickSide === 'away') status = coverMarginForHome < 0 ? 'win' : 'loss';
+  } else if (p.pickType === 'total' && p.marketTotalAtPick != null) {
+    const actualTotal = actualHomePoints + actualAwayPoints;
+    if (actualTotal === p.marketTotalAtPick) status = 'push';
+    else if (p.pickSide === 'over') status = actualTotal > p.marketTotalAtPick ? 'win' : 'loss';
+    else if (p.pickSide === 'under') status = actualTotal < p.marketTotalAtPick ? 'win' : 'loss';
+  } else if (p.pickType === 'moneyline') {
+    const homeWon = actualMargin > 0;
+    if (p.pickSide === 'home') status = homeWon ? 'win' : 'loss';
+    else if (p.pickSide === 'away') status = !homeWon ? 'win' : 'loss';
+  }
+
+  let profit = 0;
+  if (status === 'win') profit = profitForWin(p);
+  else if (status === 'loss') profit = -p.stake;
+  // push -> profit stays 0, stake returned
+
+  return { status, profit };
+}
+
+checkPicksBtn.addEventListener('click', async () => {
+  const apiKey = document.getElementById('apiKey').value.trim();
+  if (!apiKey) { setPicksStatus('Enter your CFBD API key above first.', true); return; }
+
+  checkPicksBtn.disabled = true;
+  picksResults.innerHTML = '';
+  setPicksStatus('Loading your saved picks…');
+
+  try {
+    const listResult = await storage.list('pick:');
+    const keys = listResult ? listResult.keys : [];
+    if (!keys || keys.length === 0) {
+      setPicksStatus('No picks saved yet — add one from a game\'s detail view.');
+      checkPicksBtn.disabled = false;
+      return;
+    }
+
+    const picks = [];
+    for (const key of keys) {
+      try {
+        const r = await storage.get(key);
+        if (r && r.value) {
+          const parsed = JSON.parse(r.value);
+          picks.push({ key, ...parsed, stake: parsed.stake ?? 10 }); // old picks predate stakes — default 10
+        }
+      } catch (e) { /* skip */ }
+    }
+
+    const groups = {};
+    for (const p of picks) {
+      const gk = `${p.season}|${p.week}`;
+      (groups[gk] = groups[gk] || []).push(p);
+    }
+
+    let wins = 0, losses = 0, pushes = 0, pending = 0;
+    const rows = [];
+    const startingBankroll = await getBankrollStart();
+    let balance = startingBankroll;
+    let realizedPL = 0;
+    let atRisk = 0;
+
+    for (const gk of Object.keys(groups)) {
+      const [season, week] = gk.split('|').map(Number);
+      const games = await cfbdGet('/games', { year: season, week: week }, apiKey);
+      const byId = Object.fromEntries(games.map(g => [g.id, g]));
+
+      for (const p of groups[gk]) {
+        const g = byId[p.gameId];
+        let status = 'pending', profit = 0;
+        if (g && g.homePoints != null && g.awayPoints != null) {
+          const result = resolvePickWithPayout(p, g.homePoints, g.awayPoints);
+          status = result.status;
+          profit = result.profit;
+        }
+
+        // Ledger: stake always leaves the pool when placed; wins/pushes
+        // return stake (+ profit for wins); losses return nothing.
+        balance -= p.stake;
+        if (status === 'win') { balance += p.stake + profit; realizedPL += profit; }
+        else if (status === 'push') { balance += p.stake; }
+        else if (status === 'loss') { realizedPL += profit; /* profit is negative */ }
+        else { atRisk += p.stake; }
+
+        if (status === 'win') wins++;
+        else if (status === 'loss') losses++;
+        else if (status === 'push') pushes++;
+        else pending++;
+
+        const profitText = status === 'win' ? `+${profit.toFixed(1)}` : status === 'loss' ? `${profit.toFixed(1)}` : status === 'push' ? '±0' : '—';
+        rows.push(`
+          <div class="pick-row">
+            <div>
+              <div class="pick-main">${p.awayTeam} at ${p.homeTeam}</div>
+              <div class="pick-sub">${describePick(p)} · ${p.stake} tokens · Week ${p.week}</div>
+            </div>
+            <span class="pick-status ${status}">${status.toUpperCase()}${status !== 'pending' ? ` · ${profitText}` : ''}</span>
+          </div>
+        `);
+      }
+    }
+
+    const summary = `
+      <div class="stat-grid">
+        <div class="stat-box"><div class="stat-value good">${wins}</div><div class="stat-label">Wins</div></div>
+        <div class="stat-box"><div class="stat-value">${losses}</div><div class="stat-label">Losses</div></div>
+        <div class="stat-box"><div class="stat-value">${pushes}</div><div class="stat-label">Pushes</div></div>
+        <div class="stat-box"><div class="stat-value">${pending}</div><div class="stat-label">Pending</div></div>
+      </div>
+    `;
+
+    renderBankrollSummary(startingBankroll, balance, realizedPL, atRisk);
+    picksResults.innerHTML = summary + rows.join('');
+    setPicksStatus(''); picksStatus.className = 'status';
+  } catch (err) {
+    setPicksStatus(`Couldn't check picks: ${err.message}`, true);
+  }
+  checkPicksBtn.disabled = false;
+});
+
+function renderBankrollSummary(starting, balance, realizedPL, atRisk) {
+  const el = document.getElementById('bankrollSummary');
+  const plClass = realizedPL > 0 ? 'good' : realizedPL < 0 ? '' : '';
+  el.innerHTML = `
+    <div class="stat-grid">
+      <div class="stat-box"><div class="stat-value">${starting.toFixed(0)}</div><div class="stat-label">Starting tokens</div></div>
+      <div class="stat-box"><div class="stat-value ${plClass}">${realizedPL >= 0 ? '+' : ''}${realizedPL.toFixed(1)}</div><div class="stat-label">Realized P/L</div></div>
+      <div class="stat-box"><div class="stat-value">${atRisk.toFixed(0)}</div><div class="stat-label">Tokens at risk (pending)</div></div>
+      <div class="stat-box"><div class="stat-value ${balance >= starting ? 'good' : ''}">${balance.toFixed(1)}</div><div class="stat-label">Current balance</div></div>
+    </div>
+    <p class="disclaimer-mini">Payouts use standard -110 juice for spread/total bets (win returns stake + ~0.91× stake) and the actual moneyline odds captured when each pick was saved. Balance = starting tokens minus everything wagered, plus whatever's been returned from resolved wins and pushes so far.</p>
+  `;
+}
+
+document.getElementById('setBankrollBtn').addEventListener('click', async () => {
+  const val = Math.max(1, parseFloat(document.getElementById('bankrollStartInput').value) || 100);
+  await setBankrollStart(val);
+  renderBankrollSummary(val, val, 0, 0);
+  setPicksStatus(`Bankroll set to ${val} tokens. Click "Check my picks" to recalculate your balance against it.`);
+});
+
+// Show the current bankroll starting point as soon as the page loads,
+// and show whatever picks are already saved (locally, no network needed)
+// so the My Picks tab is never empty just because "Check my picks" hasn't
+// been clicked yet.
+(async () => {
+  const start = await getBankrollStart();
+  document.getElementById('bankrollStartInput').value = start;
+  renderBankrollSummary(start, start, 0, 0);
+  await renderPendingPicksLocally();
+})();
+
+clearPicksBtn.addEventListener('click', async () => {
+  if (!confirm('This will delete all saved picks. Continue?')) return;
+  try {
+    const listResult = await storage.list('pick:');
+    for (const key of (listResult ? listResult.keys : [])) await storage.delete(key);
+    picksResults.innerHTML = '';
+    setPicksStatus('All picks cleared.');
+    const start = await getBankrollStart();
+    renderBankrollSummary(start, start, 0, 0);
+  } catch (err) {
+    setPicksStatus(`Couldn't clear picks: ${err.message}`, true);
+  }
+});
+
+// ---------- Page-level tab switching ----------
+document.querySelectorAll('.page-tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.page-tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.page-tab-content').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('page-' + btn.dataset.pageTab).classList.add('active');
+  });
+});
+
+loadCalibration();
+</script>
+
+</body>
+</html>
