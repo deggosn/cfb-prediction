@@ -680,6 +680,7 @@
 
   <div class="page-tab-bar">
     <button class="page-tab-btn active" data-page-tab="predictions">Predictions</button>
+    <button class="page-tab-btn" data-page-tab="top-five">Top 5</button>
     <button class="page-tab-btn" data-page-tab="track-record">Track record</button>
     <button class="page-tab-btn" data-page-tab="my-picks">My picks</button>
   </div>
@@ -710,6 +711,16 @@
 
     <div id="results">
       <div class="empty-state">Enter your API key, pick a season and week, and click "Get predictions."</div>
+    </div>
+  </div>
+
+  <div class="page-tab-content" id="page-top-five">
+    <div class="track-record" style="margin-top: 0; border-top: none; padding-top: 0;">
+      <h2 class="section-heading">Top 5 biggest betting edges</h2>
+      <p class="section-sub">The five games this week where the model disagrees most with the market — ranked by bet tier first (strong value beats lean beats pass), then by raw edge size within that tier. Games with no real edge won't appear here even if the model is confident about who wins. Run "Get predictions" on the Predictions tab first.</p>
+      <div id="topFiveResults">
+        <div class="empty-state">No predictions generated yet this session — head to the Predictions tab and click "Get predictions."</div>
+      </div>
     </div>
   </div>
 
@@ -829,6 +840,7 @@ const storage = {
 let EFFICIENCY_SCALE = 58.06;
 let HOME_FIELD_ADVANTAGE = 3.97;
 let MARKET_WEIGHT = 0.5;
+let latestGameCards = []; // populated after each "Get predictions" run, read by the Top 5 tab
 let CALIBRATION_LAST_UPDATED = null;
 
 // A curated (not exhaustive) list of well-known rivalries, used only to
@@ -1026,6 +1038,70 @@ function englishPrediction(homeTeam, awayTeam, spread, hasMarket) {
     ? "blending team performance with the current market line"
     : "based on team performance alone — no market line was available yet for this game";
   return `<b>${favored}</b> is ${closeness} what projects as roughly a <b>${marginRounded}-point</b> game over <b>${underdog}</b>, ${basis}.`;
+}
+
+function bettingEdgeRank(suggestion) {
+  // Primary: which tier the best market landed in (strong > lean > pass).
+  // Secondary: the raw edge size within that market, as a tiebreaker among
+  // games in the same tier. Edge units differ across markets (points for
+  // spread/total, probability points for moneyline), so this tiebreak is
+  // only meaningful within a tier, not compared across different bet types.
+  if (suggestion.type === 'pass') return [0, 0];
+  const edge = suggestion.all[suggestion.type]?.edge ?? 0;
+  return [TIER_RANK[suggestion.tier] ?? 0, Math.abs(edge)];
+}
+
+function renderTopFive() {
+  const container = document.getElementById('topFiveResults');
+  if (!container) return;
+
+  if (!latestGameCards.length) {
+    container.innerHTML = '<div class="empty-state">No predictions generated yet this session — head to the Predictions tab and click "Get predictions."</div>';
+    return;
+  }
+
+  const withEdge = latestGameCards.filter(c => c.ctx.suggestion.type !== 'pass');
+
+  if (!withEdge.length) {
+    container.innerHTML = '<div class="empty-state">No games this week clear the model\'s bar for a real betting edge yet — check back closer to kickoff as lines firm up.</div>';
+    return;
+  }
+
+  const ranked = [...withEdge]
+    .sort((a, b) => {
+      const [tierA, edgeA] = bettingEdgeRank(a.ctx.suggestion);
+      const [tierB, edgeB] = bettingEdgeRank(b.ctx.suggestion);
+      return tierB - tierA || edgeB - edgeA;
+    })
+    .slice(0, 5);
+
+  const rows = ranked.map((c, i) => {
+    const { game: g, finalSpread, market, suggestion } = c.ctx;
+    const hasMarket = market && market.spread != null;
+    const favored = finalSpread >= 0 ? g.homeTeam : g.awayTeam;
+    const tagText = `${favored} by ${Math.abs(finalSpread).toFixed(1)}`;
+    const betPill = `<span class="tier-pill ${suggestion.tier}" style="margin-left:6px;">${bestBetPillText(suggestion, g, market)} · ${tierLabel(suggestion.tier)}</span>`;
+
+    return `
+      <div class="game-card" data-game-id="${g.id}">
+        <div class="matchup-line">
+          <span><span style="color: var(--lights); font-weight:700; margin-right:8px;">#${i + 1}</span>${g.awayTeam}<span class="at">at</span>${g.homeTeam}</span>
+          <span class="card-tags">
+            <span class="spread-tag">${tagText}</span>${betPill}
+          </span>
+        </div>
+        <p class="plain-english">${englishPrediction(g.homeTeam, g.awayTeam, finalSpread, hasMarket)}</p>
+        ${!hasMarket ? '<p class="no-line-note">No market line posted yet for this game.</p>' : ''}
+        <p class="tap-hint">Tap for full breakdown →</p>
+      </div>
+    `;
+  }).join('');
+
+  container.innerHTML = rows;
+
+  document.querySelectorAll('#topFiveResults .game-card').forEach((cardEl, i) => {
+    cardEl.addEventListener('click', () => openGameModal(ranked[i].ctx));
+  });
 }
 
 // ---------- Win probability / predicted score / betting suggestion ----------
@@ -2025,6 +2101,9 @@ runBtn.addEventListener('click', async () => {
     document.querySelectorAll('.game-card').forEach((cardEl, i) => {
       cardEl.addEventListener('click', () => openGameModal(cards[i].ctx));
     });
+
+    latestGameCards = cards;
+    renderTopFive();
 
     hideProgress(); clearStatus();
 
