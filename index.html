@@ -2368,6 +2368,7 @@ checkResultsBtn.addEventListener('click', async () => {
         <div class="stat-box"><div class="stat-value ${atsWinRate !== null && atsWinRate > 0.524 ? 'good' : ''}">${atsWinRate !== null ? (atsWinRate * 100).toFixed(0) + '%' : '—'}</div><div class="stat-label">Win rate when model disagreed w/ market (${disagreements.length} games)</div></div>
       </div>
 
+      <div class="table-scroll">
       <table class="lines-table" style="width:100%; margin-top:6px;">
         <tr><th style="text-align:left; color:var(--chalk-dim); text-transform:none; font-size:13px;">Metric</th><th>Result</th></tr>
         <tr><td>Games analyzed</td><td><b>${completed.length}</b></td></tr>
@@ -2379,14 +2380,17 @@ checkResultsBtn.addEventListener('click', async () => {
         <tr><td>Both correct rate</td><td><b>${bothAcc != null ? (bothAcc * 100).toFixed(1) + '%' : '—'}</b></td></tr>
         <tr><td>Average predicted-margin error</td><td><b>${modelMAE.toFixed(1)} points</b></td></tr>
       </table>
+      </div>
 
       <p class="trend-heading" style="margin-top:18px;">Confidence tiers</p>
+      <div class="table-scroll">
       <table class="lines-table" style="width:100%;">
         <tr><th style="text-align:left; color:var(--chalk-dim); text-transform:none; font-size:13px;">Tier</th><th>Games</th><th>Winner accuracy</th></tr>
         <tr><td>${CONF_TIERS.TIER1} (margin ≥ 14)</td><td>${tierStats.TIER1.n}</td><td>${tierStats.TIER1.n > 0 ? (tierStats.TIER1.correct / tierStats.TIER1.n * 100).toFixed(0) + '%' : '—'}</td></tr>
         <tr><td>${CONF_TIERS.TIER2} (7–13.9)</td><td>${tierStats.TIER2.n}</td><td>${tierStats.TIER2.n > 0 ? (tierStats.TIER2.correct / tierStats.TIER2.n * 100).toFixed(0) + '%' : '—'}</td></tr>
         <tr><td>${CONF_TIERS.TIER3} (&lt; 7)</td><td>${tierStats.TIER3.n}</td><td>${tierStats.TIER3.n > 0 ? (tierStats.TIER3.correct / tierStats.TIER3.n * 100).toFixed(0) + '%' : '—'}</td></tr>
       </table>
+      </div>
       <p class="disclaimer-mini">"Upset Alert" below flags Tier 3 (toss-up) games where the model's slight favorite lost — a practical stand-in for a full volatility-factor check, since per-game volatility flags (lookahead/letdown/rest) aren't stored alongside saved predictions yet.</p>
       ${upsets.length > 0 ? `
         <p class="trend-heading" style="margin-top:14px;">Upset alerts (${upsets.length})</p>
