@@ -144,6 +144,8 @@ for (let y = lastCompletedSeason; y >= lastCompletedSeason - 4; y--) {
 // in index.html, mirror the change here too, or this backtest silently
 // stops being representative.)
 
+const RECENCY_DECAY = 0.94; // each week further back multiplies a game's weight by this factor
+
 function solveOpponentAdjustedRatings(games, metricKey, iterations = 25, ridgeLambda = 0.15) {
   const teams = [...new Set(games.map(g => g.team))];
   let ratings = Object.fromEntries(teams.map(t => [t, 0.0]));
@@ -152,8 +154,9 @@ function solveOpponentAdjustedRatings(games, metricKey, iterations = 25, ridgeLa
     for (const g of games) {
       const oppRating = ratings[g.opponent] ?? 0.0;
       const adjMetric = g[metricKey] - oppRating * 0.5;
-      sums[g.team] = (sums[g.team] ?? 0) + adjMetric;
-      counts[g.team] = (counts[g.team] ?? 0) + 1;
+      const w = g.weight ?? 1.0;
+      sums[g.team] = (sums[g.team] ?? 0) + adjMetric * w;
+      counts[g.team] = (counts[g.team] ?? 0) + w;
     }
     const newRatings = {};
     for (const t of teams) {
@@ -172,9 +175,14 @@ function blendPriorWithInseason(prior, inseason, gamesPlayed, fullConfidenceAtWe
 }
 
 function ratingsFromGameStats(gameStats, fbsTeamNames) {
-  const games = gameStats
+  const rawGames = gameStats
     .filter(g => fbsTeamNames.has(g.team) && fbsTeamNames.has(g.opponent))
     .map(g => ({ team: g.team, opponent: g.opponent, week: g.week, off_epa: g.offense?.ppa ?? 0, def_epa: g.defense?.ppa ?? 0 }));
+  // Anchors to whichever week is most recent in whatever slice of games was
+  // passed in — for the walk-forward loop below, that's always the week
+  // right before the one being predicted, so this never looks ahead.
+  const maxWeek = Math.max(0, ...rawGames.map(g => g.week));
+  const games = rawGames.map(g => ({ ...g, weight: Math.pow(RECENCY_DECAY, maxWeek + 1 - g.week) }));
   const offRatings = solveOpponentAdjustedRatings(games, 'off_epa');
   const defRatings = solveOpponentAdjustedRatings(games, 'def_epa');
   const overall = {};
