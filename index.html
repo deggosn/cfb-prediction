@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Saturday Line — CFB Predictions</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -326,6 +327,7 @@
   }
 
   .lines-table { width: 100%; border-collapse: collapse; margin-bottom: 4px; }
+  .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .lines-table th, .lines-table td {
     text-align: right;
     padding: 8px 6px;
@@ -666,6 +668,18 @@
     line-height: 1.6;
     border-top: 1px solid var(--card-border);
     padding-top: 16px;
+  }
+
+  /* ---------- Mobile tightening ---------- */
+  @media (max-width: 480px) {
+    body { padding: 20px 14px 40px; }
+    h1 { font-size: 28px; }
+    .modal-overlay { padding: 0; }
+    .modal-box { max-width: none; margin: 0; min-height: 100vh; border-radius: 0; border-left: none; border-right: none; }
+    .page-tab-btn { padding: 12px 14px; font-size: 15px; }
+    .tab-btn { padding: 13px 12px; }
+    .field-row { gap: 10px; }
+    .field { min-width: 100%; }
   }
 </style>
 </head>
@@ -1670,11 +1684,13 @@ function renderModalContent(gameCtx) {
   const fmtSpread = (s) => s == null ? '—' : (s > 0 ? `${game.homeTeam.split(' ').pop()} -${s.toFixed(1)}` : `${game.awayTeam.split(' ').pop()} -${Math.abs(s).toFixed(1)}`);
   const edge = market?.spread != null ? activeSpread - market.spread : null;
   const marketHtml = `
+    <div class="table-scroll">
     <table class="lines-table">
       <tr><th></th><th>Spread</th><th>Total</th><th>Moneyline</th></tr>
       <tr><td>Current</td><td>${fmtSpread(market?.spread)}</td><td>${market?.overUnder ?? '—'}</td><td>${market?.homeMoneyline != null ? `${game.homeTeam.split(' ').pop()} ${market.homeMoneyline > 0 ? '+' : ''}${market.homeMoneyline} / ${game.awayTeam.split(' ').pop()} ${market.awayMoneyline > 0 ? '+' : ''}${market.awayMoneyline}` : '—'}</td></tr>
       <tr><td>Opening</td><td>${fmtSpread(market?.spreadOpen)}</td><td>${market?.overUnderOpen ?? '—'}</td><td>—</td></tr>
     </table>
+    </div>
     <p class="disclaimer-mini">Only open-vs-current is available (not a full timestamped history) — the free CFBD API provides one snapshot, not a live tick-by-tick feed.</p>
 
     <div class="injury-box">
