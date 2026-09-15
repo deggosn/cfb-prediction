@@ -1,2 +1,35 @@
+name: Weekly injury report
+
+on:
+  schedule:
+    - cron: "0 11 * * 4"
+    - cron: "0 11 * * 5"
+    - cron: "0 11 * * 6"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-injuries:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run injury pipeline
         env:
           CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+        run: python scripts/fetch_injuries.py
+
+      - name: Commit updated injury report
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update injury report [automated]"
+          file_pattern: "data/injuries.json"
