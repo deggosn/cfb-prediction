@@ -782,7 +782,7 @@
   </div>
 
   <footer class="disclaimer">
-    Predictions blend an opponent-adjusted efficiency rating (built from offensive/defensive EPA per play) with the current betting market line, weighted 50/50. The total (over/under) estimate is blended with the market the same way, using each team's own scoring average as the model input. Early-season weeks blend in the previous season's final rating to reduce small-sample noise. Betting suggestions are rules-based on the size of the disagreement between model and market and default to "pass" when the edge is small or data is thin — this reflects that backtesting shows the model performs close to, not clearly better than, the market (that backtest covers the spread specifically; the total's underlying scoring-average method is newer and less validated). This is a research and entertainment tool, not licensed betting or financial advice, and it does not account for injuries, weather, or breaking news beyond what's noted. If sports betting isn't fun for you anymore, the National Council on Problem Gambling helpline is 1-800-522-4700.
+    Predictions blend an opponent-adjusted efficiency rating (built from offensive/defensive EPA per play) with the current betting market line, weighted 50/50. The total (over/under) estimate is blended with the market the same way, using each team's own scoring average as the model input. Early-season weeks blend in the previous season's final rating to reduce small-sample noise. Betting suggestions are rules-based on the size of the disagreement between model and market. A real walk-forward backtest across several past seasons (see backtest.html) found the total and moneyline thresholds hold up — total edges of 3+ points and moneyline gaps of roughly 2-10 percentage points showed a real, repeatable edge — but found no clear edge for the spread suggestion at any threshold, even after grid-searching the model's own constants. The spread's betting suggestion is disabled as a result; its predicted margin still displays as information, just not as a recommended bet. This is a research and entertainment tool, not licensed betting or financial advice, and it does not account for injuries, weather, or breaking news beyond what's noted. If sports betting isn't fun for you anymore, the National Council on Problem Gambling helpline is 1-800-522-4700.
   </footer>
 
 </div>
@@ -997,6 +997,8 @@ async function cfbdGet(path, params, apiKey) {
   return resp.json();
 }
 
+let RECENCY_DECAY = 0.94; // each week further back multiplies a game's weight by this factor
+
 function solveOpponentAdjustedRatings(games, metricKey, iterations = 25, ridgeLambda = 0.15) {
   const teams = [...new Set(games.map(g => g.team))];
   let ratings = Object.fromEntries(teams.map(t => [t, 0.0]));
@@ -1005,8 +1007,9 @@ function solveOpponentAdjustedRatings(games, metricKey, iterations = 25, ridgeLa
     for (const g of games) {
       const oppRating = ratings[g.opponent] ?? 0.0;
       const adjMetric = g[metricKey] - oppRating * 0.5;
-      sums[g.team] = (sums[g.team] ?? 0) + adjMetric;
-      counts[g.team] = (counts[g.team] ?? 0) + 1;
+      const w = g.weight ?? 1.0;
+      sums[g.team] = (sums[g.team] ?? 0) + adjMetric * w;
+      counts[g.team] = (counts[g.team] ?? 0) + w;
     }
     const newRatings = {};
     for (const t of teams) {
@@ -1026,12 +1029,23 @@ function blendPriorWithInseason(prior, inseason, gamesPlayed, fullConfidenceAtWe
 
 async function buildSeasonRatings(season, fbsTeamNames, apiKey) {
   const gameStats = await cfbdGet('/stats/game/advanced', { year: season }, apiKey);
-  const games = gameStats
+  const rawGames = gameStats
     .filter(g => fbsTeamNames.has(g.team) && fbsTeamNames.has(g.opponent))
     .map(g => ({
       team: g.team, opponent: g.opponent, week: g.week,
       off_epa: g.offense?.ppa ?? 0, def_epa: g.defense?.ppa ?? 0,
     }));
+  // Recency weighting: anchor to whichever week is most recent in this data
+  // (naturally "now" for the live app, since CFBD simply doesn't return
+  // future weeks yet; for the prior season this is that season's last
+  // played week, so an old team's late-season form counts more than its
+  // early-season form). A game 10 weeks old carries about half the weight
+  // of the most recent one at the 0.94 default. Without this, a team's
+  // Week 1 performance counted exactly as much as last week's — treating a
+  // whole season as if nothing changes within it, which isn't true (injury
+  // recoveries, coaching adjustments, freshmen developing, etc).
+  const maxWeek = Math.max(0, ...rawGames.map(g => g.week));
+  const games = rawGames.map(g => ({ ...g, weight: Math.pow(RECENCY_DECAY, maxWeek + 1 - g.week) }));
   const offRatings = solveOpponentAdjustedRatings(games, 'off_epa');
   const defRatings = solveOpponentAdjustedRatings(games, 'def_epa');
   const overall = {};
@@ -1244,23 +1258,29 @@ function evaluateSpreadMarket(finalSpread, marketSpread) {
   const absEdge = Math.abs(edge);
   const keyCross = crossesKeyNumber(marketSpread, finalSpread);
 
-  // Normal thresholds: Strong 3.0+, Lean 1.0-2.9, Pass <1.0.
-  // Key-number exception: crossing 3 or 7 lowers the bar (Strong 1.5+, Lean 0.75+),
-  // since that crossing carries outsized real-world weight regardless of raw gap size.
-  const strongThreshold = keyCross ? 1.5 : 3.0;
-  const leanThreshold = keyCross ? 0.75 : 1.0;
-
+  // The spread suggestion is permanently disabled (always 'pass') as of a
+  // real walk-forward backtest across several past seasons (backtest.html):
+  // a full grid search over EFFICIENCY_SCALE and HOME_FIELD_ADVANTAGE ruled
+  // out "the constants are just miscalibrated" as the explanation — the
+  // best pair found only nudged MAE by 0.38 points. Across every
+  // MARKET_WEIGHT from 0.0 to 1.0, cover rate never once cleared the
+  // ~52.4% breakeven, and MAE got monotonically WORSE the more the model
+  // was trusted over the market. That's a real result, not a threshold
+  // that needs retuning — so this no longer offers a spread bet
+  // suggestion at all. The plain-English margin prediction elsewhere
+  // (finalSpread itself) is untouched by this — only the "is this a good
+  // bet" tier is turned off. If the model or the backtest methodology
+  // changes meaningfully, this is the one line to revisit: `let tier =
+  // 'pass';` below is intentionally never reassigned.
   let tier = 'pass';
-  if (absEdge >= strongThreshold) tier = 'strong';
-  else if (absEdge >= leanThreshold) tier = 'lean';
 
   const side = edge > 0 ? 'home team' : 'away team';
-  const keyNote = keyCross ? " This also crosses a key number (3 or 7), which matters more than the raw point gap suggests." : "";
+  const keyNote = keyCross ? " (This also crosses a key number — 3 or 7 — which would normally carry outsized weight, but that doesn't change the finding below.)" : "";
   let text;
-  if (tier === 'pass') {
+  if (absEdge < 1.0) {
     text = "The model's spread is close enough to the market that there's no real edge to act on.";
   } else {
-    text = `The model differs from the market by ${absEdge.toFixed(1)} points, favoring the ${side} relative to the line.${keyNote} Edges in this range covered at roughly a 58% clip in backtesting — real, but not a lock.`;
+    text = `The model differs from the market by ${absEdge.toFixed(1)} points, favoring the ${side} relative to the line.${keyNote} A real walk-forward backtest across several past seasons (see backtest.html) found no threshold at which this signal beats break-even — including after grid-searching the model's own constants. Shown here as a raw disagreement for information, not as a suggested bet.`;
   }
   return { tier, edge, keyCross, text, market: 'spread' };
 }
@@ -1271,24 +1291,22 @@ function evaluateTotalMarket(marketTotal, modelTotalEstimate) {
   }
   const edge = modelTotalEstimate - marketTotal;
   const absEdge = Math.abs(edge);
-  // Thresholds are halved from their original 4/2 values because
-  // modelTotalEstimate is now blended 50/50 with the market (see
-  // blendTotalWithMarket) — the same treatment the spread already gets.
-  // Without halving these too, a "strong" total signal would need double
-  // the raw disagreement it used to, which is why totals nearly stopped
-  // appearing after that change. This keeps the bar for a REAL underlying
-  // disagreement the same as before; only the displayed edge number is
-  // now on the same halved scale as spread's.
+  // Thresholds set from a real multi-season backtest (walk-forward, no
+  // lookahead — see backtest.html), not a guess. A 3.0+ point edge hit at
+  // roughly 54-55% across the seasons tested; 1.5+ stayed solidly above the
+  // ~52.4% breakeven. (There was an odd dip in the 2.0-2.5pt range in that
+  // same backtest — possibly real, possibly noise at that sample size —
+  // which is part of why the old 2.0/1.0 cutoffs weren't a great pick.)
   let tier = 'pass';
-  if (absEdge >= 2) tier = 'strong';
-  else if (absEdge >= 1) tier = 'lean';
+  if (absEdge >= 3) tier = 'strong';
+  else if (absEdge >= 1.5) tier = 'lean';
 
   const dir = edge > 0 ? 'over' : 'under';
   let text;
   if (tier === 'pass') {
     text = "The model's total estimate is close enough to the market line that there's no real edge here.";
   } else {
-    text = `Blending each team's own scoring this season with the market line (the same 50/50 approach used for the spread), the model's total (~${modelTotalEstimate.toFixed(0)}) differs from the market total (${marketTotal}) by ${absEdge.toFixed(1)} points, leaning ${dir}. The underlying scoring-average method is rougher and less validated than the spread's efficiency model — treat this as a real but softer signal.`;
+    text = `Blending each team's own scoring this season with the market line (the same 50/50 approach used for the spread), the model's total (~${modelTotalEstimate.toFixed(0)}) differs from the market total (${marketTotal}) by ${absEdge.toFixed(1)} points, leaning ${dir}. Unlike the spread model, this threshold is backed by a real walk-forward backtest across past seasons — see backtest.html for the underlying numbers.`;
   }
   return { tier, edge, text, market: 'total' };
 }
@@ -1316,17 +1334,29 @@ function evaluateMoneylineMarket(homeML, awayML, winProb, marketSpread) {
   const [side, gap, odds] = awayGap > homeGap ? ['away', awayGap, awayML] : ['home', homeGap, homeML];
   const gapPts = gap * 100;
 
+  // Thresholds set from a real walk-forward backtest (see backtest.html),
+  // and they came back with a genuine surprise: hit rate PEAKS at small-to-
+  // moderate gaps (~58-60% around 2-8pp) and then DECLINES as the gap grows
+  // — down to ~51% at 12pp and a losing 47% at 20pp. That's the opposite of
+  // the old assumption (bigger gap = more confident = better bet), which
+  // is why the old thresholds (strong 10pp / lean 5pp) were quietly
+  // recommending some of the worst bets on the board as "strong value."
+  // This is a band, not an open-ended cutoff: very large gaps are
+  // deliberately excluded from "strong," not just under-included.
+  const isHugeGap = gapPts >= 15;
   let tier = 'pass';
-  if (gapPts >= 10) tier = 'strong';
-  else if (gapPts >= 5) tier = 'lean';
+  if (gapPts >= 2 && gapPts < 10) tier = 'strong';
+  else if ((gapPts >= 1 && gapPts < 2) || (gapPts >= 10 && gapPts < 15)) tier = 'lean';
 
   let text;
-  if (tier === 'pass') {
+  if (isHugeGap) {
+    text = `The model and the ${odds > 0 ? '+' : ''}${odds} moneyline disagree by a wide ${gapPts.toFixed(0)} points here — but backtesting found gaps this large tend to run BELOW breakeven, not above it, likely because the win-probability curve gets less trustworthy at the extremes. Treated as no real edge for that reason, despite the large raw gap.`;
+  } else if (tier === 'pass') {
     text = "The moneyline roughly matches the model's own win probability — no real value here.";
   } else {
     const prob = side === 'away' ? winProb.away : winProb.home;
     const closeNote = isCloseGame ? " Close-spread games like this one are exactly where moneyline value tends to hide even when the spread itself looks unremarkable." : "";
-    text = `The model gives the ${side === 'away' ? 'away team' : 'home team'} roughly a ${(prob * 100).toFixed(0)}% chance to win outright, about ${gapPts.toFixed(0)} points higher than what the ${odds > 0 ? '+' : ''}${odds} moneyline implies (after removing the sportsbook's built-in margin).${closeNote} A real gap, but still a single-game read — not a lock.`;
+    text = `The model gives the ${side === 'away' ? 'away team' : 'home team'} roughly a ${(prob * 100).toFixed(0)}% chance to win outright, about ${gapPts.toFixed(0)} points higher than what the ${odds > 0 ? '+' : ''}${odds} moneyline implies (after removing the sportsbook's built-in margin).${closeNote} Backtesting found gaps in this range hit close to 58-60% — a real gap, but still a single-game read, not a lock.`;
   }
   return { tier, edge: gapPts, side, odds, text, market: 'moneyline' };
 }
@@ -1346,9 +1376,11 @@ function computeBettingSuggestion(finalSpread, marketSpread, marketTotal, modelT
     };
   }
 
-  // Pick whichever market shows the strongest tier; break ties by priority
-  // spread > total > moneyline, since the spread model is the one with the
-  // most extensive backtesting behind it.
+  // Pick whichever market shows the strongest tier. Spread's tier is
+  // permanently 'pass' now (see evaluateSpreadMarket), so in practice it
+  // can only ever be picked as "best" when total and moneyline are ALSO
+  // both pass — at which point the generic all-pass message below is
+  // shown anyway, so spread never actually gets presented as a suggestion.
   const candidates = [spreadEval, totalEval, mlEval];
   candidates.sort((a, b) => TIER_RANK[b.tier] - TIER_RANK[a.tier]);
   const best = candidates[0];
@@ -1565,7 +1597,19 @@ function summarizeEspnInjury(injury) {
   const athleteName = injury?.athlete?.displayName || injury?.athlete?.fullName || injury?.athlete?.shortName || 'Unnamed player';
   const status = injury?.status || injury?.type?.description || injury?.details?.type || 'Status unknown';
   const note = injury?.shortComment || injury?.longComment || injury?.details?.detail || '';
-  return { athleteName, status, note };
+  const position = injury?.athlete?.position?.abbreviation || injury?.athlete?.position?.name || null;
+  return { athleteName, status, note, position };
+}
+
+// True only for a clean, structured "Out" status on a QB — deliberately
+// conservative. ESPN's status field is normally a short enum-like value
+// ("Out", "Questionable", "Doubtful", "Day-To-Day"), so a simple substring
+// check is safe here without false-matching on free-text notes.
+function isDefiniteQbOut(item) {
+  if (!item.position) return false;
+  const pos = item.position.toLowerCase();
+  const isQb = pos === 'qb' || pos.includes('quarterback');
+  return isQb && /\bout\b/i.test(item.status || '');
 }
 
 async function fetchEspnInjuriesForTeam(teamName) {
@@ -1631,10 +1675,6 @@ async function openGameModal(gameCtx) {
   modalBody.innerHTML = '<div class="modal-loading">Loading game details…</div>';
   document.querySelectorAll('.tab-btn')[0].click();
 
-  if (!gameCtx.injuryOverride) {
-    gameCtx.injuryOverride = { homeQBOut: false, awayQBOut: false, penalty: 10 };
-  }
-
   try {
     const apiKey = document.getElementById('apiKey').value.trim();
     const cache = await getSeasonCache(season, apiKey);
@@ -1657,6 +1697,21 @@ async function openGameModal(gameCtx) {
       fetchEspnInjuriesForTeam(game.awayTeam),
     ]);
 
+    // Seed the injury toggles from ESPN's feed the FIRST time this game's
+    // modal is opened only — a clean "Out" status on a QB auto-checks the
+    // box instead of requiring you to notice it in the list above and
+    // check it yourself. Still fully editable, and never overwrites a
+    // choice you've already made (that's what the `if (!gameCtx...)` gate
+    // is for). ESPN's college football coverage is known to be sparse, so
+    // this can miss real injuries — it just removes the friction on the
+    // ones it does catch cleanly.
+    if (!gameCtx.injuryOverride) {
+      const autoHomeOut = espnHome.ok && espnHome.items.some(isDefiniteQbOut);
+      const autoAwayOut = espnAway.ok && espnAway.items.some(isDefiniteQbOut);
+      gameCtx.injuryOverride = { homeQBOut: autoHomeOut, awayQBOut: autoAwayOut, penalty: 10 };
+      gameCtx.injuryAutoDetected = { home: autoHomeOut, away: autoAwayOut };
+    }
+
     gameCtx._modalData = { cache, venue, restHome, restAway, homeSpot, awaySpot, homeATS, awayATS, espnHome, espnAway };
 
     renderModalContent(gameCtx);
@@ -1671,11 +1726,14 @@ function renderModalContent(gameCtx) {
   const { venue, restHome, restAway, homeSpot, awaySpot, homeATS, awayATS, espnHome, espnAway } = gameCtx._modalData;
   const ov = gameCtx.injuryOverride;
 
-  // Manual injury adjustment: a plain, transparent post-hoc shift applied
-  // ONLY when the user flags it — not something the model infers on its
-  // own (the data to do that reliably doesn't exist, per the ESPN coverage
-  // check). The penalty amount is a rough, adjustable heuristic, not a
-  // separately validated figure.
+  // Injury adjustment: a plain, transparent post-hoc shift. As of the
+  // ESPN auto-detection added in openGameModal, a clean "Out" status on a
+  // QB pre-checks the box for you — but it's always visible, always
+  // editable, and never applied silently. ESPN's college football
+  // coverage is sparse, so absence of an auto-check doesn't mean healthy;
+  // the manual toggle is still there for anything the feed missed. The
+  // penalty amount is a rough, adjustable heuristic, not a separately
+  // validated figure.
   const injuryShift = (ov.homeQBOut ? -ov.penalty : 0) + (ov.awayQBOut ? ov.penalty : 0);
   const activeSpread = finalSpread + injuryShift;
   const injuryActive = ov.homeQBOut || ov.awayQBOut;
@@ -1755,9 +1813,10 @@ function renderModalContent(gameCtx) {
     <p class="disclaimer-mini">Only open-vs-current is available (not a full timestamped history) — the free CFBD API provides one snapshot, not a live tick-by-tick feed.</p>
 
     <div class="injury-box">
-      <p class="trend-heading" style="margin-top:0;">Manual injury adjustment</p>
-      <div class="injury-toggle-row"><input type="checkbox" id="homeQBOutToggle" ${ov.homeQBOut ? 'checked' : ''}><label for="homeQBOutToggle">${game.homeTeam} starting QB out</label></div>
-      <div class="injury-toggle-row"><input type="checkbox" id="awayQBOutToggle" ${ov.awayQBOut ? 'checked' : ''}><label for="awayQBOutToggle">${game.awayTeam} starting QB out</label></div>
+      <p class="trend-heading" style="margin-top:0;">Injury adjustment</p>
+      <p class="disclaimer-mini" style="margin-top:0;">Auto-checked when ESPN's feed shows a clean "Out" status for a QB — always editable, and never applied without showing up here.</p>
+      <div class="injury-toggle-row"><input type="checkbox" id="homeQBOutToggle" ${ov.homeQBOut ? 'checked' : ''}><label for="homeQBOutToggle">${game.homeTeam} starting QB out${gameCtx.injuryAutoDetected?.home ? ' <span style="color:var(--lights);">(auto-detected)</span>' : ''}</label></div>
+      <div class="injury-toggle-row"><input type="checkbox" id="awayQBOutToggle" ${ov.awayQBOut ? 'checked' : ''}><label for="awayQBOutToggle">${game.awayTeam} starting QB out${gameCtx.injuryAutoDetected?.away ? ' <span style="color:var(--lights);">(auto-detected)</span>' : ''}</label></div>
       <div class="injury-penalty-row">Point penalty: <input type="number" id="injuryPenaltyInput" value="${ov.penalty}" min="1" max="25" step="1"> (rough heuristic, not separately validated — adjust if you have a better estimate)</div>
       ${injuryActive ? `<p class="disclaimer-mini" style="margin-top:10px;">Applied: model spread shifted from ${fmtSpread(finalSpread)} to ${fmtSpread(activeSpread)}. Everything below (score, win probability, best bet) reflects the adjusted number.</p>` : ''}
     </div>
@@ -1782,11 +1841,11 @@ function renderModalContent(gameCtx) {
       <p class="suggestion-label">${suggestion.type === 'pass' ? 'Best bet: Pass' : `Best bet: ${suggestion.type} — ${tierLabel(suggestion.tier)}`}</p>
       <p class="suggestion-text">${suggestion.text}</p>
       <div class="market-breakdown">
-        <div class="market-row"><span class="m-name">Spread</span><span class="tier-pill ${suggestion.all.spread.tier}">${tierLabel(suggestion.all.spread.tier)}${suggestion.all.spread.edge != null ? ` · ${Math.abs(suggestion.all.spread.edge).toFixed(1)} pts` : ''}</span></div>
+        <div class="market-row"><span class="m-name">Spread</span><span class="tier-pill pass">${suggestion.all.spread.edge != null && Math.abs(suggestion.all.spread.edge) >= 1.0 ? 'Unvalidated' : 'Market aligned'}${suggestion.all.spread.edge != null ? ` · ${Math.abs(suggestion.all.spread.edge).toFixed(1)} pts` : ''}</span></div>
         <div class="market-row"><span class="m-name">Total</span><span class="tier-pill ${suggestion.all.total.tier}">${tierLabel(suggestion.all.total.tier)}${suggestion.all.total.edge != null ? ` · ${Math.abs(suggestion.all.total.edge).toFixed(1)} pts` : ''}</span></div>
         <div class="market-row"><span class="m-name">Moneyline</span><span class="tier-pill ${suggestion.all.moneyline.tier}">${tierLabel(suggestion.all.moneyline.tier)}${suggestion.all.moneyline.edge != null ? ` · ${suggestion.all.moneyline.edge.toFixed(0)} pp` : ''}</span></div>
       </div>
-      <p class="disclaimer-mini">Checked across all three markets — the one shown above is whichever cleared the highest confidence tier. "Strong value" needs a 3+ point spread edge (or 1.5+ if it crosses a key number like 3 or 7), a 2+ point total edge, or a 10+ point moneyline probability gap. "Lean" is a lower bar meant for people who want a lean on every game, not a confident pick.</p>
+      <p class="disclaimer-mini">Checked across total and moneyline — spread no longer contributes a suggestion here (see its own note above for why). "Strong value" needs a 3+ point total edge or a moneyline gap of roughly 2-10 percentage points (very large gaps are deliberately excluded — backtesting found they're less reliable, not more). "Lean" is a lower bar meant for people who want a lean on every game, not a confident pick.</p>
     </div>
   `;
 
@@ -2116,7 +2175,14 @@ runBtn.addEventListener('click', async () => {
     for (const g of fbsGames) {
       const homeR = blendedRatings[g.homeTeam] ?? 0;
       const awayR = blendedRatings[g.awayTeam] ?? 0;
-      const efficiencySpread = (homeR - awayR) * EFFICIENCY_SCALE + HOME_FIELD_ADVANTAGE;
+      // Neutral-site games (bowls, season-opening "kickoff classic" games,
+      // conference championships) get no home-field bump — CFBD still
+      // labels one team "home" for these even though neither team is
+      // actually playing at home, so applying HOME_FIELD_ADVANTAGE here
+      // would systematically bias the spread toward whichever team CFBD
+      // happened to list first.
+      const hfa = g.neutralSite ? 0 : HOME_FIELD_ADVANTAGE;
+      const efficiencySpread = (homeR - awayR) * EFFICIENCY_SCALE + hfa;
       const market = marketData[`${g.homeTeam}|${g.awayTeam}`];
       const hasMarket = market && market.spread != null;
       const finalSpread = hasMarket
@@ -2452,7 +2518,7 @@ function buildFinalAssessment({ completed, straightUpAcc, ouAcc, bothAcc, modelM
 
   if (ouAcc != null && ouDenominator >= 10) {
     if (ouAcc >= 0.58) {
-      parts.push(`O/U accuracy of ${(ouAcc * 100).toFixed(1)}% is a genuinely encouraging sign for a total model that hasn't been backtested the way the spread model has — though ${ouDenominator} games is still a small sample to trust fully.`);
+      parts.push(`O/U accuracy of ${(ouAcc * 100).toFixed(1)}% lines up with what backtest.html found across past seasons for the total model — though ${ouDenominator} games is still a small sample to trust fully on its own.`);
     } else if (ouAcc <= 0.45) {
       parts.push(`O/U accuracy of ${(ouAcc * 100).toFixed(1)}% is below what you'd want, and matches the earlier finding that the total estimate is the least validated part of this model — worth leaning on it less than the spread until it's been checked over more seasons.`);
     } else {
@@ -2474,7 +2540,7 @@ function buildFinalAssessment({ completed, straightUpAcc, ouAcc, bothAcc, modelM
     parts.push(`${upsets.length} toss-up game${upsets.length > 1 ? 's' : ''} went the other way this stretch — normal for genuine toss-ups, and worth a look at whether any shared a common thread (rest, travel, a key injury) rather than assuming the model missed something systematic.`);
   }
 
-  parts.push(`Where to focus next: keep leaning on the spread model (the only piece with real multi-season backtesting behind it), treat total and moneyline suggestions as softer leans, and let this sample grow — ${completed.length} games is still small next to the ~1,600-game backtest the core model was validated on.`);
+  parts.push(`Where to focus next: a real walk-forward backtest across past seasons (see backtest.html) found genuine edges in the total and moneyline suggestions, but no clear edge in the spread suggestion at any threshold tested — the opposite of what this app used to assume. Lean on total and moneyline more than spread for now, and let this live sample grow to see if it confirms that pattern.`);
 
   return parts.join(' ');
 }
@@ -2507,7 +2573,7 @@ function runRecalibration(completed) {
       <div class="calib-col">New scale/HFA/weight<br><b>${newScale.toFixed(2)} / ${newHFA.toFixed(2)} / ${bestWeight.toFixed(2)}</b><br>MAE: <b>${bestMAE.toFixed(2)}</b></div>
     </div>
     <div class="btn-row" style="margin-top:12px;"><button class="secondary" id="applyCalibBtn">Apply new calibration to future predictions</button></div>
-    <p class="section-sub" style="margin-top:10px;">Based on ${withRatingDiff.length} games — still small next to the original ~1,600-game backtest. Treat as a nudge, not a replacement.</p>
+    <p class="section-sub" style="margin-top:10px;">Based on ${withRatingDiff.length} games — still small next to a full multi-season run of backtest.html. Treat as a nudge, not a replacement.</p>
   `;
   document.getElementById('applyCalibBtn').addEventListener('click', async () => {
     await saveCalibration(newScale, newHFA, bestWeight);
