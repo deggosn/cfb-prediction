@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saturday Line — Threshold Backtest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --field-navy: #0e1a26;
+    --chalk: #f2efe6;
+    --chalk-dim: #b8c2c9;
+    --lights: #e8a941;
+    --good: #6fbf94;
+    --bad: #e8837a;
+    --card-bg: #17293a;
+    --card-border: #26394a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--field-navy);
+    color: var(--chalk);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    padding: 32px 20px 60px;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 4px;
+  }
+  .sub { color: var(--chalk-dim); font-size: 14.5px; line-height: 1.55; margin: 0 0 24px; max-width: 68ch; }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  label { display: block; font-size: 13px; color: var(--chalk-dim); margin-bottom: 6px; }
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    background: var(--field-navy);
+    border: 1px solid var(--card-border);
+    color: var(--chalk);
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+  }
+  .season-row { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 4px; }
+  .season-check { display: flex; align-items: center; gap: 6px; font-size: 14px; }
+  .season-check input { width: 16px; height: 16px; accent-color: var(--lights); }
+  .field { margin-bottom: 16px; }
+  button {
+    background: var(--lights);
+    color: var(--field-navy);
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+  }
+  button:disabled { opacity: 0.5; cursor: default; }
+  .status { color: var(--chalk-dim); font-size: 13.5px; margin-top: 12px; min-height: 18px; }
+  .progress-bar { height: 4px; background: var(--card-border); border-radius: 2px; overflow: hidden; margin-top: 10px; }
+  .progress-fill { height: 100%; background: var(--lights); width: 0%; transition: width 0.2s ease; }
+
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+  th, td { text-align: right; padding: 7px 8px; font-size: 13.5px; border-bottom: 1px solid var(--card-border); }
+  th:first-child, td:first-child { text-align: left; }
+  th { color: var(--chalk-dim); font-weight: 500; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.03em; }
+  td.good { color: var(--good); font-weight: 600; }
+  td.bad { color: var(--bad); }
+  tr.current-row { background: rgba(232, 169, 65, 0.08); }
+  tr.current-row td:first-child::after { content: " ← current live threshold"; color: var(--lights); font-size: 11px; font-weight: 500; }
+  .table-scroll { overflow-x: auto; }
+
+  h2 { font-family: 'Barlow Condensed', sans-serif; font-size: 22px; margin: 0 0 6px; }
+  .note { color: var(--chalk-dim); font-size: 13px; line-height: 1.5; margin: 8px 0 0; }
+  .summary-grid { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 6px; }
+  .stat-box { background: var(--field-navy); border: 1px solid var(--card-border); border-radius: 8px; padding: 12px 16px; min-width: 130px; }
+  .stat-value { font-family: 'Barlow Condensed', sans-serif; font-size: 26px; font-weight: 700; }
+  .stat-label { font-size: 12px; color: var(--chalk-dim); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Threshold Backtest</h1>
+  <p class="sub">
+    Replays several past CFB seasons week-by-week — using only data that would have been
+    available before each game was played — to check whether the app's current strong/lean
+    thresholds for spread, total, and moneyline actually correspond to real historical edges,
+    or were just reasonable-sounding guesses. Uses the exact same rating and blending logic as
+    the live app, so results here should reflect what it would have done in the past.
+  </p>
+
+  <div class="card">
+    <div class="field">
+      <label for="apiKey">CFBD API key</label>
+      <input type="password" id="apiKey" placeholder="Paste your free key from collegefootballdata.com/key">
+    </div>
+    <div class="field">
+      <label>Seasons to backtest (each season also silently pulls the prior season, for the early-week rating blend)</label>
+      <div class="season-row" id="seasonRow"></div>
+    </div>
+    <button id="runBtn">Run backtest</button>
+    <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+    <p class="status" id="statusText"></p>
+  </div>
+
+  <div id="results"></div>
+</div>
+
+<script>
+const API_BASE = 'https://api.collegefootballdata.com';
+const MARKET_WEIGHT = 0.5;
+const EFFICIENCY_SCALE = 58.06;
+const HOME_FIELD_ADVANTAGE = 3.97;
+
+// Populate season checkboxes: the last 5 fully-completed seasons.
+// (Deliberately excludes the current in-progress season — you can't
+// backtest a season that hasn't finished.)
+const CURRENT_YEAR = new Date().getFullYear();
+const lastCompletedSeason = CURRENT_YEAR - 1; // conservative: this year's season is still in progress
+const seasonRow = document.getElementById('seasonRow');
+for (let y = lastCompletedSeason; y >= lastCompletedSeason - 4; y--) {
+  const id = `season-${y}`;
+  const wrap = document.createElement('label');
+  wrap.className = 'season-check';
+  wrap.innerHTML = `<input type="checkbox" id="${id}" value="${y}" ${y >= lastCompletedSeason - 2 ? 'checked' : ''}> ${y}`;
+  seasonRow.appendChild(wrap);
+}
+
+// ---------- Core model functions, copied verbatim from index.html ----------
+// (Kept identical on purpose — this tool exists to validate the live app's
+// actual behavior, not a reimagined version of it. If you change the model
+// in index.html, mirror the change here too, or this backtest silently
+// stops being representative.)
+
+function solveOpponentAdjustedRatings(games, metricKey, iterations = 25, ridgeLambda = 0.15) {
+  const teams = [...new Set(games.map(g => g.team))];
+  let ratings = Object.fromEntries(teams.map(t => [t, 0.0]));
+  for (let iter = 0; iter < iterations; iter++) {
+    const sums = {}, counts = {};
+    for (const g of games) {
+      const oppRating = ratings[g.opponent] ?? 0.0;
+      const adjMetric = g[metricKey] - oppRating * 0.5;
+      sums[g.team] = (sums[g.team] ?? 0) + adjMetric;
+      counts[g.team] = (counts[g.team] ?? 0) + 1;
+    }
+    const newRatings = {};
+    for (const t of teams) {
+      const avg = counts[t] ? sums[t] / counts[t] : 0.0;
+      newRatings[t] = avg * (1 - ridgeLambda) + (ratings[t] ?? 0) * ridgeLambda;
+    }
+    ratings = newRatings;
+  }
+  return ratings;
+}
+
+function blendPriorWithInseason(prior, inseason, gamesPlayed, fullConfidenceAtWeek = 8) {
+  let weightInseason = Math.min(gamesPlayed / fullConfidenceAtWeek, 1.0);
+  weightInseason = Math.pow(weightInseason, 1.3);
+  return (1 - weightInseason) * prior + weightInseason * inseason;
+}
+
+function ratingsFromGameStats(gameStats, fbsTeamNames) {
+  const games = gameStats
+    .filter(g => fbsTeamNames.has(g.team) && fbsTeamNames.has(g.opponent))
+    .map(g => ({ team: g.team, opponent: g.opponent, week: g.week, off_epa: g.offense?.ppa ?? 0, def_epa: g.defense?.ppa ?? 0 }));
+  const offRatings = solveOpponentAdjustedRatings(games, 'off_epa');
+  const defRatings = solveOpponentAdjustedRatings(games, 'def_epa');
+  const overall = {};
+  const teams = [...new Set(games.map(g => g.team))];
+  for (const t of teams) overall[t] = (offRatings[t] ?? 0) - (defRatings[t] ?? 0);
+  const gamesPlayedCount = {};
+  for (const g of games) gamesPlayedCount[g.team] = (gamesPlayedCount[g.team] ?? 0) + 1;
+  return { overall, gamesPlayedCount };
+}
+
+function computeTeamScoringAverage(teamGames, team) {
+  const list = teamGames[team] || [];
+  let scored = 0, allowed = 0, n = 0;
+  for (const g of list) {
+    if (g.homePoints == null || g.awayPoints == null) continue;
+    scored += g.isHome ? g.homePoints : g.awayPoints;
+    allowed += g.isHome ? g.awayPoints : g.homePoints;
+    n++;
+  }
+  return n > 0 ? { avgFor: scored / n, avgAgainst: allowed / n, n } : null;
+}
+
+function estimateModelTotal(teamGames, homeTeam, awayTeam) {
+  const homeStats = computeTeamScoringAverage(teamGames, homeTeam);
+  const awayStats = computeTeamScoringAverage(teamGames, awayTeam);
+  if (!homeStats || !awayStats || homeStats.n < 2 || awayStats.n < 2) return null;
+  const expectedHome = (homeStats.avgFor + awayStats.avgAgainst) / 2;
+  const expectedAway = (awayStats.avgFor + homeStats.avgAgainst) / 2;
+  return expectedHome + expectedAway;
+}
+
+function blendTotalWithMarket(pureEstimate, marketTotal) {
+  if (pureEstimate == null) return null;
+  if (marketTotal == null) return pureEstimate;
+  return (1 - MARKET_WEIGHT) * pureEstimate + MARKET_WEIGHT * marketTotal;
+}
+
+function spreadToWinProb(spread) {
+  const homeProb = 1 / (1 + Math.exp(-spread / 6.5));
+  return { home: homeProb, away: 1 - homeProb };
+}
+
+function moneylineImpliedProb(americanOdds) {
+  if (americanOdds == null) return null;
+  return americanOdds > 0 ? 100 / (americanOdds + 100) : -americanOdds / (-americanOdds + 100);
+}
+
+async function cfbdGet(path, params, apiKey) {
+  const url = new URL(API_BASE + path);
+  Object.entries(params).forEach(([k, v]) => { if (v !== undefined && v !== null) url.searchParams.set(k, v); });
+  const resp = await fetch(url.toString(), { headers: { Authorization: `Bearer ${apiKey}` } });
+  if (!resp.ok) throw new Error(`Request to ${path} failed: ${resp.status} ${resp.statusText}`);
+  return resp.json();
+}
+
+// ---------- Backtest driver ----------
+
+const runBtn = document.getElementById('runBtn');
+const statusText = document.getElementById('statusText');
+const progressFill = document.getElementById('progressFill');
+const resultsDiv = document.getElementById('results');
+
+function setStatus(s) { statusText.textContent = s; }
+function setProgress(pct) { progressFill.style.width = pct + '%'; }
+
+runBtn.addEventListener('click', async () => {
+  const apiKey = document.getElementById('apiKey').value.trim();
+  if (!apiKey) { setStatus('Enter your CFBD API key first.'); return; }
+  const seasons = [...document.querySelectorAll('#seasonRow input:checked')].map(el => parseInt(el.value, 10));
+  if (seasons.length === 0) { setStatus('Select at least one season.'); return; }
+
+  runBtn.disabled = true;
+  resultsDiv.innerHTML = '';
+  setProgress(2);
+
+  const spreadRecords = [];
+  const totalRecords = [];
+  const mlRecords = [];
+  const ratingsCache = {}; // year -> { overall, gamesPlayedCount }
+  const fbsCache = {}; // year -> Set of team names
+
+  async function getFbsTeams(year) {
+    if (fbsCache[year]) return fbsCache[year];
+    const teams = await cfbdGet('/teams/fbs', { year }, apiKey);
+    const set = new Set(teams.map(t => t.school));
+    fbsCache[year] = set;
+    return set;
+  }
+
+  async function getFullSeasonRatings(year) {
+    if (ratingsCache[year]) return ratingsCache[year];
+    const [fbsTeamNames, gameStats] = await Promise.all([
+      getFbsTeams(year),
+      cfbdGet('/stats/game/advanced', { year }, apiKey),
+    ]);
+    const result = ratingsFromGameStats(gameStats, fbsTeamNames);
+    ratingsCache[year] = result;
+    return result;
+  }
+
+  try {
+    for (let sIdx = 0; sIdx < seasons.length; sIdx++) {
+      const season = seasons[sIdx];
+      setStatus(`Season ${season}: loading games, lines, and team stats…`);
+      setProgress(5 + (sIdx / seasons.length) * 90);
+
+      const [fbsTeamNames, games, lines, gameStatsCurrent, priorRatingsResult] = await Promise.all([
+        getFbsTeams(season),
+        cfbdGet('/games', { year: season }, apiKey),
+        cfbdGet('/lines', { year: season }, apiKey).catch(() => []),
+        cfbdGet('/stats/game/advanced', { year: season }, apiKey),
+        getFullSeasonRatings(season - 1).catch(() => ({ overall: {}, gamesPlayedCount: {} })),
+      ]);
+      const priorRatings = priorRatingsResult.overall;
+
+      // Market lookup by game id, same shape/sign-convention as the live app
+      const marketByGameId = {};
+      for (const lineGame of lines) {
+        if (lineGame.lines && lineGame.lines.length > 0) {
+          const l = lineGame.lines[0];
+          marketByGameId[lineGame.id] = {
+            spread: l.spread != null ? -l.spread : null,
+            overUnder: l.overUnder ?? null,
+            homeMoneyline: l.homeMoneyline ?? null,
+            awayMoneyline: l.awayMoneyline ?? null,
+          };
+        }
+      }
+
+      // Per-team schedule (for scoring averages), sorted by week
+      const teamGamesAll = {};
+      for (const g of games) {
+        if (g.homePoints == null || g.awayPoints == null) continue; // only completed games
+        (teamGamesAll[g.homeTeam] = teamGamesAll[g.homeTeam] || []).push({ ...g, isHome: true });
+        (teamGamesAll[g.awayTeam] = teamGamesAll[g.awayTeam] || []).push({ ...g, isHome: false });
+      }
+      for (const t of Object.keys(teamGamesAll)) teamGamesAll[t].sort((a, b) => a.week - b.week);
+
+      const weeks = [...new Set(games.filter(g => g.homePoints != null).map(g => g.week))].sort((a, b) => a - b);
+
+      for (const week of weeks) {
+        // Walk-forward: only use games strictly before this week for both
+        // the efficiency ratings AND the scoring averages. This is the
+        // part that prevents lookahead bias — without it, "predicting"
+        // week 3 with week 3's own final-season ratings would be
+        // meaningless (the live app never has this problem, because a
+        // future week's stats simply don't exist yet when it runs).
+        const filteredStats = gameStatsCurrent.filter(g => g.week < week);
+        const { overall: currentRatings, gamesPlayedCount } = ratingsFromGameStats(filteredStats, fbsTeamNames);
+        const maxGamesPlayed = Math.max(0, ...Object.values(gamesPlayedCount));
+
+        let blendedRatings = currentRatings;
+        if (maxGamesPlayed > 0 && maxGamesPlayed <= 6) {
+          blendedRatings = {};
+          for (const t of fbsTeamNames) {
+            blendedRatings[t] = blendPriorWithInseason(priorRatings[t] ?? 0, currentRatings[t] ?? 0, gamesPlayedCount[t] ?? 0);
+          }
+        }
+
+        const teamGamesSoFar = {};
+        for (const t of Object.keys(teamGamesAll)) {
+          teamGamesSoFar[t] = teamGamesAll[t].filter(g => g.week < week);
+        }
+
+        const weekGames = games.filter(g => g.week === week && g.homePoints != null && fbsTeamNames.has(g.homeTeam) && fbsTeamNames.has(g.awayTeam));
+
+        for (const g of weekGames) {
+          const market = marketByGameId[g.id];
+          if (!market || market.spread == null) continue; // can't backtest without a spread line
+
+          const homeR = blendedRatings[g.homeTeam] ?? 0;
+          const awayR = blendedRatings[g.awayTeam] ?? 0;
+          const hfa = g.neutralSite ? 0 : HOME_FIELD_ADVANTAGE;
+          const efficiencySpread = (homeR - awayR) * EFFICIENCY_SCALE + hfa;
+          const finalSpread = (1 - MARKET_WEIGHT) * efficiencySpread + MARKET_WEIGHT * market.spread;
+          const spreadEdge = finalSpread - market.spread;
+          const actualMargin = g.homePoints - g.awayPoints;
+
+          if (actualMargin !== market.spread) { // exclude pushes
+            spreadRecords.push({
+              edge: spreadEdge, actualMargin, marketSpread: market.spread,
+              // Raw ingredients (rating diff + whether HFA applies), kept
+              // separately so the grid search below can cheaply recompute
+              // finalSpread under any candidate (scale, hfa, weight) without
+              // re-solving ratings or re-fetching data.
+              ratingDiff: homeR - awayR, hfaApplicable: !g.neutralSite,
+            });
+          }
+
+          if (market.overUnder != null) {
+            const rawTotalEstimate = estimateModelTotal(teamGamesSoFar, g.homeTeam, g.awayTeam);
+            if (rawTotalEstimate != null) {
+              const blendedTotal = blendTotalWithMarket(rawTotalEstimate, market.overUnder);
+              const totalEdge = blendedTotal - market.overUnder;
+              const actualTotal = g.homePoints + g.awayPoints;
+              if (actualTotal !== market.overUnder) { // exclude pushes
+                totalRecords.push({ edge: totalEdge, actualTotal, marketTotal: market.overUnder });
+              }
+            }
+          }
+
+          if (market.homeMoneyline != null && market.awayMoneyline != null) {
+            const winProb = spreadToWinProb(finalSpread);
+            const rawImpliedHome = moneylineImpliedProb(market.homeMoneyline);
+            const rawImpliedAway = moneylineImpliedProb(market.awayMoneyline);
+            const overround = rawImpliedHome + rawImpliedAway;
+            const impliedHome = overround > 0 ? rawImpliedHome / overround : rawImpliedHome;
+            const impliedAway = overround > 0 ? rawImpliedAway / overround : rawImpliedAway;
+            const homeGap = winProb.home - impliedHome;
+            const awayGap = winProb.away - impliedAway;
+            const side = awayGap > homeGap ? 'away' : 'home';
+            const gapPts = (side === 'away' ? awayGap : homeGap) * 100;
+            const actualWinner = actualMargin > 0 ? 'home' : (actualMargin < 0 ? 'away' : null);
+            if (actualWinner) {
+              mlRecords.push({ gapPts, side, actualWinner });
+            }
+          }
+        }
+      }
+    }
+
+    setProgress(100);
+    setStatus(`Done — ${spreadRecords.length} spread games, ${totalRecords.length} total games, ${mlRecords.length} moneyline games processed across ${seasons.length} season(s).`);
+    renderResults(spreadRecords, totalRecords, mlRecords, seasons);
+  } catch (err) {
+    setStatus(`Error: ${err.message}`);
+  } finally {
+    runBtn.disabled = false;
+  }
+});
+
+// ---------- Spread constant grid search ----------
+// Cheaply re-evaluates finalSpread for any (scale, hfa, weight) combo using
+// the raw ratingDiff already collected — no re-fetching or re-solving.
+function evalSpreadParams(records, scale, hfa, weight, edgeThreshold = 2) {
+  let sumAbsErr = 0;
+  let coverHits = 0, coverN = 0;
+  for (const r of records) {
+    const effHfa = r.hfaApplicable ? hfa : 0;
+    const efficiencySpread = r.ratingDiff * scale + effHfa;
+    const finalSpread = (1 - weight) * efficiencySpread + weight * r.marketSpread;
+    sumAbsErr += Math.abs(finalSpread - r.actualMargin);
+    if (r.actualMargin !== r.marketSpread) {
+      const edge = finalSpread - r.marketSpread;
+      if (Math.abs(edge) >= edgeThreshold) {
+        coverN++;
+        const covered = (edge > 0 && r.actualMargin > r.marketSpread) || (edge < 0 && r.actualMargin < r.marketSpread);
+        if (covered) coverHits++;
+      }
+    }
+  }
+  return { mae: sumAbsErr / records.length, coverRate: coverN > 0 ? coverHits / coverN : null, coverN };
+}
+
+function runSpreadGridSearch(records) {
+  // Stage 1: pure model only (weight=0) — sweep (scale, hfa) to find
+  // whichever pair makes the RATING ENGINE ITSELF most accurate, before
+  // any market blending muddies the picture. If the current defaults
+  // (58.06 / 3.97) are meaningfully worse than the best pair found here,
+  // that's real evidence the spread model's flat backtest performance was
+  // a calibration problem, not necessarily a dead end for the whole approach.
+  const scales = []; for (let s = 20; s <= 90; s += 5) scales.push(s);
+  const hfas = []; for (let h = 0; h <= 6; h += 0.5) hfas.push(h);
+  let best = null;
+  for (const scale of scales) {
+    for (const hfa of hfas) {
+      const result = evalSpreadParams(records, scale, hfa, 0);
+      if (!best || result.mae < best.mae) best = { scale, hfa, ...result };
+    }
+  }
+  const currentDefault = { scale: 58.06, hfa: 3.97, ...evalSpreadParams(records, 58.06, 3.97, 0) };
+  const marketAlone = evalSpreadParams(records, 0, 0, 1); // weight=1 ignores scale/hfa — just the market's own number
+
+  // Stage 2: fix (scale, hfa) at the best pair found, sweep market weight
+  // 0→1 to see the actual tradeoff between prediction accuracy (MAE) and
+  // betting edge (cover rate on games with a real disagreement).
+  const weightSweep = [];
+  for (let w = 0; w <= 1.0001; w += 0.1) {
+    const wClamped = Math.min(w, 1);
+    weightSweep.push({ weight: wClamped, ...evalSpreadParams(records, best.scale, best.hfa, wClamped) });
+  }
+
+  return { best, currentDefault, marketAlone, weightSweep };
+}
+
+function renderSpreadGridSearch(records) {
+  if (records.length === 0) return '';
+  const { best, currentDefault, marketAlone, weightSweep } = runSpreadGridSearch(records);
+
+  const weightRows = weightSweep.map(row => {
+    const isCurrent = Math.abs(row.weight - 0.5) < 1e-6;
+    const coverPct = row.coverRate != null ? (row.coverRate * 100).toFixed(1) + '%' : '—';
+    const cls = row.coverRate != null ? (row.coverRate >= 0.5238 ? 'good' : 'bad') : '';
+    return `<tr class="${isCurrent ? 'current-row' : ''}"><td>${row.weight.toFixed(1)}</td><td>${row.mae.toFixed(2)}</td><td>${row.coverN}</td><td class="${cls}">${coverPct}</td></tr>`;
+  }).join('');
+
+  return `
+    <h2>Spread model calibration</h2>
+    <p class="note">Stage 1 — holding the market out entirely (pure model), which EFFICIENCY_SCALE / HOME_FIELD_ADVANTAGE pair makes the rating engine's own point-margin estimate most accurate?</p>
+    <div class="summary-grid">
+      <div class="stat-box"><div class="stat-value">${best.scale} / ${best.hfa}</div><div class="stat-label">Best pair found (scale / HFA)</div></div>
+      <div class="stat-box"><div class="stat-value">${best.mae.toFixed(2)}</div><div class="stat-label">Its MAE (points)</div></div>
+      <div class="stat-box"><div class="stat-value">${currentDefault.mae.toFixed(2)}</div><div class="stat-label">Current default's MAE (58.06 / 3.97)</div></div>
+      <div class="stat-box"><div class="stat-value">${marketAlone.mae.toFixed(2)}</div><div class="stat-label">Market alone's MAE (bar to beat)</div></div>
+    </div>
+    <p class="note">${best.mae < currentDefault.mae - 0.05
+      ? `The best pair beats the current default by ${(currentDefault.mae - best.mae).toFixed(2)} points of MAE — worth updating EFFICIENCY_SCALE and HOME_FIELD_ADVANTAGE to these values.`
+      : `The current default is already close to the best pair found here — the flat backtest result likely isn't explained by these two constants being wrong.`}
+      ${best.mae > marketAlone.mae ? ` Note the model alone still doesn't beat the market's own MAE (${marketAlone.mae.toFixed(2)}) — expected, since the market is hard to beat on raw accuracy; the real question is whether blending in ANY model signal produces a usable edge, which is what the table below checks.` : ''}</p>
+
+    <p class="note" style="margin-top:16px;">Stage 2 — using the best (scale, HFA) pair above, how does market weight trade off prediction accuracy against betting edge (cover rate on games with a 2+ point disagreement)?</p>
+    <div class="table-scroll">
+    <table>
+      <tr><th>Market weight</th><th>MAE</th><th>Games w/ 2+ pt edge</th><th>Cover rate</th></tr>
+      ${weightRows}
+    </table>
+    </div>
+    <p class="note">Green = beats the ~52.4% breakeven. The highlighted row is the current live MARKET_WEIGHT (0.5). If no weight in this table shows a green cover rate, that's a stronger signal the spread edge genuinely isn't there yet — even after fixing the scale/HFA calibration — rather than just a mistuned constant.</p>
+  `;
+}
+
+function sweepThresholds(records, thresholds, edgeKey, hitFn) {
+  return thresholds.map(t => {
+    const subset = records.filter(r => Math.abs(r[edgeKey]) >= t);
+    const hits = subset.filter(hitFn).length;
+    return { threshold: t, n: subset.length, hitRate: subset.length > 0 ? hits / subset.length : null };
+  });
+}
+
+function renderThresholdTable(title, unitLabel, sweep, currentThreshold, breakeven) {
+  const rows = sweep.map(row => {
+    const isCurrent = Math.abs(row.threshold - currentThreshold) < 1e-6;
+    const hitPct = row.hitRate != null ? (row.hitRate * 100).toFixed(1) + '%' : '—';
+    const cls = row.hitRate != null && breakeven != null ? (row.hitRate >= breakeven ? 'good' : 'bad') : '';
+    return `<tr class="${isCurrent ? 'current-row' : ''}"><td>${row.threshold}${unitLabel}</td><td>${row.n}</td><td class="${cls}">${hitPct}</td></tr>`;
+  }).join('');
+  return `
+    <h2>${title}</h2>
+    <div class="table-scroll">
+    <table>
+      <tr><th>Threshold</th><th>Games clearing it</th><th>Hit rate</th></tr>
+      ${rows}
+    </table>
+    </div>
+    ${breakeven != null ? `<p class="note">Green = beats the standard ~${(breakeven * 100).toFixed(1)}% breakeven at -110 odds. Red = doesn't. Small-N rows (under ~30 games) are noisy — don't over-read a single row in isolation.</p>` : `<p class="note">Moneyline breakeven varies by the actual odds on each bet, so there's no single fixed line to color against here — read the trend across rows instead.</p>`}
+  `;
+}
+
+function renderResults(spreadRecords, totalRecords, mlRecords, seasons) {
+  const spreadSweep = sweepThresholds(
+    spreadRecords, [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 5, 6], 'edge',
+    r => (r.edge > 0 && r.actualMargin > r.marketSpread) || (r.edge < 0 && r.actualMargin < r.marketSpread)
+  );
+  const totalSweep = sweepThresholds(
+    totalRecords, [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4], 'edge',
+    r => (r.edge > 0 && r.actualTotal > r.marketTotal) || (r.edge < 0 && r.actualTotal < r.marketTotal)
+  );
+  const mlSweep = sweepThresholds(
+    mlRecords, [0, 2, 4, 6, 8, 10, 12, 15, 20], 'gapPts',
+    r => r.side === r.actualWinner
+  );
+
+  resultsDiv.innerHTML = `
+    <div class="card">
+      <div class="summary-grid">
+        <div class="stat-box"><div class="stat-value">${seasons.length}</div><div class="stat-label">Seasons backtested</div></div>
+        <div class="stat-box"><div class="stat-value">${spreadRecords.length}</div><div class="stat-label">Spread games</div></div>
+        <div class="stat-box"><div class="stat-value">${totalRecords.length}</div><div class="stat-label">Total games</div></div>
+        <div class="stat-box"><div class="stat-value">${mlRecords.length}</div><div class="stat-label">Moneyline games</div></div>
+      </div>
+      <p class="note">Seasons used: ${seasons.sort((a, b) => a - b).join(', ')}. Every prediction here was computed using only games that occurred before the week being predicted — no future data leaked into any rating.</p>
+    </div>
+    <div class="card">${renderSpreadGridSearch(spreadRecords)}</div>
+    <div class="card">${renderThresholdTable('Spread threshold check', ' pts', spreadSweep, 3.0, 0.5238)}</div>
+    <div class="card">${renderThresholdTable('Total', ' pts', totalSweep, 2.0, 0.5238)}</div>
+    <div class="card">${renderThresholdTable('Moneyline', 'pp', mlSweep, 10, null)}</div>
+  `;
+}
+</script>
+</body>
+</html>
