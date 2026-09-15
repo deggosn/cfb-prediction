@@ -8,12 +8,11 @@ Pipeline:
   2. For each team playing this week, pull recent headlines from ESPN's
      unofficial news API (no official CFB injury feed exists — this is
      the same "sparse but real" source the app already spot-checks live).
-  3. Run each headline through a structured-output LLM parse (the
-     approach you found) to extract player/status/confidence.
+  3. Run each headline through a rule-based keyword parse to extract
+     status/body-part signals, no external AI API required.
   4. Write data/injuries.json — the web app fetches this file directly
-     instead of calling ESPN or OpenAI itself (keeps your OpenAI key off
-     the client, and means the app doesn't re-run this expensive pass on
-     every single page load).
+     instead of calling ESPN itself (means the app doesn't re-run this
+     pass on every single page load).
 
 HONEST LIMITATION, carried over from the live spot-check we already
 shipped: ESPN's college football news/injury coverage is thin. This
@@ -22,30 +21,34 @@ teams in a given week — that's the underlying data, not a bug in this
 script. Treat the output as "whatever surfaced," not a comprehensive
 report.
 
+SECOND LIMITATION, specific to this rule-based version: it only catches
+headlines using fairly standard injury-report phrasing ("questionable",
+"ruled out", "ankle injury", etc.) and a simple "Capitalized Name at
+the start of the sentence" heuristic for player names. Oddly-worded
+headlines, nicknames, or injury news buried mid-paragraph will be
+missed. If parse quality becomes a real problem later, this is the one
+function (parse_injury_text) that would need to be swapped for an LLM
+call again — everything else in the pipeline is unaffected either way.
+
 Required environment variables (set as GitHub repo secrets):
-  ANTHROPIC_API_KEY — for the structured-output parse (Claude)
-  CFBD_API_KEY       — for determining the current week + matchups
+  CFBD_API_KEY — for determining the current week + matchups
 """
 
 import json
 import os
+import re
 import time
 from datetime import datetime, timezone
 from typing import Optional, Literal
 
 import requests
-from pydantic import BaseModel, Field, ValidationError
-import anthropic
+from pydantic import BaseModel, Field
 
 CFBD_BASE = "https://api.collegefootballdata.com"
 ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports/football/college-football"
 
 CFBD_KEY = os.environ["CFBD_API_KEY"]
 CFBD_HEADERS = {"Authorization": f"Bearer {CFBD_KEY}"}
-
-CLAUDE_MODEL = "claude-haiku-4-5-20251001"  # cheap/fast model, plenty for headline parsing
-
-client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from env automatically
 
 
 # ============================================================
@@ -66,63 +69,72 @@ class InjuryReport(BaseModel):
     )
 
 
-INJURY_TOOL_SCHEMA = {
-    "name": "record_injury_report",
-    "description": "Record structured injury/availability data extracted from a CFB news headline.",
-    "input_schema": {
-        "type": "object",
-        "properties": {
-            "is_injury_news": {
-                "type": "boolean",
-                "description": "True if the text contains CFB injury/availability updates, False otherwise.",
-            },
-            "player_name": {"type": ["string", "null"], "description": "Full name of the player."},
-            "team_name": {"type": ["string", "null"], "description": "Full team name (e.g., Georgia Bulldogs, Texas A&M)."},
-            "position": {"type": ["string", "null"], "description": "Player position abbreviation (e.g., QB, LT, CB)."},
-            "status": {
-                "type": ["string", "null"],
-                "enum": ["OUT", "QUESTIONABLE", "PROBABLE", "DOUBTFUL", "UNKNOWN", None],
-                "description": "Standardized status based on the report.",
-            },
-            "body_part": {"type": ["string", "null"], "description": "Specific injury if mentioned (e.g., Hamstring, ACL, Ankle)."},
-            "confidence_score": {
-                "type": "number",
-                "description": "Confidence from 0.0 to 1.0 that this report is verified news and not speculation.",
-            },
-        },
-        "required": ["is_injury_news", "confidence_score"],
-    },
+# ============================================================
+# 1b. Rule-based parsing (no external AI API, no cost, no key)
+# ============================================================
+
+STATUS_KEYWORDS: dict[str, list[str]] = {
+    "OUT": ["ruled out", "will not play", "will miss", "out indefinitely", "season-ending", "out for the season"],
+    "DOUBTFUL": ["doubtful"],
+    "QUESTIONABLE": ["questionable", "game-time decision", "gtd"],
+    "PROBABLE": ["probable", "expected to play", "cleared to play", "full participant"],
 }
+
+BODY_PART_KEYWORDS = [
+    "hamstring", "ankle", "knee", "acl", "mcl", "shoulder", "concussion",
+    "ribs", "rib", "foot", "hand", "groin", "back", "hip", "wrist",
+    "achilles", "toe", "quad", "elbow", "collarbone", "shin",
+]
+
+INJURY_TRIGGER_WORDS = [
+    "injury", "injured", "hurt", "reinjured", "surgery", "sidelined", "questionable", "doubtful", "probable",
+]
+
+# Very rough "player name at the start of the headline" heuristic:
+# matches something like "Marvin Harrison Jr." or "John Smith" at the
+# beginning of the text. It will miss names that aren't sentence-initial
+# and can occasionally grab a team name written in title case instead —
+# treat player_name as a best-effort hint, not a guarantee.
+NAME_PATTERN = re.compile(r"^([A-Z][a-zA-Z.'-]+(?:\s+[A-Z][a-zA-Z.'-]+){1,2})")
 
 
 def parse_injury_text(headline_text: str) -> InjuryReport:
-    system_prompt = (
-        "You are an expert college football sports data parser. Your task is to extract "
-        "player injury status updates from news headlines and short article blurbs. "
-        "Only extract definitive updates or high-confidence practice observations. "
-        "If the text isn't about an injury/availability status at all, set is_injury_news to False. "
-        "Always respond by calling the record_injury_report tool."
-    )
-    message = client.messages.create(
-        model=CLAUDE_MODEL,
-        max_tokens=512,
-        system=system_prompt,
-        messages=[
-            {"role": "user", "content": f'Extract injury data from this text:\n\n"{headline_text}"'},
-        ],
-        tools=[INJURY_TOOL_SCHEMA],
-        tool_choice={"type": "tool", "name": "record_injury_report"},
-    )
+    lower = headline_text.lower()
 
-    tool_use_block = next((b for b in message.content if b.type == "tool_use"), None)
-    if tool_use_block is None:
-        # Claude didn't call the tool for some reason — treat as "not injury news" rather than crash
-        return InjuryReport(is_injury_news=False, confidence_score=0.0)
+    status = None
+    for candidate_status, keywords in STATUS_KEYWORDS.items():
+        if any(kw in lower for kw in keywords):
+            status = candidate_status
+            break
 
-    try:
-        return InjuryReport(**tool_use_block.input)
-    except ValidationError:
-        return InjuryReport(is_injury_news=False, confidence_score=0.0)
+    body_part = next((bp for bp in BODY_PART_KEYWORDS if bp in lower), None)
+    has_trigger = status is not None or any(w in lower for w in INJURY_TRIGGER_WORDS) or body_part is not None
+
+    is_injury_news = has_trigger and (status is not None or body_part is not None)
+
+    confidence = 0.0
+    if is_injury_news:
+        confidence = 0.5
+        if status is not None:
+            confidence += 0.25
+        if body_part is not None:
+            confidence += 0.25
+
+    player_name = None
+    if is_injury_news:
+        match = NAME_PATTERN.match(headline_text.strip())
+        if match:
+            player_name = match.group(1).strip()
+
+    return InjuryReport(
+        is_injury_news=is_injury_news,
+        player_name=player_name,
+        team_name=None,
+        position=None,
+        status=status,
+        body_part=body_part.title() if body_part else None,
+        confidence_score=confidence,
+    )
 
 
 # ============================================================
@@ -280,7 +292,7 @@ def main():
                     "source_headline": headline,
                 })
 
-            time.sleep(0.2)  # gentle pacing against both ESPN and OpenAI
+            time.sleep(0.1)  # gentle pacing against ESPN
 
         report["teams"][team_name] = {"matched": True, "injuries": found}
         if found:
