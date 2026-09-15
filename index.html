@@ -1199,12 +1199,32 @@ function tierLabel(tier) {
   return { strong: 'Strong value', lean: 'Lean', pass: 'Market aligned' }[tier];
 }
 
+// Shortens a team name for compact display (pills, table cells) by taking
+// its last word — e.g. "Georgia Bulldogs" -> "Bulldogs". Many college teams
+// share a last word ("North Dakota State" / "Sacramento State" both end in
+// "State"), which on its own is ambiguous when both teams in a game need a
+// short label at the same time. When that happens, this walks back one word
+// at a time (State -> Dakota State / Sacramento State) until the two teams'
+// short names actually differ, falling back to the full name only in the
+// vanishingly unlikely case that never happens.
+function shortTeamName(name, otherName) {
+  const words = name.trim().split(/\s+/);
+  const otherWords = otherName.trim().split(/\s+/);
+  for (let n = 1; n <= words.length; n++) {
+    const candidate = words.slice(-n).join(' ');
+    const otherCandidate = otherWords.slice(-n).join(' ');
+    if (candidate.toLowerCase() !== otherCandidate.toLowerCase()) return candidate;
+  }
+  return name; // exhausted every word and still colliding — just use the full name
+}
+
 // Short label for the game-card badge, shown before any click — e.g.
 // "RICE UNDER 48.5 · STRONG VALUE" instead of only ever showing the spread.
 function bestBetPillText(suggestion, game, market) {
   if (suggestion.type === 'spread') {
     const side = suggestion.all.spread.edge > 0 ? game.homeTeam : game.awayTeam;
-    return `${side.split(' ').pop().toUpperCase()} SPREAD`;
+    const other = suggestion.all.spread.edge > 0 ? game.awayTeam : game.homeTeam;
+    return `${shortTeamName(side, other).toUpperCase()} SPREAD`;
   }
   if (suggestion.type === 'total') {
     const dir = suggestion.all.total.edge > 0 ? 'OVER' : 'UNDER';
@@ -1212,7 +1232,8 @@ function bestBetPillText(suggestion, game, market) {
   }
   if (suggestion.type === 'moneyline') {
     const side = suggestion.all.moneyline.side === 'away' ? game.awayTeam : game.homeTeam;
-    return `${side.split(' ').pop().toUpperCase()} ML`;
+    const other = suggestion.all.moneyline.side === 'away' ? game.homeTeam : game.awayTeam;
+    return `${shortTeamName(side, other).toUpperCase()} ML`;
   }
   return '';
 }
@@ -1703,13 +1724,13 @@ function renderModalContent(gameCtx) {
   `;
 
   // ---- Market & Model tab ----
-  const fmtSpread = (s) => s == null ? '—' : (s > 0 ? `${game.homeTeam.split(' ').pop()} -${s.toFixed(1)}` : `${game.awayTeam.split(' ').pop()} -${Math.abs(s).toFixed(1)}`);
+  const fmtSpread = (s) => s == null ? '—' : (s > 0 ? `${shortTeamName(game.homeTeam, game.awayTeam)} -${s.toFixed(1)}` : `${shortTeamName(game.awayTeam, game.homeTeam)} -${Math.abs(s).toFixed(1)}`);
   const edge = market?.spread != null ? activeSpread - market.spread : null;
   const marketHtml = `
     <div class="table-scroll">
     <table class="lines-table">
       <tr><th></th><th>Spread</th><th>Total</th><th>Moneyline</th></tr>
-      <tr><td>Current</td><td>${fmtSpread(market?.spread)}</td><td>${market?.overUnder ?? '—'}</td><td>${market?.homeMoneyline != null ? `${game.homeTeam.split(' ').pop()} ${market.homeMoneyline > 0 ? '+' : ''}${market.homeMoneyline} / ${game.awayTeam.split(' ').pop()} ${market.awayMoneyline > 0 ? '+' : ''}${market.awayMoneyline}` : '—'}</td></tr>
+      <tr><td>Current</td><td>${fmtSpread(market?.spread)}</td><td>${market?.overUnder ?? '—'}</td><td>${market?.homeMoneyline != null ? `${shortTeamName(game.homeTeam, game.awayTeam)} ${market.homeMoneyline > 0 ? '+' : ''}${market.homeMoneyline} / ${shortTeamName(game.awayTeam, game.homeTeam)} ${market.awayMoneyline > 0 ? '+' : ''}${market.awayMoneyline}` : '—'}</td></tr>
       <tr><td>Opening</td><td>${fmtSpread(market?.spreadOpen)}</td><td>${market?.overUnderOpen ?? '—'}</td><td>—</td></tr>
     </table>
     </div>
