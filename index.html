@@ -1297,8 +1297,18 @@ function evaluateMoneylineMarket(homeML, awayML, winProb, marketSpread) {
   if (homeML == null || awayML == null) {
     return { tier: 'pass', edge: null, text: "No moneyline posted yet." };
   }
-  const impliedHome = moneylineImpliedProb(homeML);
-  const impliedAway = moneylineImpliedProb(awayML);
+  const rawImpliedHome = moneylineImpliedProb(homeML);
+  const rawImpliedAway = moneylineImpliedProb(awayML);
+  // Real moneylines are quoted so both sides' implied probabilities sum to
+  // MORE than 100% — that extra is the sportsbook's built-in margin (the
+  // "vig"), not a real signal. winProb, by contrast, is a fair probability
+  // that always sums to exactly 100%. Comparing the model directly against
+  // the raw (vig-inflated) implied probabilities silently understates every
+  // gap — sometimes enough to erase a real edge entirely. Normalizing both
+  // sides to sum to 100% (de-vigging) removes that bias before comparing.
+  const overround = rawImpliedHome + rawImpliedAway;
+  const impliedHome = overround > 0 ? rawImpliedHome / overround : rawImpliedHome;
+  const impliedAway = overround > 0 ? rawImpliedAway / overround : rawImpliedAway;
   const homeGap = winProb.home - impliedHome;
   const awayGap = winProb.away - impliedAway;
   const isCloseGame = marketSpread != null && Math.abs(marketSpread) < 3;
@@ -1316,7 +1326,7 @@ function evaluateMoneylineMarket(homeML, awayML, winProb, marketSpread) {
   } else {
     const prob = side === 'away' ? winProb.away : winProb.home;
     const closeNote = isCloseGame ? " Close-spread games like this one are exactly where moneyline value tends to hide even when the spread itself looks unremarkable." : "";
-    text = `The model gives the ${side === 'away' ? 'away team' : 'home team'} roughly a ${(prob * 100).toFixed(0)}% chance to win outright, about ${gapPts.toFixed(0)} points higher than what the ${odds > 0 ? '+' : ''}${odds} moneyline implies.${closeNote} A real gap, but still a single-game read — not a lock.`;
+    text = `The model gives the ${side === 'away' ? 'away team' : 'home team'} roughly a ${(prob * 100).toFixed(0)}% chance to win outright, about ${gapPts.toFixed(0)} points higher than what the ${odds > 0 ? '+' : ''}${odds} moneyline implies (after removing the sportsbook's built-in margin).${closeNote} A real gap, but still a single-game read — not a lock.`;
   }
   return { tier, edge: gapPts, side, odds, text, market: 'moneyline' };
 }
