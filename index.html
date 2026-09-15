@@ -742,6 +742,10 @@
     <div class="track-record" style="margin-top: 0; border-top: none; padding-top: 0;">
       <h2 class="section-heading">Track record</h2>
       <p class="section-sub">Every prediction you generate is saved in this browser. Once games are played, check here to see how far off the model was — and let it recalibrate itself using the real results.</p>
+      <div class="injury-toggle-row" style="margin-bottom: 10px;">
+        <input type="checkbox" id="allWeeksToggle">
+        <label for="allWeeksToggle">Show all saved weeks, not just the one currently selected above (Season/Week)</label>
+      </div>
       <div class="btn-row">
         <button class="secondary" id="checkResultsBtn">Check results so far</button>
         <button class="secondary" id="clearHistoryBtn">Clear saved predictions</button>
@@ -778,7 +782,7 @@
   </div>
 
   <footer class="disclaimer">
-    Predictions blend an opponent-adjusted efficiency rating (built from offensive/defensive EPA per play) with the current betting market line, weighted 50/50. Early-season weeks blend in the previous season's final rating to reduce small-sample noise. Betting suggestions are rules-based on the size of the disagreement between model and market and default to "pass" when the edge is small or data is thin — this reflects that backtesting shows the model performs close to, not clearly better than, the market. This is a research and entertainment tool, not licensed betting or financial advice, and it does not account for injuries, weather, or breaking news beyond what's noted. If sports betting isn't fun for you anymore, the National Council on Problem Gambling helpline is 1-800-522-4700.
+    Predictions blend an opponent-adjusted efficiency rating (built from offensive/defensive EPA per play) with the current betting market line, weighted 50/50. The total (over/under) estimate is blended with the market the same way, using each team's own scoring average as the model input. Early-season weeks blend in the previous season's final rating to reduce small-sample noise. Betting suggestions are rules-based on the size of the disagreement between model and market and default to "pass" when the edge is small or data is thin — this reflects that backtesting shows the model performs close to, not clearly better than, the market (that backtest covers the spread specifically; the total's underlying scoring-average method is newer and less validated). This is a research and entertainment tool, not licensed betting or financial advice, and it does not account for injuries, weather, or breaking news beyond what's noted. If sports betting isn't fun for you anymore, the National Council on Problem Gambling helpline is 1-800-522-4700.
   </footer>
 
 </div>
@@ -1165,6 +1169,20 @@ function estimateModelTotal(teamGames, homeTeam, awayTeam) {
   return expectedHome + expectedAway;
 }
 
+// Blends the pure scoring-average total estimate with the market total,
+// the same way finalSpread blends efficiencySpread with market.spread.
+// Without this, total "edges" measure the model's full raw disagreement
+// with the market while spread/moneyline edges can only ever show half of
+// theirs (since finalSpread is itself already half market) — an apples-
+// to-oranges comparison that made totals look far more "confident" for
+// structural reasons, not because the total estimate is more reliable.
+// (If anything it's the opposite — see the disclaimer in evaluateTotalMarket.)
+function blendTotalWithMarket(pureEstimate, marketTotal) {
+  if (pureEstimate == null) return null;
+  if (marketTotal == null) return pureEstimate; // nothing to blend against yet
+  return (1 - MARKET_WEIGHT) * pureEstimate + MARKET_WEIGHT * marketTotal;
+}
+
 // Key numbers matter disproportionately in football because so many games
 // are decided by a field goal (3) or touchdown+XP (7) — a line crossing one
 // of these changes the probability distribution of outcomes more than the
@@ -1241,7 +1259,7 @@ function evaluateTotalMarket(marketTotal, modelTotalEstimate) {
   if (tier === 'pass') {
     text = "The model's total estimate is close enough to the market line that there's no real edge here.";
   } else {
-    text = `Based on each team's own scoring this season, the model's total (~${modelTotalEstimate.toFixed(0)}) differs from the market total (${marketTotal}) by ${absEdge.toFixed(1)} points, leaning ${dir}. Total estimates are rougher and less validated than the spread model — treat this as a real but softer signal.`;
+    text = `Blending each team's own scoring this season with the market line (the same 50/50 approach used for the spread), the model's total (~${modelTotalEstimate.toFixed(0)}) differs from the market total (${marketTotal}) by ${absEdge.toFixed(1)} points, leaning ${dir}. The underlying scoring-average method is rougher and less validated than the spread's efficiency model — treat this as a real but softer signal.`;
   }
   return { tier, edge, text, market: 'total' };
 }
@@ -1624,7 +1642,11 @@ function renderModalContent(gameCtx) {
   const injuryActive = ov.homeQBOut || ov.awayQBOut;
 
   const winProb = spreadToWinProb(activeSpread);
-  const modelTotalEstimate = gameCtx.modelTotalEstimate ?? estimateModelTotal(gameCtx._modalData.cache.teamGames, game.homeTeam, game.awayTeam);
+  const modelTotalEstimate = gameCtx.modelTotalEstimate
+    ?? blendTotalWithMarket(
+      estimateModelTotal(gameCtx._modalData.cache.teamGames, game.homeTeam, game.awayTeam),
+      market?.overUnder ?? null
+    );
 
   let totalForScoreSplit, totalIsEstimated;
   if (modelTotalEstimate != null) { totalForScoreSplit = modelTotalEstimate; totalIsEstimated = false; }
@@ -2068,7 +2090,10 @@ runBtn.addEventListener('click', async () => {
       // Full three-market evaluation, computed now so it can show on the
       // card itself rather than only after the user clicks in.
       const winProb = spreadToWinProb(finalSpread);
-      const modelTotalEstimate = estimateModelTotal(seasonCacheData.teamGames, g.homeTeam, g.awayTeam);
+      const modelTotalEstimate = blendTotalWithMarket(
+        estimateModelTotal(seasonCacheData.teamGames, g.homeTeam, g.awayTeam),
+        market?.overUnder ?? null
+      );
       const suggestion = computeBettingSuggestion(
         finalSpread, market?.spread ?? null, market?.overUnder ?? null,
         modelTotalEstimate, market?.homeMoneyline ?? null, market?.awayMoneyline ?? null, winProb
@@ -2178,14 +2203,35 @@ checkResultsBtn.addEventListener('click', async () => {
       (groups[gk] = groups[gk] || []).push(p);
     }
 
-    setTrackStatus(`Checking results for ${predictions.length} saved prediction(s) across ${Object.keys(groups).length} week(s)…`);
+    // By default, only check the week currently selected in the Season/Week
+    // dropdowns above — not every week you've ever saved predictions for.
+    // Without this, clicking this button early in a new week (before any of
+    // that week's games have kicked off) would silently fall back to
+    // showing stats from an earlier, already-completed week, which reads as
+    // "results for this week" even though it isn't.
+    const showAllWeeks = document.getElementById('allWeeksToggle').checked;
+    let scopedGroups = groups;
+    if (!showAllWeeks) {
+      const currentSeason = parseInt(yearSelect.value, 10);
+      const currentWeek = parseInt(weekSelect.value, 10);
+      const currentKey = `${currentSeason}|${currentWeek}`;
+      if (!groups[currentKey]) {
+        setTrackStatus(`No saved predictions for Season ${currentSeason}, Week ${currentWeek} yet — generate some on the Predictions tab first, or check "Show all saved weeks" above to see your full history.`);
+        checkResultsBtn.disabled = false;
+        return;
+      }
+      scopedGroups = { [currentKey]: groups[currentKey] };
+    }
+
+    const scopedPredictionCount = Object.values(scopedGroups).reduce((sum, g) => sum + g.length, 0);
+    setTrackStatus(`Checking results for ${scopedPredictionCount} saved prediction(s) across ${Object.keys(scopedGroups).length} week(s)…`);
 
     const completed = [];
-    for (const gk of Object.keys(groups)) {
+    for (const gk of Object.keys(scopedGroups)) {
       const [season, week] = gk.split('|').map(Number);
       const games = await cfbdGet('/games', { year: season, week: week }, apiKey);
       const byId = Object.fromEntries(games.map(g => [g.id, g]));
-      for (const p of groups[gk]) {
+      for (const p of scopedGroups[gk]) {
         const g = byId[p.gameId];
         if (g && g.homePoints != null && g.awayPoints != null) {
           completed.push({ ...p, actualMargin: g.homePoints - g.awayPoints, actualTotal: g.homePoints + g.awayPoints });
@@ -2194,7 +2240,8 @@ checkResultsBtn.addEventListener('click', async () => {
     }
 
     if (completed.length === 0) {
-      setTrackStatus("None of your saved predictions have final scores yet — check back after those games are played.");
+      const scopeNote = showAllWeeks ? '' : ` for Season ${parseInt(yearSelect.value, 10)}, Week ${parseInt(weekSelect.value, 10)}`;
+      setTrackStatus(`None of your saved predictions${scopeNote} have final scores yet — check back after those games are played.`);
       checkResultsBtn.disabled = false;
       return;
     }
