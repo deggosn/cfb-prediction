@@ -1271,9 +1271,17 @@ function evaluateTotalMarket(marketTotal, modelTotalEstimate) {
   }
   const edge = modelTotalEstimate - marketTotal;
   const absEdge = Math.abs(edge);
+  // Thresholds are halved from their original 4/2 values because
+  // modelTotalEstimate is now blended 50/50 with the market (see
+  // blendTotalWithMarket) — the same treatment the spread already gets.
+  // Without halving these too, a "strong" total signal would need double
+  // the raw disagreement it used to, which is why totals nearly stopped
+  // appearing after that change. This keeps the bar for a REAL underlying
+  // disagreement the same as before; only the displayed edge number is
+  // now on the same halved scale as spread's.
   let tier = 'pass';
-  if (absEdge >= 4) tier = 'strong';
-  else if (absEdge >= 2) tier = 'lean';
+  if (absEdge >= 2) tier = 'strong';
+  else if (absEdge >= 1) tier = 'lean';
 
   const dir = edge > 0 ? 'over' : 'under';
   let text;
@@ -1768,7 +1776,7 @@ function renderModalContent(gameCtx) {
         <div class="market-row"><span class="m-name">Total</span><span class="tier-pill ${suggestion.all.total.tier}">${tierLabel(suggestion.all.total.tier)}${suggestion.all.total.edge != null ? ` · ${Math.abs(suggestion.all.total.edge).toFixed(1)} pts` : ''}</span></div>
         <div class="market-row"><span class="m-name">Moneyline</span><span class="tier-pill ${suggestion.all.moneyline.tier}">${tierLabel(suggestion.all.moneyline.tier)}${suggestion.all.moneyline.edge != null ? ` · ${suggestion.all.moneyline.edge.toFixed(0)} pp` : ''}</span></div>
       </div>
-      <p class="disclaimer-mini">Checked across all three markets — the one shown above is whichever cleared the highest confidence tier. "Strong value" needs a 3+ point spread edge (or 1.5+ if it crosses a key number like 3 or 7), a 4+ point total edge, or a 10+ point moneyline probability gap. "Lean" is a lower bar meant for people who want a lean on every game, not a confident pick.</p>
+      <p class="disclaimer-mini">Checked across all three markets — the one shown above is whichever cleared the highest confidence tier. "Strong value" needs a 3+ point spread edge (or 1.5+ if it crosses a key number like 3 or 7), a 2+ point total edge, or a 10+ point moneyline probability gap. "Lean" is a lower bar meant for people who want a lean on every game, not a confident pick.</p>
     </div>
   `;
 
