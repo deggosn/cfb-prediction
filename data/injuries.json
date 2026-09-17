@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T06:04:05.063221+00:00",
+  "generated_at": "2026-09-17T15:26:42.939453+00:00",
   "season": 2026,
   "week": 3,
   "teams": {
@@ -90,20 +90,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "Kalen DeBoer",
-          "position": null,
-          "status": null,
-          "body_part": "Rib",
-          "confidence_score": 0.75,
-          "source_headline": "Kalen DeBoer describes how Bama will approach Florida State. As the Crimson Tide look for revenge against the Seminoles, DeBoer gives insight into how they plan to channel the energy from last year's defeat into the upcoming matchup."
-        },
-        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
         }
       ]
     },
@@ -256,6 +248,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -274,6 +274,22 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Why is college football coming to Wembley? The plan to make London a new home for U.S. juggernaut. Kansas and Arizona State are bringing college football to Wembley, but could the historic first UK game be the start of something much bigger?"
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
         }
       ]
@@ -281,6 +297,14 @@
     "Arkansas": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
         {
           "player_name": null,
           "position": null,
@@ -304,14 +328,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Who's trending up or down in college football entering Week 3?. SEC This Morning's Peter Burns and Chris Doering power rank the trends happening around college football as the SEC flexes in nonconference play."
-        },
-        {
-          "player_name": "Arkansas Razorbacks",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Arkansas Razorbacks vs. Utah Utes: Full Highlights. Arkansas Razorbacks vs. Utah Utes: Full Highlights"
         }
       ]
     },
@@ -347,16 +363,7 @@
     },
     "Arkansas-Pine Bluff": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": "Monte Coleman",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Monte Coleman, ex-Washington LB and UAPB coach, dies at 68. Monte Coleman, the hard-nosed linebacker who won three Super Bowls with Washington and later coached Arkansas-Pine Bluff to a conference championship, has died. He was 68."
-        }
-      ]
+      "injuries": []
     },
     "Ashland": {
       "matched": true,
@@ -379,12 +386,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -454,12 +461,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff predictions: Who's most likely to make the field. Find out which teams our experts think will make this season's CFP."
         }
       ]
     },
@@ -492,6 +507,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -506,14 +529,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Bennett totals 3 TDs in Baylor\u2019s 44-3 win over Prairie View A&M. \u2014 Backup quarterback Nate Bennett threw two touchdown passes and ran for another score to lead Baylor to a 44-3 victory over Prairie View A&M on Saturday night."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": "OUT",
-          "body_part": "Ankle",
-          "confidence_score": 1.0,
-          "source_headline": "Sources: Baylor QB DJ Lagway ruled out; Nate Bennett to start. Baylor QB DJ Lagway will not play Saturday against Prairie View A&M after suffering an ankle injury, with Nate Bennett making his first start, sources told ESPN."
         }
       ]
     },
@@ -600,6 +615,22 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff predictions: Who's most likely to make the field. Find out which teams our experts think will make this season's CFP."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -614,22 +645,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football takeaways: What we learned from Week 2 performances. Our college football experts break down the most important things they saw this weekend."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Projecting the College Football Playoff top 12 after Week 2. We assess how the selection committee could stack the top teams in the country after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Week 2's best moments: Arch's defining moment, Michigan's revival and Oregon's downfall. Bounce-back performances from Texas, Michigan and Oklahoma State lead the way in Week 2."
         }
       ]
     },
@@ -637,12 +652,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "Boston College's Kahoun",
+          "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Hand",
           "confidence_score": 0.75,
-          "source_headline": "Boston College's Kahoun has movement in 'all extremities' after scary injury. Boston College linebacker Bodie Kahoun had movement in \"all extremities\" after being taken off the field by ambulance following a first-half injury, the school said."
+          "source_headline": "Heisman of the week: Drew Mestemaker can run now, too?. We'll hand out some hardware every week -- and the winner for Week 2 is Oklahoma State's quarterback."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -665,7 +688,16 @@
     },
     "Bowling Green": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Bottom 10 after Week 2: Oregon ducks onto list. Strange happenings continue in college football, where long losing streaks have become a winning formula."
+        }
+      ]
     },
     "Brevard": {
       "matched": false,
@@ -799,12 +831,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         },
         {
           "player_name": null,
@@ -812,7 +844,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 1 College Football Playoff, bowl projections. Thinking of the postseason already? Here are projections each bowl game, plus the playoff, following Week 1."
+          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
         }
       ]
     },
@@ -820,12 +852,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         },
         {
           "player_name": null,
@@ -833,7 +865,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 1 College Football Playoff, bowl projections. Thinking of the postseason already? Here are projections each bowl game, plus the playoff, following Week 1."
+          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
         }
       ]
     },
@@ -1128,6 +1160,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": "Gi'Bran Payne",
           "position": null,
           "status": null,
@@ -1175,15 +1215,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
         },
         {
           "player_name": null,
@@ -1191,7 +1223,15 @@
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Sources: Clemson QB Christopher Vizzina (elbow) week-to-week. Clemson quarterback Christopher Vizzina is considered week-to-week after sustaining an elbow injury Saturday, sources told ESPN's Pete Thamel. Freshman Tait Reynolds is expected to start for the Tigers against North Carolina on Saturday."
+          "source_headline": "Clemson to start freshman QB Tait Reynolds vs. North Carolina. Clemson is hoping to jump-start its sluggish offense by turning to freshman Tait Reynolds at quarterback beginning Saturday against North Carolina."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -1228,12 +1268,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "College Football Playoff",
           "position": null,
           "status": null,
-          "body_part": "Hand",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Heisman of the week: Miami's Malachi Toney gets jump on the field. We'll hand out some hardware every week -- and our first winner is the Hurricanes' dynamic receiver."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -1288,14 +1328,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
-        },
-        {
-          "player_name": "Boston College",
-          "position": null,
-          "status": null,
-          "body_part": "Rib",
-          "confidence_score": 0.75,
-          "source_headline": "Boston College 'Red Bandanna' tribute uniforms lead top Week 2 CFB looks. On Friday, one of college football's most meaningful uniforms will carry even more emotion than usual."
         }
       ]
     },
@@ -1561,6 +1593,22 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Hand",
+          "confidence_score": 0.75,
+          "source_headline": "Heisman of the week: Drew Mestemaker can run now, too?. We'll hand out some hardware every week -- and the winner for Week 2 is Oklahoma State's quarterback."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
@@ -1572,14 +1620,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football takeaways: What we learned from Week 2 performances. Our college football experts break down the most important things they saw this weekend."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Texas' jab at Ohio State headlines top trolls of college football Week 2. The stunning comeback from Texas prompted a petty post directed at Ohio State."
         }
       ]
     },
@@ -1717,6 +1757,14 @@
     "Eastern Michigan": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
+        },
         {
           "player_name": null,
           "position": null,
@@ -1871,12 +1919,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -1905,6 +1953,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Hand",
+          "confidence_score": 0.75,
+          "source_headline": "Heisman of the week: Drew Mestemaker can run now, too?. We'll hand out some hardware every week -- and the winner for Week 2 is Oklahoma State's quarterback."
+        },
+        {
           "player_name": "Navy Midshipmen",
           "position": null,
           "status": null,
@@ -1922,20 +1978,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "How Florida State's",
+          "player_name": "Ethan Pritchard",
           "position": null,
           "status": null,
           "body_part": "Acl",
           "confidence_score": 0.75,
-          "source_headline": "How Florida State's Ethan Pritchard is a walking miracle. How Florida State's Ethan Pritchard is a walking miracle"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "FSU fires AD Michael Alford amid looming football questions. Florida State fired athletic director Michael Alford on Monday as the Seminoles grapple with looming decisions about their football program."
+          "source_headline": "Ethan Pritchard was shot in the head, then 'a miracle' happened. The Florida State linebacker spent a month in a coma. It wasn't clear he'd ever wake up. Now, he's looking to play football again."
         },
         {
           "player_name": "College Football Playoff",
@@ -1943,15 +1991,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": "Kevin Jennings",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Kevin Jennings overcomes miscues, leads No. 19 SMU to win. SMU quarterback Kevin Jennings shook off a pair of interceptions to lead the No. 19 Mustangs' winning scoring drive, capped by Nick Reed's 20-yard field goal with 21 seconds to play, and the road team wrapped up a 27-24 win over Florida State on Monday."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -2137,12 +2177,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Alyssa Lang",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Rib",
           "confidence_score": 0.75,
-          "source_headline": "Who's trending up or down in college football entering Week 3?. SEC This Morning's Peter Burns and Chris Doering power rank the trends happening around college football as the SEC flexes in nonconference play."
+          "source_headline": "Alyssa Lang defends Georgia's top spot in her power rankings. SEC Network's Lang joins The Paul Finebaum Show to describe the strengths of the Bulldogs as she justifies why they have earned the top spot in her SEC Network Power Rankings."
         }
       ]
     },
@@ -2184,6 +2224,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -2206,14 +2254,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Highlight: No. 18 Tennessee dominates Georgia Tech with 299 rushing yards. DeSean Bishop runs for 147 yards on 20 attempts with two touchdowns as the Volunteers open a two-possession lead in the second quarter and never look back in the 45-24 win."
-        },
-        {
-          "player_name": "DeSean Bishop",
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "DeSean Bishop rushes for 2 TDs as No. 18 Tennessee handles Georgia Tech 45-24. \u2014 DeSean Bishop rushed for 147 yards and two touchdowns and freshman Faizon Brandon threw for two scores, leading No. 18 Tennessee to a 45-24 victory over Georgia Tech on Saturday night."
         }
       ]
     },
@@ -2405,20 +2445,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Texas rises to No. 1 in AP Top 25; Ohio State, Oregon tumble. The unprecedented comeback by Texas to knock off Ohio State moved the Longhorns to No. 1 in the AP Top 25 and pushed the Buckeyes out of the top five for the first time in two seasons."
-        },
-        {
-          "player_name": null,
+          "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "AP college football Week 2 poll reaction: What's next for each Top 25 team. A look at this week's Top 25."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -2426,20 +2458,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Texas rises to No. 1 in AP Top 25; Ohio State, Oregon tumble. The unprecedented comeback by Texas to knock off Ohio State moved the Longhorns to No. 1 in the AP Top 25 and pushed the Buckeyes out of the top five for the first time in two seasons."
-        },
-        {
-          "player_name": null,
+          "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "AP college football Week 2 poll reaction: What's next for each Top 25 team. A look at this week's Top 25."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -2506,6 +2530,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
@@ -2519,6 +2551,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
@@ -2526,6 +2566,14 @@
     "Illinois State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -2548,20 +2596,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         },
         {
-          "player_name": null,
+          "player_name": "College Football Playoff",
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Texas rises to No. 1 in AP Top 25; Ohio State, Oregon tumble. The unprecedented comeback by Texas to knock off Ohio State moved the Longhorns to No. 1 in the AP Top 25 and pushed the Buckeyes out of the top five for the first time in two seasons."
+          "source_headline": "College Football Playoff predictions: Who's most likely to make the field. Find out which teams our experts think will make this season's CFP."
         }
       ]
     },
@@ -2590,20 +2638,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         },
         {
-          "player_name": null,
+          "player_name": "College Football Playoff",
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Texas rises to No. 1 in AP Top 25; Ohio State, Oregon tumble. The unprecedented comeback by Texas to knock off Ohio State moved the Longhorns to No. 1 in the AP Top 25 and pushed the Buckeyes out of the top five for the first time in two seasons."
+          "source_headline": "College Football Playoff predictions: Who's most likely to make the field. Find out which teams our experts think will make this season's CFP."
         }
       ]
     },
@@ -2616,7 +2664,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -2629,7 +2677,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -2735,15 +2783,66 @@
     },
     "Kentucky": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": "Will Stein",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Will Stein happy with Wildcats' response to tough loss vs. Bama. Stein explains how Kentucky is bouncing back after the Week 2 loss and how his team is preparing for the trip to No. 9 Texas A&M."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        }
+      ]
     },
     "Kentucky State": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": "Will Stein",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Will Stein happy with Wildcats' response to tough loss vs. Bama. Stein explains how Kentucky is bouncing back after the Week 2 loss and how his team is preparing for the trip to No. 9 Texas A&M."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        }
+      ]
     },
     "Kentucky Wesleyan": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": "Will Stein",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Will Stein happy with Wildcats' response to tough loss vs. Bama. Stein explains how Kentucky is bouncing back after the Week 2 loss and how his team is preparing for the trip to No. 9 Texas A&M."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        }
+      ]
     },
     "Kenyon": {
       "matched": true,
@@ -2784,7 +2883,32 @@
     },
     "LSU": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": "Stephen A.",
+          "position": null,
+          "status": "DOUBTFUL",
+          "body_part": null,
+          "confidence_score": 0.75,
+          "source_headline": "Stephen A.: Kiffin 'lying through his teeth' listing Leavitt as doubtful. Stephen A.: Kiffin 'lying through his teeth' listing Leavitt as doubtful"
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": "DOUBTFUL",
+          "body_part": null,
+          "confidence_score": 0.75,
+          "source_headline": "Finebaum: Kiffin 'spitting' in eyes of SEC commish with Leavitt doubtful tag. Finebaum: Kiffin 'spitting' in eyes of SEC commish with Leavitt doubtful tag"
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": "DOUBTFUL",
+          "body_part": null,
+          "confidence_score": 0.75,
+          "source_headline": "Pate: There's a 'healthy skepticism' about LSU listing Leavitt as doubtful. Pate: There's a 'healthy skepticism' about LSU listing Leavitt as doubtful"
+        }
+      ]
     },
     "La Verne": {
       "matched": false,
@@ -2912,20 +3036,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Texas rises to No. 1 in AP Top 25; Ohio State, Oregon tumble. The unprecedented comeback by Texas to knock off Ohio State moved the Longhorns to No. 1 in the AP Top 25 and pushed the Buckeyes out of the top five for the first time in two seasons."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         },
         {
           "player_name": null,
@@ -2933,15 +3049,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "AP college football Week 2 poll reaction: What's next for each Top 25 team. A look at this week's Top 25."
-        },
-        {
-          "player_name": "Will Jeremiyah Love",
-          "position": null,
-          "status": "QUESTIONABLE",
-          "body_part": null,
-          "confidence_score": 0.75,
-          "source_headline": "Will Jeremiyah Love play?. Josh Weinfuss reports that Jeremiyah Love is trending in the right direction but remains a game-time decision for Sunday's opener against the Chargers."
+          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
         }
       ]
     },
@@ -3023,20 +3131,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "Malik Washington",
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Malik Washington, Harry Dalton III lead Maryland to 38-14 win over UConn. \u2014 Maryland is benefiting from their up-tempo offense in 2026."
-        },
-        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -3077,6 +3177,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -3116,36 +3224,19 @@
     },
     "Michigan": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": "Michigan's Whittingham",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Michigan's Whittingham regrets not running Underwood earlier. The only regret Michigan coach Kyle Whittingham has about a game plan featuring quarterback Bryce Underwood as a runner is that it didn't come in the season opener against Western Michigan."
-        },
-        {
-          "player_name": "Michigan OL Babalola",
-          "position": null,
-          "status": null,
-          "body_part": "Knee",
-          "confidence_score": 0.75,
-          "source_headline": "Michigan OL Babalola to remain sidelined after setback with knee. Michigan OL Andrew Babalola, who is working his way back from an ACL injury suffered last year, has had a setback and \"will not be available in the near future,\" Whittingham said Monday."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        }
-      ]
+      "injuries": []
     },
     "Michigan State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
         {
           "player_name": null,
           "position": null,
@@ -3153,45 +3244,12 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football Week 2 best bets: Bets to make on USC, Clemson, LSU and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 2."
         }
       ]
     },
     "Michigan Tech": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": "Michigan's Whittingham",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Michigan's Whittingham regrets not running Underwood earlier. The only regret Michigan coach Kyle Whittingham has about a game plan featuring quarterback Bryce Underwood as a runner is that it didn't come in the season opener against Western Michigan."
-        },
-        {
-          "player_name": "Michigan OL Babalola",
-          "position": null,
-          "status": null,
-          "body_part": "Knee",
-          "confidence_score": 0.75,
-          "source_headline": "Michigan OL Babalola to remain sidelined after setback with knee. Michigan OL Andrew Babalola, who is working his way back from an ACL injury suffered last year, has had a setback and \"will not be available in the near future,\" Whittingham said Monday."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        }
-      ]
+      "injuries": []
     },
     "Middle Tennessee": {
       "matched": false,
@@ -3225,6 +3283,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -3239,22 +3305,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Taylor, Bothwell lead MS State to win vs. Minnesota. Kamario Taylor shines in the pocket with 227 passing yards and three touchdowns as Fluff Bothwell gets 113 rushing yards and two TDs in the Bulldogs' 38-13 victory over the Golden Gophers."
-        },
-        {
-          "player_name": "Mississippi State",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Mississippi State races past Minnesota 38-13 with another clinic by rising star QB Kamario Taylor. \u2014 Kamario Taylor passed for 227 yards and three first-half touchdowns to lead Mississippi State in a 38-13 takedown of Minnesota on Saturday in the first-ever football game between the two schools."
         }
       ]
     },
@@ -3275,6 +3325,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -3289,22 +3347,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Taylor, Bothwell lead MS State to win vs. Minnesota. Kamario Taylor shines in the pocket with 227 passing yards and three touchdowns as Fluff Bothwell gets 113 rushing yards and two TDs in the Bulldogs' 38-13 victory over the Golden Gophers."
-        },
-        {
-          "player_name": "Mississippi State",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Mississippi State races past Minnesota 38-13 with another clinic by rising star QB Kamario Taylor. \u2014 Kamario Taylor passed for 227 yards and three first-half touchdowns to lead Mississippi State in a 38-13 takedown of Minnesota on Saturday in the first-ever football game between the two schools."
         }
       ]
     },
@@ -3312,6 +3354,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -3326,22 +3376,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Taylor, Bothwell lead MS State to win vs. Minnesota. Kamario Taylor shines in the pocket with 227 passing yards and three touchdowns as Fluff Bothwell gets 113 rushing yards and two TDs in the Bulldogs' 38-13 victory over the Golden Gophers."
-        },
-        {
-          "player_name": "Mississippi State",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Mississippi State races past Minnesota 38-13 with another clinic by rising star QB Kamario Taylor. \u2014 Kamario Taylor passed for 227 yards and three first-half touchdowns to lead Mississippi State in a 38-13 takedown of Minnesota on Saturday in the first-ever football game between the two schools."
         }
       ]
     },
@@ -3349,6 +3383,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -3363,22 +3405,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Taylor, Bothwell lead MS State to win vs. Minnesota. Kamario Taylor shines in the pocket with 227 passing yards and three touchdowns as Fluff Bothwell gets 113 rushing yards and two TDs in the Bulldogs' 38-13 victory over the Golden Gophers."
-        },
-        {
-          "player_name": "Mississippi State",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Mississippi State races past Minnesota 38-13 with another clinic by rising star QB Kamario Taylor. \u2014 Kamario Taylor passed for 227 yards and three first-half touchdowns to lead Mississippi State in a 38-13 takedown of Minnesota on Saturday in the first-ever football game between the two schools."
         }
       ]
     },
@@ -3394,20 +3420,28 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "South Carolina's Dylan",
+          "position": null,
+          "status": "PROBABLE",
+          "body_part": null,
+          "confidence_score": 0.75,
+          "source_headline": "South Carolina's Dylan Stewart, Jacarrius Peak probable vs. Mississippi State. South Carolina star edge rusher Dylan Stewart and talented newcomer offensive lineman Jacarrius Peak are listed as probable for Saturday's SEC opener against Mississippi State."
+        },
+        {
+          "player_name": "South Carolina's Beamer",
           "position": null,
           "status": null,
-          "body_part": "Hand",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Who has the momentum out of MS State and South Carolina?. Read and React's Cole Cubelic and Roman Harper explain why they think the Bulldogs have the upper hand as they travel to Columbia and face the Gamecocks."
+          "source_headline": "South Carolina's Beamer on house divided, MS State QB Taylor's skill. Shane Beamer doesn't hold back on Kamario Taylor, saying he \"could talk about him all day\" while addressing his house divided ahead of the Gamecocks' matchup with the Bulldogs."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Hand",
           "confidence_score": 0.75,
-          "source_headline": "Who's trending up or down in college football entering Week 3?. SEC This Morning's Peter Burns and Chris Doering power rank the trends happening around college football as the SEC flexes in nonconference play."
+          "source_headline": "Heisman of the week: Drew Mestemaker can run now, too?. We'll hand out some hardware every week -- and the winner for Week 2 is Oklahoma State's quarterback."
         }
       ]
     },
@@ -3419,28 +3453,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "What we think is true after Week 2 in college football. After two weeks of games, we can answer some reasonable questions about several CFP contenders."
         }
       ]
     },
@@ -3448,28 +3474,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "What we think is true after Week 2 in college football. After two weeks of games, we can answer some reasonable questions about several CFP contenders."
         }
       ]
     },
@@ -3477,28 +3495,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "What we think is true after Week 2 in college football. After two weeks of games, we can answer some reasonable questions about several CFP contenders."
         }
       ]
     },
@@ -3506,28 +3516,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "What we think is true after Week 2 in college football. After two weeks of games, we can answer some reasonable questions about several CFP contenders."
         }
       ]
     },
@@ -3699,17 +3701,25 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Vanderbilt freshman QB Jared Curtis to start vs. NC State. Vanderbilt freshman quarterback Jared Curtis will start Saturday against NC State after accounting for three of the Commodores' four touchdowns in last weekend's 35-26 win over Delaware."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": "Boston College",
-          "position": null,
-          "status": null,
-          "body_part": "Rib",
-          "confidence_score": 0.75,
-          "source_headline": "Boston College 'Red Bandanna' tribute uniforms lead top Week 2 CFB looks. On Friday, one of college football's most meaningful uniforms will carry even more emotion than usual."
         }
       ]
     },
@@ -3722,15 +3732,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -3743,15 +3745,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -3764,15 +3758,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -3879,28 +3865,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "North Carolina DC",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "North Carolina DC Steve Belichick resigns as investigation ends. North Carolina DC Steve Belichick has resigned as the university's probe into the football program's culture and climate found \"isolated\" disregard for standards of conduct."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Sources: Clemson QB Christopher Vizzina (elbow) week-to-week. Clemson quarterback Christopher Vizzina is considered week-to-week after sustaining an elbow injury Saturday, sources told ESPN's Pete Thamel. Freshman Tait Reynolds is expected to start for the Tigers against North Carolina on Saturday."
-        },
-        {
-          "player_name": "Demon June",
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Demon June runs for 3 TDs as North Carolina routs East Tennessee State 35-3 for 2-0 start. \u2014 Demon June had three rushing touchdowns and Billy Edwards threw for two first-quarter scores as North Carolina routed East Tennessee State 35-3 on Saturday in its home opener."
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
         }
       ]
     },
@@ -3908,28 +3886,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "North Carolina DC",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "North Carolina DC Steve Belichick resigns as investigation ends. North Carolina DC Steve Belichick has resigned as the university's probe into the football program's culture and climate found \"isolated\" disregard for standards of conduct."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Sources: Clemson QB Christopher Vizzina (elbow) week-to-week. Clemson quarterback Christopher Vizzina is considered week-to-week after sustaining an elbow injury Saturday, sources told ESPN's Pete Thamel. Freshman Tait Reynolds is expected to start for the Tigers against North Carolina on Saturday."
-        },
-        {
-          "player_name": "Demon June",
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Demon June runs for 3 TDs as North Carolina routs East Tennessee State 35-3 for 2-0 start. \u2014 Demon June had three rushing touchdowns and Billy Edwards threw for two first-quarter scores as North Carolina routed East Tennessee State 35-3 on Saturday in its home opener."
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
         }
       ]
     },
@@ -3937,28 +3907,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "North Carolina DC",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "North Carolina DC Steve Belichick resigns as investigation ends. North Carolina DC Steve Belichick has resigned as the university's probe into the football program's culture and climate found \"isolated\" disregard for standards of conduct."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Sources: Clemson QB Christopher Vizzina (elbow) week-to-week. Clemson quarterback Christopher Vizzina is considered week-to-week after sustaining an elbow injury Saturday, sources told ESPN's Pete Thamel. Freshman Tait Reynolds is expected to start for the Tigers against North Carolina on Saturday."
-        },
-        {
-          "player_name": "Demon June",
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Demon June runs for 3 TDs as North Carolina routs East Tennessee State 35-3 for 2-0 start. \u2014 Demon June had three rushing touchdowns and Billy Edwards threw for two first-quarter scores as North Carolina routed East Tennessee State 35-3 on Saturday in its home opener."
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
         }
       ]
     },
@@ -4100,6 +4062,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
@@ -4142,6 +4112,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
@@ -4149,6 +4127,14 @@
     "Northwestern State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -4170,9 +4156,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Hand",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "Heisman of the week: Drew Mestemaker can run now, too?. We'll hand out some hardware every week -- and the winner for Week 2 is Oklahoma State's quarterback."
         }
       ]
     },
@@ -4226,17 +4212,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Hand",
           "confidence_score": 0.75,
-          "source_headline": "Sarkisian says Ohio State should be rewarded for playing Texas. After a dramatic 24-23 comeback victory over then-No. 1 Ohio State, Texas coach Steve Sarkisian said the Buckeyes should be rewarded for playing a marquee matchup in a nonconference game."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "Heisman of the week: Drew Mestemaker can run now, too?. We'll hand out some hardware every week -- and the winner for Week 2 is Oklahoma State's quarterback."
         }
       ]
     },
@@ -4255,24 +4233,7 @@
     },
     "Oklahoma": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who's trending up or down in college football entering Week 3?. SEC This Morning's Peter Burns and Chris Doering power rank the trends happening around college football as the SEC flexes in nonconference play."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        }
-      ]
+      "injuries": []
     },
     "Oklahoma Baptist": {
       "matched": true,
@@ -4285,9 +4246,17 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Hand",
+          "confidence_score": 0.75,
+          "source_headline": "Heisman of the week: Drew Mestemaker can run now, too?. We'll hand out some hardware every week -- and the winner for Week 2 is Oklahoma State's quarterback."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What we think is true after Week 2 in college football. After two weeks of games, we can answer some reasonable questions about several CFP contenders."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         },
         {
           "player_name": null,
@@ -4295,7 +4264,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Texas' jab at Ohio State headlines top trolls of college football Week 2. The stunning comeback from Texas prompted a petty post directed at Ohio State."
+          "source_headline": "What we think is true after Week 2 in college football. After two weeks of games, we can answer some reasonable questions about several CFP contenders."
         }
       ]
     },
@@ -4305,7 +4274,24 @@
     },
     "Ole Miss": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": "Stephen A.",
+          "position": null,
+          "status": "DOUBTFUL",
+          "body_part": null,
+          "confidence_score": 0.75,
+          "source_headline": "Stephen A.: Kiffin 'lying through his teeth' listing Leavitt as doubtful. Stephen A.: Kiffin 'lying through his teeth' listing Leavitt as doubtful"
+        },
+        {
+          "player_name": "LSU QB Sam",
+          "position": null,
+          "status": "DOUBTFUL",
+          "body_part": "Back",
+          "confidence_score": 1.0,
+          "source_headline": "LSU QB Sam Leavitt surprise doubtful ahead of Ole Miss game. In a surprising turn of events, LSU listed starting quarterback Sam Leavitt as doubtful for Saturday. The exact nature of his injury is unclear."
+        }
+      ]
     },
     "Olivet": {
       "matched": true,
@@ -4318,6 +4304,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Hand",
+          "confidence_score": 0.75,
+          "source_headline": "Heisman of the week: Drew Mestemaker can run now, too?. We'll hand out some hardware every week -- and the winner for Week 2 is Oklahoma State's quarterback."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Week 2's best moments: Arch's defining moment, Michigan's revival and Oregon's downfall. Bounce-back performances from Texas, Michigan and Oklahoma State lead the way in Week 2."
@@ -4329,14 +4323,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Hammond throws go-ahead touchdown pass and No. 13 Texas Tech downs Oregon State 35-24. \u2014 Will Hammond hit Coy Eakin with a 32-yard touchdown pass with 6:31 left to put Texas Tech in front and the No. 13 Red Raiders went on to a 35-24 comeback victory over resilient Oregon State on Saturday night."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Weigman throws for 305 yards and leads No. 23 Houston to a 33-20 win over Oregon State. \u2014 Conner Weigman threw for 305 yards and a touchdown and rushed for another score, Re\u2019Shaun Sanford II and Mekhi Hughes added rushing scores and No. 23 Houston beat Oregon State 33-20 on Saturday in the teams\u2019 season opener."
         }
       ]
     },
@@ -4347,6 +4333,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Hand",
+          "confidence_score": 0.75,
+          "source_headline": "Heisman of the week: Drew Mestemaker can run now, too?. We'll hand out some hardware every week -- and the winner for Week 2 is Oklahoma State's quarterback."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Week 2's best moments: Arch's defining moment, Michigan's revival and Oregon's downfall. Bounce-back performances from Texas, Michigan and Oklahoma State lead the way in Week 2."
@@ -4358,14 +4352,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Hammond throws go-ahead touchdown pass and No. 13 Texas Tech downs Oregon State 35-24. \u2014 Will Hammond hit Coy Eakin with a 32-yard touchdown pass with 6:31 left to put Texas Tech in front and the No. 13 Red Raiders went on to a 35-24 comeback victory over resilient Oregon State on Saturday night."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Weigman throws for 305 yards and leads No. 23 Houston to a 33-20 win over Oregon State. \u2014 Conner Weigman threw for 305 yards and a touchdown and rushed for another score, Re\u2019Shaun Sanford II and Mekhi Hughes added rushing scores and No. 23 Houston beat Oregon State 33-20 on Saturday in the teams\u2019 season opener."
         }
       ]
     },
@@ -4392,6 +4378,14 @@
     "Penn State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
         {
           "player_name": null,
           "position": null,
@@ -4464,12 +4458,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "College Football Playoff",
           "position": null,
           "status": null,
-          "body_part": "Hand",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Heisman of the week: Miami's Malachi Toney gets jump on the field. We'll hand out some hardware every week -- and our first winner is the Hurricanes' dynamic receiver."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff predictions: Who's most likely to make the field. Find out which teams our experts think will make this season's CFP."
         }
       ]
     },
@@ -4657,12 +4659,28 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "Boston College",
+          "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Rib",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Boston College 'Red Bandanna' tribute uniforms lead top Week 2 CFB looks. On Friday, one of college football's most meaningful uniforms will carry even more emotion than usual."
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Bottom 10 after Week 2: Oregon ducks onto list. Strange happenings continue in college football, where long losing streaks have become a winning formula."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -4689,6 +4707,14 @@
     "Sacramento State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Bottom 10 after Week 2: Oregon ducks onto list. Strange happenings continue in college football, where long losing streaks have become a winning formula."
+        },
         {
           "player_name": "Fresno State's",
           "position": null,
@@ -5017,6 +5043,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -5104,7 +5138,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -5132,20 +5166,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "SEC Now",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Sarkisian says Ohio State should be rewarded for playing Texas. After a dramatic 24-23 comeback victory over then-No. 1 Ohio State, Texas coach Steve Sarkisian said the Buckeyes should be rewarded for playing a marquee matchup in a nonconference game."
+          "source_headline": "SEC Now debates whether Texas or Georgia deserves No. 1 ranking. SEC Network's Texas alum Fozzy Whittaker and Georgia alum Matt Stinchcomb make the case for their school to have the top ranking in college football."
         }
       ]
     },
@@ -5158,15 +5184,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
         },
         {
-          "player_name": null,
+          "player_name": "Will Stein",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "Will Stein happy with Wildcats' response to tough loss vs. Bama. Stein explains how Kentucky is bouncing back after the Week 2 loss and how his team is preparing for the trip to No. 9 Texas A&M."
         }
       ]
     },
@@ -5179,15 +5205,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
         },
         {
-          "player_name": null,
+          "player_name": "Will Stein",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "Will Stein happy with Wildcats' response to tough loss vs. Bama. Stein explains how Kentucky is bouncing back after the Week 2 loss and how his team is preparing for the trip to No. 9 Texas A&M."
         }
       ]
     },
@@ -5195,26 +5221,26 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "SEC Now",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Sarkisian says Ohio State should be rewarded for playing Texas. After a dramatic 24-23 comeback victory over then-No. 1 Ohio State, Texas coach Steve Sarkisian said the Buckeyes should be rewarded for playing a marquee matchup in a nonconference game."
+          "source_headline": "SEC Now debates whether Texas or Georgia deserves No. 1 ranking. SEC Network's Texas alum Fozzy Whittaker and Georgia alum Matt Stinchcomb make the case for their school to have the top ranking in college football."
         }
       ]
     },
     "Texas State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
+        },
         {
           "player_name": null,
           "position": null,
@@ -5229,20 +5255,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "SEC Now",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Sarkisian says Ohio State should be rewarded for playing Texas. After a dramatic 24-23 comeback victory over then-No. 1 Ohio State, Texas coach Steve Sarkisian said the Buckeyes should be rewarded for playing a marquee matchup in a nonconference game."
+          "source_headline": "SEC Now debates whether Texas or Georgia deserves No. 1 ranking. SEC Network's Texas alum Fozzy Whittaker and Georgia alum Matt Stinchcomb make the case for their school to have the top ranking in college football."
         }
       ]
     },
@@ -5391,26 +5409,34 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Hamstring",
           "confidence_score": 0.75,
           "source_headline": "Sources: UCF QB Alonza Barnett III (hamstring) out multiple weeks. UCF starting QB Alonza Barnett III is expected to miss multiple weeks with a hamstring injury, sources tell ESPN's Pete Thamel."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
     "UCLA": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
         {
           "player_name": null,
           "position": null,
@@ -5458,12 +5484,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff predictions: Who's most likely to make the field. Find out which teams our experts think will make this season's CFP."
         }
       ]
     },
@@ -5523,17 +5557,25 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Hand",
+          "confidence_score": 0.75,
+          "source_headline": "Heisman of the week: Drew Mestemaker can run now, too?. We'll hand out some hardware every week -- and the winner for Week 2 is Oklahoma State's quarterback."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Texas rises to No. 1 in AP Top 25; Ohio State, Oregon tumble. The unprecedented comeback by Texas to knock off Ohio State moved the Longhorns to No. 1 in the AP Top 25 and pushed the Buckeyes out of the top five for the first time in two seasons."
+          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
         }
       ]
     },
@@ -5581,17 +5623,25 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Hand",
+          "confidence_score": 0.75,
+          "source_headline": "Heisman of the week: Drew Mestemaker can run now, too?. We'll hand out some hardware every week -- and the winner for Week 2 is Oklahoma State's quarterback."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Texas rises to No. 1 in AP Top 25; Ohio State, Oregon tumble. The unprecedented comeback by Texas to knock off Ohio State moved the Longhorns to No. 1 in the AP Top 25 and pushed the Buckeyes out of the top five for the first time in two seasons."
+          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
         }
       ]
     },
@@ -5613,7 +5663,24 @@
     },
     "Vanderbilt": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Vanderbilt freshman QB Jared Curtis to start vs. NC State. Vanderbilt freshman quarterback Jared Curtis will start Saturday against NC State after accounting for three of the Commodores' four touchdowns in last weekend's 35-26 win over Delaware."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        }
+      ]
     },
     "Vermont State Castleton": {
       "matched": true,
@@ -5652,28 +5719,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Texas rises to No. 1 in AP Top 25; Ohio State, Oregon tumble. The unprecedented comeback by Texas to knock off Ohio State moved the Longhorns to No. 1 in the AP Top 25 and pushed the Buckeyes out of the top five for the first time in two seasons."
-        },
-        {
-          "player_name": "Beau Pribula",
-          "position": null,
-          "status": null,
-          "body_part": "Rib",
-          "confidence_score": 0.75,
-          "source_headline": "Beau Pribula throws 3 first-quarter TD passes and No. 25 Virginia routs Norfolk State 59-3. \u2014 Beau Pribula threw three first-quarter touchdown passes, and No. 25 Virginia rolled to a 59-3 win over Norfolk State on Friday night."
         }
       ]
     },
@@ -5681,28 +5740,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Texas rises to No. 1 in AP Top 25; Ohio State, Oregon tumble. The unprecedented comeback by Texas to knock off Ohio State moved the Longhorns to No. 1 in the AP Top 25 and pushed the Buckeyes out of the top five for the first time in two seasons."
-        },
-        {
-          "player_name": "Beau Pribula",
-          "position": null,
-          "status": null,
-          "body_part": "Rib",
-          "confidence_score": 0.75,
-          "source_headline": "Beau Pribula throws 3 first-quarter TD passes and No. 25 Virginia routs Norfolk State 59-3. \u2014 Beau Pribula threw three first-quarter touchdown passes, and No. 25 Virginia rolled to a 59-3 win over Norfolk State on Friday night."
         }
       ]
     },
@@ -5728,7 +5779,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         },
         {
           "player_name": null,
@@ -5736,7 +5795,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
+          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
         }
       ]
     },
@@ -5744,28 +5803,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Texas rises to No. 1 in AP Top 25; Ohio State, Oregon tumble. The unprecedented comeback by Texas to knock off Ohio State moved the Longhorns to No. 1 in the AP Top 25 and pushed the Buckeyes out of the top five for the first time in two seasons."
-        },
-        {
-          "player_name": "Beau Pribula",
-          "position": null,
-          "status": null,
-          "body_part": "Rib",
-          "confidence_score": 0.75,
-          "source_headline": "Beau Pribula throws 3 first-quarter TD passes and No. 25 Virginia routs Norfolk State 59-3. \u2014 Beau Pribula threw three first-quarter touchdown passes, and No. 25 Virginia rolled to a 59-3 win over Norfolk State on Friday night."
         }
       ]
     },
@@ -5810,20 +5861,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": "Wake Forest",
           "position": null,
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Wake Forest edges Purdue 38-36 in double overtime. \u2014 Wake Forest quarterback Gio Lopez ran for a 3-yard touchdown in double overtime, and he converted the two-point conversion to lift the Demon Deacons to a 38-36 victory over Purdue on Saturday."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -5843,6 +5894,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": "OUT",
@@ -5857,22 +5916,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Texas rises to No. 1 in AP Top 25; Ohio State, Oregon tumble. The unprecedented comeback by Texas to knock off Ohio State moved the Longhorns to No. 1 in the AP Top 25 and pushed the Buckeyes out of the top five for the first time in two seasons."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "AP college football Week 2 poll reaction: What's next for each Top 25 team. A look at this week's Top 25."
         }
       ]
     },
@@ -5883,6 +5926,14 @@
     "Washington State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "Washington State's Tony",
+          "position": null,
+          "status": "OUT",
+          "body_part": "Acl",
+          "confidence_score": 1.0,
+          "source_headline": "Washington State's Tony Freeman has torn ACL, out for season. Washington State's Tony Freeman, the team's top returning receiver and kick-return specialist, has suffered a torn ACL and will miss the rest of the season."
+        },
         {
           "player_name": null,
           "position": null,
@@ -5914,20 +5965,20 @@
           "body_part": "Shin",
           "confidence_score": 0.75,
           "source_headline": "No. 17 Washington struggles on offense but pulls out 24-10 Apple Cup win over Washington State. \u2014 Demond Williams Jr. threw for 268 yards and a touchdown, and No. 17 Washington survived offensive struggles for a 24-10 victory over Washington State in a season-opening Apple Cup on Sunday."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Lane vs. Dabo, Mike Norvell vs. the hot seat and everything to watch in Week 1. College football is back! Previewing Week 1's top games and which teams are on upset watch."
         }
       ]
     },
     "Washington and Lee": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
         {
           "player_name": null,
           "position": null,
@@ -5943,22 +5994,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Texas rises to No. 1 in AP Top 25; Ohio State, Oregon tumble. The unprecedented comeback by Texas to knock off Ohio State moved the Longhorns to No. 1 in the AP Top 25 and pushed the Buckeyes out of the top five for the first time in two seasons."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "AP college football Week 2 poll reaction: What's next for each Top 25 team. A look at this week's Top 25."
         }
       ]
     },
@@ -6032,6 +6067,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": "West Virginia",
           "position": null,
           "status": null,
@@ -6046,14 +6089,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
         }
       ]
     },
@@ -6061,6 +6096,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
           "player_name": "West Virginia",
           "position": null,
           "status": null,
@@ -6075,14 +6118,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
         }
       ]
     },
@@ -6108,7 +6143,16 @@
     },
     "Western Kentucky": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Hip",
+          "confidence_score": 0.75,
+          "source_headline": "No. 4 Indiana wants to finetune offense, defense in final non-conference tuneup vs. Western Kentucky. Indiana coach Curt Cignetti won last year's national championship by demanding his players keep finding ways to improve."
+        }
+      ]
     },
     "Western Michigan": {
       "matched": false,
@@ -6232,7 +6276,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         },
         {
           "player_name": null,
@@ -6240,7 +6292,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Who has the most wins vs. No. 1 college football teams?. Alabama has won the most games vs. No. 1-ranked teams in college football history. See which teams make the rest of the list."
+          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
         }
       ]
     },
@@ -6253,7 +6305,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         },
         {
           "player_name": null,
@@ -6261,7 +6321,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Who has the most wins vs. No. 1 college football teams?. Alabama has won the most games vs. No. 1-ranked teams in college football history. See which teams make the rest of the list."
+          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
         }
       ]
     },
@@ -6274,7 +6334,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         },
         {
           "player_name": null,
@@ -6282,7 +6350,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Who has the most wins vs. No. 1 college football teams?. Alabama has won the most games vs. No. 1-ranked teams in college football history. See which teams make the rest of the list."
+          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
         }
       ]
     },
@@ -6295,7 +6363,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         },
         {
           "player_name": null,
@@ -6303,7 +6379,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Who has the most wins vs. No. 1 college football teams?. Alabama has won the most games vs. No. 1-ranked teams in college football history. See which teams make the rest of the list."
+          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
         }
       ]
     },
@@ -6341,7 +6417,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         },
         {
           "player_name": null,
@@ -6349,7 +6433,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Who has the most wins vs. No. 1 college football teams?. Alabama has won the most games vs. No. 1-ranked teams in college football history. See which teams make the rest of the list."
+          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
         }
       ]
     },
@@ -6362,7 +6446,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         },
         {
           "player_name": null,
@@ -6370,7 +6462,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Who has the most wins vs. No. 1 college football teams?. Alabama has won the most games vs. No. 1-ranked teams in college football history. See which teams make the rest of the list."
+          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
         }
       ]
     },
@@ -6383,7 +6475,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
+          "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         },
         {
           "player_name": null,
@@ -6391,7 +6491,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Who has the most wins vs. No. 1 college football teams?. Alabama has won the most games vs. No. 1-ranked teams in college football history. See which teams make the rest of the list."
+          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
         }
       ]
     },
