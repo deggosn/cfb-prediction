@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T15:26:42.939453+00:00",
+  "generated_at": "2026-09-18T14:54:10.564033+00:00",
   "season": 2026,
   "week": 3,
   "teams": {
@@ -363,7 +363,16 @@
     },
     "Arkansas-Pine Bluff": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": "Monte Coleman",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Monte Coleman, ex-Washington LB and UAPB coach, dies at 68. Monte Coleman, the hard-nosed linebacker who won three Super Bowls with Washington and later coached Arkansas-Pine Bluff to a conference championship, has died. He was 68."
+        }
+      ]
     },
     "Ashland": {
       "matched": true,
@@ -385,6 +394,14 @@
     "Auburn": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -461,6 +478,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -507,6 +532,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": "DOUBTFUL",
+          "body_part": "Ankle",
+          "confidence_score": 1.0,
+          "source_headline": "Sources: Baylor's Lagway doubtful to play against Louisiana Tech. Baylor quarterback DJ Lagway is considered doubtful for the Bears' game Saturday against Louisiana Tech because of an ankle injury, sources told ESPN's Pete Thamel."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -521,14 +554,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Bennett totals 3 TDs in Baylor\u2019s 44-3 win over Prairie View A&M. \u2014 Backup quarterback Nate Bennett threw two touchdown passes and ran for another score to lead Baylor to a 44-3 victory over Prairie View A&M on Saturday night."
         }
       ]
     },
@@ -1327,6 +1352,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
         }
       ]
@@ -1919,12 +1952,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
         }
       ]
     },
@@ -2445,6 +2478,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -2457,6 +2498,22 @@
     "Houston Christian": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "Texas Tech's Mahomes",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Texas Tech's Mahomes collaboration tops best Week 3 CFB uniforms. Mahomes' alma mater, Texas Tech, will don its \"Let's Ride\" uniforms Friday night against Houston, with the threads created in collaboration with the quarterback."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -2885,28 +2942,28 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "Stephen A.",
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
+        },
+        {
+          "player_name": "Sam Leavitt",
           "position": null,
           "status": "DOUBTFUL",
-          "body_part": null,
-          "confidence_score": 0.75,
-          "source_headline": "Stephen A.: Kiffin 'lying through his teeth' listing Leavitt as doubtful. Stephen A.: Kiffin 'lying through his teeth' listing Leavitt as doubtful"
+          "body_part": "Back",
+          "confidence_score": 1.0,
+          "source_headline": "Sam Leavitt goes from doubtful to questionable for LSU. LSU quarterback Sam Leavitt has been upgraded from doubtful to questionable for Saturday's primetime rivalry game vs. Ole Miss in Oxford, Mississippi."
         },
         {
           "player_name": null,
           "position": null,
-          "status": "DOUBTFUL",
-          "body_part": null,
+          "status": null,
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Finebaum: Kiffin 'spitting' in eyes of SEC commish with Leavitt doubtful tag. Finebaum: Kiffin 'spitting' in eyes of SEC commish with Leavitt doubtful tag"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": "DOUBTFUL",
-          "body_part": null,
-          "confidence_score": 0.75,
-          "source_headline": "Pate: There's a 'healthy skepticism' about LSU listing Leavitt as doubtful. Pate: There's a 'healthy skepticism' about LSU listing Leavitt as doubtful"
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
         }
       ]
     },
@@ -3036,20 +3093,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
         }
       ]
     },
@@ -3130,6 +3187,14 @@
     "Maryland": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -3229,6 +3294,14 @@
     "Michigan State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -3420,6 +3493,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
+        },
+        {
           "player_name": "South Carolina's Dylan",
           "position": null,
           "status": "PROBABLE",
@@ -3434,14 +3515,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "South Carolina's Beamer on house divided, MS State QB Taylor's skill. Shane Beamer doesn't hold back on Kamario Taylor, saying he \"could talk about him all day\" while addressing his house divided ahead of the Gamecocks' matchup with the Bulldogs."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "Heisman of the week: Drew Mestemaker can run now, too?. We'll hand out some hardware every week -- and the winner for Week 2 is Oklahoma State's quarterback."
         }
       ]
     },
@@ -3452,6 +3525,14 @@
     "Missouri": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "How and why Missouri is claiming a college football title 66 years later. Like Oklahoma State and Auburn before, another team is ready to hang a banner long after the season's games were played."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -3474,12 +3555,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "College Football Playoff",
+          "player_name": "Texas Tech's Mahomes",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "Texas Tech's Mahomes collaboration tops best Week 3 CFB uniforms. Mahomes' alma mater, Texas Tech, will don its \"Let's Ride\" uniforms Friday night against Houston, with the threads created in collaboration with the quarterback."
         },
         {
           "player_name": null,
@@ -3487,7 +3568,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
+          "source_headline": "How and why Missouri is claiming a college football title 66 years later. Like Oklahoma State and Auburn before, another team is ready to hang a banner long after the season's games were played."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -3495,12 +3584,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "College Football Playoff",
+          "player_name": "Texas Tech's Mahomes",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "Texas Tech's Mahomes collaboration tops best Week 3 CFB uniforms. Mahomes' alma mater, Texas Tech, will don its \"Let's Ride\" uniforms Friday night against Houston, with the threads created in collaboration with the quarterback."
         },
         {
           "player_name": null,
@@ -3508,7 +3597,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
+          "source_headline": "How and why Missouri is claiming a college football title 66 years later. Like Oklahoma State and Auburn before, another team is ready to hang a banner long after the season's games were played."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -3516,12 +3613,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "College Football Playoff",
+          "player_name": "Texas Tech's Mahomes",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "Texas Tech's Mahomes collaboration tops best Week 3 CFB uniforms. Mahomes' alma mater, Texas Tech, will don its \"Let's Ride\" uniforms Friday night against Houston, with the threads created in collaboration with the quarterback."
         },
         {
           "player_name": null,
@@ -3529,7 +3626,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
+          "source_headline": "How and why Missouri is claiming a college football title 66 years later. Like Oklahoma State and Auburn before, another team is ready to hang a banner long after the season's games were played."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -4156,9 +4261,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Hand",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Heisman of the week: Drew Mestemaker can run now, too?. We'll hand out some hardware every week -- and the winner for Week 2 is Oklahoma State's quarterback."
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
         }
       ]
     },
@@ -4207,16 +4312,7 @@
     },
     "Ohio State": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "Heisman of the week: Drew Mestemaker can run now, too?. We'll hand out some hardware every week -- and the winner for Week 2 is Oklahoma State's quarterback."
-        }
-      ]
+      "injuries": []
     },
     "Ohio Wesleyan": {
       "matched": true,
@@ -4276,20 +4372,28 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "Stephen A.",
+          "player_name": null,
           "position": null,
-          "status": "DOUBTFUL",
-          "body_part": null,
+          "status": null,
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Stephen A.: Kiffin 'lying through his teeth' listing Leavitt as doubtful. Stephen A.: Kiffin 'lying through his teeth' listing Leavitt as doubtful"
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
         },
         {
-          "player_name": "LSU QB Sam",
+          "player_name": "Sam Leavitt",
           "position": null,
           "status": "DOUBTFUL",
           "body_part": "Back",
           "confidence_score": 1.0,
-          "source_headline": "LSU QB Sam Leavitt surprise doubtful ahead of Ole Miss game. In a surprising turn of events, LSU listed starting quarterback Sam Leavitt as doubtful for Saturday. The exact nature of his injury is unclear."
+          "source_headline": "Sam Leavitt goes from doubtful to questionable for LSU. LSU quarterback Sam Leavitt has been upgraded from doubtful to questionable for Saturday's primetime rivalry game vs. Ole Miss in Oxford, Mississippi."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
         }
       ]
     },
@@ -5133,6 +5237,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Calvin Russell III",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Calvin Russell III to make Syracuse football debut vs. UConn. Heralded Syracuse freshman two-sport standout Calvin Russell III is expected to make his debut for the football team vs. UConn on Oct. 3, coach Fran Brown said."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -5166,12 +5278,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "SEC Now",
+          "player_name": "Steve Sarkisian",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Hand",
           "confidence_score": 0.75,
-          "source_headline": "SEC Now debates whether Texas or Georgia deserves No. 1 ranking. SEC Network's Texas alum Fozzy Whittaker and Georgia alum Matt Stinchcomb make the case for their school to have the top ranking in college football."
+          "source_headline": "Steve Sarkisian: Needed more patience with postgame interview. Texas coach Steve Sarkisian says he should have better handled his postgame interview after the win over Ohio State and acknowledged the testy exchange led to the creation of fake videos and an apology from star quarterback Arch Manning."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Texas co-DC Nansen charged with DWI, Sarkisian announces. Texas co-defensive coordinator and inside linebackers coach Johnny Nansen has been charged with misdemeanor driving while intoxicated, head coach Steve Sarkisian announced Thursday."
         }
       ]
     },
@@ -5185,14 +5305,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
-        },
-        {
-          "player_name": "Will Stein",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Will Stein happy with Wildcats' response to tough loss vs. Bama. Stein explains how Kentucky is bouncing back after the Week 2 loss and how his team is preparing for the trip to No. 9 Texas A&M."
         }
       ]
     },
@@ -5206,14 +5318,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
-        },
-        {
-          "player_name": "Will Stein",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Will Stein happy with Wildcats' response to tough loss vs. Bama. Stein explains how Kentucky is bouncing back after the Week 2 loss and how his team is preparing for the trip to No. 9 Texas A&M."
         }
       ]
     },
@@ -5221,12 +5325,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "SEC Now",
+          "player_name": "Steve Sarkisian",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Hand",
           "confidence_score": 0.75,
-          "source_headline": "SEC Now debates whether Texas or Georgia deserves No. 1 ranking. SEC Network's Texas alum Fozzy Whittaker and Georgia alum Matt Stinchcomb make the case for their school to have the top ranking in college football."
+          "source_headline": "Steve Sarkisian: Needed more patience with postgame interview. Texas coach Steve Sarkisian says he should have better handled his postgame interview after the win over Ohio State and acknowledged the testy exchange led to the creation of fake videos and an apology from star quarterback Arch Manning."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Texas co-DC Nansen charged with DWI, Sarkisian announces. Texas co-defensive coordinator and inside linebackers coach Johnny Nansen has been charged with misdemeanor driving while intoxicated, head coach Steve Sarkisian announced Thursday."
         }
       ]
     },
@@ -5255,12 +5367,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "SEC Now",
+          "player_name": "Steve Sarkisian",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Hand",
           "confidence_score": 0.75,
-          "source_headline": "SEC Now debates whether Texas or Georgia deserves No. 1 ranking. SEC Network's Texas alum Fozzy Whittaker and Georgia alum Matt Stinchcomb make the case for their school to have the top ranking in college football."
+          "source_headline": "Steve Sarkisian: Needed more patience with postgame interview. Texas coach Steve Sarkisian says he should have better handled his postgame interview after the win over Ohio State and acknowledged the testy exchange led to the creation of fake videos and an apology from star quarterback Arch Manning."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Texas co-DC Nansen charged with DWI, Sarkisian announces. Texas co-defensive coordinator and inside linebackers coach Johnny Nansen has been charged with misdemeanor driving while intoxicated, head coach Steve Sarkisian announced Thursday."
         }
       ]
     },
@@ -5719,20 +5839,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
         }
       ]
     },
@@ -5740,20 +5860,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
         }
       ]
     },
@@ -5779,6 +5899,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football Week 3 best bets: Plays to make on UNC, Alabama, Texas A&M and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 3."
         },
         {
@@ -5788,14 +5916,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
         }
       ]
     },
@@ -5803,20 +5923,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
         }
       ]
     },
@@ -5867,6 +5987,14 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 2. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        },
+        {
+          "player_name": "QBs Mensah",
+          "position": null,
+          "status": null,
+          "body_part": "Hip",
+          "confidence_score": 0.75,
+          "source_headline": "QBs Mensah at No. 5 Miami, Lopez at Wake Forest meet Friday as thriving QBs after in-ACC transfers. Darian Mensah spent a lone season at Duke posting some of the nation's top passing numbers while leading the Blue Devils to a rare Atlantic Coast Conference championship."
         },
         {
           "player_name": "Wake Forest",
@@ -5986,14 +6114,6 @@
           "body_part": "Shin",
           "confidence_score": 1.0,
           "source_headline": "Washington loses WR Christian Moss for 2 to 3 months. Washington's injury toll on offense continues to climb as starting wide receiver Christian Moss will miss two to three months with a lower body injury, coach Jedd Fisch announced on Monday."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 2 College Football Playoff bowl projections. Thinking of the postseason already? Here are projections for each bowl game, plus the playoff, after Week 2."
         }
       ]
     },
@@ -6067,6 +6187,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -6081,14 +6209,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "West Virginia assistant Devine arrested on strangulation charge. West Virginia staff member and former standout running back Noel Devine was placed on leave after his arrest Sunday."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -6096,6 +6216,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -6110,14 +6238,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "West Virginia assistant Devine arrested on strangulation charge. West Virginia staff member and former standout running back Noel Devine was placed on leave after his arrest Sunday."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble watch after Week 1. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
