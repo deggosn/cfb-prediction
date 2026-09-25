@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T15:43:05.416833+00:00",
+  "generated_at": "2026-09-25T15:46:59.853130+00:00",
   "season": 2026,
   "week": 4,
   "teams": {
@@ -102,20 +102,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
           "player_name": "Gene Chizik",
           "position": null,
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Gene Chizik reveals his top five SEC quarterbacks ahead of Week 4. SEC Network's Chizik lists his top five quarterbacks heading into Week 4 action as he discusses why Trinidad Chambliss belongs in the top spot."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Connelly: Ranking the 10 best College Football Playoff games. Who takes the No. 1 spot? ESPN's Bill Connelly lists out his top 10 College Football Playoff games."
         }
       ]
     },
@@ -292,6 +292,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
@@ -303,22 +311,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football Week 4 best bets: Plays to make on Missouri, Indiana, Ole Miss and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 4."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": "Roman Are You",
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "Roman Are You Impressed? Week 3 has some style points. Read & React's Cole Cubelic has Roman Harper very impressed from Week 3 with various one-hand catches and some shades on the sideline."
         }
       ]
     },
@@ -394,12 +386,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         }
       ]
     },
@@ -480,6 +472,14 @@
     "Baylor": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Oregon's look for USC trip tops best uniforms of college football Week 4. At a base level it's an all-white set for Oregon this week, but it's the details that make the uniform really pop."
+        },
         {
           "player_name": "Baylor QB Lagway",
           "position": null,
@@ -587,20 +587,20 @@
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
     "Boston College": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Betting buzz: College football bettors target windy conditions, drive totals down. With storms forecast for the northeast this weekend, bettors are targeting the under in two key matchups."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -780,6 +780,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
@@ -805,6 +813,14 @@
     "California (PA)": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
         {
           "player_name": null,
           "position": null,
@@ -1154,6 +1170,22 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Hip",
+          "confidence_score": 0.75,
+          "source_headline": "Is this Clemson's death rattle? Or is Dabo Swinney still capable of righting the ship?. Clemson is 2-1, but with Cal up next, questions still linger around the state of Dabo Swinney's program."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
@@ -1173,14 +1205,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 3 College Football Playoff, bowl projections. With thrilling finishes and some big upsets, here are projections for each postseason game following Week 3."
         }
       ]
     },
@@ -1190,16 +1214,7 @@
     },
     "Coastal Carolina": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Bailey throws for 3 TDs, Lee-Knicely runs for 2, and Coastal Carolina topples Fordham 45-7. \u2014 Deuce Bailey threw for three touchdowns, Dominic Lee-Knicely had two rushing scores, and Coastal Carolina defeated FCS-opponent Fordham 45-7 on Saturday night, giving first-year coach Ryan Beard his first win with the Chanticleers."
-        }
-      ]
+      "injuries": []
     },
     "Colby": {
       "matched": true,
@@ -1212,6 +1227,14 @@
     "Colorado": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -1512,6 +1535,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
@@ -1539,14 +1570,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's 35 unbeaten teams after Week 3. Following Week 3, Bill Connelly takes stock of which undefeated teams he trusts and which are pretenders."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
         }
       ]
     },
@@ -1861,25 +1884,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Knee",
-          "confidence_score": 0.75,
-          "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 4 best bets: Plays to make on Missouri, Indiana, Ole Miss and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 4."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         },
         {
-          "player_name": "Gene Chizik",
+          "player_name": "Graham Mertz",
           "position": null,
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Gene Chizik reveals his top five SEC quarterbacks ahead of Week 4. SEC Network's Chizik lists his top five quarterbacks heading into Week 4 action as he discusses why Trinidad Chambliss belongs in the top spot."
+          "source_headline": "Graham Mertz shares his excitement for No. 21 Ole Miss vs. No. 4 Florida. Houston Texans quarterback and Gators alum Mertz joins The Paul Finebaum Show and discusses how he's ready to see Trinidad Chambliss and the Rebels go against Aaron Philo and Florida."
         }
       ]
     },
@@ -1925,6 +1940,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -1947,14 +1970,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Best of Week 3: Ole Miss gets revenge, an inexplicable NC State fumble and more. From a marquee matchup in Oxford to Vandy-NC State, college football's Week 3 was filled with wild games."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
         }
       ]
     },
@@ -2099,17 +2114,17 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
-        },
-        {
-          "player_name": "Gene Chizik",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Gene Chizik reveals his top five SEC quarterbacks ahead of Week 4. SEC Network's Chizik lists his top five quarterbacks heading into Week 4 action as he discusses why Trinidad Chambliss belongs in the top spot."
         }
       ]
     },
@@ -2133,6 +2148,14 @@
     "Georgia Tech": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -2533,6 +2556,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football Week 4 best bets: Plays to make on Missouri, Indiana, Ole Miss and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 4."
         }
       ]
@@ -2567,6 +2598,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football Week 4 best bets: Plays to make on Missouri, Indiana, Ole Miss and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 4."
         }
       ]
@@ -2574,6 +2613,14 @@
     "Iowa": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Oregon's look for USC trip tops best uniforms of college football Week 4. At a base level it's an all-white set for Oregon this week, but it's the details that make the uniform really pop."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -2587,6 +2634,14 @@
     "Iowa State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Oregon's look for USC trip tops best uniforms of college football Week 4. At a base level it's an all-white set for Oregon this week, but it's the details that make the uniform really pop."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -2612,6 +2667,14 @@
     "James Madison": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Betting buzz: College football bettors target windy conditions, drive totals down. With storms forecast for the northeast this weekend, bettors are targeting the under in two key matchups."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -2671,6 +2734,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "First day of fall brings fun and football superlatives to SEC Now. Fozzy Whittaker convinces Gene Chizik to sip his seasonal latte as Peter Burns asks the duo which SEC teams fit different fall staples."
         },
         {
@@ -2680,14 +2751,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Will Stein credits Kentucky's preparation for win over Texas A&M. Stein relives the Wildcats' upset win in College Station and says the build up to that win starts with a great week of practice and all the way back to the offseason."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -2700,6 +2763,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "First day of fall brings fun and football superlatives to SEC Now. Fozzy Whittaker convinces Gene Chizik to sip his seasonal latte as Peter Burns asks the duo which SEC teams fit different fall staples."
         },
         {
@@ -2709,14 +2780,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Will Stein credits Kentucky's preparation for win over Texas A&M. Stein relives the Wildcats' upset win in College Station and says the build up to that win starts with a great week of practice and all the way back to the offseason."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -2729,29 +2792,8 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "First day of fall brings fun and football superlatives to SEC Now. Fozzy Whittaker convinces Gene Chizik to sip his seasonal latte as Peter Burns asks the duo which SEC teams fit different fall staples."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         },
-        {
-          "player_name": "Will Stein",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Will Stein credits Kentucky's preparation for win over Texas A&M. Stein relives the Wildcats' upset win in College Station and says the build up to that win starts with a great week of practice and all the way back to the offseason."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        }
-      ]
-    },
-    "Kentucky Wesleyan": {
-      "matched": true,
-      "injuries": [
         {
           "player_name": null,
           "position": null,
@@ -2767,14 +2809,35 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Will Stein credits Kentucky's preparation for win over Texas A&M. Stein relives the Wildcats' upset win in College Station and says the build up to that win starts with a great week of practice and all the way back to the offseason."
-        },
+        }
+      ]
+    },
+    "Kentucky Wesleyan": {
+      "matched": true,
+      "injuries": [
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "First day of fall brings fun and football superlatives to SEC Now. Fozzy Whittaker convinces Gene Chizik to sip his seasonal latte as Peter Burns asks the duo which SEC teams fit different fall staples."
+        },
+        {
+          "player_name": "Will Stein",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Will Stein credits Kentucky's preparation for win over Texas A&M. Stein relives the Wildcats' upset win in College Station and says the build up to that win starts with a great week of practice and all the way back to the offseason."
         }
       ]
     },
@@ -2822,17 +2885,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Knee",
-          "confidence_score": 0.75,
-          "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Connelly: Ranking the 10 best College Football Playoff games. Who takes the No. 1 spot? ESPN's Bill Connelly lists out his top 10 College Football Playoff games."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         }
       ]
     },
@@ -2936,25 +2991,25 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Knee",
-          "confidence_score": 0.75,
-          "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": "OUT",
+          "body_part": "Knee",
+          "confidence_score": 1.0,
+          "source_headline": "No. 16 Louisville loses Antonio Watts for season with knee injury. Linebacker and safety Antonio Watts will miss the rest of the season for the 16th-ranked Louisville Cardinals with an injured knee."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Knee",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 3 College Football Playoff, bowl projections. With thrilling finishes and some big upsets, here are projections for each postseason game following Week 3."
+          "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
         }
       ]
     },
@@ -3027,6 +3082,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
@@ -3038,14 +3101,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football Week 3 preview: Can Ole Miss take down LSU?. This weekend's schedule has plenty of intriguing matchups beyond the little tussle in Oxford."
         }
       ]
     },
@@ -3126,25 +3181,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Knee",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Knee",
           "confidence_score": 0.75,
-          "source_headline": "Connelly: Ranking the 10 best College Football Playoff games. Who takes the No. 1 spot? ESPN's Bill Connelly lists out his top 10 College Football Playoff games."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
         }
       ]
     },
@@ -3197,6 +3244,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -3239,6 +3294,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -3267,6 +3330,14 @@
     "Minnesota State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -3308,6 +3379,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
@@ -3319,30 +3398,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football Week 4 best bets: Plays to make on Missouri, Indiana, Ole Miss and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 4."
-        },
-        {
-          "player_name": "Gene Chizik",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Gene Chizik reveals his top five SEC quarterbacks ahead of Week 4. SEC Network's Chizik lists his top five quarterbacks heading into Week 4 action as he discusses why Trinidad Chambliss belongs in the top spot."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "First day of fall brings fun and football superlatives to SEC Now. Fozzy Whittaker convinces Gene Chizik to sip his seasonal latte as Peter Burns asks the duo which SEC teams fit different fall staples."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Analyzing the surprise quarterbacks lighting it up in the SEC. SEC Network's Fozzy Whittaker and Gene Chizik shine light on the quarterbacks balling out in their rolls, flexing big-play ability and protecting the football."
         }
       ]
     },
@@ -3359,15 +3414,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 4 best bets: Plays to make on Missouri, Indiana, Ole Miss and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 4."
-        },
-        {
-          "player_name": "Mizzou's Drinkwitz",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Mizzou's Drinkwitz praises MS State's development of QB Taylor. Ahead of No. 19 Missouri's trip to No. 24 Mississippi State, Eliah Drinkwitz credits Jeff Lebby's patient development of Kamario Taylor as instrumental to the quarterback's success."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         }
       ]
     },
@@ -3380,15 +3427,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 4 best bets: Plays to make on Missouri, Indiana, Ole Miss and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 4."
-        },
-        {
-          "player_name": "Mizzou's Drinkwitz",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Mizzou's Drinkwitz praises MS State's development of QB Taylor. Ahead of No. 19 Missouri's trip to No. 24 Mississippi State, Eliah Drinkwitz credits Jeff Lebby's patient development of Kamario Taylor as instrumental to the quarterback's success."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         }
       ]
     },
@@ -3401,15 +3440,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 4 best bets: Plays to make on Missouri, Indiana, Ole Miss and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 4."
-        },
-        {
-          "player_name": "Mizzou's Drinkwitz",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Mizzou's Drinkwitz praises MS State's development of QB Taylor. Ahead of No. 19 Missouri's trip to No. 24 Mississippi State, Eliah Drinkwitz credits Jeff Lebby's patient development of Kamario Taylor as instrumental to the quarterback's success."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         }
       ]
     },
@@ -3422,15 +3453,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 4 best bets: Plays to make on Missouri, Indiana, Ole Miss and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 4."
-        },
-        {
-          "player_name": "Mizzou's Drinkwitz",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Mizzou's Drinkwitz praises MS State's development of QB Taylor. Ahead of No. 19 Missouri's trip to No. 24 Mississippi State, Eliah Drinkwitz credits Jeff Lebby's patient development of Kamario Taylor as instrumental to the quarterback's success."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         }
       ]
     },
@@ -3545,6 +3568,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
@@ -3556,14 +3587,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football Bottom 10 after Week 3: NC State dropped ball. The Wolfpack's inexplicable loss resulted in a very predictable appearance on our dubious list."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -3578,6 +3601,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
@@ -3589,14 +3620,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking college football's 35 unbeaten teams after Week 3. Following Week 3, Bill Connelly takes stock of which undefeated teams he trusts and which are pretenders."
         }
       ]
     },
@@ -3607,6 +3630,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
@@ -3618,14 +3649,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking college football's 35 unbeaten teams after Week 3. Following Week 3, Bill Connelly takes stock of which undefeated teams he trusts and which are pretenders."
         }
       ]
     },
@@ -3711,6 +3734,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -3741,14 +3772,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Clemson's comeback win over UNC allows Swinney to quiet critics. Dabo Swinney said Clemson's comeback from a double-digit deficit to beat UNC on Saturday will be a game he won't forget."
         }
       ]
     },
@@ -3756,6 +3779,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -3786,14 +3817,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Clemson's comeback win over UNC allows Swinney to quiet critics. Dabo Swinney said Clemson's comeback from a double-digit deficit to beat UNC on Saturday will be a game he won't forget."
         }
       ]
     },
@@ -3919,6 +3942,14 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's 35 unbeaten teams after Week 3. Following Week 3, Bill Connelly takes stock of which undefeated teams he trusts and which are pretenders."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Hip",
+          "confidence_score": 0.75,
+          "source_headline": "No. 5 Indiana begins defense of Big Ten championship against improved and unbeaten Northwestern. The Indiana Hoosiers spent Curt Cignetti's first two seasons rebranding the program."
         }
       ]
     },
@@ -3940,6 +3971,14 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's 35 unbeaten teams after Week 3. Following Week 3, Bill Connelly takes stock of which undefeated teams he trusts and which are pretenders."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Hip",
+          "confidence_score": 0.75,
+          "source_headline": "No. 5 Indiana begins defense of Big Ten championship against improved and unbeaten Northwestern. The Indiana Hoosiers spent Curt Cignetti's first two seasons rebranding the program."
         }
       ]
     },
@@ -3961,6 +4000,14 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's 35 unbeaten teams after Week 3. Following Week 3, Bill Connelly takes stock of which undefeated teams he trusts and which are pretenders."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Hip",
+          "confidence_score": 0.75,
+          "source_headline": "No. 5 Indiana begins defense of Big Ten championship against improved and unbeaten Northwestern. The Indiana Hoosiers spent Curt Cignetti's first two seasons rebranding the program."
         }
       ]
     },
@@ -3975,6 +4022,14 @@
     "Notre Dame": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
         {
           "player_name": null,
           "position": null,
@@ -4051,6 +4106,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
@@ -4062,14 +4125,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Connelly: Ranking the 10 best College Football Playoff games. Who takes the No. 1 spot? ESPN's Bill Connelly lists out his top 10 College Football Playoff games."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -4093,17 +4148,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Knee",
-          "confidence_score": 0.75,
-          "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Connelly: Ranking the 10 best College Football Playoff games. Who takes the No. 1 spot? ESPN's Bill Connelly lists out his top 10 College Football Playoff games."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         }
       ]
     },
@@ -4134,7 +4181,16 @@
     },
     "Old Dominion": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Betting buzz: College football bettors target windy conditions, drive totals down. With storms forecast for the northeast this weekend, bettors are targeting the under in two key matchups."
+        }
+      ]
     },
     "Ole Miss": {
       "matched": true,
@@ -4143,33 +4199,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Knee",
-          "confidence_score": 0.75,
-          "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 4 best bets: Plays to make on Missouri, Indiana, Ole Miss and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 4."
-        },
-        {
-          "player_name": "Gene Chizik",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Gene Chizik reveals his top five SEC quarterbacks ahead of Week 4. SEC Network's Chizik lists his top five quarterbacks heading into Week 4 action as he discusses why Trinidad Chambliss belongs in the top spot."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Connelly: Ranking the 10 best College Football Playoff games. Who takes the No. 1 spot? ESPN's Bill Connelly lists out his top 10 College Football Playoff games."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         }
       ]
     },
@@ -4235,28 +4267,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
           "player_name": "Penn State's Koby",
           "position": null,
           "status": "OUT",
           "body_part": null,
           "confidence_score": 0.75,
           "source_headline": "Penn State's Koby Howard to miss time with undisclosed injury. Koby Howard, Penn State's leading WR, is likely sidelined for a while though his undisclosed injury is \"not season-ending,\" coach Matt Campbell said."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Connelly: Ranking the 10 best College Football Playoff games. Who takes the No. 1 spot? ESPN's Bill Connelly lists out his top 10 College Football Playoff games."
-        },
-        {
-          "player_name": "Penn State",
-          "position": null,
-          "status": "QUESTIONABLE",
-          "body_part": null,
-          "confidence_score": 0.75,
-          "source_headline": "Penn State leading WR Koby Howard questionable vs. Wisconsin. Koby Howard, Penn State's leading receiver, is questionable for Saturday's Big Ten opener against Wisconsin, coach Matt Campbell said Tuesday."
         }
       ]
     },
@@ -4292,6 +4316,14 @@
     "Pittsburgh": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -4949,9 +4981,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Knee",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         }
       ]
     },
@@ -4964,15 +4996,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Connelly: Ranking the 10 best College Football Playoff games. Who takes the No. 1 spot? ESPN's Bill Connelly lists out his top 10 College Football Playoff games."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Texas A&M, LSU desperate for bounce-back win in Week 4 clash. With CFP pressure mounting on Lane Kiffin and Mike Elko frustrated, SEC Now debates whether the No. 10 Tigers or No. 24 Aggies need the win more."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         }
       ]
     },
@@ -4985,15 +5009,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Connelly: Ranking the 10 best College Football Playoff games. Who takes the No. 1 spot? ESPN's Bill Connelly lists out his top 10 College Football Playoff games."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Texas A&M, LSU desperate for bounce-back win in Week 4 clash. With CFP pressure mounting on Lane Kiffin and Mike Elko frustrated, SEC Now debates whether the No. 10 Tigers or No. 24 Aggies need the win more."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         }
       ]
     },
@@ -5004,9 +5020,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Knee",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         }
       ]
     },
@@ -5017,9 +5033,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Knee",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         }
       ]
     },
@@ -5051,9 +5067,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Knee",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         }
       ]
     },
@@ -5229,6 +5245,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
@@ -5240,14 +5264,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking college football's 35 unbeaten teams after Week 3. Following Week 3, Bill Connelly takes stock of which undefeated teams he trusts and which are pretenders."
         }
       ]
     },
@@ -5274,17 +5290,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Knee",
-          "confidence_score": 0.75,
-          "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 4 best bets: Plays to make on Missouri, Indiana, Ole Miss and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 4."
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         }
       ]
     },
@@ -5415,6 +5423,22 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": "Junior Sherrill",
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Junior Sherrill details how Vandy turns the page from NC State win. With the Commodores' SEC opener ahead, Sherrill joins The Paul Finebaum Show and describes how they're moving on from the Wolfpack win and preparing to face the Tigers."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
@@ -5488,6 +5512,22 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Betting buzz: College football bettors target windy conditions, drive totals down. With storms forecast for the northeast this weekend, bettors are targeting the under in two key matchups."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -5510,14 +5550,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's 35 unbeaten teams after Week 3. Following Week 3, Bill Connelly takes stock of which undefeated teams he trusts and which are pretenders."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft questions, latest intel, risers, CFB standouts. Are the two Heisman-favorite quarterbacks rising the board? Is there a new WR2 in the class? Here's NFL draft spin off Week 2 of the CFB season."
         }
       ]
     },
@@ -5625,31 +5657,23 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Oregon's look for USC trip tops best uniforms of college football Week 4. At a base level it's an all-white set for Oregon this week, but it's the details that make the uniform really pop."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Connelly: Ranking the 10 best College Football Playoff games. Who takes the No. 1 spot? ESPN's Bill Connelly lists out his top 10 College Football Playoff games."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 3 College Football Playoff, bowl projections. With thrilling finishes and some big upsets, here are projections for each postseason game following Week 3."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking college football's 35 unbeaten teams after Week 3. Following Week 3, Bill Connelly takes stock of which undefeated teams he trusts and which are pretenders."
         }
       ]
     },
@@ -5662,31 +5686,23 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Oregon's look for USC trip tops best uniforms of college football Week 4. At a base level it's an all-white set for Oregon this week, but it's the details that make the uniform really pop."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Connelly: Ranking the 10 best College Football Playoff games. Who takes the No. 1 spot? ESPN's Bill Connelly lists out his top 10 College Football Playoff games."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 3 College Football Playoff, bowl projections. With thrilling finishes and some big upsets, here are projections for each postseason game following Week 3."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking college football's 35 unbeaten teams after Week 3. Following Week 3, Bill Connelly takes stock of which undefeated teams he trusts and which are pretenders."
         }
       ]
     },
@@ -5697,6 +5713,14 @@
     "Washington State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Oregon's look for USC trip tops best uniforms of college football Week 4. At a base level it's an all-white set for Oregon this week, but it's the details that make the uniform really pop."
+        },
         {
           "player_name": "JaMarcus Shephard",
           "position": null,
@@ -5720,14 +5744,6 @@
           "body_part": "Shin",
           "confidence_score": 0.75,
           "source_headline": "Caden Pinnick throws 2 TD passes, runs for one and Washington State beats Duquesne 48-7 for 1st win. \u2014 Caden Pinnick threw his first two passing touchdowns this season and ran for another to lead Washington State to a 48-7 victory over Duquesne on Saturday for the Cougars' first win."
-        },
-        {
-          "player_name": "Washington State's Tony",
-          "position": null,
-          "status": "OUT",
-          "body_part": "Acl",
-          "confidence_score": 1.0,
-          "source_headline": "Washington State's Tony Freeman has torn ACL, out for season. Washington State's Tony Freeman, the team's top returning receiver and kick-return specialist, has suffered a torn ACL and will miss the rest of the season."
         }
       ]
     },
@@ -5800,6 +5816,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
@@ -5811,14 +5835,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football takeaways: Lasting impressions from Week 3. Our college football experts break down the most important things they saw this weekend."
         }
       ]
     },
@@ -5829,6 +5845,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
@@ -5840,14 +5864,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football takeaways: Lasting impressions from Week 3. Our college football experts break down the most important things they saw this weekend."
         }
       ]
     },
@@ -6001,6 +6017,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -6014,6 +6038,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -6026,6 +6058,14 @@
     "Wisconsin Whitewater": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
