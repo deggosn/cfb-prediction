@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T15:46:59.853130+00:00",
+  "generated_at": "2026-09-26T14:46:57.562323+00:00",
   "season": 2026,
   "week": 4,
   "teams": {
@@ -108,14 +108,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
-        },
-        {
-          "player_name": "Gene Chizik",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Gene Chizik reveals his top five SEC quarterbacks ahead of Week 4. SEC Network's Chizik lists his top five quarterbacks heading into Week 4 action as he discusses why Trinidad Chambliss belongs in the top spot."
         }
       ]
     },
@@ -348,20 +340,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Cale Hellums",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Cale Hellums has 3 TD runs to rally Army over Temple 21-17 in Owls' American Conference opener. \u2014 Quarterback Cale Hellums rushed for 104 yards and three touchdowns to lead Army over Temple 21-17 on Friday in the Owls' American Conference opener."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football Week 4 best bets: Plays to make on Missouri, Indiana, Ole Miss and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 4."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Mundell, Hellums lead Army's 569-yard rushing attack in 59-3 win over Bryant. \u2014 Zach Mundell and Cale Hellums ran for two touchdowns apiece, and Army cruised to a 59-3 win over Bryant in the Black Knights' season opener on Saturday."
         }
       ]
     },
@@ -1181,30 +1173,6 @@
           "body_part": "Hip",
           "confidence_score": 0.75,
           "source_headline": "Is this Clemson's death rattle? Or is Dabo Swinney still capable of righting the ship?. Clemson is 2-1, but with Cal up next, questions still linger around the state of Dabo Swinney's program."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Knee",
-          "confidence_score": 0.75,
-          "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Connelly: Ranking the 10 best College Football Playoff games. Who takes the No. 1 spot? ESPN's Bill Connelly lists out his top 10 College Football Playoff games."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 3. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -1881,20 +1849,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Ole Miss RB",
+          "position": null,
+          "status": "PROBABLE",
+          "body_part": "Back",
+          "confidence_score": 1.0,
+          "source_headline": "Ole Miss RB Kewan Lacy not expected to play vs. Florida. Kewan Lacy, the star running back for No. 4 Ole Miss, is not expected to play against No. 21 Florida on Saturday, coach Pete Golding told ESPN."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Rib",
           "confidence_score": 0.75,
-          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
-        },
-        {
-          "player_name": "Graham Mertz",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Graham Mertz shares his excitement for No. 21 Ole Miss vs. No. 4 Florida. Houston Texans quarterback and Gators alum Mertz joins The Paul Finebaum Show and discusses how he's ready to see Trinidad Chambliss and the Rebels go against Aaron Philo and Florida."
+          "source_headline": "Golden, Sumrall describe what makes culture at Florida different. Todd Golden and Jon Sumrall describe the connection between their two programs as they discuss how the Gators' culture impacts their levels of success."
         }
       ]
     },
@@ -2117,14 +2085,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Knee",
-          "confidence_score": 0.75,
-          "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
         }
       ]
     },
@@ -2270,14 +2230,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Who has won the most college football championships?. Alabama, Michigan, Notre Dame, Ohio State, and other powerhouses have won multiple college football championships. Check out the top 10 schools now."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking the best quarterbacks in the college football transfer portal. A look at the top quarterbacks who are on the move this offseason."
         }
       ]
     },
@@ -2554,6 +2506,22 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "No. 5 Indiana loses RB Turbo Richard to right leg injury. Indiana starting running back Turbo Richard left Friday's 29-23 win over Northwestern with a right lower-leg injury in the first half and did not return."
+        },
+        {
+          "player_name": "Lee Beebe Jr.",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Lee Beebe Jr. rushes for 203 yards and No. 4 Indiana holds off surprising Northwestern 29-23. \u2014 Indiana running back Lee Beebe Jr. waited a whole year for an opportunity like the one he got Friday night."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
@@ -2592,6 +2560,22 @@
     "Indianapolis": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "No. 5 Indiana loses RB Turbo Richard to right leg injury. Indiana starting running back Turbo Richard left Friday's 29-23 win over Northwestern with a right lower-leg injury in the first half and did not return."
+        },
+        {
+          "player_name": "Lee Beebe Jr.",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Lee Beebe Jr. rushes for 203 yards and No. 4 Indiana holds off surprising Northwestern 29-23. \u2014 Indiana running back Lee Beebe Jr. waited a whole year for an opportunity like the one he got Friday night."
+        },
         {
           "player_name": null,
           "position": null,
@@ -3379,6 +3363,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Davis praises No. 24 MS State's Taylor's poise in the spotlight. ESPN's Taylor Davis joins SEC Now to give a breakdown of how Kamario Taylor remains calm in chaos while Missouri is looking to bounce back from a off-week planning to drown out the cowbells."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
@@ -3390,14 +3382,6 @@
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football Week 4 best bets: Plays to make on Missouri, Indiana, Ole Miss and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 4."
         }
       ]
     },
@@ -3408,6 +3392,14 @@
     "Missouri": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Davis praises No. 24 MS State's Taylor's poise in the spotlight. ESPN's Taylor Davis joins SEC Now to give a breakdown of how Kamario Taylor remains calm in chaos while Missouri is looking to bounce back from a off-week planning to drown out the cowbells."
+        },
         {
           "player_name": null,
           "position": null,
@@ -3425,6 +3417,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Davis praises No. 24 MS State's Taylor's poise in the spotlight. ESPN's Taylor Davis joins SEC Now to give a breakdown of how Kamario Taylor remains calm in chaos while Missouri is looking to bounce back from a off-week planning to drown out the cowbells."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
@@ -3438,6 +3438,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Davis praises No. 24 MS State's Taylor's poise in the spotlight. ESPN's Taylor Davis joins SEC Now to give a breakdown of how Kamario Taylor remains calm in chaos while Missouri is looking to bounce back from a off-week planning to drown out the cowbells."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
@@ -3447,6 +3455,14 @@
     "Missouri State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Davis praises No. 24 MS State's Taylor's poise in the spotlight. ESPN's Taylor Davis joins SEC Now to give a breakdown of how Kamario Taylor remains calm in chaos while Missouri is looking to bounce back from a off-week planning to drown out the cowbells."
+        },
         {
           "player_name": null,
           "position": null,
@@ -3928,6 +3944,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Lee Beebe Jr.",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Lee Beebe Jr. rushes for 203 yards and No. 4 Indiana holds off surprising Northwestern 29-23. \u2014 Indiana running back Lee Beebe Jr. waited a whole year for an opportunity like the one he got Friday night."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -3957,6 +3981,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Lee Beebe Jr.",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Lee Beebe Jr. rushes for 203 yards and No. 4 Indiana holds off surprising Northwestern 29-23. \u2014 Indiana running back Lee Beebe Jr. waited a whole year for an opportunity like the one he got Friday night."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -3985,6 +4017,14 @@
     "Northwestern State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "Lee Beebe Jr.",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Lee Beebe Jr. rushes for 203 yards and No. 4 Indiana holds off surprising Northwestern 29-23. \u2014 Indiana running back Lee Beebe Jr. waited a whole year for an opportunity like the one he got Friday night."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -4117,14 +4157,6 @@
           "body_part": "Knee",
           "confidence_score": 0.75,
           "source_headline": "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real?. Week 4 will tell us if our knee-jerk reactions to the first few weeks of the season actually mean anything."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Connelly: Ranking the 10 best College Football Playoff games. Who takes the No. 1 spot? ESPN's Bill Connelly lists out his top 10 College Football Playoff games."
         }
       ]
     },
@@ -4196,12 +4228,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Ole Miss RB",
           "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+          "status": "PROBABLE",
+          "body_part": "Back",
+          "confidence_score": 1.0,
+          "source_headline": "Ole Miss RB Kewan Lacy not expected to play vs. Florida. Kewan Lacy, the star running back for No. 4 Ole Miss, is not expected to play against No. 21 Florida on Saturday, coach Pete Golding told ESPN."
         }
       ]
     },
@@ -4957,6 +4989,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Cale Hellums",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Cale Hellums has 3 TD runs to rally Army over Temple 21-17 in Owls' American Conference opener. \u2014 Quarterback Cale Hellums rushed for 104 yards and three touchdowns to lead Army over Temple 21-17 on Friday in the Owls' American Conference opener."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -4981,9 +5021,17 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "How will Tennessee's Faizon Brandon handle pressure vs. Texas?. Chris Fowler analyzes Brandon's strengths as a true freshman QB as he describes the type of pressure he is under to produce in the highly-intense matchup vs. the Longhorns."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
         }
       ]
     },
@@ -5020,9 +5068,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Rib",
           "confidence_score": 0.75,
-          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+          "source_headline": "How will Tennessee's Faizon Brandon handle pressure vs. Texas?. Chris Fowler analyzes Brandon's strengths as a true freshman QB as he describes the type of pressure he is under to produce in the highly-intense matchup vs. the Longhorns."
         }
       ]
     },
@@ -5033,9 +5081,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Rib",
           "confidence_score": 0.75,
-          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+          "source_headline": "How will Tennessee's Faizon Brandon handle pressure vs. Texas?. Chris Fowler analyzes Brandon's strengths as a true freshman QB as he describes the type of pressure he is under to produce in the highly-intense matchup vs. the Longhorns."
         }
       ]
     },
@@ -5067,9 +5115,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Rib",
           "confidence_score": 0.75,
-          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
+          "source_headline": "How will Tennessee's Faizon Brandon handle pressure vs. Texas?. Chris Fowler analyzes Brandon's strengths as a true freshman QB as he describes the type of pressure he is under to produce in the highly-intense matchup vs. the Longhorns."
         }
       ]
     },
@@ -5167,20 +5215,28 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Bam McReynolds",
+          "position": null,
+          "status": null,
+          "body_part": "Hip",
+          "confidence_score": 0.75,
+          "source_headline": "Bam McReynolds rushes for 2 TDs, including go-ahead 48-yarder as UAB edges Navy 24-20. \u2014 Bam McReynolds followed a Navy turnover in the fourth quarter with a 48-yard touchdown run and UAB rallied to beat the Midshipman 24-20 on Friday night in the Blazers' American Conference opener."
+        },
+        {
+          "player_name": "Navy Midshipmen",
+          "position": null,
+          "status": null,
+          "body_part": "Hip",
+          "confidence_score": 0.75,
+          "source_headline": "Navy Midshipmen vs. UAB Blazers: Full Highlights. Navy Midshipmen vs. UAB Blazers: Full Highlights"
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Texas' jab at Ohio State headlines top trolls of college football Week 2. The stunning comeback from Texas prompted a petty post directed at Ohio State."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Burton, Reid connect on 43-yard TD to send UAB to comeback win against Louisiana Monroe. \u2014 Ryder Burton threw a 43-yard touchdown to EJ Reid with 9:34 left and UAB held on to beat Louisiana Monroe 26-20 on Saturday."
         }
       ]
     },
