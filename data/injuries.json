@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T17:16:45.240043+00:00",
+  "generated_at": "2026-10-02T16:35:15.536016+00:00",
   "season": 2026,
   "week": 5,
   "teams": {
@@ -93,6 +93,14 @@
     "Alabama": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": null,
           "position": null,
@@ -277,6 +285,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -386,6 +402,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -486,14 +510,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Predicting the College Football Playoff: Who's most likely to make the field?. Find out which teams our experts think will make this season's CFP."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football Power Rankings: What we've learned about top teams. After another round of big wins and surprising upsets, we break down the top 25 through Week 4."
         }
       ]
     },
@@ -676,20 +692,20 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Predicting the College Football Playoff: Who's most likely to make the field?. Find out which teams our experts think will make this season's CFP."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football Power Rankings: What we've learned about top teams. After another round of big wins and surprising upsets, we break down the top 25 through Week 4."
         }
       ]
     },
     "Boston College": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": null,
           "position": null,
@@ -837,6 +853,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
         },
         {
@@ -854,14 +878,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 4 College Football Playoff, bowl projections. With thrilling finishes and a few big upsets, here are projections for each postseason game following Week 4."
         }
       ]
     },
@@ -874,6 +890,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
         },
         {
@@ -891,14 +915,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 4 College Football Playoff, bowl projections. With thrilling finishes and a few big upsets, here are projections for each postseason game following Week 4."
         }
       ]
     },
@@ -1170,7 +1186,24 @@
     },
     "Cincinnati": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+        }
+      ]
     },
     "Claremont Mudd Scripps": {
       "matched": true,
@@ -1202,6 +1235,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
         },
         {
@@ -1211,22 +1252,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 4 College Football Playoff, bowl projections. With thrilling finishes and a few big upsets, here are projections for each postseason game following Week 4."
         }
       ]
     },
@@ -1268,6 +1293,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -1277,14 +1310,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Sources: Colorado expected to start QB Isaac Wilson vs. Texas Tech. Colorado quarterback Isaac Wilson has been receiving reps with the Buffaloes' No. 1 offense in practice this week and is expected to start against No. 12 Texas Tech on Saturday, sources confirmed to ESPN on Tuesday."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -1880,23 +1905,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Rib",
-          "confidence_score": 0.75,
-          "source_headline": "No. 8 Florida's Aaron Philo describes growing into his role as QB1. Philo credits Jaden Baugh for the strengths he brings to the Gators' offense as he discusses what it's been like adapting to the role of starting quarterback."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -1916,6 +1925,14 @@
     "Florida State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": null,
           "position": null,
@@ -2101,6 +2118,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid unveils his debut rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
@@ -2112,14 +2137,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -2598,6 +2615,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid unveils his debut rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
@@ -2609,14 +2634,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -2648,6 +2665,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid unveils his debut rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
@@ -2659,20 +2684,20 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
     "Iowa": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": null,
           "position": null,
@@ -2694,6 +2719,14 @@
     "Iowa State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": null,
           "position": null,
@@ -2801,25 +2834,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Hand",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "How will South Carolina handle pressure of must-win matchup vs. Kentucky?. SEC Network's Gene Chizik discusses why the pressure is so high for the Gamecocks after their performance vs. Alabama and what they must do if they want to defeat the Wildcats."
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Hand",
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "How will South Carolina handle pressure of must-win matchup vs. Kentucky?. SEC Network's Gene Chizik discusses why the pressure is so high for the Gamecocks after their performance vs. Alabama and what they must do if they want to defeat the Wildcats."
         }
       ]
     },
@@ -2830,25 +2855,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Hand",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "How will South Carolina handle pressure of must-win matchup vs. Kentucky?. SEC Network's Gene Chizik discusses why the pressure is so high for the Gamecocks after their performance vs. Alabama and what they must do if they want to defeat the Wildcats."
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Hand",
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "How will South Carolina handle pressure of must-win matchup vs. Kentucky?. SEC Network's Gene Chizik discusses why the pressure is so high for the Gamecocks after their performance vs. Alabama and what they must do if they want to defeat the Wildcats."
         }
       ]
     },
@@ -2859,25 +2876,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Hand",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "How will South Carolina handle pressure of must-win matchup vs. Kentucky?. SEC Network's Gene Chizik discusses why the pressure is so high for the Gamecocks after their performance vs. Alabama and what they must do if they want to defeat the Wildcats."
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Hand",
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "How will South Carolina handle pressure of must-win matchup vs. Kentucky?. SEC Network's Gene Chizik discusses why the pressure is so high for the Gamecocks after their performance vs. Alabama and what they must do if they want to defeat the Wildcats."
         }
       ]
     },
@@ -2923,15 +2932,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "Police investigating rape allegation against LSU football player. Damien Shanklin, an LSU football player whose suspension was overturned in a Title IX case, is now being investigated by campus police and the district attorney for allegedly raping a female student last fall."
         }
       ]
     },
@@ -3093,6 +3102,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -3110,14 +3127,6 @@
           "body_part": "Back",
           "confidence_score": 1.0,
           "source_headline": "Louisville QB Lincoln Kienholz to be game-time decision vs. NC State. Louisville quarterback Lincoln Kienholz will be a game-time decision against NC State this weekend, coach Jeff Brohm said Monday."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 4 College Football Playoff, bowl projections. With thrilling finishes and a few big upsets, here are projections for each postseason game following Week 4."
         }
       ]
     },
@@ -3185,6 +3194,14 @@
     "Maryland": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": null,
           "position": null,
@@ -3321,6 +3338,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -3373,6 +3398,14 @@
     "Michigan Tech": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": null,
           "position": null,
@@ -3436,6 +3469,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -3453,14 +3494,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 4 College Football Playoff, bowl projections. With thrilling finishes and a few big upsets, here are projections for each postseason game following Week 4."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "Blood brothers? Fleck, senior Baranowski share 'great moment'. After Minnesota's win at Washington, Gophers coach P.J. Fleck grabbed Maverick Baranowski's head with two hands, aggressively wiped the blood from the linebacker's mouth and brushed it on his own left cheek."
         }
       ]
     },
@@ -3486,6 +3519,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -3503,14 +3544,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 4 College Football Playoff, bowl projections. With thrilling finishes and a few big upsets, here are projections for each postseason game following Week 4."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "Blood brothers? Fleck, senior Baranowski share 'great moment'. After Minnesota's win at Washington, Gophers coach P.J. Fleck grabbed Maverick Baranowski's head with two hands, aggressively wiped the blood from the linebacker's mouth and brushed it on his own left cheek."
         }
       ]
     },
@@ -3523,6 +3556,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -3540,14 +3581,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 4 College Football Playoff, bowl projections. With thrilling finishes and a few big upsets, here are projections for each postseason game following Week 4."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "Blood brothers? Fleck, senior Baranowski share 'great moment'. After Minnesota's win at Washington, Gophers coach P.J. Fleck grabbed Maverick Baranowski's head with two hands, aggressively wiped the blood from the linebacker's mouth and brushed it on his own left cheek."
         }
       ]
     },
@@ -3560,6 +3593,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -3577,14 +3618,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 4 College Football Playoff, bowl projections. With thrilling finishes and a few big upsets, here are projections for each postseason game following Week 4."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "Blood brothers? Fleck, senior Baranowski share 'great moment'. After Minnesota's win at Washington, Gophers coach P.J. Fleck grabbed Maverick Baranowski's head with two hands, aggressively wiped the blood from the linebacker's mouth and brushed it on his own left cheek."
         }
       ]
     },
@@ -3594,7 +3627,16 @@
     },
     "Mississippi State": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        }
+      ]
     },
     "Mississippi Valley State": {
       "matched": false,
@@ -3609,23 +3651,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Missouri vs. Florida is 'what football is supposed to be in October'. Read & React's Roman Harper and Cole Cubelic preview the No. 8 Gators vs. the No. 25 Tigers, with Harper explaining why the matchup embodies October football."
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -3638,23 +3664,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Missouri vs. Florida is 'what football is supposed to be in October'. Read & React's Roman Harper and Cole Cubelic preview the No. 8 Gators vs. the No. 25 Tigers, with Harper explaining why the matchup embodies October football."
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -3667,23 +3677,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Missouri vs. Florida is 'what football is supposed to be in October'. Read & React's Roman Harper and Cole Cubelic preview the No. 8 Gators vs. the No. 25 Tigers, with Harper explaining why the matchup embodies October football."
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -3852,6 +3846,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -3885,6 +3887,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -3894,14 +3904,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Connelly: What changed in college football during September. It's dangerous to lean on lessons learned in one month, but here's what we think we know so far."
         }
       ]
     },
@@ -3914,6 +3916,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -3923,14 +3933,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Connelly: What changed in college football during September. It's dangerous to lean on lessons learned in one month, but here's what we think we know so far."
         }
       ]
     },
@@ -3943,6 +3945,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -3952,14 +3962,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Connelly: What changed in college football during September. It's dangerous to lean on lessons learned in one month, but here's what we think we know so far."
         }
       ]
     },
@@ -4033,17 +4035,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Shin",
           "confidence_score": 0.75,
-          "source_headline": "College football Bottom 10 after Week 4: Time not on Michigan's side. After a controversial last-second win earlier in the season, the tables were turned on the Wolverines."
+          "source_headline": "Jones has 155 yards rushing and a TD, Peters adds pick-6, New Mexico State beats Western Kentucky. \u2014 James Jones had a season-high 155 yards rushing and a touchdown on 20 carries, De\u2019Marcus Peters had a pick-6, and New Mexico State beat Western Kentucky 34-13 on Thursday night in the Conference USA opener for both teams."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Shin",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Rice's 2 rushing TDs help Hawaii beat New Mexico State 29-19. \u2014 DeVon Rice had two rushing touchdowns, Tama Uiliata had 10 receptions for 107 yards and threw a 7-yard touchdown pass to cap the scoring, and Hawaii beat New Mexico State 29-19 on Saturday night."
+          "source_headline": "College football Bottom 10 after Week 4: Time not on Michigan's side. After a controversial last-second win earlier in the season, the tables were turned on the Wolverines."
         }
       ]
     },
@@ -4076,6 +4078,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -4085,22 +4095,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 4 College Football Playoff, bowl projections. With thrilling finishes and a few big upsets, here are projections for each postseason game following Week 4."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "No. 3 Notre Dame visits North Carolina with a revamped rushing game after NFL departures. Notre Dame relied on a pair of NFL-bound running backs last year to nearly reach the College Football Playoff. The third-ranked Fighting Irish have a..."
         }
       ]
     },
@@ -4113,6 +4107,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -4122,22 +4124,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 4 College Football Playoff, bowl projections. With thrilling finishes and a few big upsets, here are projections for each postseason game following Week 4."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "No. 3 Notre Dame visits North Carolina with a revamped rushing game after NFL departures. Notre Dame relied on a pair of NFL-bound running backs last year to nearly reach the College Football Playoff. The third-ranked Fighting Irish have a..."
         }
       ]
     },
@@ -4150,6 +4136,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -4159,22 +4153,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 4 College Football Playoff, bowl projections. With thrilling finishes and a few big upsets, here are projections for each postseason game following Week 4."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "No. 3 Notre Dame visits North Carolina with a revamped rushing game after NFL departures. Notre Dame relied on a pair of NFL-bound running backs last year to nearly reach the College Football Playoff. The third-ranked Fighting Irish have a..."
         }
       ]
     },
@@ -4224,12 +4202,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Tayven Jackson",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Shin",
           "confidence_score": 0.75,
-          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+          "source_headline": "Tayven Jackson throws 4 TD passes, runs for TD in OT as UNT beats Tulsa 45-44. \u2014 Tayven Jackson threw a season-high four touchdown passes and added a 1-yard rushing TD in overtime, Jahiem White had 219 yards rushing and a touchdown, and North Texas beat Tulsa 45-44 on Thursday night in the American Conference opener for both teams."
         }
       ]
     },
@@ -4271,6 +4249,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
         },
         {
@@ -4288,14 +4274,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": "Lee Beebe Jr.",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Lee Beebe Jr. rushes for 203 yards and No. 4 Indiana holds off surprising Northwestern 29-23. \u2014 Indiana running back Lee Beebe Jr. waited a whole year for an opportunity like the one he got Friday night."
         }
       ]
     },
@@ -4337,6 +4315,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
         },
         {
@@ -4354,14 +4340,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": "Lee Beebe Jr.",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Lee Beebe Jr. rushes for 203 yards and No. 4 Indiana holds off surprising Northwestern 29-23. \u2014 Indiana running back Lee Beebe Jr. waited a whole year for an opportunity like the one he got Friday night."
         }
       ]
     },
@@ -4374,6 +4352,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
         },
         {
@@ -4391,14 +4377,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": "Lee Beebe Jr.",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Lee Beebe Jr. rushes for 203 yards and No. 4 Indiana holds off surprising Northwestern 29-23. \u2014 Indiana running back Lee Beebe Jr. waited a whole year for an opportunity like the one he got Friday night."
         }
       ]
     },
@@ -4417,17 +4395,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid unveils his debut rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
+          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid unveils his debut rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
         }
       ]
     },
@@ -4477,17 +4455,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid unveils his debut rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
+          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid unveils his debut rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
         }
       ]
     },
@@ -4558,6 +4536,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -4575,14 +4561,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football Power Rankings: What we've learned about top teams. After another round of big wins and surprising upsets, we break down the top 25 through Week 4."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 4 College Football Playoff, bowl projections. With thrilling finishes and a few big upsets, here are projections for each postseason game following Week 4."
         }
       ]
     },
@@ -4653,6 +4631,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
         },
         {
@@ -4662,14 +4648,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -5130,14 +5108,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's 35 unbeaten teams after Week 3. Following Week 3, Bill Connelly takes stock of which undefeated teams he trusts and which are pretenders."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
         }
       ]
     },
@@ -5328,6 +5298,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -5337,14 +5315,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2027 college football recruiting class rankings: Top 45 schools. As recruiting season quiets down, here's how the top classes are shaping up."
         },
         {
           "player_name": "College Football Playoff",
@@ -5406,23 +5376,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -5435,23 +5389,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -5462,6 +5400,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid unveils his debut rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
@@ -5473,14 +5419,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
-        },
-        {
-          "player_name": "Justin Cryer",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Justin Cryer explains how top-ranked Texas deals with outside noise. Cryer joins The Paul Finebaum Show to discuss how the Longhorns' defense has been so effective while highlighting how they deal with noise inside the stadium and around college football."
         }
       ]
     },
@@ -5491,6 +5429,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid unveils his debut rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
@@ -5502,14 +5448,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
-        },
-        {
-          "player_name": "Justin Cryer",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Justin Cryer explains how top-ranked Texas deals with outside noise. Cryer joins The Paul Finebaum Show to discuss how the Longhorns' defense has been so effective while highlighting how they deal with noise inside the stadium and around college football."
         }
       ]
     },
@@ -5541,6 +5479,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid unveils his debut rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
@@ -5552,14 +5498,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
-        },
-        {
-          "player_name": "Justin Cryer",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Justin Cryer explains how top-ranked Texas deals with outside noise. Cryer joins The Paul Finebaum Show to discuss how the Longhorns' defense has been so effective while highlighting how they deal with noise inside the stadium and around college football."
         }
       ]
     },
@@ -5637,20 +5575,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Tayven Jackson",
+          "position": null,
+          "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Tayven Jackson throws 4 TD passes, runs for TD in OT as UNT beats Tulsa 45-44. \u2014 Tayven Jackson threw a season-high four touchdown passes and added a 1-yard rushing TD in overtime, Jahiem White had 219 yards rushing and a touchdown, and North Texas beat Tulsa 45-44 on Thursday night in the American Conference opener for both teams."
+        },
+        {
           "player_name": "Tulsa Golden Hurricane",
           "position": null,
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Tulsa Golden Hurricane vs. Arkansas Razorbacks: Full Highlights. Tulsa Golden Hurricane vs. Arkansas Razorbacks: Full Highlights"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking college football's 35 unbeaten teams after Week 3. Following Week 3, Bill Connelly takes stock of which undefeated teams he trusts and which are pretenders."
         }
       ]
     },
@@ -5787,6 +5725,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
         },
         {
@@ -5796,14 +5742,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -5874,6 +5812,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -5883,14 +5829,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Predicting the College Football Playoff: Who's most likely to make the field?. Find out which teams our experts think will make this season's CFP."
         }
       ]
     },
@@ -5913,6 +5851,14 @@
     "Vanderbilt": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": null,
           "position": null,
@@ -6015,15 +5961,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
           "player_name": null,
@@ -6031,7 +5969,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 4 College Football Playoff, bowl projections. With thrilling finishes and a few big upsets, here are projections for each postseason game following Week 4."
+          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         }
       ]
     },
@@ -6110,6 +6048,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
         },
         {
@@ -6147,6 +6093,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -6172,14 +6126,6 @@
           "body_part": "Shin",
           "confidence_score": 0.75,
           "source_headline": "No. 18 USC takes on Washington in Big Ten play. Washington (3-1) at No. 18 USC (4-1), Oct. 3 at 7:30 p.m. EDT."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "AP college football Week 4 poll reaction: What's next for each Top 25 team. A look at this week's Top 25."
         }
       ]
     },
@@ -6192,6 +6138,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -6217,14 +6171,6 @@
           "body_part": "Shin",
           "confidence_score": 0.75,
           "source_headline": "No. 18 USC takes on Washington in Big Ten play. Washington (3-1) at No. 18 USC (4-1), Oct. 3 at 7:30 p.m. EDT."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "AP college football Week 4 poll reaction: What's next for each Top 25 team. A look at this week's Top 25."
         }
       ]
     },
@@ -6278,6 +6224,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -6303,14 +6257,6 @@
           "body_part": "Shin",
           "confidence_score": 0.75,
           "source_headline": "No. 18 USC takes on Washington in Big Ten play. Washington (3-1) at No. 18 USC (4-1), Oct. 3 at 7:30 p.m. EDT."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "AP college football Week 4 poll reaction: What's next for each Top 25 team. A look at this week's Top 25."
         }
       ]
     },
@@ -6381,6 +6327,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         },
         {
@@ -6404,6 +6358,14 @@
     "West Virginia State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": null,
           "position": null,
@@ -6453,6 +6415,14 @@
     "Western Kentucky": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Jones has 155 yards rushing and a TD, Peters adds pick-6, New Mexico State beats Western Kentucky. \u2014 James Jones had a season-high 155 yards rushing and a touchdown on 20 carries, De\u2019Marcus Peters had a pick-6, and New Mexico State beat Western Kentucky 34-13 on Thursday night in the Conference USA opener for both teams."
+        },
         {
           "player_name": null,
           "position": null,
@@ -6573,6 +6543,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
         },
         {
@@ -6604,6 +6582,14 @@
     "Wisconsin Eau Claire": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": null,
           "position": null,
@@ -6647,6 +6633,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
         },
         {
@@ -6678,6 +6672,14 @@
     "Wisconsin Lutheran": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": null,
           "position": null,
@@ -6746,6 +6748,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
         },
         {
@@ -6777,6 +6787,14 @@
     "Wisconsin Stevens Point": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": null,
           "position": null,
@@ -6820,6 +6838,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
         },
         {
@@ -6851,6 +6877,14 @@
     "Wisconsin Whitewater": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": null,
           "position": null,
