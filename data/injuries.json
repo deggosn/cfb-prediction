@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:35:15.536016+00:00",
+  "generated_at": "2026-10-03T14:58:18.561996+00:00",
   "season": 2026,
   "week": 5,
   "teams": {
@@ -94,20 +94,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Jeff Lebby",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid unveils his debut rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
+          "source_headline": "Jeff Lebby gives No. 16 MS State's keys to victory vs. No. 7 Alabama. Lebby discusses how he wants his Bulldogs, who have been resilient so far this season, to continue playing hard-nosed football against the talented Crimson Tide."
         }
       ]
     },
@@ -397,6 +389,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Roman Harper",
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Roman Harper on Auburn vs. Tennessee: 'Teams need to find a personality'. SEC Network's Harper joins The Paul Finebaum Show and describes the urgency both the Tigers and No. 17 Vols need to have to get a big win."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -419,14 +419,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ex-Auburn staffer arrested, accused of leaking trade secrets. A former Auburn football staff member has been accused of stealing trade secrets from the Tigers and sending them to their competitors, according to court records."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -2129,14 +2121,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid unveils his debut rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         }
       ]
     },
@@ -2481,24 +2465,7 @@
     },
     "Idaho": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football bowl game history: Notable records to know. College football bowl games regularly provide eye-popping entertainment and record-breaking performances. Check out all-time highlights now."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "The search for one of the ugliest rivalry trophies in college sports: King Spud. Is King Spud lost forever? The trophy's vanishing act is one of the stranger mysteries in college sports."
-        }
-      ]
+      "injuries": []
     },
     "Idaho State": {
       "matched": true,
@@ -3629,12 +3596,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Jeff Lebby",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+          "source_headline": "Jeff Lebby gives No. 16 MS State's keys to victory vs. No. 7 Alabama. Lebby discusses how he wants his Bulldogs, who have been resilient so far this season, to continue playing hard-nosed football against the talented Crimson Tide."
         }
       ]
     },
@@ -3703,14 +3670,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Montana State beats Northern Arizona 28-14, extends win streak to 19 games. \u2014 Patrick Duchien threw a touchdown pass and ran for two scores, and short-handed Montana State beat Northern Arizona 28-14 on Saturday night in a matchup between two of the top teams in the Football Championship Subdivision."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football coaching carousel 2026: Who to watch for the next big job opening. After an unprecedented cycle of changes, what can we expect in 2026?"
         }
       ]
     },
@@ -4258,22 +4217,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -4324,22 +4267,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -4353,30 +4280,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
         }
       ]
     },
@@ -4458,14 +4361,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid unveils his debut rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
         }
       ]
     },
@@ -4545,22 +4440,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 4. Putting the spotlight on select teams and questions around others as the early playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football Power Rankings: What we've learned about top teams. After another round of big wins and surprising upsets, we break down the top 25 through Week 4."
         }
       ]
     },
@@ -4631,23 +4510,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Pitt loses QB Heintschel to injury but outlasts Virginia Tech. As his Panthers improved to 5-0 with a 35-33 victory over Virginia Tech, Pittsburgh coach Pat Narduzzi lobbied for his unranked team, sending a message to AP Top 25 voters that he has \"a hell of a football team.\""
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Taking stock of college football's coaching changes and what's next. So far, internal hires aren't working at a few spots while other coaches have elevated their profiles."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
         }
       ]
     },
@@ -5855,6 +5726,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Sources: Vanderbilt QB Jared Curtis to attempt to play vs. Georgia. Vanderbilt QB Jared Curtis, a onetime Georgia commit, will attempt to play vs. the No. 2 Bulldogs, who could get star RB Nate Frazier back for Saturday's matchup."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
@@ -5961,7 +5840,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
+          "source_headline": "Pitt loses Heintschel to injury, but outlasts Virginia Tech. As his Panthers improved to 5-0 on Friday night with a 35-33 victory over the Virginia Tech Hokies, Pittsburgh coach Pat Narduzzi lobbied for his unranked team, sending a message to Associated Press Top 25 voters that he has \"a hell of a football team.\""
         },
         {
           "player_name": null,
@@ -5969,7 +5848,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We've seen four weeks of football. How has that changed our opinions about the top quarterbacks."
+          "source_headline": "2027 college football recruiting class rankings: Top 50 schools. Where the top 50 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -6943,6 +6822,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Tony Reno",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Tony Reno, who guided Yale to 5 Ivy League titles, dies at 52. Former Yale football coach Tony Reno, who stepped down after the 2025 season due to health issues, has died at the age of 52, the university announced."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -6957,14 +6844,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football coaching carousel 2026: Who to watch for the next big job opening. After an unprecedented cycle of changes, what can we expect in 2026?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Yale coach Tony Reno stepping down due to health issues. Yale football coach Tony Reno is stepping down from his role in charge of the Bulldogs due to health reasons, the school announced Tuesday."
         }
       ]
     },
