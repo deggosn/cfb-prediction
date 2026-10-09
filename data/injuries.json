@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T17:45:11.716674+00:00",
+  "generated_at": "2026-10-09T17:24:36.843711+00:00",
   "season": 2026,
   "week": 6,
   "teams": {
@@ -83,23 +83,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Hip",
-          "confidence_score": 0.75,
-          "source_headline": "Sneak peek into ESPN's 'Saban' and the 2017-18 national championship. Take an early look at the new documentary series for accounts of the iconic game from Nick Saban, Jalen Hurts, Tua Tagovailoa and more."
-        },
-        {
-          "player_name": "Georgia's Chauncey Bowens",
-          "position": null,
-          "status": "OUT",
-          "body_part": "Back",
-          "confidence_score": 1.0,
-          "source_headline": "Georgia's Chauncey Bowens out vs. Alabama; Nate Frazier off injury report. Georgia running back Chauncey Bowens, who leads the No. 2 Bulldogs with six rushing touchdowns in five games, will miss Saturday's game at No. 6 Alabama. Meanwhile, Nate Frazier is poised to return after missing most of the past two games."
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
         }
       ]
     },
@@ -270,7 +254,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 6 best bets: 'White out' game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
+          "source_headline": "College football Week 6 best bets: White Out game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
         },
         {
           "player_name": null,
@@ -307,7 +291,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 6 best bets: 'White out' game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
+          "source_headline": "College football Week 6 best bets: White Out game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
         },
         {
           "player_name": null,
@@ -344,7 +328,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 6 best bets: 'White out' game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
+          "source_headline": "College football Week 6 best bets: White Out game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
         },
         {
           "player_name": null,
@@ -495,14 +479,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Sources: Brigham Young tailback LJ Martin out for 4 to 6 weeks. BYU running back LJ Martin will be sidelined for at least a month with a lower body injury, sources told ESPN's Pete Thamel on Wednesday."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -623,14 +599,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Predicting the College Football Playoff: Who's most likely to make the field?. Find out which teams our experts think will make this season's CFP."
         }
       ]
     },
@@ -1737,6 +1705,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Oregon, Florida and more lead loaded CFB Week 6 uniform slate. Of all the strong uniform weeks in college football this fall, you'll likely be hard-pressed to find another that stacks up to Week 6."
+        },
+        {
           "player_name": "Jadan Baugh",
           "position": null,
           "status": null,
@@ -1751,14 +1727,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
         }
       ]
     },
@@ -1796,15 +1764,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
+          "source_headline": "Six college football buyouts that will determine the coaching carousel. From Lincoln Riley to Deion Sanders, these hefty buyouts will dictate the market."
         },
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
+          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -1983,25 +1951,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
-        },
-        {
-          "player_name": "Georgia's Chauncey Bowens",
-          "position": null,
-          "status": "OUT",
           "body_part": "Back",
-          "confidence_score": 1.0,
-          "source_headline": "Georgia's Chauncey Bowens out vs. Alabama; Nate Frazier off injury report. Georgia running back Chauncey Bowens, who leads the No. 2 Bulldogs with six rushing touchdowns in five games, will miss Saturday's game at No. 6 Alabama. Meanwhile, Nate Frazier is poised to return after missing most of the past two games."
+          "confidence_score": 0.75,
+          "source_headline": "Hometown hero Gunner Stockton back in spotlight for Georgia. The Bulldogs QB is a quiet leader, but those who have known him over the years eagerly sing his praises."
         },
         {
-          "player_name": "Gene Chizik",
+          "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Shin",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Gene Chizik breaks down No. 2 Georgia's ferocious run defense. SEC Network's Gene Chizik analyzes film of the Bulldogs' defensive front and explains how they are able to suffocate opposing rushing attacks."
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
         }
       ]
     },
@@ -2021,6 +1981,14 @@
     "Georgia Tech": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Oregon, Florida and more lead loaded CFB Week 6 uniform slate. Of all the strong uniform weeks in college football this fall, you'll likely be hard-pressed to find another that stacks up to Week 6."
+        },
         {
           "player_name": null,
           "position": null,
@@ -2188,7 +2156,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 6 best bets: 'White out' game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
+          "source_headline": "College football Week 6 best bets: White Out game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
         }
       ]
     },
@@ -2225,7 +2193,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 6 best bets: 'White out' game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
+          "source_headline": "College football Week 6 best bets: White Out game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
         },
         {
           "player_name": null,
@@ -2234,14 +2202,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
         }
       ]
     },
@@ -2319,6 +2279,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
@@ -2336,6 +2304,14 @@
     "Illinois College": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
+        },
         {
           "player_name": null,
           "position": null,
@@ -2369,17 +2345,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
         },
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
+          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -2411,17 +2387,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
         },
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
+          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -2580,6 +2556,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Oregon, Florida and more lead loaded CFB Week 6 uniform slate. Of all the strong uniform weeks in college football this fall, you'll likely be hard-pressed to find another that stacks up to Week 6."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
         },
         {
@@ -2589,14 +2573,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Willie Rodriguez breaks down game-winning catch in UK's win over SC. Rodriguez joins SEC Now to relive the final moments of the Wildcats' comeback win over the Gamecocks and previews their matchup against No. 10 LSU in Lexington."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -2609,6 +2585,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Oregon, Florida and more lead loaded CFB Week 6 uniform slate. Of all the strong uniform weeks in college football this fall, you'll likely be hard-pressed to find another that stacks up to Week 6."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
         },
         {
@@ -2618,14 +2602,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Willie Rodriguez breaks down game-winning catch in UK's win over SC. Rodriguez joins SEC Now to relive the final moments of the Wildcats' comeback win over the Gamecocks and previews their matchup against No. 10 LSU in Lexington."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -2638,6 +2614,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Oregon, Florida and more lead loaded CFB Week 6 uniform slate. Of all the strong uniform weeks in college football this fall, you'll likely be hard-pressed to find another that stacks up to Week 6."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
         },
         {
@@ -2647,14 +2631,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Willie Rodriguez breaks down game-winning catch in UK's win over SC. Rodriguez joins SEC Now to relive the final moments of the Wildcats' comeback win over the Gamecocks and previews their matchup against No. 10 LSU in Lexington."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -2673,9 +2649,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
         },
         {
           "player_name": null,
@@ -2683,7 +2659,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Rooted in greatness: Nick Saban's ties to 45 head coaches. Across four college stops and one NFL team, Saban's tree spread through dozens of coaches and helped reshape modern football"
+          "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
         }
       ]
     },
@@ -3100,6 +3076,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
@@ -3119,14 +3103,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 5 College Football Playoff, bowl projections. Following dominant victories and a few close calls in Week 5, here are our postseason projections."
-        },
-        {
-          "player_name": "Live Week",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Live Week 5 in college football: Ohio State-Iowa and more. Get the best plays, moments and reactions from the week in college football."
         }
       ]
     },
@@ -3150,6 +3126,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
@@ -3169,14 +3153,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 5 College Football Playoff, bowl projections. Following dominant victories and a few close calls in Week 5, here are our postseason projections."
-        },
-        {
-          "player_name": "Live Week",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Live Week 5 in college football: Ohio State-Iowa and more. Get the best plays, moments and reactions from the week in college football."
         }
       ]
     },
@@ -3187,6 +3163,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
@@ -3206,14 +3190,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 5 College Football Playoff, bowl projections. Following dominant victories and a few close calls in Week 5, here are our postseason projections."
-        },
-        {
-          "player_name": "Live Week",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Live Week 5 in college football: Ohio State-Iowa and more. Get the best plays, moments and reactions from the week in college football."
         }
       ]
     },
@@ -3224,6 +3200,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
@@ -3243,14 +3227,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 5 College Football Playoff, bowl projections. Following dominant victories and a few close calls in Week 5, here are our postseason projections."
-        },
-        {
-          "player_name": "Live Week",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Live Week 5 in college football: Ohio State-Iowa and more. Get the best plays, moments and reactions from the week in college football."
         }
       ]
     },
@@ -3273,6 +3249,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
@@ -3282,6 +3266,14 @@
     "Missouri S&T": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
+        },
         {
           "player_name": null,
           "position": null,
@@ -3299,6 +3291,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
@@ -3308,6 +3308,14 @@
     "Missouri State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
+        },
         {
           "player_name": null,
           "position": null,
@@ -3479,14 +3487,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -3500,14 +3500,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -3521,14 +3513,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -3878,15 +3862,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
+          "source_headline": "Oregon, Florida and more lead loaded CFB Week 6 uniform slate. Of all the strong uniform weeks in college football this fall, you'll likely be hard-pressed to find another that stacks up to Week 6."
         },
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
         },
         {
           "player_name": null,
@@ -3894,7 +3878,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Predicting the College Football Playoff: Who's most likely to make the field?. Find out which teams our experts think will make this season's CFP."
+          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -3935,9 +3919,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
         },
         {
           "player_name": null,
@@ -3945,15 +3929,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
+          "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
         }
       ]
     },
@@ -3964,17 +3940,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Acl",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "No. 1 Texas' Hero Kanu details experience in Red River Rivalry. Kanu joins SEC Now ahead of the Longhorns' matchup against Oklahoma to discuss the spectacle around one of college football's most historic rivalries and his interests outside of football."
-        },
-        {
-          "player_name": "McGee Essay",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "McGee Essay: Football, Legends, History - 'Red River Rivalry'. Ryan McGee dives into the legendary moments, rich history and storied tradition that make the 126-year rivalry between No. 1 Texas and Oklahoma one of college football's must-see matchups."
+          "source_headline": "First time at the State Fair of Texas? Here are our tips. We polled our staff for their best tips on making the most of one of the sport's most distinctive backdrops."
         }
       ]
     },
@@ -3989,17 +3957,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
         },
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
+          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -4014,17 +3982,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
         },
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
+          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -4045,7 +4013,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 6 best bets: 'White out' game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
+          "source_headline": "College football Week 6 best bets: White Out game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
         }
       ]
     },
@@ -4066,7 +4034,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 6 best bets: 'White out' game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
+          "source_headline": "College football Week 6 best bets: White Out game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
         }
       ]
     },
@@ -4099,7 +4067,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 6 best bets: 'White out' game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
+          "source_headline": "College football Week 6 best bets: White Out game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
         },
         {
           "player_name": null,
@@ -4465,7 +4433,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 6 best bets: 'White out' game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
+          "source_headline": "College football Week 6 best bets: White Out game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
         },
         {
           "player_name": null,
@@ -4605,16 +4573,7 @@
     },
     "South Florida": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking college football's 35 unbeaten teams after Week 3. Following Week 3, Bill Connelly takes stock of which undefeated teams he trusts and which are pretenders."
-        }
-      ]
+      "injuries": []
     },
     "Southeast Missouri State": {
       "matched": false,
@@ -4753,6 +4712,14 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "No. 3 Notre Dame looks to extend school-record double-digit win margin streak when it hosts Stanford. \u2014 No. 3 Notre Dame has emerged as a model of consistency in this ever-changing college football world."
         }
       ]
     },
@@ -4871,17 +4838,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Acl",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "No. 1 Texas' Hero Kanu details experience in Red River Rivalry. Kanu joins SEC Now ahead of the Longhorns' matchup against Oklahoma to discuss the spectacle around one of college football's most historic rivalries and his interests outside of football."
+          "source_headline": "First time at the State Fair of Texas? Here are our tips. We polled our staff for their best tips on making the most of one of the sport's most distinctive backdrops."
         },
         {
-          "player_name": "McGee Essay",
+          "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "McGee Essay: Football, Legends, History - 'Red River Rivalry'. Ryan McGee dives into the legendary moments, rich history and storied tradition that make the 126-year rivalry between No. 1 Texas and Oklahoma one of college football's must-see matchups."
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
         }
       ]
     },
@@ -4911,6 +4878,14 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2026-27 Week 5 College Football Playoff, bowl projections. Following dominant victories and a few close calls in Week 5, here are our postseason projections."
         }
       ]
     },
@@ -4940,6 +4915,14 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2026-27 Week 5 College Football Playoff, bowl projections. Following dominant victories and a few close calls in Week 5, here are our postseason projections."
         }
       ]
     },
@@ -4950,17 +4933,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Acl",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "No. 1 Texas' Hero Kanu details experience in Red River Rivalry. Kanu joins SEC Now ahead of the Longhorns' matchup against Oklahoma to discuss the spectacle around one of college football's most historic rivalries and his interests outside of football."
+          "source_headline": "First time at the State Fair of Texas? Here are our tips. We polled our staff for their best tips on making the most of one of the sport's most distinctive backdrops."
         },
         {
-          "player_name": "McGee Essay",
+          "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "McGee Essay: Football, Legends, History - 'Red River Rivalry'. Ryan McGee dives into the legendary moments, rich history and storied tradition that make the 126-year rivalry between No. 1 Texas and Oklahoma one of college football's must-see matchups."
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
         }
       ]
     },
@@ -5051,7 +5034,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 6 best bets: 'White out' game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
+          "source_headline": "College football Week 6 best bets: White Out game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
         },
         {
           "player_name": "Tayven Jackson",
@@ -5103,25 +5086,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football Week 6 best bets: 'White out' game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
-        },
-        {
-          "player_name": "Oregon QB Dante",
-          "position": null,
-          "status": "OUT",
           "body_part": "Back",
-          "confidence_score": 1.0,
-          "source_headline": "Oregon QB Dante Moore ruled out vs. UCLA; Dylan Raiola to start. Quarterback Dante Moore is officially out for Saturday's matchup between No. 13 Oregon and No. 21 UCLA, according to Wednesday's official Big Ten injury report."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
         }
       ]
     },
@@ -5161,25 +5128,25 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Six college football buyouts that will determine the coaching carousel. From Lincoln Riley to Deion Sanders, these hefty buyouts will dictate the market."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football Week 6 best bets: 'White out' game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -5241,6 +5208,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Oregon, Florida and more lead loaded CFB Week 6 uniform slate. Of all the strong uniform weeks in college football this fall, you'll likely be hard-pressed to find another that stacks up to Week 6."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         },
         {
@@ -5250,22 +5225,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Predicting the College Football Playoff: Who's most likely to make the field?. Find out which teams our experts think will make this season's CFP."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football Power Rankings: What we've learned about top teams. After another week of big wins and surprising upsets, we break down the top 25 through Week 5."
         }
       ]
     },
@@ -5299,6 +5258,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Oregon, Florida and more lead loaded CFB Week 6 uniform slate. Of all the strong uniform weeks in college football this fall, you'll likely be hard-pressed to find another that stacks up to Week 6."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         },
         {
@@ -5308,22 +5275,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Predicting the College Football Playoff: Who's most likely to make the field?. Find out which teams our experts think will make this season's CFP."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football Power Rankings: What we've learned about top teams. After another week of big wins and surprising upsets, we break down the top 25 through Week 5."
         }
       ]
     },
