@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T17:24:36.843711+00:00",
+  "generated_at": "2026-10-10T15:58:08.970307+00:00",
   "season": 2026,
   "week": 6,
   "teams": {
@@ -80,10 +80,26 @@
         {
           "player_name": null,
           "position": null,
+          "status": "PROBABLE",
+          "body_part": null,
+          "confidence_score": 0.75,
+          "source_headline": "Sources: Alabama's Josh Ford expected to play vs. Georgia. Alabama starting tight end Josh Ford, who suffered a broken arm and had surgery over the past week, is expected to play against No. 2 Georgia, sources told ESPN."
+        },
+        {
+          "player_name": null,
+          "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
+          "source_headline": "College football Week 6 live. Check out the best from a big day around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
         }
       ]
     },
@@ -362,7 +378,16 @@
     },
     "Arkansas State": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Oregon, Florida and more lead loaded CFB Week 6 uniform slate. Of all the strong uniform weeks in college football this fall, you'll likely be hard-pressed to find another that stacks up to Week 6."
+        }
+      ]
     },
     "Arkansas Tech": {
       "matched": true,
@@ -470,15 +495,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Sources: Brigham Young tailback LJ Martin out for 4 to 6 weeks. BYU running back LJ Martin will be sidelined for at least a month with a lower body injury, sources told ESPN's Pete Thamel on Wednesday."
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
         }
       ]
     },
@@ -1101,10 +1118,6 @@
         }
       ]
     },
-    "Clark Atlanta": {
-      "matched": false,
-      "injuries": []
-    },
     "Coastal Carolina": {
       "matched": true,
       "injuries": []
@@ -1373,6 +1386,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         },
         {
@@ -1390,14 +1411,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football Power Rankings: What we've learned about top teams. After another week of big wins and surprising upsets, we break down the top 25 through Week 5."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 5 College Football Playoff, bowl projections. Following dominant victories and a few close calls in Week 5, here are our postseason projections."
         }
       ]
     },
@@ -1710,15 +1723,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Oregon, Florida and more lead loaded CFB Week 6 uniform slate. Of all the strong uniform weeks in college football this fall, you'll likely be hard-pressed to find another that stacks up to Week 6."
-        },
-        {
-          "player_name": "Jadan Baugh",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Jadan Baugh looks to rebound after rough performance. Andrea Adelson reports on how can running back Jadan Baugh can get back on track after his tough performance in Florida's loss against Missouri."
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
         },
         {
           "player_name": null,
@@ -1726,7 +1731,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
+          "source_headline": "Oregon, Florida and more lead loaded CFB Week 6 uniform slate. Of all the strong uniform weeks in college football this fall, you'll likely be hard-pressed to find another that stacks up to Week 6."
         }
       ]
     },
@@ -1753,7 +1758,16 @@
     },
     "Florida International": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Oregon, Florida and more lead loaded CFB Week 6 uniform slate. Of all the strong uniform weeks in college football this fall, you'll likely be hard-pressed to find another that stacks up to Week 6."
+        }
+      ]
     },
     "Florida State": {
       "matched": true,
@@ -1764,7 +1778,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Six college football buyouts that will determine the coaching carousel. From Lincoln Riley to Deion Sanders, these hefty buyouts will dictate the market."
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
+        {
+          "player_name": "Isaac Brown",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Isaac Brown brings Louisville back from the brink as Cardinals pummel Florida State 44-20. \u2014 Isaac Brown ran for a career-high 235 yards and two touchdowns on just 17 carries, including a game-changing 97-yard score, as Louisville rallied to take down Florida State 44-20 on Friday night."
         },
         {
           "player_name": null,
@@ -1772,7 +1794,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
+          "source_headline": "Six college football buyouts that will determine the coaching carousel. From Lincoln Riley to Deion Sanders, these hefty buyouts will dictate the market."
         }
       ]
     },
@@ -1807,27 +1829,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "What are the longest field goals in college football history?. Ove Johansson kicked the longest field goal in college football history, with a 69-yard zinger. Check out the other top field goals of all time now."
-        }
-      ]
-    },
-    "Fort Valley State": {
-      "matched": true,
-      "injuries": [
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking top HBCU prospects for 2023 NFL draft. We stacked the top NFL draft prospects from HBCU schools, including a handful playing in Saturday's HBCU Legacy Bowl."
-        },
-        {
-          "player_name": "Robin Roberts",
-          "position": null,
-          "status": null,
-          "body_part": "Rib",
-          "confidence_score": 0.75,
-          "source_headline": "Robin Roberts honors her father ahead of Red Tails Classic. The inaugural matchup between Tuskegee and Fort Valley State will pay tribute to Tuskegee Airmen"
         }
       ]
     },
@@ -1950,10 +1951,10 @@
         {
           "player_name": null,
           "position": null,
-          "status": null,
-          "body_part": "Back",
+          "status": "PROBABLE",
+          "body_part": null,
           "confidence_score": 0.75,
-          "source_headline": "Hometown hero Gunner Stockton back in spotlight for Georgia. The Bulldogs QB is a quiet leader, but those who have known him over the years eagerly sing his praises."
+          "source_headline": "Sources: Alabama's Josh Ford expected to play vs. Georgia. Alabama starting tight end Josh Ford, who suffered a broken arm and had surgery over the past week, is expected to play against No. 2 Georgia, sources told ESPN."
         },
         {
           "player_name": null,
@@ -1961,7 +1962,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
+          "source_headline": "College football Week 6 live. Check out the best from a big day around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
         }
       ]
     },
@@ -2345,17 +2354,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
+          "source_headline": "College football Week 6 live. Check out the best from a big day around college football."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
         }
       ]
     },
@@ -2387,17 +2396,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
+          "source_headline": "College football Week 6 live. Check out the best from a big day around college football."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
         }
       ]
     },
@@ -2411,14 +2420,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
         }
       ]
     },
@@ -2432,14 +2433,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
         }
       ]
     },
@@ -2565,14 +2558,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
-        },
-        {
-          "player_name": "Willie Rodriguez",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Willie Rodriguez breaks down game-winning catch in UK's win over SC. Rodriguez joins SEC Now to relive the final moments of the Wildcats' comeback win over the Gamecocks and previews their matchup against No. 10 LSU in Lexington."
         }
       ]
     },
@@ -2594,14 +2579,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
-        },
-        {
-          "player_name": "Willie Rodriguez",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Willie Rodriguez breaks down game-winning catch in UK's win over SC. Rodriguez joins SEC Now to relive the final moments of the Wildcats' comeback win over the Gamecocks and previews their matchup against No. 10 LSU in Lexington."
         }
       ]
     },
@@ -2623,14 +2600,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
-        },
-        {
-          "player_name": "Willie Rodriguez",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Willie Rodriguez breaks down game-winning catch in UK's win over SC. Rodriguez joins SEC Now to relive the final moments of the Wildcats' comeback win over the Gamecocks and previews their matchup against No. 10 LSU in Lexington."
         }
       ]
     },
@@ -2782,6 +2751,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Isaac Brown",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Isaac Brown brings Louisville back from the brink as Cardinals pummel Florida State 44-20. \u2014 Isaac Brown ran for a career-high 235 yards and two touchdowns on just 17 carries, including a game-changing 97-yard score, as Louisville rallied to take down Florida State 44-20 on Friday night."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -2796,22 +2773,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 5 College Football Playoff, bowl projections. Following dominant victories and a few close calls in Week 5, here are our postseason projections."
         }
       ]
     },
@@ -3009,6 +2970,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
         },
         {
@@ -3026,14 +2995,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
-        },
-        {
-          "player_name": "Michigan's Zack Marshall",
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "Michigan's Zack Marshall in trouble. Adam Rittenberg breaks down Michigan's plans to handle Zack Marshall."
         },
         {
           "player_name": "Michigan's Zack Marshall",
@@ -3354,35 +3315,6 @@
       "matched": false,
       "injuries": []
     },
-    "Morehouse": {
-      "matched": true,
-      "injuries": [
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Morehouse cancels football season due to coronavirus pandemic. Morehouse, a historically Black college in Atlanta, is canceling its football and cross country seasons because of the coronavirus pandemic."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Glass throws late TD pass, Alabama A&M beat Morehouse 35-30. Aqeel Glass threw four touchdown passes, including a 20-yarder to Brian Jenkins Jr. with 3 seconds to play, and Alabama A&M beat Morehouse College 35-30 on Sunday in the Black College Football Hall of Fame Classic at Tom Benson Hall of Fame Stadium."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Alabama A&M-Morehouse set for 1st HOF Classic. Alabama A&M and Morehouse College will play at the campus of the Pro Football Hall of Fame in the first Black College Hall of Fame Classic it was announced Wednesday. The Black College Football Hall of Fame was founded in 2009."
-        }
-      ]
-    },
     "Morgan State": {
       "matched": false,
       "injuries": []
@@ -3486,6 +3418,22 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "College football Week 6 live. Check out the best from a big day around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
         }
       ]
@@ -3499,6 +3447,22 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "College football Week 6 live. Check out the best from a big day around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
         }
       ]
@@ -3506,6 +3470,22 @@
     "Nebraska Wesleyan": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 6 live. Check out the best from a big day around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
         {
           "player_name": null,
           "position": null,
@@ -3579,6 +3559,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         },
         {
@@ -3588,14 +3576,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 5 College Football Playoff, bowl projections. Following dominant victories and a few close calls in Week 5, here are our postseason projections."
         }
       ]
     },
@@ -3608,6 +3588,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         },
         {
@@ -3617,14 +3605,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 5 College Football Playoff, bowl projections. Following dominant victories and a few close calls in Week 5, here are our postseason projections."
         }
       ]
     },
@@ -3637,6 +3617,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         },
         {
@@ -3646,14 +3634,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 5 College Football Playoff, bowl projections. Following dominant victories and a few close calls in Week 5, here are our postseason projections."
         }
       ]
     },
@@ -3698,6 +3678,14 @@
     "North Texas": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
         {
           "player_name": "Tayven Jackson",
           "position": null,
@@ -3862,6 +3850,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Oregon, Florida and more lead loaded CFB Week 6 uniform slate. Of all the strong uniform weeks in college football this fall, you'll likely be hard-pressed to find another that stacks up to Week 6."
         },
         {
@@ -3871,14 +3867,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -3919,23 +3907,31 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
+          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
         }
       ]
     },
     "Oklahoma": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "McGee Essay",
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "McGee Essay: Revisiting legacy of Red River Rivalry. Ryan McGee explains the history behind the Red River Rivalry as he describes the factors and traditions that make this rivalry run so deep."
+        },
         {
           "player_name": null,
           "position": null,
@@ -4059,23 +4055,23 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "College football Week 6 live. Check out the best from a big day around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football Week 6 best bets: White Out game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -4146,6 +4142,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
         },
         {
@@ -4155,14 +4159,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
         }
       ]
     },
@@ -4457,10 +4453,6 @@
       "matched": true,
       "injuries": []
     },
-    "Savannah State": {
-      "matched": false,
-      "injuries": []
-    },
     "Schreiner": {
       "matched": false,
       "injuries": []
@@ -4703,6 +4695,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         },
         {
@@ -4835,12 +4835,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "McGee Essay",
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Rib",
           "confidence_score": 0.75,
-          "source_headline": "First time at the State Fair of Texas? Here are our tips. We polled our staff for their best tips on making the most of one of the sport's most distinctive backdrops."
+          "source_headline": "McGee Essay: Revisiting legacy of Red River Rivalry. Ryan McGee explains the history behind the Red River Rivalry as he describes the factors and traditions that make this rivalry run so deep."
         },
         {
           "player_name": null,
@@ -4848,7 +4848,7 @@
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
+          "source_headline": "First time at the State Fair of Texas? Here are our tips. We polled our staff for their best tips on making the most of one of the sport's most distinctive backdrops."
         }
       ]
     },
@@ -4930,20 +4930,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Texas' Sarkisian",
           "position": null,
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "First time at the State Fair of Texas? Here are our tips. We polled our staff for their best tips on making the most of one of the sport's most distinctive backdrops."
+          "source_headline": "Texas' Sarkisian evaluates Manning's performance, Oklahoma matchup. Steve Sarkisian discusses the effective play of his star quarterback, Arch Manning, and outlines the keys to the game against the Sooners."
         },
         {
-          "player_name": null,
+          "player_name": "McGee Essay",
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Rib",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
+          "source_headline": "McGee Essay: Revisiting legacy of Red River Rivalry. Ryan McGee explains the history behind the Red River Rivalry as he describes the factors and traditions that make this rivalry run so deep."
         }
       ]
     },
@@ -5086,6 +5086,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 6 live. Check out the best from a big day around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
@@ -5128,6 +5136,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football Week 6 live. Check out the best from a big day around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15. Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah."
@@ -5139,14 +5155,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Six college football buyouts that will determine the coaching carousel. From Lincoln Riley to Deion Sanders, these hefty buyouts will dictate the market."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
         }
       ]
     },
@@ -5237,6 +5245,22 @@
           "status": null,
           "body_part": "Shin",
           "confidence_score": 0.75,
+          "source_headline": "Utah State scores 14 unanswered points after halftime to beat Washington State 17-16. \u2014 Grady Brosterhous threw for 150 yards and a touchdown, Javen Jacobs had 62 yards rushing and a score, and Utah State scored 14 unanswered points in the second half to beat Washington State 17-16 on Friday night."
+        },
+        {
+          "player_name": "Washington State Cougars",
+          "position": null,
+          "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Washington State Cougars vs. Utah State Aggies: Full Highlights. Washington State Cougars vs. Utah State Aggies: Full Highlights"
+        },
+        {
+          "player_name": "Utah State",
+          "position": null,
+          "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
           "source_headline": "Utah State hosts Washington State in Pac-12 action. Washington State (1-4) at Utah State (1-4), Oct. 9 at 9 p.m. EDT."
         },
         {
@@ -5295,6 +5319,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
         },
         {
@@ -5304,14 +5336,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
         }
       ]
     },
@@ -5399,6 +5423,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         },
         {
@@ -5416,14 +5448,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 5 College Football Playoff, bowl projections. Following dominant victories and a few close calls in Week 5, here are our postseason projections."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Pitt loses QB Heintschel to injury but outlasts Virginia Tech. As his Panthers improved to 5-0 with a 35-33 victory over Virginia Tech, Pittsburgh coach Pat Narduzzi lobbied for his unranked team, sending a message to AP Top 25 voters that he has \"a hell of a football team.\""
         }
       ]
     },
@@ -5468,6 +5492,22 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Kamari Moulton",
+          "position": null,
+          "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Kamari Moulton runs for career-best 208 yards and 2 TDs as No. 20 Iowa beats Washington, 41-24. \u2014 Kamari Moulton ran for a career-high 208 yards on 26 carries and the Iowa defense held Washington to minus-3 yards rushing as the 20th-ranked Hawkeyes rolled to a 41-24 victory Friday night."
+        },
+        {
+          "player_name": "Washington QB Williams",
+          "position": null,
+          "status": null,
+          "body_part": "Ribs",
+          "confidence_score": 0.75,
+          "source_headline": "Washington QB Williams exits game, set for X-rays on side/ribs. Huskies quarterback Demond Williams went into the medical tent following a run late in the first half and left to undergo X-rays on his side/ribs, the team announced."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -5482,22 +5522,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 5 College Football Playoff, bowl projections. Following dominant victories and a few close calls in Week 5, here are our postseason projections."
         }
       ]
     },
@@ -5505,6 +5529,22 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Kamari Moulton",
+          "position": null,
+          "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Kamari Moulton runs for career-best 208 yards and 2 TDs as No. 20 Iowa beats Washington, 41-24. \u2014 Kamari Moulton ran for a career-high 208 yards on 26 carries and the Iowa defense held Washington to minus-3 yards rushing as the 20th-ranked Hawkeyes rolled to a 41-24 victory Friday night."
+        },
+        {
+          "player_name": "Washington QB Williams",
+          "position": null,
+          "status": null,
+          "body_part": "Ribs",
+          "confidence_score": 0.75,
+          "source_headline": "Washington QB Williams exits game, set for X-rays on side/ribs. Huskies quarterback Demond Williams went into the medical tent following a run late in the first half and left to undergo X-rays on his side/ribs, the team announced."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -5519,28 +5559,28 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 5 College Football Playoff, bowl projections. Following dominant victories and a few close calls in Week 5, here are our postseason projections."
         }
       ]
     },
     "Washington State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "Utah State",
+          "position": null,
+          "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Utah State scores 14 unanswered points after halftime to beat Washington State 17-16. \u2014 Grady Brosterhous threw for 150 yards and a touchdown, Javen Jacobs had 62 yards rushing and a score, and Utah State scored 14 unanswered points in the second half to beat Washington State 17-16 on Friday night."
+        },
+        {
+          "player_name": "Washington State Cougars",
+          "position": null,
+          "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Washington State Cougars vs. Utah State Aggies: Full Highlights. Washington State Cougars vs. Utah State Aggies: Full Highlights"
+        },
         {
           "player_name": "Utah State",
           "position": null,
@@ -5564,28 +5604,28 @@
           "body_part": "Shin",
           "confidence_score": 0.75,
           "source_headline": "Washington State hosts Fresno State in Pac-12 action. Fresno State (3-1) at Washington State (1-3), Oct. 3 at 9:30 p.m. EDT."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Fifita throws 4 touchdown passes in Arizona's 34-24 win over Washington State. \u2014 Noah Fifita threw for 297 yards and four touchdowns and Arizona overcame a halftime deficit for a 34-24 victory over Washington State on Saturday night."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Oregon's look for USC trip tops best uniforms of college football Week 4. At a base level it's an all-white set for Oregon this week, but it's the details that make the uniform really pop."
         }
       ]
     },
     "Washington and Lee": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "Kamari Moulton",
+          "position": null,
+          "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Kamari Moulton runs for career-best 208 yards and 2 TDs as No. 20 Iowa beats Washington, 41-24. \u2014 Kamari Moulton ran for a career-high 208 yards on 26 carries and the Iowa defense held Washington to minus-3 yards rushing as the 20th-ranked Hawkeyes rolled to a 41-24 victory Friday night."
+        },
+        {
+          "player_name": "Washington QB Williams",
+          "position": null,
+          "status": null,
+          "body_part": "Ribs",
+          "confidence_score": 0.75,
+          "source_headline": "Washington QB Williams exits game, set for X-rays on side/ribs. Huskies quarterback Demond Williams went into the medical tent following a run late in the first half and left to undergo X-rays on his side/ribs, the team announced."
+        },
         {
           "player_name": null,
           "position": null,
@@ -5601,22 +5641,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 5 College Football Playoff, bowl projections. Following dominant victories and a few close calls in Week 5, here are our postseason projections."
         }
       ]
     },
@@ -5679,6 +5703,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
         },
         {
@@ -5696,14 +5728,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
-        },
-        {
-          "player_name": "West Virginia",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "West Virginia football recruit Chris Wilson Jr. killed in shooting. West Virginia football commit Chris Wilson Jr. was killed in an overnight shooting in Muncie, Indiana, according to local police."
         }
       ]
     },
@@ -5716,6 +5740,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
         },
         {
@@ -5733,14 +5765,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
-        },
-        {
-          "player_name": "West Virginia",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "West Virginia football recruit Chris Wilson Jr. killed in shooting. West Virginia football commit Chris Wilson Jr. was killed in an overnight shooting in Muncie, Indiana, according to local police."
         }
       ]
     },
@@ -5755,6 +5779,14 @@
     "Western Kentucky": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Oregon, Florida and more lead loaded CFB Week 6 uniform slate. Of all the strong uniform weeks in college football this fall, you'll likely be hard-pressed to find another that stacks up to Week 6."
+        },
         {
           "player_name": null,
           "position": null,
