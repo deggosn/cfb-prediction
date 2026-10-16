@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:30:34.741872+00:00",
+  "generated_at": "2026-10-16T15:20:11.357575+00:00",
   "season": 2026,
   "week": 7,
   "teams": {
@@ -114,17 +114,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
-        },
-        {
-          "player_name": "Alabama WR Ryan",
-          "position": null,
-          "status": "OUT",
-          "body_part": null,
-          "confidence_score": 0.75,
-          "source_headline": "Alabama WR Ryan Coleman-Williams won't play at Tennessee. No. 6 Alabama star wide receiver Ryan Coleman-Williams has officially been ruled out of Saturday's game at No. 14 Tennessee."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
           "player_name": null,
@@ -132,13 +124,22 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
         }
       ]
     },
     "Alabama A&M": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": "Texas Southern",
+          "position": null,
+          "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Texas Southern ends regular season with a 24-7 victory over Alabama A&M. \u2014 Jordon Davis threw for a touchdown and ran for another, Lawrence Butler had 101 yards rushing and a touchdown, and Texas Southern ended its regular season with a 24-7 victory over Alabama A&M on Saturday."
+        }
+      ]
     },
     "Alabama State": {
       "matched": true,
@@ -296,6 +297,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "John Calipari",
           "position": null,
           "status": null,
@@ -310,14 +319,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": "Tennessee Volunteers",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Tennessee Volunteers vs. Arkansas Razorbacks: Full Highlights. Tennessee Volunteers vs. Arkansas Razorbacks: Full Highlights"
         }
       ]
     },
@@ -389,6 +390,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -443,12 +452,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
         }
       ]
     },
@@ -593,6 +610,22 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Coastal Carolina's",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Coastal Carolina's bold '90s throwbacks lead CFB Week 7 uniforms. The Chanticleers are throwing it back to the 1990s ... when the Coastal Carolina football program didn't even exist."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -607,14 +640,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 5. Putting the spotlight on select teams and questions around others as the playoff picture takes shape."
         }
       ]
     },
@@ -772,6 +797,22 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Coastal Carolina's",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Coastal Carolina's bold '90s throwbacks lead CFB Week 7 uniforms. The Chanticleers are throwing it back to the 1990s ... when the Coastal Carolina football program didn't even exist."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -786,14 +827,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 6 College Football Playoff, bowl projections. Following big wins and multiple upsets in Week 6, here are our postseason projections."
-        },
-        {
-          "player_name": "Cal RB Ashten",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Cal RB Ashten Emory scores 2 TDs in comeback win over Virginia Tech, 25-20. \u2014 Reserve running back Ashten Emory ran for two touchdowns and his 2-yard touchdown plunge with 18 seconds left capped Cal's 25-20 comeback win over Virginia Tech on Saturday."
         }
       ]
     },
@@ -801,6 +834,22 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Coastal Carolina's",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Coastal Carolina's bold '90s throwbacks lead CFB Week 7 uniforms. The Chanticleers are throwing it back to the 1990s ... when the Coastal Carolina football program didn't even exist."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -815,14 +864,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 6 College Football Playoff, bowl projections. Following big wins and multiple upsets in Week 6, here are our postseason projections."
-        },
-        {
-          "player_name": "Cal RB Ashten",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Cal RB Ashten Emory scores 2 TDs in comeback win over Virginia Tech, 25-20. \u2014 Reserve running back Ashten Emory ran for two touchdowns and his 2-yard touchdown plunge with 18 seconds left capped Cal's 25-20 comeback win over Virginia Tech on Saturday."
         }
       ]
     },
@@ -1161,6 +1202,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
@@ -1180,14 +1229,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 6 College Football Playoff, bowl projections. Following big wins and multiple upsets in Week 6, here are our postseason projections."
         }
       ]
     },
@@ -1197,7 +1238,16 @@
     },
     "Coastal Carolina": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": "Coastal Carolina's",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Coastal Carolina's bold '90s throwbacks lead CFB Week 7 uniforms. The Chanticleers are throwing it back to the 1990s ... when the Coastal Carolina football program didn't even exist."
+        }
+      ]
     },
     "Coe": {
       "matched": true,
@@ -1223,6 +1273,14 @@
     "Colorado": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -1532,12 +1590,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
           "player_name": null,
@@ -1545,7 +1603,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 6 College Football Playoff, bowl projections. Following big wins and multiple upsets in Week 6, here are our postseason projections."
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -1851,6 +1917,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
@@ -1870,14 +1944,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -1937,23 +2003,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": "Is Mike Norvell",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Is Mike Norvell on the hot seat at Florida State?. Andrea Adelson discusses the speculation surrounding Florida State football coach Mike Norvell's job."
         }
       ]
     },
@@ -2104,9 +2162,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
           "player_name": null,
@@ -2114,15 +2172,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
         },
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
         }
       ]
     },
@@ -2136,14 +2194,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Coleman, Evans lead James Madison to bowl eligibility with 27-24 win over Georgia Southern. \u2014 Camden Coleman threw for 171 yards and a touchdown, reserve quarterback JC Evans threw for two touchdowns and James Madison became bowl eligible with a 27-24 win over Georgia Southern on Saturday."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking college football's top 25 freshmen. After five weeks of the season we've seen some first-year players make a bigger impact than expected."
         }
       ]
     },
@@ -2169,6 +2219,22 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
         },
         {
@@ -2178,22 +2244,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Georgia Tech starting LB Kyle Efford medically retiring, staying on as captain. Georgia Tech starting LB Kyle Efford is medically retiring from football but will remain with the team as a captain and player-coach for the rest of the season."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 6 College Football Playoff, bowl projections. Following big wins and multiple upsets in Week 6, here are our postseason projections."
         }
       ]
     },
@@ -2310,7 +2360,16 @@
     },
     "Harvard": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College football championship winners by year: NCAA list. Indiana took home their first college football championship at the end of the 2025-26 season. Check out which other schools have won titles now."
+        }
+      ]
     },
     "Hawai'i": {
       "matched": true,
@@ -2382,20 +2441,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football Power Rankings: How did Week 6 chaos affect top 25?. In a week full of surprises, we break down the top 25 through Week 6."
         }
       ]
     },
@@ -2403,20 +2462,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football Power Rankings: How did Week 6 chaos affect top 25?. In a week full of surprises, we break down the top 25 through Week 6."
         }
       ]
     },
@@ -2571,17 +2630,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
         }
       ]
     },
@@ -2592,17 +2651,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
         }
       ]
     },
@@ -2730,12 +2789,28 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "College Football Playoff",
+          "player_name": "Coastal Carolina's",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Coastal Carolina's bold '90s throwbacks lead CFB Week 7 uniforms. The Chanticleers are throwing it back to the 1990s ... when the Coastal Carolina football program didn't even exist."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": "UK's Will Stein",
+          "position": null,
+          "status": null,
+          "body_part": "Acl",
+          "confidence_score": 0.75,
+          "source_headline": "UK's Will Stein turns the page to 'massive test' against Oklahoma. After Kentucky's huge overtime win over LSU, Stein shifts his focus to the various obstacles that the Sooners present for the Wildcats in Week 7."
         }
       ]
     },
@@ -2743,12 +2818,28 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "College Football Playoff",
+          "player_name": "Coastal Carolina's",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Coastal Carolina's bold '90s throwbacks lead CFB Week 7 uniforms. The Chanticleers are throwing it back to the 1990s ... when the Coastal Carolina football program didn't even exist."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": "UK's Will Stein",
+          "position": null,
+          "status": null,
+          "body_part": "Acl",
+          "confidence_score": 0.75,
+          "source_headline": "UK's Will Stein turns the page to 'massive test' against Oklahoma. After Kentucky's huge overtime win over LSU, Stein shifts his focus to the various obstacles that the Sooners present for the Wildcats in Week 7."
         }
       ]
     },
@@ -2756,12 +2847,28 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "College Football Playoff",
+          "player_name": "Coastal Carolina's",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Coastal Carolina's bold '90s throwbacks lead CFB Week 7 uniforms. The Chanticleers are throwing it back to the 1990s ... when the Coastal Carolina football program didn't even exist."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": "UK's Will Stein",
+          "position": null,
+          "status": null,
+          "body_part": "Acl",
+          "confidence_score": 0.75,
+          "source_headline": "UK's Will Stein turns the page to 'massive test' against Oklahoma. After Kentucky's huge overtime win over LSU, Stein shifts his focus to the various obstacles that the Sooners present for the Wildcats in Week 7."
         }
       ]
     },
@@ -2809,17 +2916,17 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
-        },
-        {
-          "player_name": "Mississippi State QB",
-          "position": null,
-          "status": "QUESTIONABLE",
-          "body_part": "Back",
-          "confidence_score": 1.0,
-          "source_headline": "Mississippi State QB Kamario Taylor, RB Fluff Bothwell questionable vs. LSU. Mississippi State quarterback Kamario Taylor is questionable to play against LSU because of a leg injury that forced him out of the Bulldogs' game against Alabama two weeks ago. Leading rusher Fluff Bothwell is also questionable."
         }
       ]
     },
@@ -2950,6 +3057,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Looking back at Lamar Jackson's Heisman season, 10 years later. Remembering one of the most electric seasons in college football history."
         },
         {
@@ -2959,14 +3074,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "How transfer QBs keep working for Miami, Indiana and others. Three years, three signal-callers. It's not easy, but some College Football Playoff contenders have found a way."
         }
       ]
     },
@@ -3031,20 +3138,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": "Jeremiah Smith",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Jeremiah Smith, Julian Sayin star as No. 5 Ohio State beats Maryland 45-16 before brutal stretch. \u2014 His cheeks flushed the color of Ohio State's scarlet jerseys, coach Ryan Day didn't hold back from showing his frustration."
         }
       ]
     },
@@ -3141,9 +3248,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Michigan judge rules 2 Wolverines eligible for this season. A judge granted a temporary restraining order for Michigan tight end Alex Bauman and defensive back Jeremiah Earby, who are hoping to join the team for their fifth season."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
           "player_name": null,
@@ -3151,15 +3258,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
         },
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Michigan judge rules 2 Wolverines eligible for this season. A judge granted a temporary restraining order for Michigan tight end Alex Bauman and defensive back Jeremiah Earby, who are hoping to join the team for their fifth season."
         }
       ]
     },
@@ -3199,9 +3306,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Michigan judge rules 2 Wolverines eligible for this season. A judge granted a temporary restraining order for Michigan tight end Alex Bauman and defensive back Jeremiah Earby, who are hoping to join the team for their fifth season."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
           "player_name": null,
@@ -3209,15 +3316,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
         },
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Michigan judge rules 2 Wolverines eligible for this season. A judge granted a temporary restraining order for Michigan tight end Alex Bauman and defensive back Jeremiah Earby, who are hoping to join the team for their fifth season."
         }
       ]
     },
@@ -3248,6 +3355,14 @@
     "Minnesota Morris": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": null,
           "position": null,
@@ -3285,6 +3400,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
@@ -3296,14 +3419,6 @@
           "body_part": "Back",
           "confidence_score": 1.0,
           "source_headline": "Mississippi State QB Kamario Taylor, RB Fluff Bothwell questionable vs. LSU. Mississippi State quarterback Kamario Taylor is questionable to play against LSU because of a leg injury that forced him out of the Bulldogs' game against Alabama two weeks ago. Leading rusher Fluff Bothwell is also questionable."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -3318,25 +3433,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -3347,25 +3446,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -3376,25 +3459,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -3405,25 +3472,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -3590,6 +3641,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Oregon quarterback Dante Moore out Saturday vs. Nebraska. With Dante Moore out, Oregon might start Dylan Raiola, who spent his first two college seasons playing for the Cornhuskers."
@@ -3611,6 +3670,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Oregon quarterback Dante Moore out Saturday vs. Nebraska. With Dante Moore out, Oregon might start Dylan Raiola, who spent his first two college seasons playing for the Cornhuskers."
@@ -3628,6 +3695,14 @@
     "Nebraska Wesleyan": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": null,
           "position": null,
@@ -3745,6 +3820,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -3765,6 +3848,14 @@
     "North Carolina A&T": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -3882,20 +3973,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "AP college football Week 6 poll reaction: What's next for each Top 25 team. A look at the latest Top 25, with stats to know and who is next on each team's schedule."
         }
       ]
     },
@@ -3932,20 +4023,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "AP college football Week 6 poll reaction: What's next for each Top 25 team. A look at the latest Top 25, with stats to know and who is next on each team's schedule."
         }
       ]
     },
@@ -3953,20 +4044,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "AP college football Week 6 poll reaction: What's next for each Top 25 team. A look at the latest Top 25, with stats to know and who is next on each team's schedule."
         }
       ]
     },
@@ -3985,9 +4076,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
         }
       ]
     },
@@ -4038,20 +4137,28 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
+        },
+        {
           "player_name": "Ohio State",
           "position": null,
           "status": "OUT",
           "body_part": "Back",
           "confidence_score": 1.0,
           "source_headline": "Ohio State loses half of RB tandem vs. Indiana with Ja'Kobi Jackson out. Ohio State won't have half of its running back tandem for a key Big Ten game against No. 5 Indiana, as Ja'Kobi Jackson has been ruled out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
         }
       ]
     },
@@ -4077,15 +4184,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
         }
       ]
     },
@@ -4111,14 +4218,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -4133,25 +4232,25 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
-        },
-        {
-          "player_name": "Zxavian Harris",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Zxavian Harris eligible to sign with NFL teams despite bid to play for LSU. The NFL has reversed course and now says that former Ole Miss DL Zxavian Harris is free to sign with teams this season after a failed attempt to return to college football at LSU."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -4230,6 +4329,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
         },
         {
@@ -4239,14 +4346,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 6 College Football Playoff, bowl projections. Following big wins and multiple upsets in Week 6, here are our postseason projections."
         }
       ]
     },
@@ -4311,6 +4410,14 @@
     "Pittsburgh": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
         {
           "player_name": null,
           "position": null,
@@ -4645,61 +4752,11 @@
     },
     "Slippery Rock": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's 100 best games of 2019: 80-61. In this second installment, we're focusing on the most exciting upsets and near upsets of the year, from Georgia State's shocking win over Tennessee to Notre Dame's escape against Virginia Tech."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football midseason awards: The best players, teams and moments. From the most enjoyable games to the most fun teams to the Heisman, Bill Connelly offers up the season's best so far."
-        },
-        {
-          "player_name": "Division II",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Division II football tournament. Take a look at the complete schedule and results for the 2014 Division II football tournament."
-        }
-      ]
+      "injuries": []
     },
     "South Dakota": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Brungard scores 3 rushing TDs and Wyche-El adds 2 in Youngstown State's 47-28 win over South Dakota. \u2014 Beau Brungard ran for 170 yards and three touchdowns, Lynn Wyche-El scored twice on the ground, and Youngstown State rolled past South Dakota 47-28 on Saturday."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Riley's 198 yards rushing and 2 late TDs help push Boise State past South Dakota 38-24. \u2014 Dylan Riley had 198 yards rushing, and his two touchdown runs in the fourth quarter helped Boise State pull away and beat South Dakota 38-24 on Saturday night."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Modzewski, Pierre, Bryant have big days, South Dakota races past Eastern Washington 41-23. \u2014 Austyn Modrzewski threw three touchdown passes, Charles Pierre Jr. ran for two and Tennel Bryant had two scoring receptions as South Dakota rolled past Eastern Washington 41-23 on Saturday."
-        }
-      ]
+      "injuries": []
     },
     "South Dakota Mines": {
       "matched": true,
@@ -4707,32 +4764,7 @@
     },
     "South Dakota State": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Brungard scores 3 rushing TDs and Wyche-El adds 2 in Youngstown State's 47-28 win over South Dakota. \u2014 Beau Brungard ran for 170 yards and three touchdowns, Lynn Wyche-El scored twice on the ground, and Youngstown State rolled past South Dakota 47-28 on Saturday."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Riley's 198 yards rushing and 2 late TDs help push Boise State past South Dakota 38-24. \u2014 Dylan Riley had 198 yards rushing, and his two touchdown runs in the fourth quarter helped Boise State pull away and beat South Dakota 38-24 on Saturday night."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Modzewski, Pierre, Bryant have big days, South Dakota races past Eastern Washington 41-23. \u2014 Austyn Modrzewski threw three touchdown passes, Charles Pierre Jr. ran for two and Tennel Bryant had two scoring receptions as South Dakota rolled past Eastern Washington 41-23 on Saturday."
-        }
-      ]
+      "injuries": []
     },
     "South Florida": {
       "matched": true,
@@ -4756,24 +4788,7 @@
     },
     "Southern Illinois": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Hip",
-          "confidence_score": 0.75,
-          "source_headline": "Brungard points the way for Youngstown State in 28-16 win over Southern Illinois. \u2014 Beau Brungard threw for 219 yards and a touchdown and ran for another, and Youngstown State beat Southern Illinois 28-16 Saturday in a matchup of two Top 25 Stats Perform poll participants in the Championship Subdivision."
-        },
-        {
-          "player_name": "DJ Williams",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "DJ Williams throws 2 TDs as Southern Illinois cruises past Murray State 46-6. \u2014 DJ Williams threw for 217 yards and two touchdowns, including 145 yards to Markell Quick, as Southern Illinois scored 46 unanswered points to beat Murray State 46-6 on Saturday in a Missouri Valley Football Conference opener for both teams."
-        }
-      ]
+      "injuries": []
     },
     "Southern Miss": {
       "matched": false,
@@ -4932,20 +4947,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Middlebrook's 2 rushing TDs help Virginia overcome 10-point deficit, beat Syracuse 28-24. \u2014 Jekail Middlebrook rushed for two touchdowns in the fourth quarter, and Virginia overcame a 10-point second-half deficit to beat Syracuse 28-25 on Saturday night."
         }
       ]
     },
@@ -4997,9 +5012,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
           "player_name": null,
@@ -5007,7 +5022,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Bottom 10 after Week 6: Texas takes major fall. There's no mercy for Texas: One loss and the Longhorns land on our dubious list."
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
         }
       ]
     },
@@ -5020,6 +5043,22 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
         },
         {
@@ -5029,14 +5068,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
         }
       ]
     },
@@ -5049,6 +5080,22 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
         },
         {
@@ -5058,14 +5105,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
         }
       ]
     },
@@ -5076,9 +5115,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
           "player_name": null,
@@ -5086,7 +5125,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Bottom 10 after Week 6: Texas takes major fall. There's no mercy for Texas: One loss and the Longhorns land on our dubious list."
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
         }
       ]
     },
@@ -5118,9 +5165,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
           "player_name": null,
@@ -5128,7 +5175,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Bottom 10 after Week 6: Texas takes major fall. There's no mercy for Texas: One loss and the Longhorns land on our dubious list."
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
         }
       ]
     },
@@ -5139,9 +5194,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
           "player_name": null,
@@ -5149,7 +5204,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Bottom 10 after Week 6: Texas takes major fall. There's no mercy for Texas: One loss and the Longhorns land on our dubious list."
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as we hit the midway mark of the college season."
         }
       ]
     },
@@ -5313,6 +5376,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "UCLA quarterback Nico Iamaleava out Saturday vs. Wisconsin. UCLA quarterback Nico Iamaleava is out for Saturday's matchup against Wisconsin, according to Wednesday's Big Ten injury report."
@@ -5324,14 +5395,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -5396,12 +5459,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "College Football Playoff",
+          "player_name": "Coastal Carolina's",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Coastal Carolina's bold '90s throwbacks lead CFB Week 7 uniforms. The Chanticleers are throwing it back to the 1990s ... when the Coastal Carolina football program didn't even exist."
         },
         {
           "player_name": null,
@@ -5409,7 +5472,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Power Rankings: How did Week 6 chaos affect top 25?. In a week full of surprises, we break down the top 25 through Week 6."
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         },
         {
           "player_name": null,
@@ -5417,7 +5480,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 6 College Football Playoff, bowl projections. Following big wins and multiple upsets in Week 6, here are our postseason projections."
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
         }
       ]
     },
@@ -5432,6 +5495,30 @@
     "Vanderbilt": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": "Clark Lea",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Clark Lea expects Vanderbilt to prove itself against Arkansas. Looking to get back in the win column against Arkansas, Lea explains why he expects the Commodores to have something to right the ship."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -5484,6 +5571,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
         },
         {
@@ -5521,6 +5616,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -5535,20 +5638,20 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 6 College Football Playoff, bowl projections. Following big wins and multiple upsets in Week 6, here are our postseason projections."
-        },
-        {
-          "player_name": "Cal RB Ashten",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Cal RB Ashten Emory scores 2 TDs in comeback win over Virginia Tech, 25-20. \u2014 Reserve running back Ashten Emory ran for two touchdowns and his 2-yard touchdown plunge with 18 seconds left capped Cal's 25-20 comeback win over Virginia Tech on Saturday."
         }
       ]
     },
     "Virginia Union": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "What would a 24-team College Football Playoff bracket look like?. Using the CFP committee's final ranking from the 2025 season, here's what the new format would look like."
+        },
         {
           "player_name": null,
           "position": null,
@@ -5616,28 +5719,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "How transfer QBs keep working for Miami, Indiana and others. Three years, three signal-callers. It's not easy, but some College Football Playoff contenders have found a way."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football Power Rankings: How did Week 6 chaos affect top 25?. In a week full of surprises, we break down the top 25 through Week 6."
         }
       ]
     },
@@ -5657,6 +5752,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -5679,14 +5782,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 6 College Football Playoff, bowl projections. Following big wins and multiple upsets in Week 6, here are our postseason projections."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Purdue and Washington meet in Big Ten play. Washington (3-3) at Purdue (3-3), Oct. 16 at 8 p.m. EDT."
         }
       ]
     },
@@ -5694,6 +5789,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -5716,14 +5819,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 6 College Football Playoff, bowl projections. Following big wins and multiple upsets in Week 6, here are our postseason projections."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Purdue and Washington meet in Big Ten play. Washington (3-3) at Purdue (3-3), Oct. 16 at 8 p.m. EDT."
         }
       ]
     },
@@ -5772,6 +5867,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -5794,14 +5897,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 6 College Football Playoff, bowl projections. Following big wins and multiple upsets in Week 6, here are our postseason projections."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Purdue and Washington meet in Big Ten play. Washington (3-3) at Purdue (3-3), Oct. 16 at 8 p.m. EDT."
         }
       ]
     },
@@ -5872,6 +5967,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
         },
         {
@@ -5881,14 +5984,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
         }
       ]
     },
@@ -5901,6 +5996,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
         },
         {
@@ -5910,14 +6013,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who are the winningest college football coaches of all time?. From Saban to Paterno, there are many legendary college football coaches. Who has the best career record? Check out who has the most wins now."
         }
       ]
     },
@@ -6070,6 +6165,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "UCLA quarterback Nico Iamaleava out Saturday vs. Wisconsin. UCLA quarterback Nico Iamaleava is out for Saturday's matchup against Wisconsin, according to Wednesday's Big Ten injury report."
@@ -6081,14 +6184,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -6099,6 +6194,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "UCLA quarterback Nico Iamaleava out Saturday vs. Wisconsin. UCLA quarterback Nico Iamaleava is out for Saturday's matchup against Wisconsin, according to Wednesday's Big Ten injury report."
@@ -6110,14 +6213,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -6128,6 +6223,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "UCLA quarterback Nico Iamaleava out Saturday vs. Wisconsin. UCLA quarterback Nico Iamaleava is out for Saturday's matchup against Wisconsin, according to Wednesday's Big Ten injury report."
@@ -6139,14 +6242,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -6157,6 +6252,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "UCLA quarterback Nico Iamaleava out Saturday vs. Wisconsin. UCLA quarterback Nico Iamaleava is out for Saturday's matchup against Wisconsin, according to Wednesday's Big Ten injury report."
@@ -6168,14 +6271,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -6211,6 +6306,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "UCLA quarterback Nico Iamaleava out Saturday vs. Wisconsin. UCLA quarterback Nico Iamaleava is out for Saturday's matchup against Wisconsin, according to Wednesday's Big Ten injury report."
@@ -6222,14 +6325,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -6240,6 +6335,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "UCLA quarterback Nico Iamaleava out Saturday vs. Wisconsin. UCLA quarterback Nico Iamaleava is out for Saturday's matchup against Wisconsin, according to Wednesday's Big Ten injury report."
@@ -6251,14 +6354,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -6269,6 +6364,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "UCLA quarterback Nico Iamaleava out Saturday vs. Wisconsin. UCLA quarterback Nico Iamaleava is out for Saturday's matchup against Wisconsin, according to Wednesday's Big Ten injury report."
@@ -6280,14 +6383,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
@@ -6298,6 +6393,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "UCLA quarterback Nico Iamaleava out Saturday vs. Wisconsin. UCLA quarterback Nico Iamaleava is out for Saturday's matchup against Wisconsin, according to Wednesday's Big Ten injury report."
@@ -6309,14 +6412,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football's backup quarterback talent drain. How hard is it to get, hold on to and pay a backup QB in today's college football?"
         }
       ]
     },
