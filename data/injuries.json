@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T15:47:42.601310+00:00",
+  "generated_at": "2026-10-23T15:41:55.513996+00:00",
   "season": 2026,
   "week": 8,
   "teams": {
@@ -81,6 +81,14 @@
     "Alabama": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
+        },
         {
           "player_name": null,
           "position": null,
@@ -188,6 +196,14 @@
     "App State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "Appalachian State",
+          "position": null,
+          "status": null,
+          "body_part": "Hand",
+          "confidence_score": 0.75,
+          "source_headline": "Appalachian State hands James Madison first loss of season. James London kicked a 40-yard field goal in overtime to give Appalachian State the win Thursday night and leave just five unbeaten teams in the FBS."
+        },
         {
           "player_name": "Jon Sumrall",
           "position": null,
@@ -409,23 +425,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football best bets for Week 8 include Houston-Utah pick, Tennessee total. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 8."
-        },
-        {
-          "player_name": "Halfway Heisman Jeremiah",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Halfway Heisman Jeremiah Smith and other midseason award winners. We recognize college football's top players, transfers and coaches at the midpoint of the season."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -595,20 +603,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": "OUT",
+          "body_part": "Knee",
+          "confidence_score": 1.0,
+          "source_headline": "Source: Boston College RB Evan Dickens out for season. Boston College top tailback Evan Dickens, who has 293 rushing yards and five overall TDs, is out for the season with a knee injury, a source told ESPN."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": "Coastal Carolina's",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Coastal Carolina's bold '90s throwbacks lead CFB Week 7 uniforms. The Chanticleers are throwing it back to the 1990s ... when the Coastal Carolina football program didn't even exist."
         }
       ]
     },
@@ -1137,6 +1145,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football best bets for Week 8 include Houston-Utah pick, Tennessee total. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 8."
         },
         {
@@ -1154,14 +1170,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
         }
       ]
     },
@@ -1553,6 +1561,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -1601,7 +1617,24 @@
     },
     "East Carolina": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Miami's 2001 throwbacks lead best Week 8 uniforms in college football. The Hurricanes are the No. 1 team in the country for the first time in over two decades, and they're honoring the early-2000s glory days with their Week 8 threads."
+        },
+        {
+          "player_name": "Marcus Stokes",
+          "position": null,
+          "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Marcus Stokes has 5 total TDs after halftime, Memphis rallies to beat ECU 34-31 in OT. \u2014 Marcus Stokes was 29-of-43 passing for 320 yards and three touchdowns and added two rushing TDs to help Memphis beat East Carolina 41-34 in overtime on Thursday night."
+        }
+      ]
     },
     "East Central": {
       "matched": true,
@@ -2203,23 +2236,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football best bets for Week 8 include Houston-Utah pick, Tennessee total. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 8."
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
         },
         {
-          "player_name": "Halfway Heisman Jeremiah",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Halfway Heisman Jeremiah Smith and other midseason award winners. We recognize college football's top players, transfers and coaches at the midpoint of the season."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
         }
       ]
     },
@@ -2232,23 +2257,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football best bets for Week 8 include Houston-Utah pick, Tennessee total. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 8."
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
         },
         {
-          "player_name": "Halfway Heisman Jeremiah",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Halfway Heisman Jeremiah Smith and other midseason award winners. We recognize college football's top players, transfers and coaches at the midpoint of the season."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
         }
       ]
     },
@@ -2391,25 +2408,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid updated his rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL mock draft: Yates' early predictions for top 10 picks, QB landing spots. We're two months into the college football season, and Field Yates is projecting which prospects could go in the top 10 picks of the 2027 NFL draft -- including three QBs."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid updated his rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
         }
       ]
     },
@@ -2496,20 +2505,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Appalachian State",
+          "position": null,
+          "status": null,
+          "body_part": "Hand",
+          "confidence_score": 0.75,
+          "source_headline": "Appalachian State hands James Madison first loss of season. James London kicked a 40-yard field goal in overtime to give Appalachian State the win Thursday night and leave just five unbeaten teams in the FBS."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Predicting the College Football Playoff: Who's most likely to make the field?. Find out which teams our experts think will make this season's CFP."
         }
       ]
     },
@@ -2566,12 +2575,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "Garrison Rippa",
+          "player_name": "Jaylon Coleman",
           "position": null,
           "status": null,
-          "body_part": "Hip",
+          "body_part": "Shin",
           "confidence_score": 0.75,
-          "source_headline": "Garrison Rippa makes field goal with 51 seconds left as Jacksonville State tops Kennesaw State 27-26. \u2014 Garrison Rippa made a go-ahead field goal in the final minute, and Rob Billings IV intercepted a pass seconds later as Jacksonville State beat Kennesaw State 27-26 on Wednesday night in a rematch of the 2025 Conference USA championship game."
+          "source_headline": "Jaylon Coleman scores 2 TDs in Liberty's 34-6 win over Kennesaw State. \u2014 Jaylon Coleman had a touchdown reception and a 9-yard rushing TD to help Liberty beat Kennesaw State 34-6 on Thursday night."
         }
       ]
     },
@@ -2582,6 +2591,14 @@
     "Kentucky": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "Kentucky RB CJ",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Kentucky RB CJ Baxter set to return vs. Vandy; WR Nic Anderson out. Kentucky is poised to get its leading rusher back vs. Vanderbilt on Saturday, but the Wildcats will be without a top receiving target."
+        },
         {
           "player_name": null,
           "position": null,
@@ -2596,6 +2613,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Kentucky RB CJ",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Kentucky RB CJ Baxter set to return vs. Vandy; WR Nic Anderson out. Kentucky is poised to get its leading rusher back vs. Vanderbilt on Saturday, but the Wildcats will be without a top receiving target."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -2608,6 +2633,14 @@
     "Kentucky Wesleyan": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "Kentucky RB CJ",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Kentucky RB CJ Baxter set to return vs. Vandy; WR Nic Anderson out. Kentucky is poised to get its leading rusher back vs. Vanderbilt on Saturday, but the Wildcats will be without a top receiving target."
+        },
         {
           "player_name": null,
           "position": null,
@@ -2653,7 +2686,16 @@
     },
     "LSU": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
+        }
+      ]
     },
     "La Verne": {
       "matched": false,
@@ -2855,6 +2897,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Miami's 2001 throwbacks lead best Week 8 uniforms in college football. The Hurricanes are the No. 1 team in the country for the first time in over two decades, and they're honoring the early-2000s glory days with their Week 8 threads."
+        },
+        {
           "player_name": "Halfway Heisman Jeremiah",
           "position": null,
           "status": null,
@@ -2890,7 +2940,16 @@
     },
     "Memphis": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": "Marcus Stokes",
+          "position": null,
+          "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Marcus Stokes has 5 total TDs after halftime, Memphis rallies to beat ECU 34-31 in OT. \u2014 Marcus Stokes was 29-of-43 passing for 320 yards and three touchdowns and added two rushing TDs to help Memphis beat East Carolina 41-34 in overtime on Thursday night."
+        }
+      ]
     },
     "Merchant Marine": {
       "matched": false,
@@ -2969,22 +3028,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": "Michigan's Whittingham",
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "Michigan's Whittingham: Won't 'tip our hand' by naming starting QB vs. Indiana. Michigan coach Kyle Whittingham is not revealing whether Tommy Carr or Bryce Underwood will get the nod as starting quarterback for Saturday's game against No. 6 Indiana."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
         }
       ]
     },
@@ -3019,22 +3062,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": "Michigan's Whittingham",
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "Michigan's Whittingham: Won't 'tip our hand' by naming starting QB vs. Indiana. Michigan coach Kyle Whittingham is not revealing whether Tommy Carr or Bryce Underwood will get the nod as starting quarterback for Saturday's game against No. 6 Indiana."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
         }
       ]
     },
@@ -3084,14 +3111,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -3126,14 +3145,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -3155,14 +3166,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -3184,14 +3187,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -3207,6 +3202,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -3221,14 +3224,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "AP college football Week 7 poll reaction: What's next for Top 25. A look at the AP rankings after a wild weekend, along with a key stat and what's ahead for each team."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Week 7's best game? Impossible to choose on a wild Saturday. With five top-seven teams losing and dramatic finishes across the board, college football brought the heat in Week 7."
         }
       ]
     },
@@ -3636,6 +3631,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -3650,14 +3653,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Week 7's best game? Impossible to choose on a wild Saturday. With five top-seven teams losing and dramatic finishes across the board, college football brought the heat in Week 7."
         }
       ]
     },
@@ -3665,6 +3660,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -3679,14 +3682,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Week 7's best game? Impossible to choose on a wild Saturday. With five top-seven teams losing and dramatic finishes across the board, college football brought the heat in Week 7."
         }
       ]
     },
@@ -3831,6 +3826,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Miami's 2001 throwbacks lead best Week 8 uniforms in college football. The Hurricanes are the No. 1 team in the country for the first time in over two decades, and they're honoring the early-2000s glory days with their Week 8 threads."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -3845,14 +3848,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football Power Rankings: How a wild Week 7 changed top 25. After big wins and shocking upsets, we breakdown the top 25 following Week 7."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "AP college football Week 7 poll reaction: What's next for Top 25. A look at the AP rankings after a wild weekend, along with a key stat and what's ahead for each team."
         }
       ]
     },
@@ -3889,6 +3884,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Miami's 2001 throwbacks lead best Week 8 uniforms in college football. The Hurricanes are the No. 1 team in the country for the first time in over two decades, and they're honoring the early-2000s glory days with their Week 8 threads."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -3903,14 +3906,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football Power Rankings: How a wild Week 7 changed top 25. After big wins and shocking upsets, we breakdown the top 25 following Week 7."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "AP college football Week 7 poll reaction: What's next for Top 25. A look at the AP rankings after a wild weekend, along with a key stat and what's ahead for each team."
         }
       ]
     },
@@ -3918,6 +3913,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Miami's 2001 throwbacks lead best Week 8 uniforms in college football. The Hurricanes are the No. 1 team in the country for the first time in over two decades, and they're honoring the early-2000s glory days with their Week 8 threads."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -3932,14 +3935,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football Power Rankings: How a wild Week 7 changed top 25. After big wins and shocking upsets, we breakdown the top 25 following Week 7."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "AP college football Week 7 poll reaction: What's next for Top 25. A look at the AP rankings after a wild weekend, along with a key stat and what's ahead for each team."
         }
       ]
     },
@@ -4080,17 +4075,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid updated his rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL mock draft: Yates' early predictions for top 10 picks, QB landing spots. We're two months into the college football season, and Field Yates is projecting which prospects could go in the top 10 picks of the 2027 NFL draft -- including three QBs."
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
         }
       ]
     },
@@ -4101,6 +4088,14 @@
     "Oregon": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
+        },
         {
           "player_name": "Halfway Heisman Jeremiah",
           "position": null,
@@ -4116,14 +4111,6 @@
           "body_part": "Shin",
           "confidence_score": 0.75,
           "source_headline": "Atkinson leads Oregon State's high-flying offense to 48-30 win over Washington State. \u2014 Braden Atkinson threw for 347 yards and three touchdowns and Oregon State established early control to beat Washington State 48-30 on Saturday."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking college football's best 60 receivers of the last 50 years. As Jeremiah Smith continues to amaze, Bill Connelly looks at where his career fits among the best ever."
         }
       ]
     },
@@ -4215,6 +4202,14 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "No. 1 Miami to host Pitt, pay tribute to 2001 national championship team on Saturday. \u2014 The 2001 Miami Hurricanes, a group that went unbeaten, won a national championship, had a record 38 players selected in the NFL draft and certainly has a case to be called the greatest team in college football history, will reunite this weekend."
         }
       ]
     },
@@ -4385,6 +4380,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -4511,16 +4514,7 @@
     },
     "San Diego State": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football Week 6 best bets: White Out game leads the card. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 6."
-        }
-      ]
+      "injuries": []
     },
     "San Jos\u00e9 State": {
       "matched": true,
@@ -4933,20 +4927,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "Can Steve Sarkisian",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Can Steve Sarkisian and Arch Manning save Texas' season?. Coach Steve Sarkisian and quarterback Arch Manning were supposed to be a match made in heaven for Texas football."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid updated his rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
         }
       ]
     },
@@ -4996,20 +4982,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "Can Steve Sarkisian",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Can Steve Sarkisian and Arch Manning save Texas' season?. Coach Steve Sarkisian and quarterback Arch Manning were supposed to be a match made in heaven for Texas football."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid updated his rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
         }
       ]
     },
@@ -5017,20 +4995,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "Can Steve Sarkisian",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Can Steve Sarkisian and Arch Manning save Texas' season?. Coach Steve Sarkisian and quarterback Arch Manning were supposed to be a match made in heaven for Texas football."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid updated his rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
         }
       ]
     },
@@ -5059,20 +5029,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "Can Steve Sarkisian",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Can Steve Sarkisian and Arch Manning save Texas' season?. Coach Steve Sarkisian and quarterback Arch Manning were supposed to be a match made in heaven for Texas football."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid updated his rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
         }
       ]
     },
@@ -5214,14 +5176,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff 2026: Bubble Watch after Week 6. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -5229,28 +5183,28 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Miami's 2001 throwbacks lead best Week 8 uniforms in college football. The Hurricanes are the No. 1 team in the country for the first time in over two decades, and they're honoring the early-2000s glory days with their Week 8 threads."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
+        },
+        {
           "player_name": "Halfway Heisman Jeremiah",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Halfway Heisman Jeremiah Smith and other midseason award winners. We recognize college football's top players, transfers and coaches at the midpoint of the season."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": "UCLA QB Nico",
-          "position": null,
-          "status": "OUT",
-          "body_part": "Knee",
-          "confidence_score": 1.0,
-          "source_headline": "UCLA QB Nico Iamaleava to undergo season-ending knee surgery. UCLA quarterback Nico Iamaleava will sit out the rest of the season for the ninth-ranked Bruins after learning he'll need surgery for a knee injury sustained late in the first half of a 17-15 win over Oregon, first-year coach Bob Chesney said Monday."
         }
       ]
     },
@@ -5297,14 +5251,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football Power Rankings: How a wild Week 7 changed top 25. After big wins and shocking upsets, we breakdown the top 25 following Week 7."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
         }
       ]
     },
@@ -5358,15 +5304,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football best bets for Week 8 include Houston-Utah pick, Tennessee total. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 8."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
         }
       ]
     },
@@ -5416,15 +5354,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football best bets for Week 8 include Houston-Utah pick, Tennessee total. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 8."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
         }
       ]
     },
@@ -6000,14 +5930,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "No. 12 UCLA stays unbeaten at 6-0, tops Wisconsin 17-7 with a backup QB. \u2014 Backup quarterback Ty Dieffenbach was 22 of 33 for 264 yards in his first start as a Bruin, Wayne Knight and Anthony Woods each ran for touchdowns, and No. 12 UCLA beat Wisconsin 17-7 on Saturday night to improve to 6-0 for the first time since 2022."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who has the most wins vs. No. 1 college football teams?. Alabama has won the most games vs. No. 1-ranked teams in college football history. See which teams make the rest of the list."
         }
       ]
     },
@@ -6029,14 +5951,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "No. 12 UCLA stays unbeaten at 6-0, tops Wisconsin 17-7 with a backup QB. \u2014 Backup quarterback Ty Dieffenbach was 22 of 33 for 264 yards in his first start as a Bruin, Wayne Knight and Anthony Woods each ran for touchdowns, and No. 12 UCLA beat Wisconsin 17-7 on Saturday night to improve to 6-0 for the first time since 2022."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who has the most wins vs. No. 1 college football teams?. Alabama has won the most games vs. No. 1-ranked teams in college football history. See which teams make the rest of the list."
         }
       ]
     },
@@ -6058,14 +5972,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "No. 12 UCLA stays unbeaten at 6-0, tops Wisconsin 17-7 with a backup QB. \u2014 Backup quarterback Ty Dieffenbach was 22 of 33 for 264 yards in his first start as a Bruin, Wayne Knight and Anthony Woods each ran for touchdowns, and No. 12 UCLA beat Wisconsin 17-7 on Saturday night to improve to 6-0 for the first time since 2022."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who has the most wins vs. No. 1 college football teams?. Alabama has won the most games vs. No. 1-ranked teams in college football history. See which teams make the rest of the list."
         }
       ]
     },
@@ -6087,14 +5993,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "No. 12 UCLA stays unbeaten at 6-0, tops Wisconsin 17-7 with a backup QB. \u2014 Backup quarterback Ty Dieffenbach was 22 of 33 for 264 yards in his first start as a Bruin, Wayne Knight and Anthony Woods each ran for touchdowns, and No. 12 UCLA beat Wisconsin 17-7 on Saturday night to improve to 6-0 for the first time since 2022."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who has the most wins vs. No. 1 college football teams?. Alabama has won the most games vs. No. 1-ranked teams in college football history. See which teams make the rest of the list."
         }
       ]
     },
@@ -6141,14 +6039,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "No. 12 UCLA stays unbeaten at 6-0, tops Wisconsin 17-7 with a backup QB. \u2014 Backup quarterback Ty Dieffenbach was 22 of 33 for 264 yards in his first start as a Bruin, Wayne Knight and Anthony Woods each ran for touchdowns, and No. 12 UCLA beat Wisconsin 17-7 on Saturday night to improve to 6-0 for the first time since 2022."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who has the most wins vs. No. 1 college football teams?. Alabama has won the most games vs. No. 1-ranked teams in college football history. See which teams make the rest of the list."
         }
       ]
     },
@@ -6170,14 +6060,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "No. 12 UCLA stays unbeaten at 6-0, tops Wisconsin 17-7 with a backup QB. \u2014 Backup quarterback Ty Dieffenbach was 22 of 33 for 264 yards in his first start as a Bruin, Wayne Knight and Anthony Woods each ran for touchdowns, and No. 12 UCLA beat Wisconsin 17-7 on Saturday night to improve to 6-0 for the first time since 2022."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who has the most wins vs. No. 1 college football teams?. Alabama has won the most games vs. No. 1-ranked teams in college football history. See which teams make the rest of the list."
         }
       ]
     },
@@ -6199,14 +6081,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "No. 12 UCLA stays unbeaten at 6-0, tops Wisconsin 17-7 with a backup QB. \u2014 Backup quarterback Ty Dieffenbach was 22 of 33 for 264 yards in his first start as a Bruin, Wayne Knight and Anthony Woods each ran for touchdowns, and No. 12 UCLA beat Wisconsin 17-7 on Saturday night to improve to 6-0 for the first time since 2022."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who has the most wins vs. No. 1 college football teams?. Alabama has won the most games vs. No. 1-ranked teams in college football history. See which teams make the rest of the list."
         }
       ]
     },
@@ -6228,14 +6102,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "No. 12 UCLA stays unbeaten at 6-0, tops Wisconsin 17-7 with a backup QB. \u2014 Backup quarterback Ty Dieffenbach was 22 of 33 for 264 yards in his first start as a Bruin, Wayne Knight and Anthony Woods each ran for touchdowns, and No. 12 UCLA beat Wisconsin 17-7 on Saturday night to improve to 6-0 for the first time since 2022."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who has the most wins vs. No. 1 college football teams?. Alabama has won the most games vs. No. 1-ranked teams in college football history. See which teams make the rest of the list."
         }
       ]
     },
