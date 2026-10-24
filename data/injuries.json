@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:41:55.513996+00:00",
+  "generated_at": "2026-10-24T14:08:54.897832+00:00",
   "season": 2026,
   "week": 8,
   "teams": {
@@ -82,20 +82,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Kalen DeBoer",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Rib",
           "confidence_score": 0.75,
-          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid updated his rankings for the 2027 NFL draft class with 50 players -- including six quarterbacks and an elite wide receiver prospect."
+          "source_headline": "Kalen DeBoer discusses expectations for Bama vs. South Carolina. DeBoer describes Keelon Russell's strengths and areas of improvement opportunities as he discusses his expectations for the No. 13 Crimson Tide against the Gamecocks."
         }
       ]
     },
@@ -247,6 +239,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Arizona State",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Arizona State makes switch to Mikey Keene as quarterback. Arizona State coach Kenny Dillingham has made a change at quarterback, going with Mikey Keene over Cutter Boley for Saturday's game against Kansas State."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -261,14 +261,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Week 7's best game? Impossible to choose on a wild Saturday. With five top-seven teams losing and dramatic finishes across the board, college football brought the heat in Week 7."
         }
       ]
     },
@@ -1564,6 +1556,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Duke uses trick-play TD pass from Nate Sheppard to pull out 19-16 victory over Virginia. \u2014 Duke running back Nate Sheppard threw a 28-yard touchdown pass to a wide-open Brody Keefe with 1:14 left to give the Blue Devils a 19-16 win over Virginia on Friday night at..."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
@@ -1575,22 +1575,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
-        },
-        {
-          "player_name": "Duke's Kimari Robinson",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Duke's Kimari Robinson apologizes for swatting away trainer's arm during UNC game. Kimari Robinson, the Duke cornerback who swatted the arm of a training staff member as she checked on an injured player during the team's game against North Carolina over the weekend, apologized for his actions Sunday night."
         }
       ]
     },
@@ -2598,14 +2582,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Kentucky RB CJ Baxter set to return vs. Vandy; WR Nic Anderson out. Kentucky is poised to get its leading rusher back vs. Vanderbilt on Saturday, but the Wildcats will be without a top receiving target."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "The audacity of Kentucky Wildcats coach Will Stein. In his first year at Kentucky, Stein has the Wildcats in the College Football Playoff hunt."
         }
       ]
     },
@@ -2619,14 +2595,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Kentucky RB CJ Baxter set to return vs. Vandy; WR Nic Anderson out. Kentucky is poised to get its leading rusher back vs. Vanderbilt on Saturday, but the Wildcats will be without a top receiving target."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "The audacity of Kentucky Wildcats coach Will Stein. In his first year at Kentucky, Stein has the Wildcats in the College Football Playoff hunt."
         }
       ]
     },
@@ -2640,14 +2608,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Kentucky RB CJ Baxter set to return vs. Vandy; WR Nic Anderson out. Kentucky is poised to get its leading rusher back vs. Vanderbilt on Saturday, but the Wildcats will be without a top receiving target."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "The audacity of Kentucky Wildcats coach Will Stein. In his first year at Kentucky, Stein has the Wildcats in the College Football Playoff hunt."
         }
       ]
     },
@@ -2903,22 +2863,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Miami's 2001 throwbacks lead best Week 8 uniforms in college football. The Hurricanes are the No. 1 team in the country for the first time in over two decades, and they're honoring the early-2000s glory days with their Week 8 threads."
-        },
-        {
-          "player_name": "Halfway Heisman Jeremiah",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Halfway Heisman Jeremiah Smith and other midseason award winners. We recognize college football's top players, transfers and coaches at the midpoint of the season."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
         }
       ]
     },
@@ -3022,12 +2966,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "College Football Playoff",
+          "player_name": "Michigan QB Tommy",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Michigan QB Tommy Carr, grandson of ex-coach, to get first start, source confirms. Michigan freshman quarterback Tommy Carr will make his first start Saturday against No. 6 Indiana, a source confirmed to ESPN."
         }
       ]
     },
@@ -3056,12 +3000,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "College Football Playoff",
+          "player_name": "Michigan QB Tommy",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Michigan QB Tommy Carr, grandson of ex-coach, to get first start, source confirms. Michigan freshman quarterback Tommy Carr will make his first start Saturday against No. 6 Indiana, a source confirmed to ESPN."
         }
       ]
     },
@@ -3202,28 +3146,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "SEC Now",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "SEC Now crew previews OU vs. MS State as Bulldogs return key pieces. As Mississippi State welcomes back RB Fluff Bothwell and possibly QB Kamario Taylor to host Oklahoma, Chris Doering and Benjamin Watson break down each team's keys to win."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "AP college football Week 7 poll reaction: What's next for Top 25. A look at the AP rankings after a wild weekend, along with a key stat and what's ahead for each team."
         }
       ]
     },
@@ -3447,14 +3383,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking the top 50 college football recruiting classes for 2027. Where the top 50 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -4006,28 +3934,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "SEC Now",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "SEC Now crew previews OU vs. MS State as Bulldogs return key pieces. As Mississippi State welcomes back RB Fluff Bothwell and possibly QB Kamario Taylor to host Oklahoma, Chris Doering and Benjamin Watson break down each team's keys to win."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Oklahoma: John Mateer remains best QB option despite turnovers, inconsistency. Despite John Mateer's inconsistency this season, Oklahoma offensive coordinator Ben Arbuckle still believes he is the Sooners' best option at quarterback."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
         }
       ]
     },
@@ -4075,9 +3995,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
+          "source_headline": "Tebow analyzes impact of star quarterbacks Manning and Chambliss. SEC Network's Tim Tebow joins The Paul Finebaum Show to discuss how Arch Manning and the Texas offense can get back on track and Trinidad Chambliss' ability to raise Ole Miss' ceiling."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Fowler describes Manning's urgency ahead of Texas vs. Ole Miss. ESPN's Chris Fowler joins The Paul Finebaum Show to discuss Arch Manning's added sense of urgency as the No. 19 Longhorns prepare to face the No. 7 Rebels."
         }
       ]
     },
@@ -4817,14 +4745,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": "Micah Ford",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Micah Ford rushes for 4 TDs as Stanford dominates Elon, 34-7. \u2014 Stanford running back Micah Ford broke off for a 81-yard touchdown run in the final quarter to score his fourth touchdown of the game and cement Stanford's 34-7 rout over Elon."
         }
       ]
     },
@@ -4927,12 +4847,28 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Texas RB Hollywood",
+          "position": null,
+          "status": "OUT",
+          "body_part": "Back",
+          "confidence_score": 1.0,
+          "source_headline": "Texas RB Hollywood Smothers ruled out vs. Ole Miss. Texas will be without top tailback Hollywood Smothers for Saturday's showdown vs. No. 7 Ole Miss as the No. 19 Longhorns try to avoid a third straight loss."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
+          "source_headline": "Tebow analyzes impact of star quarterbacks Manning and Chambliss. SEC Network's Tim Tebow joins The Paul Finebaum Show to discuss how Arch Manning and the Texas offense can get back on track and Trinidad Chambliss' ability to raise Ole Miss' ceiling."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Fowler describes Manning's urgency ahead of Texas vs. Ole Miss. ESPN's Chris Fowler joins The Paul Finebaum Show to discuss Arch Manning's added sense of urgency as the No. 19 Longhorns prepare to face the No. 7 Rebels."
         }
       ]
     },
@@ -4946,14 +4882,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
         }
       ]
     },
@@ -4967,14 +4895,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after Week 7. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 7 College Football Playoff, bowl projections. Following an exhilarating Week 7, our bowl gurus take a look at how the postseason picture changed."
         }
       ]
     },
@@ -4982,12 +4902,28 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Texas RB Hollywood",
+          "position": null,
+          "status": "OUT",
+          "body_part": "Back",
+          "confidence_score": 1.0,
+          "source_headline": "Texas RB Hollywood Smothers ruled out vs. Ole Miss. Texas will be without top tailback Hollywood Smothers for Saturday's showdown vs. No. 7 Ole Miss as the No. 19 Longhorns try to avoid a third straight loss."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
+          "source_headline": "Tebow analyzes impact of star quarterbacks Manning and Chambliss. SEC Network's Tim Tebow joins The Paul Finebaum Show to discuss how Arch Manning and the Texas offense can get back on track and Trinidad Chambliss' ability to raise Ole Miss' ceiling."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Fowler describes Manning's urgency ahead of Texas vs. Ole Miss. ESPN's Chris Fowler joins The Paul Finebaum Show to discuss Arch Manning's added sense of urgency as the No. 19 Longhorns prepare to face the No. 7 Rebels."
         }
       ]
     },
@@ -4995,12 +4931,28 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Texas RB Hollywood",
+          "position": null,
+          "status": "OUT",
+          "body_part": "Back",
+          "confidence_score": 1.0,
+          "source_headline": "Texas RB Hollywood Smothers ruled out vs. Ole Miss. Texas will be without top tailback Hollywood Smothers for Saturday's showdown vs. No. 7 Ole Miss as the No. 19 Longhorns try to avoid a third straight loss."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
+          "source_headline": "Tebow analyzes impact of star quarterbacks Manning and Chambliss. SEC Network's Tim Tebow joins The Paul Finebaum Show to discuss how Arch Manning and the Texas offense can get back on track and Trinidad Chambliss' ability to raise Ole Miss' ceiling."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Fowler describes Manning's urgency ahead of Texas vs. Ole Miss. ESPN's Chris Fowler joins The Paul Finebaum Show to discuss Arch Manning's added sense of urgency as the No. 19 Longhorns prepare to face the No. 7 Rebels."
         }
       ]
     },
@@ -5029,12 +4981,28 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Texas RB Hollywood",
+          "position": null,
+          "status": "OUT",
+          "body_part": "Back",
+          "confidence_score": 1.0,
+          "source_headline": "Texas RB Hollywood Smothers ruled out vs. Ole Miss. Texas will be without top tailback Hollywood Smothers for Saturday's showdown vs. No. 7 Ole Miss as the No. 19 Longhorns try to avoid a third straight loss."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2026 CFB Player Rank: The top 25 players at midseason. Our college football experts rerank the top 25 players midway through the 2026 season."
+          "source_headline": "Tebow analyzes impact of star quarterbacks Manning and Chambliss. SEC Network's Tim Tebow joins The Paul Finebaum Show to discuss how Arch Manning and the Texas offense can get back on track and Trinidad Chambliss' ability to raise Ole Miss' ceiling."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Fowler describes Manning's urgency ahead of Texas vs. Ole Miss. ESPN's Chris Fowler joins The Paul Finebaum Show to discuss Arch Manning's added sense of urgency as the No. 19 Longhorns prepare to face the No. 7 Rebels."
         }
       ]
     },
@@ -5101,16 +5069,7 @@
     },
     "Tulsa": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": "Quarterback Gutierrez",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Quarterback Gutierrez runs for 232 yards, accounts for 4 TDs in Navy's 34-26 win over Tulsa. \u2014 Quarterback Jackson Gutierrez ran for a career-high 232 yards and three touchdowns and threw for another score to lead Navy to a 34-26 victory over Tulsa on Saturday."
-        }
-      ]
+      "injuries": []
     },
     "Tuskegee": {
       "matched": false,
@@ -5210,16 +5169,7 @@
     },
     "UConn": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": "Trey Cornist",
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Trey Cornist rushes for 114 yards and a TD to power UConn to 34-20 victory over Temple. \u2014 Trey Cornist totaled 114 yards and one of Connecticut's four rushing touchdowns and the Huskies beat Temple 34-20 on Saturday."
-        }
-      ]
+      "injuries": []
     },
     "UL Monroe": {
       "matched": false,
@@ -5424,6 +5374,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Duke uses trick-play TD pass from Nate Sheppard to pull out 19-16 victory over Virginia. \u2014 Duke running back Nate Sheppard threw a 28-yard touchdown pass to a wide-open Brody Keefe with 1:14 left to give the Blue Devils a 19-16 win over Virginia on Friday night at..."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -5444,6 +5402,14 @@
     "Virginia Lynchburg": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Duke uses trick-play TD pass from Nate Sheppard to pull out 19-16 victory over Virginia. \u2014 Duke running back Nate Sheppard threw a 28-yard touchdown pass to a wide-open Brody Keefe with 1:14 left to give the Blue Devils a 19-16 win over Virginia on Friday night at..."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -5494,6 +5460,14 @@
     "Virginia Union": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Duke uses trick-play TD pass from Nate Sheppard to pull out 19-16 victory over Virginia. \u2014 Duke running back Nate Sheppard threw a 28-yard touchdown pass to a wide-open Brody Keefe with 1:14 left to give the Blue Devils a 19-16 win over Virginia on Friday night at..."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
