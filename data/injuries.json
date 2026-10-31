@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T16:59:01.210812+00:00",
+  "generated_at": "2026-10-31T15:54:12.296383+00:00",
   "season": 2026,
   "week": 9,
   "teams": {
@@ -251,6 +251,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Week 9 live: Tracking top plays from around the country. No. 1 and No. 2 are on the road. We're keeping tabs on all the games around college football."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -391,6 +399,14 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Week 9 has the ACC in the spotlight and backup QBs taking over the Big Ten. It's fitting the ACC is finally in the spotlight after wild weeks in the SEC and Big 12."
+        },
+        {
+          "player_name": "College Football Playoff",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "College Football Playoff Bubble Watch after Week 8. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -485,6 +501,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Baylor bounces back, wins Joe Klanderman's first game as interim coach. In Joe Klanderman's first game as interim coach, Baylor routed UCF 41-9, a convincing Bears' victory that snapped the Knights' four-game home winning streak."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -499,14 +523,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Robert Griffin III says he is '100 percent' interested in Baylor coaching job. Robert Griffin III, Baylor's only Heisman Trophy winner, said Monday that he is interested in being the Bears' new football coach."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 8 College Football Playoff, bowl projections. After big wins and surprising upsets, our bowl gurus take a look at how the postseason picture changed."
         }
       ]
     },
@@ -1514,6 +1530,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Saunier, Best-Alston help Dartmouth beat Harvard 24-14, move into tie atop Ivy League. \u2014 Grayson Saunier threw two touchdown passes and added 107 yards rushing and a TD on 18 carries, Cameron Best-Alston had two of Dartmouth's five interceptions, and the Big Green beat Harvard 24-14 on Friday night to move into a tie atop the Ivy League..."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Hand",
           "confidence_score": 0.75,
           "source_headline": "Yoder runs for 2 TDs and Brown's one-handed pick seals the win for Lehigh, 24-20 over Dartmouth. \u2014 Luke Yoder ran for the go-ahead touchdown in the fourth quarter and DJ Brown sealed the win with an interception with about a minute remaining as Lehigh defeated Dartmouth 24-20 on Saturday in the Big Green's season opener."
@@ -1533,14 +1557,6 @@
           "body_part": "Shin",
           "confidence_score": 0.75,
           "source_headline": "Crowther scores twice, sets career high in Dartmouth's 24-14 win over Cornell. \u2014 D.J. Crowther scored a pair of rushing touchdowns and ran for a career-high 197 yards to lead Dartmouth 24-14 past Cornell on Saturday."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Dartmouth beats Princeton 20-17 behind passing and rushing TDs by Grayson Saunier. \u2014 Grayson Saunier threw for a touchdown and ran for another, Harrison Keith made an interception for the second straight game, and Dartmouth beat Princeton 20-17 on Saturday."
         }
       ]
     },
@@ -2091,15 +2107,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of late October."
+          "source_headline": "How consistent change of college football landscape impacts SEC. Matt Barrie joins The Paul Finebaum Show to discuss how continuous changes across the college football world has impacted the SEC as he previews the Florida vs. Georgia matchup."
         }
       ]
     },
@@ -2321,15 +2329,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of late October."
+          "source_headline": "How consistent change of college football landscape impacts SEC. Matt Barrie joins The Paul Finebaum Show to discuss how continuous changes across the college football world has impacted the SEC as he previews the Florida vs. Georgia matchup."
         }
       ]
     },
@@ -2507,7 +2507,16 @@
     },
     "Harvard": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Saunier, Best-Alston help Dartmouth beat Harvard 24-14, move into tie atop Ivy League. \u2014 Grayson Saunier threw two touchdown passes and added 107 yards rushing and a TD on 18 carries, Cameron Best-Alston had two of Dartmouth's five interceptions, and the Big Green beat Harvard 24-14 on Friday night to move into a tie atop the Ivy League..."
+        }
+      ]
     },
     "Heidelberg": {
       "matched": true,
@@ -2558,6 +2567,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -2572,14 +2589,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football Power Rankings: How Week 8 drama changed top 25. With another week of upsets comes another makeover of our list of college football's best teams."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "AP college football Week 8 poll reaction: What's next for Top 25. A look at the AP rankings, along with a key stat and what's ahead for each team."
         }
       ]
     },
@@ -2754,23 +2763,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of late October."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Connelly previews Week 9: Utah, Georgia, Ole Miss on upset alert. Is it Utah's turn to go down? Can Georgia and Ole Miss avoid disaster? Will Ohio State's backup plan work?"
+          "source_headline": "Week 9 live: Tracking top plays from around the country. No. 1 and No. 2 are on the road. We're keeping tabs on all the games around college football."
         },
         {
           "player_name": null,
@@ -2778,7 +2771,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football ghost stories, from Death Valley to Tennessee's 'Body Farm'. With Halloween falling on a football Saturday, we take a haunted trip to the sport's spookiest places."
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
         }
       ]
     },
@@ -2804,23 +2797,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of late October."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Connelly previews Week 9: Utah, Georgia, Ole Miss on upset alert. Is it Utah's turn to go down? Can Georgia and Ole Miss avoid disaster? Will Ohio State's backup plan work?"
+          "source_headline": "Week 9 live: Tracking top plays from around the country. No. 1 and No. 2 are on the road. We're keeping tabs on all the games around college football."
         },
         {
           "player_name": null,
@@ -2828,7 +2805,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football ghost stories, from Death Valley to Tennessee's 'Body Farm'. With Halloween falling on a football Saturday, we take a haunted trip to the sport's spookiest places."
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
         }
       ]
     },
@@ -2994,6 +2971,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Matt Stinchcomb",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Matt Stinchcomb says clean football helps UK, previews Bama vs. LSU. Stinchcomb credits Kentucky's disciplined play for its climb to the top of the SEC standings then discusses the significance of Alabama taking on LSU."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -3016,14 +3001,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2027 college football recruits on the rise and how they'll fit in. With high school seasons past the midway point, we look at the prospects who have boosted their stock  the most."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Week 9 has the ACC in the spotlight and backup QBs taking over the Big Ten. It's fitting the ACC is finally in the spotlight after wild weeks in the SEC and Big 12."
         }
       ]
     },
@@ -3536,6 +3513,22 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Week 9 live: Tracking top plays from around the country. No. 1 and No. 2 are on the road. We're keeping tabs on all the games around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
         },
         {
@@ -3545,30 +3538,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of late October."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Connelly previews Week 9: Utah, Georgia, Ole Miss on upset alert. Is it Utah's turn to go down? Can Georgia and Ole Miss avoid disaster? Will Ohio State's backup plan work?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Week 9 has the ACC in the spotlight and backup QBs taking over the Big Ten. It's fitting the ACC is finally in the spotlight after wild weeks in the SEC and Big 12."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 8. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -3594,6 +3563,22 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Week 9 live: Tracking top plays from around the country. No. 1 and No. 2 are on the road. We're keeping tabs on all the games around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
         },
         {
@@ -3603,30 +3588,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of late October."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Connelly previews Week 9: Utah, Georgia, Ole Miss on upset alert. Is it Utah's turn to go down? Can Georgia and Ole Miss avoid disaster? Will Ohio State's backup plan work?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Week 9 has the ACC in the spotlight and backup QBs taking over the Big Ten. It's fitting the ACC is finally in the spotlight after wild weeks in the SEC and Big 12."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 8. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -3639,6 +3600,22 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Week 9 live: Tracking top plays from around the country. No. 1 and No. 2 are on the road. We're keeping tabs on all the games around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
         },
         {
@@ -3648,30 +3625,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of late October."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Connelly previews Week 9: Utah, Georgia, Ole Miss on upset alert. Is it Utah's turn to go down? Can Georgia and Ole Miss avoid disaster? Will Ohio State's backup plan work?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Week 9 has the ACC in the spotlight and backup QBs taking over the Big Ten. It's fitting the ACC is finally in the spotlight after wild weeks in the SEC and Big 12."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 8. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -3684,6 +3637,22 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Week 9 live: Tracking top plays from around the country. No. 1 and No. 2 are on the road. We're keeping tabs on all the games around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
         },
         {
@@ -3693,30 +3662,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of late October."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Connelly previews Week 9: Utah, Georgia, Ole Miss on upset alert. Is it Utah's turn to go down? Can Georgia and Ole Miss avoid disaster? Will Ohio State's backup plan work?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Week 9 has the ACC in the spotlight and backup QBs taking over the Big Ten. It's fitting the ACC is finally in the spotlight after wild weeks in the SEC and Big 12."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 8. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -4556,16 +4501,7 @@
     },
     "North Texas": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": "North Texas Mean",
-          "position": null,
-          "status": null,
-          "body_part": "Hip",
-          "confidence_score": 0.75,
-          "source_headline": "North Texas Mean Green vs. Navy Midshipmen: Full Highlights. North Texas Mean Green vs. Navy Midshipmen: Full Highlights"
-        }
-      ]
+      "injuries": []
     },
     "Northeastern State": {
       "matched": true,
@@ -4784,6 +4720,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "NFL scouts favor Drew Mestemaker as first QB taken in draft. In a midseason poll of 25 NFL scouts, Oklahoma State's Drew Mestemaker was the overwhelming choice to be the first quarterback selected in the 2027 NFL draft."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
@@ -4795,22 +4739,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of late October."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football ghost stories, from Death Valley to Tennessee's 'Body Farm'. With Halloween falling on a football Saturday, we take a haunted trip to the sport's spookiest places."
-        },
-        {
-          "player_name": "Notre Dame CB",
-          "position": null,
-          "status": "OUT",
-          "body_part": "Ankle",
-          "confidence_score": 1.0,
-          "source_headline": "Notre Dame CB DJ McKinney out extended period with ankle injury. Notre Dame starting cornerback DJ McKinney will miss \"an extended period of football\" with a right ankle injury sustained Oct. 17 at BYU."
         }
       ]
     },
@@ -4853,23 +4781,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Week 9 live: Tracking top plays from around the country. No. 1 and No. 2 are on the road. We're keeping tabs on all the games around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of late October."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Connelly previews Week 9: Utah, Georgia, Ole Miss on upset alert. Is it Utah's turn to go down? Can Georgia and Ole Miss avoid disaster? Will Ohio State's backup plan work?"
         }
       ]
     },
@@ -4928,6 +4848,14 @@
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
+          "source_headline": "NFL scouts favor Drew Mestemaker as first QB taken in draft. In a midseason poll of 25 NFL scouts, Oklahoma State's Drew Mestemaker was the overwhelming choice to be the first quarterback selected in the 2027 NFL draft."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of late October."
         },
         {
@@ -4979,6 +4907,14 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Connelly previews Week 9: Utah, Georgia, Ole Miss on upset alert. Is it Utah's turn to go down? Can Georgia and Ole Miss avoid disaster? Will Ohio State's backup plan work?"
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Week 9 has the ACC in the spotlight and backup QBs taking over the Big Ten. It's fitting the ACC is finally in the spotlight after wild weeks in the SEC and Big 12."
         }
       ]
     },
@@ -5399,6 +5335,14 @@
     "Sacramento State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "Isaiah Ene",
+          "position": null,
+          "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Isaiah Ene helps Sacramento State beat Kent State 31-10 for first MAC win. \u2014 Freshman Isaiah Ene had a career-high 107 yards rushing and two touchdowns on 19 carries, Donovan Turner returned an interception 36-yards for a score and Sacramento State beat Kent State on Friday night to win its first Mid-American Conference game."
+        },
         {
           "player_name": null,
           "position": null,
@@ -5946,6 +5890,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "NFL scouts favor Drew Mestemaker as first QB taken in draft. In a midseason poll of 25 NFL scouts, Oklahoma State's Drew Mestemaker was the overwhelming choice to be the first quarterback selected in the 2027 NFL draft."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
@@ -5965,14 +5917,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football ghost stories, from Death Valley to Tennessee's 'Body Farm'. With Halloween falling on a football Saturday, we take a haunted trip to the sport's spookiest places."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
         }
       ]
     },
@@ -6020,6 +5964,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "NFL scouts favor Drew Mestemaker as first QB taken in draft. In a midseason poll of 25 NFL scouts, Oklahoma State's Drew Mestemaker was the overwhelming choice to be the first quarterback selected in the 2027 NFL draft."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
@@ -6039,14 +5991,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football ghost stories, from Death Valley to Tennessee's 'Body Farm'. With Halloween falling on a football Saturday, we take a haunted trip to the sport's spookiest places."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
         }
       ]
     },
@@ -6057,6 +6001,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "NFL scouts favor Drew Mestemaker as first QB taken in draft. In a midseason poll of 25 NFL scouts, Oklahoma State's Drew Mestemaker was the overwhelming choice to be the first quarterback selected in the 2027 NFL draft."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
@@ -6076,14 +6028,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football ghost stories, from Death Valley to Tennessee's 'Body Farm'. With Halloween falling on a football Saturday, we take a haunted trip to the sport's spookiest places."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
         }
       ]
     },
@@ -6107,6 +6051,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "NFL scouts favor Drew Mestemaker as first QB taken in draft. In a midseason poll of 25 NFL scouts, Oklahoma State's Drew Mestemaker was the overwhelming choice to be the first quarterback selected in the 2027 NFL draft."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
@@ -6126,14 +6078,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College football ghost stories, from Death Valley to Tennessee's 'Body Farm'. With Halloween falling on a football Saturday, we take a haunted trip to the sport's spookiest places."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
         }
       ]
     },
@@ -6287,15 +6231,15 @@
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Week 9 has the ACC in the spotlight and backup QBs taking over the Big Ten. It's fitting the ACC is finally in the spotlight after wild weeks in the SEC and Big 12."
+          "source_headline": "Baylor bounces back, wins Joe Klanderman's first game as interim coach. In Joe Klanderman's first game as interim coach, Baylor routed UCF 41-9, a convincing Bears' victory that snapped the Knights' four-game home winning streak."
         },
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 8. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "Week 9 has the ACC in the spotlight and backup QBs taking over the Big Ten. It's fitting the ACC is finally in the spotlight after wild weeks in the SEC and Big 12."
         }
       ]
     },
@@ -6365,6 +6309,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Week 9 live: Tracking top plays from around the country. No. 1 and No. 2 are on the road. We're keeping tabs on all the games around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
         },
         {
@@ -6374,22 +6326,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Connelly previews Week 9: Utah, Georgia, Ole Miss on upset alert. Is it Utah's turn to go down? Can Georgia and Ole Miss avoid disaster? Will Ohio State's backup plan work?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Week 9 has the ACC in the spotlight and backup QBs taking over the Big Ten. It's fitting the ACC is finally in the spotlight after wild weeks in the SEC and Big 12."
         }
       ]
     },
@@ -7189,6 +7125,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Week 9 live: Tracking top plays from around the country. No. 1 and No. 2 are on the road. We're keeping tabs on all the games around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
         },
         {
@@ -7210,6 +7154,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Week 9 live: Tracking top plays from around the country. No. 1 and No. 2 are on the road. We're keeping tabs on all the games around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
         },
         {
@@ -7225,6 +7177,14 @@
     "Wisconsin La Crosse": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Week 9 live: Tracking top plays from around the country. No. 1 and No. 2 are on the road. We're keeping tabs on all the games around college football."
+        },
         {
           "player_name": null,
           "position": null,
@@ -7277,6 +7237,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Week 9 live: Tracking top plays from around the country. No. 1 and No. 2 are on the road. We're keeping tabs on all the games around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
         },
         {
@@ -7292,6 +7260,14 @@
     "Wisconsin Stevens Point": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Week 9 live: Tracking top plays from around the country. No. 1 and No. 2 are on the road. We're keeping tabs on all the games around college football."
+        },
         {
           "player_name": null,
           "position": null,
@@ -7319,6 +7295,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Week 9 live: Tracking top plays from around the country. No. 1 and No. 2 are on the road. We're keeping tabs on all the games around college football."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
         },
         {
@@ -7334,6 +7318,14 @@
     "Wisconsin Whitewater": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Week 9 live: Tracking top plays from around the country. No. 1 and No. 2 are on the road. We're keeping tabs on all the games around college football."
+        },
         {
           "player_name": null,
           "position": null,
