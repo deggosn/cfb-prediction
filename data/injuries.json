@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T18:32:16.424199+00:00",
+  "generated_at": "2026-11-06T17:53:41.760654+00:00",
   "season": 2026,
   "week": 10,
   "teams": {
@@ -82,15 +82,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
-        },
-        {
-          "player_name": "LSU's Whit Weeks",
-          "position": null,
-          "status": "DOUBTFUL",
-          "body_part": "Back",
-          "confidence_score": 1.0,
-          "source_headline": "LSU's Whit Weeks doubtful to return against Alabama. LSU star linebacker Whit Weeks, who missed the past four games with a fractured leg, is doubtful to play Saturday vs. Alabama."
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
         },
         {
           "player_name": null,
@@ -98,7 +90,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         }
       ]
     },
@@ -300,6 +300,14 @@
     "Arizona State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -520,6 +528,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football Week 10 best bets: Picks for Tennessee, Virginia Tech and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 10."
         },
         {
@@ -529,14 +545,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
-        },
-        {
-          "player_name": "Can BYU",
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "Can BYU hand Utah their 1st loss?. Paolo Uggetti previews the Utah-BYU game and who might get the win."
         }
       ]
     },
@@ -681,6 +689,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -695,14 +711,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Who's No. 1? CFP committee's first top 25 and bracket of 2026. A look at the new bracket based on the College Football Playoff committee's first set of rankings."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Week 9 College football Power Rankings: How big wins, upsets changed top 25. Following big wins and tough losses, we take a look at how the Top 25 changed after Week 9."
         }
       ]
     },
@@ -1222,6 +1230,14 @@
     "Clemson": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
         {
           "player_name": null,
           "position": null,
@@ -1833,6 +1849,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Tennessee going 'dark mode' tops best college football Week 10 unis. Halloween was last week, but you wouldn't know it based on the Volunteers' uniforms for Saturday."
+        },
+        {
           "player_name": "Central Michigan Chippewas",
           "position": null,
           "status": null,
@@ -2044,15 +2068,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
+          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
         },
         {
           "player_name": null,
           "position": null,
-          "status": "OUT",
-          "body_part": null,
+          "status": null,
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Florida suspends DT Jeramiah McCloud 1 game for detrimental conduct. Florida defensive tackle Jeramiah McCloud has been suspended one game for conduct detrimental to the team and will miss Saturday's matchup against Oklahoma."
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
         }
       ]
     },
@@ -2320,9 +2344,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
         },
         {
           "player_name": null,
@@ -2330,21 +2354,21 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
         }
       ]
     },
     "Georgia Southern": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
         {
           "player_name": null,
           "position": null,
@@ -2360,14 +2384,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Week 9 has the ACC in the spotlight and backup QBs taking over the Big Ten. It's fitting the ACC is finally in the spotlight after wild weeks in the SEC and Big 12."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "How to bet UGA-Florida, UNC-Miami and other best bets for Week 9. Pamela Maldonado and Mark Zinno dive into the numbers to find the best bets for the Week 9 college football slate."
         }
       ]
     },
@@ -2728,6 +2744,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Tennessee going 'dark mode' tops best college football Week 10 unis. Halloween was last week, but you wouldn't know it based on the Volunteers' uniforms for Saturday."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         },
         {
@@ -2749,6 +2773,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Tennessee going 'dark mode' tops best college football Week 10 unis. Halloween was last week, but you wouldn't know it based on the Volunteers' uniforms for Saturday."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         },
         {
@@ -2764,6 +2796,14 @@
     "Illinois State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Tennessee going 'dark mode' tops best college football Week 10 unis. Halloween was last week, but you wouldn't know it based on the Volunteers' uniforms for Saturday."
+        },
         {
           "player_name": null,
           "position": null,
@@ -2810,6 +2850,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
@@ -2821,14 +2869,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after first ranking. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -2899,12 +2939,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "College Football Playoff",
+          "player_name": "JC Evans",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Shin",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 8. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
+          "source_headline": "JC Evans has 4 total TDs, James Madison beats Southern Miss 54-23. \u2014 JC Evans threw a touchdown pass and added three rushing touchdowns, and James Madison beat Southern Miss 54-23 on Thursday night."
         }
       ]
     },
@@ -2991,6 +3031,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football Week 10 best bets: Picks for Tennessee, Virginia Tech and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 10."
         },
         {
@@ -3000,14 +3048,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
-        },
-        {
-          "player_name": "Will Stein",
-          "position": null,
-          "status": null,
-          "body_part": "Rib",
-          "confidence_score": 0.75,
-          "source_headline": "Will Stein reacts to Kentucky's ranking in CFP Top 25. Stein describes his excitement over the Wildcats' No. 6 spot in the CFP rankings as he discusses what must be done to solidify their spot and be successful the rest of the season."
         }
       ]
     },
@@ -3020,6 +3060,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football Week 10 best bets: Picks for Tennessee, Virginia Tech and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 10."
         },
         {
@@ -3029,14 +3077,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
-        },
-        {
-          "player_name": "Will Stein",
-          "position": null,
-          "status": null,
-          "body_part": "Rib",
-          "confidence_score": 0.75,
-          "source_headline": "Will Stein reacts to Kentucky's ranking in CFP Top 25. Stein describes his excitement over the Wildcats' No. 6 spot in the CFP rankings as he discusses what must be done to solidify their spot and be successful the rest of the season."
         }
       ]
     },
@@ -3049,6 +3089,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "College football Week 10 best bets: Picks for Tennessee, Virginia Tech and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 10."
         },
         {
@@ -3058,14 +3106,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
-        },
-        {
-          "player_name": "Will Stein",
-          "position": null,
-          "status": null,
-          "body_part": "Rib",
-          "confidence_score": 0.75,
-          "source_headline": "Will Stein reacts to Kentucky's ranking in CFP Top 25. Stein describes his excitement over the Wildcats' No. 6 spot in the CFP rankings as he discusses what must be done to solidify their spot and be successful the rest of the season."
         }
       ]
     },
@@ -3113,6 +3153,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
@@ -3124,22 +3172,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
-        },
-        {
-          "player_name": "LSU's Whit Weeks",
-          "position": null,
-          "status": "DOUBTFUL",
-          "body_part": "Back",
-          "confidence_score": 1.0,
-          "source_headline": "LSU's Whit Weeks doubtful to return against Alabama. LSU star linebacker Whit Weeks, who missed the past four games with a fractured leg, is doubtful to play Saturday vs. Alabama."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
         }
       ]
     },
@@ -3330,6 +3362,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -3344,14 +3384,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026 college football coaching carousel: Tracking every open job. As the carousel spins, we'll keep you updated with all the comings and goings."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -3460,6 +3492,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         },
         {
@@ -3469,22 +3509,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after first ranking. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Michigan names Carr starting QB for 'foreseeable future'. Michigan quarterback Tommy Carr has been named the team's starter for the \"foreseeable future,\" coach Kyle Whittingham said Monday."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 9 College Football Playoff, bowl projections. After an eventful Week 9, our bowl gurus take a look at how the postseason picture changed."
         }
       ]
     },
@@ -3526,6 +3550,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         },
         {
@@ -3535,22 +3567,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after first ranking. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Michigan names Carr starting QB for 'foreseeable future'. Michigan quarterback Tommy Carr has been named the team's starter for the \"foreseeable future,\" coach Kyle Whittingham said Monday."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 9 College Football Playoff, bowl projections. After an eventful Week 9, our bowl gurus take a look at how the postseason picture changed."
         }
       ]
     },
@@ -4131,6 +4147,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         },
         {
@@ -4148,14 +4172,6 @@
           "body_part": "Shin",
           "confidence_score": 0.75,
           "source_headline": "Nebraska's Matt Rhule urges calm after fan cursed at his daughter following loss. Nebraska coach Matt Rhule vouched for his program and urged calm after a fan cursed at his daughter following the Huskers' loss to Washington on Saturday in Lincoln."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Mcl",
-          "confidence_score": 0.75,
-          "source_headline": "Washington's offense shows up late with Williams and Lawson teaming up to beat Nebraska 17-10. \u2014 Chris Lawson scored the go-ahead touchdown on a 25-yard catch-and-run with 1:30 left and Alex McLaughlin returned Anthony Colandrea's third interception of the game 48 yards for the clinching score as Washington came from behind to beat Nebraska..."
         }
       ]
     },
@@ -4168,6 +4184,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         },
         {
@@ -4185,14 +4209,6 @@
           "body_part": "Shin",
           "confidence_score": 0.75,
           "source_headline": "Nebraska's Matt Rhule urges calm after fan cursed at his daughter following loss. Nebraska coach Matt Rhule vouched for his program and urged calm after a fan cursed at his daughter following the Huskers' loss to Washington on Saturday in Lincoln."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Mcl",
-          "confidence_score": 0.75,
-          "source_headline": "Washington's offense shows up late with Williams and Lawson teaming up to beat Nebraska 17-10. \u2014 Chris Lawson scored the go-ahead touchdown on a 25-yard catch-and-run with 1:30 left and Alex McLaughlin returned Anthony Colandrea's third interception of the game 48 yards for the clinching score as Washington came from behind to beat Nebraska..."
         }
       ]
     },
@@ -4205,6 +4221,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         },
         {
@@ -4222,14 +4246,6 @@
           "body_part": "Shin",
           "confidence_score": 0.75,
           "source_headline": "Nebraska's Matt Rhule urges calm after fan cursed at his daughter following loss. Nebraska coach Matt Rhule vouched for his program and urged calm after a fan cursed at his daughter following the Huskers' loss to Washington on Saturday in Lincoln."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Mcl",
-          "confidence_score": 0.75,
-          "source_headline": "Washington's offense shows up late with Williams and Lawson teaming up to beat Nebraska 17-10. \u2014 Chris Lawson scored the go-ahead touchdown on a 25-yard catch-and-run with 1:30 left and Alex McLaughlin returned Anthony Colandrea's third interception of the game 48 yards for the clinching score as Washington came from behind to beat Nebraska..."
         }
       ]
     },
@@ -4692,20 +4708,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "Notre Dame",
-          "position": null,
-          "status": null,
-          "body_part": "Ankle",
-          "confidence_score": 0.75,
-          "source_headline": "Notre Dame preparing for injured WR Toney, Miami's other 'great players'. Notre Dame is preparing for multiple scenarios for Saturday's showdown with Miami following news of an ankle injury to Hurricanes star receiver Malachi Toney."
-        },
-        {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
+          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
         }
       ]
     },
@@ -4743,7 +4751,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 10 best bets: Picks for Tennessee, Virginia Tech and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 10."
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
         },
         {
           "player_name": null,
@@ -4751,15 +4759,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
+          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
         }
       ]
     },
@@ -4776,6 +4784,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         },
         {
@@ -4785,14 +4801,6 @@
           "body_part": "Hand",
           "confidence_score": 0.75,
           "source_headline": "Everything's on table for Oklahoma after Venables hands offense to Witten. Oklahoma coach Brent Venables, who has turned the offense over to interim coordinator Jason Witten, wants the struggling Sooners to score as many points as possible, any way they can, as they prepare for an SEC date against the Florida Gators on Saturday."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after first ranking. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -4879,6 +4887,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
           "player_name": "Jayden Mandal",
           "position": null,
           "status": null,
@@ -4901,14 +4917,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "From unknown to a star, how Oregon State landed and retained Jesse Legree. Oregon State was the one chance freshman Jesse Legree needed. Now, he's college football's receiving yards leader."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football futures: Evaluating five contenders from the Group of 6. What's going on in the Group of 6? Pamela Maldonado checks in on the biggest contenders from small conferences."
         }
       ]
     },
@@ -4916,6 +4924,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
           "player_name": "Jayden Mandal",
           "position": null,
           "status": null,
@@ -4938,14 +4954,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "From unknown to a star, how Oregon State landed and retained Jesse Legree. Oregon State was the one chance freshman Jesse Legree needed. Now, he's college football's receiving yards leader."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football futures: Evaluating five contenders from the Group of 6. What's going on in the Group of 6? Pamela Maldonado checks in on the biggest contenders from small conferences."
         }
       ]
     },
@@ -4972,6 +4980,14 @@
     "Penn State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
         {
           "player_name": null,
           "position": null,
@@ -5363,6 +5379,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "Connelly previews Week 9: Utah, Georgia, Ole Miss on upset alert. Is it Utah's turn to go down? Can Georgia and Ole Miss avoid disaster? Will Ohio State's backup plan work?"
@@ -5694,6 +5718,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         },
         {
@@ -5736,10 +5768,10 @@
         {
           "player_name": null,
           "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
+          "status": "OUT",
+          "body_part": "Mcl",
+          "confidence_score": 1.0,
+          "source_headline": "Source: Texas RB Hollywood Smothers done for season with torn MCL. RB Hollywood Smothers has a torn MCL, a source told ESPN, and will miss the rest of the season for the Longhorns, who are seeing their injury issues mount."
         },
         {
           "player_name": null,
@@ -5747,21 +5779,21 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
         }
       ]
     },
     "Texas A&M": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
+        },
         {
           "player_name": null,
           "position": null,
@@ -5797,6 +5829,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         },
         {
@@ -5823,10 +5863,10 @@
         {
           "player_name": null,
           "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
+          "status": "OUT",
+          "body_part": "Mcl",
+          "confidence_score": 1.0,
+          "source_headline": "Source: Texas RB Hollywood Smothers done for season with torn MCL. RB Hollywood Smothers has a torn MCL, a source told ESPN, and will miss the rest of the season for the Longhorns, who are seeing their injury issues mount."
         },
         {
           "player_name": null,
@@ -5834,15 +5874,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
         }
       ]
     },
@@ -5852,10 +5884,10 @@
         {
           "player_name": null,
           "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
+          "status": "OUT",
+          "body_part": "Mcl",
+          "confidence_score": 1.0,
+          "source_headline": "Source: Texas RB Hollywood Smothers done for season with torn MCL. RB Hollywood Smothers has a torn MCL, a source told ESPN, and will miss the rest of the season for the Longhorns, who are seeing their injury issues mount."
         },
         {
           "player_name": null,
@@ -5863,15 +5895,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
         }
       ]
     },
@@ -5894,10 +5918,10 @@
         {
           "player_name": null,
           "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
+          "status": "OUT",
+          "body_part": "Mcl",
+          "confidence_score": 1.0,
+          "source_headline": "Source: Texas RB Hollywood Smothers done for season with torn MCL. RB Hollywood Smothers has a torn MCL, a source told ESPN, and will miss the rest of the season for the Longhorns, who are seeing their injury issues mount."
         },
         {
           "player_name": null,
@@ -5905,15 +5929,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
         }
       ]
     },
@@ -6285,6 +6301,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -6307,14 +6331,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 8. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -6492,20 +6508,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after first ranking. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": "Who's No.",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who's No. 1? CFP committee's first top 25 and bracket of 2026. A look at the new bracket based on the College Football Playoff committee's first set of rankings."
         }
       ]
     },
@@ -6530,6 +6546,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         },
         {
@@ -6555,14 +6579,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 9 College Football Playoff, bowl projections. After an eventful Week 9, our bowl gurus take a look at how the postseason picture changed."
-        },
-        {
-          "player_name": "Penn State",
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Penn State visits Washington in Big Ten matchup. Penn State (4-4) at Washington (5-3), Nov. 7 at 3:30 p.m. EST."
         }
       ]
     },
@@ -6575,6 +6591,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         },
         {
@@ -6600,14 +6624,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 9 College Football Playoff, bowl projections. After an eventful Week 9, our bowl gurus take a look at how the postseason picture changed."
-        },
-        {
-          "player_name": "Penn State",
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Penn State visits Washington in Big Ten matchup. Penn State (4-4) at Washington (5-3), Nov. 7 at 3:30 p.m. EST."
         }
       ]
     },
@@ -6624,6 +6640,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         },
         {
@@ -6649,14 +6673,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 9 College Football Playoff, bowl projections. After an eventful Week 9, our bowl gurus take a look at how the postseason picture changed."
-        },
-        {
-          "player_name": "Penn State",
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Penn State visits Washington in Big Ten matchup. Penn State (4-4) at Washington (5-3), Nov. 7 at 3:30 p.m. EST."
         }
       ]
     },
@@ -6727,6 +6743,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         },
         {
@@ -6744,14 +6768,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 8. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -6764,6 +6780,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         },
         {
@@ -6781,14 +6805,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after Week 8. A conference-by-conference look at who is contending for the playoff, who's close and who's out."
         }
       ]
     },
