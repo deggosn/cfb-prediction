@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:53:41.760654+00:00",
+  "generated_at": "2026-11-07T16:40:24.098243+00:00",
   "season": 2026,
   "week": 10,
   "teams": {
@@ -80,25 +80,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Ankle",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+          "source_headline": "Illinois coach Bret Bielema takes veiled shot at SEC, CFP. Big Ten coaches continue to be rankled by the initial College Football Playoff rankings, with Illinois coach Bret Bielema taking the latest veiled shot at the SEC."
         },
         {
-          "player_name": null,
+          "player_name": "Matt Barrie",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
+          "source_headline": "Matt Barrie on massive Week 10: 'This is the tipping point weekend'. Barrie says the the conclusion of Saturday's slate will flip the entire football landscape on its axis due to the amount of ranked, decisive games as the CFP approaches."
         }
       ]
     },
@@ -272,28 +264,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "College Football Playoff",
+          "player_name": null,
           "position": null,
-          "status": null,
-          "body_part": "Foot",
+          "status": "PROBABLE",
+          "body_part": null,
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after first ranking. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": "Who's No.",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who's No. 1? CFP committee's first top 25 and bracket of 2026. A look at the new bracket based on the College Football Playoff committee's first set of rankings."
+          "source_headline": "Salgado-Medina makes field goal after recovered onside pooch kick, No. 24 Arizona stuns TCU 29-28. \u2014 Michael Salgado-Medina kicked a 37-yard field goal with 39 seconds left after No. 24 Arizona recovered an onside pooch kick and the Wildcats pulled out an improbable 29-28 victory over TCU early Saturday."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Week 9 College football Power Rankings: How big wins, upsets changed top 25. Following big wins and tough losses, we take a look at how the Top 25 changed after Week 9."
+          "source_headline": "Arizona has thrilling comeback late for win over TCU. Arizona has thrilling comeback late for win over TCU"
         }
       ]
     },
@@ -526,25 +510,17 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Ankle",
+          "confidence_score": 0.75,
+          "source_headline": "BYU star RB LJ Martin to return, play vs. No. 3 Utah. BYU star RB LJ Martin, who hasn't played since Oct. 3 due to an ankle injury, will return for the Cougars' showdown vs. No. 3 Utah, coach Kalani Sitake told ESPN."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football Week 10 best bets: Picks for Tennessee, Virginia Tech and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 10."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
         }
       ]
     },
@@ -691,6 +667,14 @@
         {
           "player_name": null,
           "position": null,
+          "status": "OUT",
+          "body_part": "Knee",
+          "confidence_score": 1.0,
+          "source_headline": "Sources: QB Maddux Madsen out vs. Rams, Boise State targets return next week. Boise State quarterback Maddux Madsen (knee) will not play at Colorado State, with the Broncos expecting him to return next week, sources told ESPN. Max Cutforth is set to start in Madsen's place."
+        },
+        {
+          "player_name": null,
+          "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
@@ -703,14 +687,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after first ranking. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": "Who's No.",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who's No. 1? CFP committee's first top 25 and bracket of 2026. A look at the new bracket based on the College Football Playoff committee's first set of rankings."
         }
       ]
     },
@@ -766,16 +742,7 @@
     },
     "Brown": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "Can a pitch-black two point conversion impress Roman?. A lights out catch for the lead, insane one-hand grabs and a 22-yard stiff arm are all featured as Cole Cubelic asks the infamous question, Roman, are you impressed?"
-        }
-      ]
+      "injuries": []
     },
     "Bryant": {
       "matched": false,
@@ -1733,16 +1700,7 @@
     },
     "East Carolina": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Miami's 2001 throwbacks lead best Week 8 uniforms in college football. The Hurricanes are the No. 1 team in the country for the first time in over two decades, and they're honoring the early-2000s glory days with their Week 8 threads."
-        }
-      ]
+      "injuries": []
     },
     "East Central": {
       "matched": true,
@@ -2063,20 +2021,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Chris Doering",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
+          "source_headline": "Chris Doering expects five SEC teams to compete in 2026 CFP. SEC This Morning's Doering and Peter Burns use historical data and the Allstate Playoff Predictor to discuss the SEC presence in this year's College Football Playoffs."
         }
       ]
     },
@@ -2344,17 +2294,33 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Ankle",
+          "confidence_score": 0.75,
+          "source_headline": "Illinois coach Bret Bielema takes veiled shot at SEC, CFP. Big Ten coaches continue to be rankled by the initial College Football Playoff rankings, with Illinois coach Bret Bielema taking the latest veiled shot at the SEC."
+        },
+        {
+          "player_name": "Matt Barrie",
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+          "source_headline": "Matt Barrie on massive Week 10: 'This is the tipping point weekend'. Barrie says the the conclusion of Saturday's slate will flip the entire football landscape on its axis due to the amount of ranked, decisive games as the CFP approaches."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Finebaum, McDonough describe Ole Miss vs Georgia rivalry progression. Paul Finebaum and ESPN's Sean McDonough reflect on witnessing the different phases of the No. 10 Rebels vs. No. 2 Bulldogs feud ahead of their Week 10 contest."
+        },
+        {
+          "player_name": "Chris Doering",
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
+          "source_headline": "Chris Doering expects five SEC teams to compete in 2026 CFP. SEC This Morning's Doering and Peter Burns use historical data and the Allstate Playoff Predictor to discuss the SEC presence in this year's College Football Playoffs."
         }
       ]
     },
@@ -2742,6 +2708,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Ankle",
+          "confidence_score": 0.75,
+          "source_headline": "Illinois coach Bret Bielema takes veiled shot at SEC, CFP. Big Ten coaches continue to be rankled by the initial College Football Playoff rankings, with Illinois coach Bret Bielema taking the latest veiled shot at the SEC."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Tennessee going 'dark mode' tops best college football Week 10 unis. Halloween was last week, but you wouldn't know it based on the Volunteers' uniforms for Saturday."
@@ -2771,6 +2745,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Ankle",
+          "confidence_score": 0.75,
+          "source_headline": "Illinois coach Bret Bielema takes veiled shot at SEC, CFP. Big Ten coaches continue to be rankled by the initial College Football Playoff rankings, with Illinois coach Bret Bielema taking the latest veiled shot at the SEC."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Tennessee going 'dark mode' tops best college football Week 10 unis. Halloween was last week, but you wouldn't know it based on the Volunteers' uniforms for Saturday."
@@ -2796,6 +2778,14 @@
     "Illinois State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Ankle",
+          "confidence_score": 0.75,
+          "source_headline": "Illinois coach Bret Bielema takes veiled shot at SEC, CFP. Big Ten coaches continue to be rankled by the initial College Football Playoff rankings, with Illinois coach Bret Bielema taking the latest veiled shot at the SEC."
+        },
         {
           "player_name": null,
           "position": null,
@@ -3026,28 +3016,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Matt Barrie",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+          "source_headline": "Matt Barrie on massive Week 10: 'This is the tipping point weekend'. Barrie says the the conclusion of Saturday's slate will flip the entire football landscape on its axis due to the amount of ranked, decisive games as the CFP approaches."
         },
         {
-          "player_name": null,
+          "player_name": "Chris Doering",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 10 best bets: Picks for Tennessee, Virginia Tech and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 10."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
+          "source_headline": "Chris Doering expects five SEC teams to compete in 2026 CFP. SEC This Morning's Doering and Peter Burns use historical data and the Allstate Playoff Predictor to discuss the SEC presence in this year's College Football Playoffs."
         }
       ]
     },
@@ -3055,28 +3037,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Matt Barrie",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+          "source_headline": "Matt Barrie on massive Week 10: 'This is the tipping point weekend'. Barrie says the the conclusion of Saturday's slate will flip the entire football landscape on its axis due to the amount of ranked, decisive games as the CFP approaches."
         },
         {
-          "player_name": null,
+          "player_name": "Chris Doering",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 10 best bets: Picks for Tennessee, Virginia Tech and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 10."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
+          "source_headline": "Chris Doering expects five SEC teams to compete in 2026 CFP. SEC This Morning's Doering and Peter Burns use historical data and the Allstate Playoff Predictor to discuss the SEC presence in this year's College Football Playoffs."
         }
       ]
     },
@@ -3084,28 +3058,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Matt Barrie",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+          "source_headline": "Matt Barrie on massive Week 10: 'This is the tipping point weekend'. Barrie says the the conclusion of Saturday's slate will flip the entire football landscape on its axis due to the amount of ranked, decisive games as the CFP approaches."
         },
         {
-          "player_name": null,
+          "player_name": "Chris Doering",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 10 best bets: Picks for Tennessee, Virginia Tech and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 10."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
+          "source_headline": "Chris Doering expects five SEC teams to compete in 2026 CFP. SEC This Morning's Doering and Peter Burns use historical data and the Allstate Playoff Predictor to discuss the SEC presence in this year's College Football Playoffs."
         }
       ]
     },
@@ -3150,28 +3116,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Matt Barrie",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
+          "source_headline": "Matt Barrie on massive Week 10: 'This is the tipping point weekend'. Barrie says the the conclusion of Saturday's slate will flip the entire football landscape on its axis due to the amount of ranked, decisive games as the CFP approaches."
         },
         {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
-        },
-        {
-          "player_name": null,
+          "player_name": "Chris Doering",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
+          "source_headline": "Chris Doering expects five SEC teams to compete in 2026 CFP. SEC This Morning's Doering and Peter Burns use historical data and the Allstate Playoff Predictor to discuss the SEC presence in this year's College Football Playoffs."
         }
       ]
     },
@@ -3632,14 +3590,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after first ranking. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Heisman of Week 9: LaNorris Sellers' throwback, Darian Mensah's move. While the overall race got a little cloudier, South Carolina's QB showed he's still got it."
         }
       ]
     },
@@ -3690,14 +3640,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after first ranking. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Heisman of Week 9: LaNorris Sellers' throwback, Darian Mensah's move. While the overall race got a little cloudier, South Carolina's QB showed he's still got it."
         }
       ]
     },
@@ -3735,14 +3677,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after first ranking. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Heisman of Week 9: LaNorris Sellers' throwback, Darian Mensah's move. While the overall race got a little cloudier, South Carolina's QB showed he's still got it."
         }
       ]
     },
@@ -3780,14 +3714,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after first ranking. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Heisman of Week 9: LaNorris Sellers' throwback, Darian Mensah's move. While the overall race got a little cloudier, South Carolina's QB showed he's still got it."
         }
       ]
     },
@@ -3817,14 +3743,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after first ranking. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "AP college football Week 9 poll reaction: What's next for Top 25. A look at the AP rankings, along with a key stat and what's ahead for each team."
         }
       ]
     },
@@ -3836,20 +3754,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
-        },
-        {
-          "player_name": null,
+          "player_name": "Matt Barrie",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
+          "source_headline": "Matt Barrie on massive Week 10: 'This is the tipping point weekend'. Barrie says the the conclusion of Saturday's slate will flip the entire football landscape on its axis due to the amount of ranked, decisive games as the CFP approaches."
+        },
+        {
+          "player_name": "Chris Doering",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Chris Doering expects five SEC teams to compete in 2026 CFP. SEC This Morning's Doering and Peter Burns use historical data and the Allstate Playoff Predictor to discuss the SEC presence in this year's College Football Playoffs."
         }
       ]
     },
@@ -3857,20 +3775,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
-        },
-        {
-          "player_name": null,
+          "player_name": "Matt Barrie",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
+          "source_headline": "Matt Barrie on massive Week 10: 'This is the tipping point weekend'. Barrie says the the conclusion of Saturday's slate will flip the entire football landscape on its axis due to the amount of ranked, decisive games as the CFP approaches."
+        },
+        {
+          "player_name": "Chris Doering",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Chris Doering expects five SEC teams to compete in 2026 CFP. SEC This Morning's Doering and Peter Burns use historical data and the Allstate Playoff Predictor to discuss the SEC presence in this year's College Football Playoffs."
         }
       ]
     },
@@ -3878,20 +3796,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
-        },
-        {
-          "player_name": null,
+          "player_name": "Matt Barrie",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
+          "source_headline": "Matt Barrie on massive Week 10: 'This is the tipping point weekend'. Barrie says the the conclusion of Saturday's slate will flip the entire football landscape on its axis due to the amount of ranked, decisive games as the CFP approaches."
+        },
+        {
+          "player_name": "Chris Doering",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Chris Doering expects five SEC teams to compete in 2026 CFP. SEC This Morning's Doering and Peter Burns use historical data and the Allstate Playoff Predictor to discuss the SEC presence in this year's College Football Playoffs."
         }
       ]
     },
@@ -3899,20 +3817,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
-        },
-        {
-          "player_name": null,
+          "player_name": "Matt Barrie",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
+          "source_headline": "Matt Barrie on massive Week 10: 'This is the tipping point weekend'. Barrie says the the conclusion of Saturday's slate will flip the entire football landscape on its axis due to the amount of ranked, decisive games as the CFP approaches."
+        },
+        {
+          "player_name": "Chris Doering",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Chris Doering expects five SEC teams to compete in 2026 CFP. SEC This Morning's Doering and Peter Burns use historical data and the Allstate Playoff Predictor to discuss the SEC presence in this year's College Football Playoffs."
         }
       ]
     },
@@ -4708,12 +4626,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "What Notre Dame",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Rib",
           "confidence_score": 0.75,
-          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
+          "source_headline": "What Notre Dame is using to build its offensive supporting cast around CJ Carr. With a star QB, the Irish are turning to an unlikely group of contributors. They face their stiffest test this week."
         }
       ]
     },
@@ -4749,6 +4667,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Ankle",
+          "confidence_score": 0.75,
+          "source_headline": "Illinois coach Bret Bielema takes veiled shot at SEC, CFP. Big Ten coaches continue to be rankled by the initial College Football Playoff rankings, with Illinois coach Bret Bielema taking the latest veiled shot at the SEC."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
@@ -4760,14 +4686,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
         }
       ]
     },
@@ -4785,22 +4703,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Ranking college football's top 40 freshmen in 2026. With the season hitting crunch time, we break down the first-year players making the biggest impact."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "Everything's on table for Oklahoma after Venables hands offense to Witten. Oklahoma coach Brent Venables, who has turned the offense over to interim coordinator Jason Witten, wants the struggling Sooners to score as many points as possible, any way they can, as they prepare for an SEC date against the Florida Gators on Saturday."
         }
       ]
     },
@@ -4862,20 +4764,28 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Matt Barrie",
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of early November."
+          "source_headline": "Matt Barrie on massive Week 10: 'This is the tipping point weekend'. Barrie says the the conclusion of Saturday's slate will flip the entire football landscape on its axis due to the amount of ranked, decisive games as the CFP approaches."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Finebaum, McDonough describe Ole Miss vs Georgia rivalry progression. Paul Finebaum and ESPN's Sean McDonough reflect on witnessing the different phases of the No. 10 Rebels vs. No. 2 Bulldogs feud ahead of their Week 10 contest."
+        },
+        {
+          "player_name": "Chris Doering",
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
+          "source_headline": "Chris Doering expects five SEC teams to compete in 2026 CFP. SEC This Morning's Doering and Peter Burns use historical data and the Allstate Playoff Predictor to discuss the SEC presence in this year's College Football Playoffs."
         }
       ]
     },
@@ -5768,18 +5678,26 @@
         {
           "player_name": null,
           "position": null,
-          "status": "OUT",
-          "body_part": "Mcl",
-          "confidence_score": 1.0,
-          "source_headline": "Source: Texas RB Hollywood Smothers done for season with torn MCL. RB Hollywood Smothers has a torn MCL, a source told ESPN, and will miss the rest of the season for the Longhorns, who are seeing their injury issues mount."
+          "status": null,
+          "body_part": "Ankle",
+          "confidence_score": 0.75,
+          "source_headline": "Illinois coach Bret Bielema takes veiled shot at SEC, CFP. Big Ten coaches continue to be rankled by the initial College Football Playoff rankings, with Illinois coach Bret Bielema taking the latest veiled shot at the SEC."
         },
         {
-          "player_name": null,
+          "player_name": "Matt Barrie",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
+          "source_headline": "Matt Barrie on massive Week 10: 'This is the tipping point weekend'. Barrie says the the conclusion of Saturday's slate will flip the entire football landscape on its axis due to the amount of ranked, decisive games as the CFP approaches."
+        },
+        {
+          "player_name": "Chris Doering",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Chris Doering expects five SEC teams to compete in 2026 CFP. SEC This Morning's Doering and Peter Burns use historical data and the Allstate Playoff Predictor to discuss the SEC presence in this year's College Football Playoffs."
         }
       ]
     },
@@ -5809,14 +5727,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after first ranking. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 9 College Football Playoff, bowl projections. After an eventful Week 9, our bowl gurus take a look at how the postseason picture changed."
         }
       ]
     },
@@ -5846,14 +5756,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after first ranking. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 9 College Football Playoff, bowl projections. After an eventful Week 9, our bowl gurus take a look at how the postseason picture changed."
         }
       ]
     },
@@ -5863,18 +5765,26 @@
         {
           "player_name": null,
           "position": null,
-          "status": "OUT",
-          "body_part": "Mcl",
-          "confidence_score": 1.0,
-          "source_headline": "Source: Texas RB Hollywood Smothers done for season with torn MCL. RB Hollywood Smothers has a torn MCL, a source told ESPN, and will miss the rest of the season for the Longhorns, who are seeing their injury issues mount."
+          "status": null,
+          "body_part": "Ankle",
+          "confidence_score": 0.75,
+          "source_headline": "Illinois coach Bret Bielema takes veiled shot at SEC, CFP. Big Ten coaches continue to be rankled by the initial College Football Playoff rankings, with Illinois coach Bret Bielema taking the latest veiled shot at the SEC."
         },
         {
-          "player_name": null,
+          "player_name": "Matt Barrie",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
+          "source_headline": "Matt Barrie on massive Week 10: 'This is the tipping point weekend'. Barrie says the the conclusion of Saturday's slate will flip the entire football landscape on its axis due to the amount of ranked, decisive games as the CFP approaches."
+        },
+        {
+          "player_name": "Chris Doering",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Chris Doering expects five SEC teams to compete in 2026 CFP. SEC This Morning's Doering and Peter Burns use historical data and the Allstate Playoff Predictor to discuss the SEC presence in this year's College Football Playoffs."
         }
       ]
     },
@@ -5884,18 +5794,26 @@
         {
           "player_name": null,
           "position": null,
-          "status": "OUT",
-          "body_part": "Mcl",
-          "confidence_score": 1.0,
-          "source_headline": "Source: Texas RB Hollywood Smothers done for season with torn MCL. RB Hollywood Smothers has a torn MCL, a source told ESPN, and will miss the rest of the season for the Longhorns, who are seeing their injury issues mount."
+          "status": null,
+          "body_part": "Ankle",
+          "confidence_score": 0.75,
+          "source_headline": "Illinois coach Bret Bielema takes veiled shot at SEC, CFP. Big Ten coaches continue to be rankled by the initial College Football Playoff rankings, with Illinois coach Bret Bielema taking the latest veiled shot at the SEC."
         },
         {
-          "player_name": null,
+          "player_name": "Matt Barrie",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
+          "source_headline": "Matt Barrie on massive Week 10: 'This is the tipping point weekend'. Barrie says the the conclusion of Saturday's slate will flip the entire football landscape on its axis due to the amount of ranked, decisive games as the CFP approaches."
+        },
+        {
+          "player_name": "Chris Doering",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Chris Doering expects five SEC teams to compete in 2026 CFP. SEC This Morning's Doering and Peter Burns use historical data and the Allstate Playoff Predictor to discuss the SEC presence in this year's College Football Playoffs."
         }
       ]
     },
@@ -5918,18 +5836,26 @@
         {
           "player_name": null,
           "position": null,
-          "status": "OUT",
-          "body_part": "Mcl",
-          "confidence_score": 1.0,
-          "source_headline": "Source: Texas RB Hollywood Smothers done for season with torn MCL. RB Hollywood Smothers has a torn MCL, a source told ESPN, and will miss the rest of the season for the Longhorns, who are seeing their injury issues mount."
+          "status": null,
+          "body_part": "Ankle",
+          "confidence_score": 0.75,
+          "source_headline": "Illinois coach Bret Bielema takes veiled shot at SEC, CFP. Big Ten coaches continue to be rankled by the initial College Football Playoff rankings, with Illinois coach Bret Bielema taking the latest veiled shot at the SEC."
         },
         {
-          "player_name": null,
+          "player_name": "Matt Barrie",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "How every 2027 five-star college football prospect will fit. There are 23 five-star players in the class, and we scout each one's game for the next level."
+          "source_headline": "Matt Barrie on massive Week 10: 'This is the tipping point weekend'. Barrie says the the conclusion of Saturday's slate will flip the entire football landscape on its axis due to the amount of ranked, decisive games as the CFP approaches."
+        },
+        {
+          "player_name": "Chris Doering",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Chris Doering expects five SEC teams to compete in 2026 CFP. SEC This Morning's Doering and Peter Burns use historical data and the Allstate Playoff Predictor to discuss the SEC presence in this year's College Football Playoffs."
         }
       ]
     },
@@ -6217,9 +6143,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Ankle",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 10 best bets: Picks for Tennessee, Virginia Tech and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 10."
+          "source_headline": "BYU star RB LJ Martin to return, play vs. No. 3 Utah. BYU star RB LJ Martin, who hasn't played since Oct. 3 due to an ankle injury, will return for the Cougars' showdown vs. No. 3 Utah, coach Kalani Sitake told ESPN."
         },
         {
           "player_name": null,
@@ -6227,15 +6153,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
-        },
-        {
-          "player_name": "Can BYU",
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "Can BYU hand Utah their 1st loss?. Paolo Uggetti previews the Utah-BYU game and who might get the win."
+          "source_headline": "College football Week 10 best bets: Picks for Tennessee, Virginia Tech and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 10."
         }
       ]
     },
@@ -6259,9 +6177,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Ankle",
           "confidence_score": 0.75,
-          "source_headline": "College football Week 10 best bets: Picks for Tennessee, Virginia Tech and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 10."
+          "source_headline": "BYU star RB LJ Martin to return, play vs. No. 3 Utah. BYU star RB LJ Martin, who hasn't played since Oct. 3 due to an ankle injury, will return for the Cougars' showdown vs. No. 3 Utah, coach Kalani Sitake told ESPN."
         },
         {
           "player_name": null,
@@ -6269,15 +6187,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
-        },
-        {
-          "player_name": "Can BYU",
-          "position": null,
-          "status": null,
-          "body_part": "Hand",
-          "confidence_score": 0.75,
-          "source_headline": "Can BYU hand Utah their 1st loss?. Paolo Uggetti previews the Utah-BYU game and who might get the win."
+          "source_headline": "College football Week 10 best bets: Picks for Tennessee, Virginia Tech and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 10."
         }
       ]
     },
@@ -6323,14 +6233,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Clark Lea emphasizes adjustments to get Vandy back on track. While praising Mississippi State's resilience amid injuries, Lea stresses the adjustments Vanderbilt must make to get back to playing winning football."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Ranking the top 60 college football recruiting classes for 2027. Where the top 60 classes stand as the latest cycle hits the home stretch."
         }
       ]
     },
@@ -6419,22 +6321,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Will college football's top team stand up in Week 10?. With four weeks left in the regular season, Nos. 1 and 2 have already lost six times. What's in store for Week 10?"
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after first ranking. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 9 College Football Playoff, bowl projections. After an eventful Week 9, our bowl gurus take a look at how the postseason picture changed."
         }
       ]
     },
@@ -6949,6 +6835,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Source: Wisconsin to start freshman QB Ryan Hopkins vs. Rutgers. Wisconsin freshman quarterback Ryan Hopkins is expected to get his first start against Rutgers on Saturday, replacing Colton Joseph, a source confirmed to ESPN."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -6961,6 +6855,14 @@
     "Wisconsin Eau Claire": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Source: Wisconsin to start freshman QB Ryan Hopkins vs. Rutgers. Wisconsin freshman quarterback Ryan Hopkins is expected to get his first start against Rutgers on Saturday, replacing Colton Joseph, a source confirmed to ESPN."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -6975,6 +6877,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Source: Wisconsin to start freshman QB Ryan Hopkins vs. Rutgers. Wisconsin freshman quarterback Ryan Hopkins is expected to get his first start against Rutgers on Saturday, replacing Colton Joseph, a source confirmed to ESPN."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -6987,6 +6897,14 @@
     "Wisconsin Lutheran": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Source: Wisconsin to start freshman QB Ryan Hopkins vs. Rutgers. Wisconsin freshman quarterback Ryan Hopkins is expected to get his first start against Rutgers on Saturday, replacing Colton Joseph, a source confirmed to ESPN."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -7026,6 +6944,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Source: Wisconsin to start freshman QB Ryan Hopkins vs. Rutgers. Wisconsin freshman quarterback Ryan Hopkins is expected to get his first start against Rutgers on Saturday, replacing Colton Joseph, a source confirmed to ESPN."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -7038,6 +6964,14 @@
     "Wisconsin Stevens Point": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Source: Wisconsin to start freshman QB Ryan Hopkins vs. Rutgers. Wisconsin freshman quarterback Ryan Hopkins is expected to get his first start against Rutgers on Saturday, replacing Colton Joseph, a source confirmed to ESPN."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
@@ -7052,6 +6986,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Source: Wisconsin to start freshman QB Ryan Hopkins vs. Rutgers. Wisconsin freshman quarterback Ryan Hopkins is expected to get his first start against Rutgers on Saturday, replacing Colton Joseph, a source confirmed to ESPN."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -7064,6 +7006,14 @@
     "Wisconsin Whitewater": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Source: Wisconsin to start freshman QB Ryan Hopkins vs. Rutgers. Wisconsin freshman quarterback Ryan Hopkins is expected to get his first start against Rutgers on Saturday, replacing Colton Joseph, a source confirmed to ESPN."
+        },
         {
           "player_name": "College Football Playoff",
           "position": null,
