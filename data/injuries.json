@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T18:28:07.912112+00:00",
+  "generated_at": "2026-11-14T16:46:00.846024+00:00",
   "season": 2026,
   "week": 11,
   "teams": {
@@ -106,17 +106,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Ankle",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid updated his rankings for the 2027 NFL draft class with 50 players -- including eight quarterbacks and an elite wide receiver prospect."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "Sources: Alabama to start QB Austin Mack; Keelon Russell available. Alabama is expected to start quarterback Austin Mack vs. Vanderbilt, sources told ESPN, with starter Keelon Russell (ankle) set to be available, if needed."
         }
       ]
     },
@@ -276,7 +268,16 @@
     },
     "Arizona": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "How the FAA ground stop threw college football into chaos. How the FAA ground stop threw college football into chaos"
+        }
+      ]
     },
     "Arizona State": {
       "matched": true,
@@ -392,6 +393,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Latest updates on how the FAA ground stop will affect college football. The SEC Now crew provides updates on how games are being affected by transportation issues as Chris Doering and Benjamin Watson analyze the impact on players."
+        },
+        {
           "player_name": "Gene Chizik's",
           "position": null,
           "status": null,
@@ -406,14 +415,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after second ranking. A conference-by-conference look at which teams are contending for the playoff, who's close, and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Heisman race after Week 10: CJ Carr, new contenders emerge. Like so much of this college football season, the Heisman race is officially in a state of flux."
         }
       ]
     },
@@ -450,6 +451,10 @@
       "matched": true,
       "injuries": []
     },
+    "Austin": {
+      "matched": true,
+      "injuries": []
+    },
     "Austin Peay": {
       "matched": true,
       "injuries": [
@@ -482,7 +487,16 @@
     },
     "BYU": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "How the FAA ground stop threw college football into chaos. How the FAA ground stop threw college football into chaos"
+        }
+      ]
     },
     "Baldwin Wallace": {
       "matched": true,
@@ -523,14 +537,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after second ranking. A conference-by-conference look at which teams are contending for the playoff, who's close, and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "CFP 24-team format: What you need to know about the new playoff. The expanded College Football Playoff is official and begins next season. Here's what you need to know."
         }
       ]
     },
@@ -617,20 +623,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Vander Esch",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Vander Esch and student drill back-to-back kicks for $2 million. Vander Esch and student drill back-to-back kicks for $2 million"
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
-        },
-        {
-          "player_name": "Braden Atkinson",
-          "position": null,
-          "status": "DOUBTFUL",
-          "body_part": "Back",
-          "confidence_score": 1.0,
-          "source_headline": "Braden Atkinson doubtful, Maddux Madsen questionable for Oregon St.-Boise St.. Oregon State is listing starting quarterback Braden Atkinson as doubtful for Saturday's showdown at No. 24 Boise State."
+          "source_headline": "How the FAA ground stop threw college football into chaos. How the FAA ground stop threw college football into chaos"
         }
       ]
     },
@@ -929,6 +935,10 @@
     },
     "Catawba": {
       "matched": true,
+      "injuries": []
+    },
+    "Centenary (LA)": {
+      "matched": false,
       "injuries": []
     },
     "Central Arkansas": {
@@ -1306,14 +1316,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after second ranking. A conference-by-conference look at which teams are contending for the playoff, who's close, and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "CFP 24-team format: What you need to know about the new playoff. The expanded College Football Playoff is official and begins next season. Here's what you need to know."
         }
       ]
     },
@@ -2042,6 +2044,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Tim Tebow",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Tim Tebow calling for bounce back performances from Ole Miss, Florida. SEC Network's Tebow joins The Paul Finebaum Show to explains how the Gators and Rebels can rebound from tough losses while saying the Vols better not overlook the Aggies."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -2265,6 +2275,27 @@
       "matched": true,
       "injuries": []
     },
+    "Gallaudet": {
+      "matched": true,
+      "injuries": [
+        {
+          "player_name": "NCAA OK's Gallaudet's",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "NCAA OK's Gallaudet's helmet for deaf, hard-of-hearing QBs. The NCAA has given full approval for Gallaudet's football team to use a helmet designed for players who are deaf or hard of hearing. The technology involves a visual display inside the quarterback's helmet."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Gallaudet unveils football helmet for deaf, hard-of-hearing QBs. AT&T and Gallaudet University have developed a football helmet to assist deaf or hard-of-hearing QBs who communicate using American Sign Language."
+        }
+      ]
+    },
     "Gannon": {
       "matched": true,
       "injuries": []
@@ -2316,20 +2347,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of mid-November."
-        },
-        {
-          "player_name": null,
+          "player_name": "Sean McDonough",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Best bets for Week 11: Picks for Texas A&M, Georgia, Notre Dame and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 11."
+          "source_headline": "Sean McDonough on No. 1 UGA: 'The gold standard in college football'. McDonough joins The Paul Finebaum Show and discusses why the Bulldogs are the top team in the nation and why Alabama is at the No. 3 spot."
         }
       ]
     },
@@ -2561,6 +2584,10 @@
       "matched": false,
       "injuries": []
     },
+    "Hendrix": {
+      "matched": true,
+      "injuries": []
+    },
     "Hilbert": {
       "matched": false,
       "injuries": []
@@ -2695,6 +2722,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Dieffenbach returns from injury scare, No. 4 UCLA remains unbeaten with 22-14 victory over Illinois. \u2014 UCLA received a major scare when quarterback Ty Dieffenbach went to the locker room with a left elbow injury in the second quarter of Friday\u2019s game."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -2709,14 +2744,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "CFP 24-team format: What you need to know about the new playoff. The expanded College Football Playoff is official and begins next season. Here's what you need to know."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Ankle",
-          "confidence_score": 0.75,
-          "source_headline": "Illinois coach Bret Bielema takes veiled shot at SEC, CFP. Big Ten coaches continue to be rankled by the initial College Football Playoff rankings, with Illinois coach Bret Bielema taking the latest veiled shot at the SEC."
         }
       ]
     },
@@ -2724,6 +2751,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Dieffenbach returns from injury scare, No. 4 UCLA remains unbeaten with 22-14 victory over Illinois. \u2014 UCLA received a major scare when quarterback Ty Dieffenbach went to the locker room with a left elbow injury in the second quarter of Friday\u2019s game."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -2738,14 +2773,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "CFP 24-team format: What you need to know about the new playoff. The expanded College Football Playoff is official and begins next season. Here's what you need to know."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Ankle",
-          "confidence_score": 0.75,
-          "source_headline": "Illinois coach Bret Bielema takes veiled shot at SEC, CFP. Big Ten coaches continue to be rankled by the initial College Football Playoff rankings, with Illinois coach Bret Bielema taking the latest veiled shot at the SEC."
         }
       ]
     },
@@ -2753,6 +2780,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Dieffenbach returns from injury scare, No. 4 UCLA remains unbeaten with 22-14 victory over Illinois. \u2014 UCLA received a major scare when quarterback Ty Dieffenbach went to the locker room with a left elbow injury in the second quarter of Friday\u2019s game."
+        },
+        {
           "player_name": "College Football Playoff",
           "position": null,
           "status": null,
@@ -2767,14 +2802,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "CFP 24-team format: What you need to know about the new playoff. The expanded College Football Playoff is official and begins next season. Here's what you need to know."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Ankle",
-          "confidence_score": 0.75,
-          "source_headline": "Illinois coach Bret Bielema takes veiled shot at SEC, CFP. Big Ten coaches continue to be rankled by the initial College Football Playoff rankings, with Illinois coach Bret Bielema taking the latest veiled shot at the SEC."
         }
       ]
     },
@@ -3007,20 +3034,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Tim Tebow",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Tim Tebow calling for bounce back performances from Ole Miss, Florida. SEC Network's Tebow joins The Paul Finebaum Show to explains how the Gators and Rebels can rebound from tough losses while saying the Vols better not overlook the Aggies."
+        },
+        {
           "player_name": "Gene Chizik's",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Gene Chizik's 'Words of Chizdom' to a few teams who may need a lift. Chizik provides reasons to keep believing to a few SEC programs navigating adversity as the College Football Playoffs approach."
-        },
-        {
-          "player_name": "SEC Now's",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "SEC Now's initial reaction to the latest CFP rankings. SEC Network's Roman Harper, Matt Stinchcomb and Dari Nowkhah break down the College Football Playoff committee's newest rankings and discuss Bama sitting pretty and the Vols trying to climb."
         }
       ]
     },
@@ -3028,20 +3055,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Tim Tebow",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Tim Tebow calling for bounce back performances from Ole Miss, Florida. SEC Network's Tebow joins The Paul Finebaum Show to explains how the Gators and Rebels can rebound from tough losses while saying the Vols better not overlook the Aggies."
+        },
+        {
           "player_name": "Gene Chizik's",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Gene Chizik's 'Words of Chizdom' to a few teams who may need a lift. Chizik provides reasons to keep believing to a few SEC programs navigating adversity as the College Football Playoffs approach."
-        },
-        {
-          "player_name": "SEC Now's",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "SEC Now's initial reaction to the latest CFP rankings. SEC Network's Roman Harper, Matt Stinchcomb and Dari Nowkhah break down the College Football Playoff committee's newest rankings and discuss Bama sitting pretty and the Vols trying to climb."
         }
       ]
     },
@@ -3049,20 +3076,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Tim Tebow",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Tim Tebow calling for bounce back performances from Ole Miss, Florida. SEC Network's Tebow joins The Paul Finebaum Show to explains how the Gators and Rebels can rebound from tough losses while saying the Vols better not overlook the Aggies."
+        },
+        {
           "player_name": "Gene Chizik's",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Gene Chizik's 'Words of Chizdom' to a few teams who may need a lift. Chizik provides reasons to keep believing to a few SEC programs navigating adversity as the College Football Playoffs approach."
-        },
-        {
-          "player_name": "SEC Now's",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "SEC Now's initial reaction to the latest CFP rankings. SEC Network's Roman Harper, Matt Stinchcomb and Dari Nowkhah break down the College Football Playoff committee's newest rankings and discuss Bama sitting pretty and the Vols trying to climb."
         }
       ]
     },
@@ -3105,16 +3132,11 @@
     },
     "LSU": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of mid-November."
-        }
-      ]
+      "injuries": []
+    },
+    "La Verne": {
+      "matched": false,
+      "injuries": []
     },
     "LaGrange": {
       "matched": true,
@@ -3278,6 +3300,10 @@
       "injuries": []
     },
     "Lycoming": {
+      "matched": false,
+      "injuries": []
+    },
+    "Lyon": {
       "matched": false,
       "injuries": []
     },
@@ -3650,14 +3676,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "CFP 24-team format: What you need to know about the new playoff. The expanded College Football Playoff is official and begins next season. Here's what you need to know."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 10 College Football Playoff, bowl projections. Week 10 brought the drama! Our bowl gurus take a look at how the postseason picture shifted."
         }
       ]
     },
@@ -3700,14 +3718,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "CFP 24-team format: What you need to know about the new playoff. The expanded College Football Playoff is official and begins next season. Here's what you need to know."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 10 College Football Playoff, bowl projections. Week 10 brought the drama! Our bowl gurus take a look at how the postseason picture shifted."
         }
       ]
     },
@@ -3737,14 +3747,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "CFP 24-team format: What you need to know about the new playoff. The expanded College Football Playoff is official and begins next season. Here's what you need to know."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 10 College Football Playoff, bowl projections. Week 10 brought the drama! Our bowl gurus take a look at how the postseason picture shifted."
         }
       ]
     },
@@ -3774,14 +3776,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "CFP 24-team format: What you need to know about the new playoff. The expanded College Football Playoff is official and begins next season. Here's what you need to know."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 10 College Football Playoff, bowl projections. Week 10 brought the drama! Our bowl gurus take a look at how the postseason picture shifted."
         }
       ]
     },
@@ -3800,9 +3794,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of mid-November."
+          "source_headline": "Latest updates on how the FAA ground stop will affect college football. The SEC Now crew provides updates on how games are being affected by transportation issues as Chris Doering and Benjamin Watson analyze the impact on players."
         },
         {
           "player_name": null,
@@ -3810,15 +3804,7 @@
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Sources: Kamario Taylor finalizing deal to return to Mississippi State in '27. Mississippi State star quarterback Kamario Taylor is finalizing a deal Wednesday to return to the Bulldogs in 2027, sources told ESPN."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after second ranking. A conference-by-conference look at which teams are contending for the playoff, who's close, and who's out."
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of mid-November."
         }
       ]
     },
@@ -3836,14 +3822,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of mid-November."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid updated his rankings for the 2027 NFL draft class with 50 players -- including eight quarterbacks and an elite wide receiver prospect."
         }
       ]
     },
@@ -3857,14 +3835,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of mid-November."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid updated his rankings for the 2027 NFL draft class with 50 players -- including eight quarterbacks and an elite wide receiver prospect."
         }
       ]
     },
@@ -3878,14 +3848,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of mid-November."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid updated his rankings for the 2027 NFL draft class with 50 players -- including eight quarterbacks and an elite wide receiver prospect."
         }
       ]
     },
@@ -4042,7 +4004,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "NC State officially hires Philip Rivers as football coach. The NC State board of trustees finalized a five-year contract for former NFL quarterback Philip Rivers to become head football coach at his alma mater."
+          "source_headline": "NC State officially hires Philip Rivers as football coach. The NC State board of trustees has finalized a five-year contract for former NFL quarterback Philip Rivers to become head football coach at his alma mater."
         },
         {
           "player_name": "College Football Playoff",
@@ -4435,14 +4397,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "CFP 24-team format: What you need to know about the new playoff. The expanded College Football Playoff is official and begins next season. Here's what you need to know."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft questions, latest intel, risers, CFB standouts. How did CFB Week 10 shake up the quarterback class? CJ Carr and LaNorris Sellers rising? Here's our weekly draft spin, including top standouts."
         }
       ]
     },
@@ -4796,18 +4750,18 @@
         {
           "player_name": null,
           "position": null,
-          "status": "OUT",
-          "body_part": "Shoulder",
-          "confidence_score": 1.0,
-          "source_headline": "Sources: Ole Miss RB Kewan Lacy to miss rest of season. Ole Miss running back Kewan Lacy, who has one year of eligiblity remaining, will miss the rest of the season with a left shoulder injury, sources told ESPN."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after second ranking. A conference-by-conference look at which teams are contending for the playoff, who's close, and who's out."
+          "source_headline": "How the FAA ground stop threw college football into chaos. How the FAA ground stop threw college football into chaos"
+        },
+        {
+          "player_name": "Tim Tebow",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Tim Tebow calling for bounce back performances from Ole Miss, Florida. SEC Network's Tebow joins The Paul Finebaum Show to explains how the Gators and Rebels can rebound from tough losses while saying the Vols better not overlook the Aggies."
         }
       ]
     },
@@ -4848,28 +4802,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Tim Tebow",
           "position": null,
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of mid-November."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": "OUT",
-          "body_part": "Shoulder",
-          "confidence_score": 1.0,
-          "source_headline": "Sources: Ole Miss RB Kewan Lacy to miss rest of season. Ole Miss running back Kewan Lacy, who has one year of eligiblity remaining, will miss the rest of the season with a left shoulder injury, sources told ESPN."
-        },
-        {
-          "player_name": "Gene Chizik's",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Gene Chizik's 'Words of Chizdom' to a few teams who may need a lift. Chizik provides reasons to keep believing to a few SEC programs navigating adversity as the College Football Playoffs approach."
+          "source_headline": "Tim Tebow calling for bounce back performances from Ole Miss, Florida. SEC Network's Tebow joins The Paul Finebaum Show to explains how the Gators and Rebels can rebound from tough losses while saying the Vols better not overlook the Aggies."
         },
         {
           "player_name": null,
@@ -4877,7 +4815,7 @@
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports. Jordan Reid updated his rankings for the 2027 NFL draft class with 50 players -- including eight quarterbacks and an elite wide receiver prospect."
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of mid-November."
         }
       ]
     },
@@ -5052,14 +4990,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "College Football Playoff Bubble Watch after second ranking. A conference-by-conference look at which teams are contending for the playoff, who's close, and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "CFP 24-team format: What you need to know about the new playoff. The expanded College Football Playoff is official and begins next season. Here's what you need to know."
         }
       ]
     },
@@ -5880,35 +5810,18 @@
     },
     "Texas": {
       "matched": true,
-      "injuries": [
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of mid-November."
-        }
-      ]
+      "injuries": []
     },
     "Texas A&M": {
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Tim Tebow",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Best bets for Week 11: Picks for Texas A&M, Georgia, Notre Dame and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 11."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after second ranking. A conference-by-conference look at which teams are contending for the playoff, who's close, and who's out."
+          "source_headline": "Tim Tebow calling for bounce back performances from Ole Miss, Florida. SEC Network's Tebow joins The Paul Finebaum Show to explains how the Gators and Rebels can rebound from tough losses while saying the Vols better not overlook the Aggies."
         }
       ]
     },
@@ -5916,20 +5829,25 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Tim Tebow",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Tim Tebow calling for bounce back performances from Ole Miss, Florida. SEC Network's Tebow joins The Paul Finebaum Show to explains how the Gators and Rebels can rebound from tough losses while saying the Vols better not overlook the Aggies."
+        }
+      ]
+    },
+    "Texas Lutheran": {
+      "matched": true,
+      "injuries": [
+        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Best bets for Week 11: Picks for Texas A&M, Georgia, Notre Dame and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 11."
-        },
-        {
-          "player_name": "College Football Playoff",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College Football Playoff Bubble Watch after second ranking. A conference-by-conference look at which teams are contending for the playoff, who's close, and who's out."
+          "source_headline": "How the FAA ground stop threw college football into chaos. How the FAA ground stop threw college football into chaos"
         }
       ]
     },
@@ -5940,9 +5858,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of mid-November."
+          "source_headline": "How the FAA ground stop threw college football into chaos. How the FAA ground stop threw college football into chaos"
         }
       ]
     },
@@ -5982,9 +5900,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Seven quarterbacks ranked in the top 25? This NFL draft class could be fun. Mel Kiper Jr. stacks the best players on the board as of mid-November."
+          "source_headline": "How the FAA ground stop threw college football into chaos. How the FAA ground stop threw college football into chaos"
         }
       ]
     },
@@ -6173,7 +6091,24 @@
     },
     "UCLA": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Dieffenbach returns from injury scare, No. 4 UCLA remains unbeaten with 22-14 victory over Illinois. \u2014 UCLA received a major scare when quarterback Ty Dieffenbach went to the locker room with a left elbow injury in the second quarter Friday night."
+        },
+        {
+          "player_name": "UCLA's Ty Dieffenbach",
+          "position": null,
+          "status": null,
+          "body_part": "Shoulder",
+          "confidence_score": 0.75,
+          "source_headline": "UCLA's Ty Dieffenbach says 1st-half shoulder injury vs. Illinois not serious. UCLA starting quarterback Ty Dieffenbach exited because of a shoulder injury late in the second quarter, but returned to lead the Bruins past Illinois 22-14."
+        }
+      ]
     },
     "UConn": {
       "matched": true,
@@ -6292,7 +6227,16 @@
     },
     "Utah Tech": {
       "matched": true,
-      "injuries": []
+      "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "How the FAA ground stop threw college football into chaos. How the FAA ground stop threw college football into chaos"
+        }
+      ]
     },
     "Utica": {
       "matched": true,
@@ -6550,6 +6494,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Wake Forest",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Wake Forest claims 'Bachelor U' status after Sam Hartman news. Wake Forest football is the only program, the school says, to have had three former players feature in \"The Bachelor\" franchise."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -6613,14 +6565,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 10 College Football Playoff, bowl projections. Week 10 brought the drama! Our bowl gurus take a look at how the postseason picture shifted."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Washington takes on Michigan State in Big Ten action. Washington (5-4) at Michigan State (3-6), Nov. 14 at 4:15 p.m. EST."
         }
       ]
     },
@@ -6658,14 +6602,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 10 College Football Playoff, bowl projections. Week 10 brought the drama! Our bowl gurus take a look at how the postseason picture shifted."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Washington takes on Michigan State in Big Ten action. Washington (5-4) at Michigan State (3-6), Nov. 14 at 4:15 p.m. EST."
         }
       ]
     },
@@ -6691,14 +6627,6 @@
           "body_part": "Shin",
           "confidence_score": 0.75,
           "source_headline": "Pac-12 matchup features Washington State squaring off against Colorado State. Colorado State (3-6) at Washington State (1-8), Nov. 14 at 10:30 p.m. EST."
-        },
-        {
-          "player_name": "Washington State Cougars",
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Washington State Cougars vs. San Diego State Aztecs: Full Highlights. Washington State Cougars vs. San Diego State Aztecs: Full Highlights"
         }
       ]
     },
@@ -6736,14 +6664,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 10 College Football Playoff, bowl projections. Week 10 brought the drama! Our bowl gurus take a look at how the postseason picture shifted."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Washington takes on Michigan State in Big Ten action. Washington (5-4) at Michigan State (3-6), Nov. 14 at 4:15 p.m. EST."
         }
       ]
     },
@@ -6966,6 +6886,10 @@
       ]
     },
     "Wheeling": {
+      "matched": false,
+      "injuries": []
+    },
+    "Whittier": {
       "matched": false,
       "injuries": []
     },
