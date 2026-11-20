@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T19:21:59.427491+00:00",
+  "generated_at": "2026-11-20T19:02:14.910216+00:00",
   "season": 2026,
   "week": 12,
   "teams": {
@@ -75,7 +75,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "No. 7 Alabama goes for its 4th straight win when it hosts lower-division Chattanooga. \u2014 No. 7 Alabama has a clear path to the final Southeastern Conference title game and a spot in the College Football Playoff."
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
         },
         {
           "player_name": null,
@@ -83,23 +83,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Inside the complexities of clock management in college football. From Michigan-WMU to Notre Dame-BYU, the closing seconds of games seem to be more puzzling than ever."
-        },
-        {
-          "player_name": "What Chizik",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "What Chizik knows, wants to know about Bama, UF, Ole Miss. There are things that Gene Chizik knows about SEC football, like the Crimson Tide's defensive power or the Gators' resiliency, but on the other hand he has lingering questions."
-        },
-        {
-          "player_name": "Alyssa Lang",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Alyssa Lang analyzes, raises questions about recent CFP standings. Lang discusses the College Football Playoff committee's recent ranking decisions as she dissects her own SEC Network Power Rankings and the new challenges for contenders."
+          "source_headline": "No. 7 Alabama goes for its 4th straight win when it hosts lower-division Chattanooga. \u2014 No. 7 Alabama has a clear path to the final Southeastern Conference title game and a spot in the College Football Playoff."
         }
       ]
     },
@@ -166,7 +150,7 @@
         }
       ]
     },
-    "Alfred": {
+    "Alfred State": {
       "matched": true,
       "injuries": []
     },
@@ -224,6 +208,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+        },
+        {
           "player_name": "CFB Week",
           "position": null,
           "status": null,
@@ -275,14 +267,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -337,7 +321,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Take a 360-degree look at college football's iconic rivalry trophies. Whether ancient, animal or absurd, college football's rivalry trophies take many shapes."
+          "source_headline": "Waiver approved allowing Army, Navy to play 13th game in 2027. The waiver will allow Army and Navy to play 12 games apiece before the College Football Playoff selections are made and keep their rivalry game."
         },
         {
           "player_name": null,
@@ -345,7 +329,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "What's it like ferrygating with Army football's newest fans?. For football Saturdays, Army is OK with a naval incursion."
+          "source_headline": "Take a 360-degree look at college football's iconic rivalry trophies. Whether ancient, animal or absurd, college football's rivalry trophies take many shapes."
         }
       ]
     },
@@ -412,15 +396,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
         }
       ]
     },
@@ -471,14 +447,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2026 college football coaching carousel: Tracking every open job. As the carousel spins, we'll keep you updated with all the comings and goings."
         }
       ]
     },
@@ -512,7 +480,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
         },
         {
           "player_name": null,
@@ -520,7 +488,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Who's on the move? CFP committee's third top 25 and bracket of 2026. A look at the new bracket based on the College Football Playoff committee's third set of rankings."
+          "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -1000,6 +968,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Rib",
           "confidence_score": 0.75,
           "source_headline": "Bottom 10 after Week 11: Paying tribute to our founding father. The originator of celebrating football's downtrodden, former Los Angeles columnist Steve Harvey, died last week."
@@ -1011,14 +987,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -1628,6 +1596,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Florida State",
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Florida State going turquoise tops best uniforms of CFB Week 12. The color, which represents harmony, friendship and fellowship throughout Native American communities, pays homage to the school's relationship with the Seminole Tribe."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -1653,6 +1629,14 @@
     "Florida State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "Florida State",
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Florida State going turquoise tops best uniforms of CFB Week 12. The color, which represents harmony, friendship and fellowship throughout Native American communities, pays homage to the school's relationship with the Seminole Tribe."
+        },
         {
           "player_name": null,
           "position": null,
@@ -1755,17 +1739,17 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Inside the complexities of clock management in college football. From Michigan-WMU to Notre Dame-BYU, the closing seconds of games seem to be more puzzling than ever."
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
         },
         {
-          "player_name": "CFB Week",
+          "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "CFB Week 12 best bets: Breaking down the numbers for Texas Tech, Kentucky and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 12."
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
         }
       ]
     },
@@ -2153,7 +2137,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "'Another universe': How Indiana football changed Bloomington. The basketball haven has become a legend of the fall, where the reigning national champs take center stage."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
         },
         {
           "player_name": null,
@@ -2161,7 +2153,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Take a 360-degree look at college football's iconic rivalry trophies. Whether ancient, animal or absurd, college football's rivalry trophies take many shapes."
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
         }
       ]
     },
@@ -2302,20 +2294,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+        },
+        {
           "player_name": "CFB Week",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "CFB Week 12 best bets: Breaking down the numbers for Texas Tech, Kentucky and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 12."
-        },
-        {
-          "player_name": "Alyssa Lang",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Alyssa Lang analyzes, raises questions about recent CFP standings. Lang discusses the College Football Playoff committee's recent ranking decisions as she dissects her own SEC Network Power Rankings and the new challenges for contenders."
         }
       ]
     },
@@ -2323,20 +2315,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+        },
+        {
           "player_name": "CFB Week",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "CFB Week 12 best bets: Breaking down the numbers for Texas Tech, Kentucky and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 12."
-        },
-        {
-          "player_name": "Alyssa Lang",
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Alyssa Lang analyzes, raises questions about recent CFP standings. Lang discusses the College Football Playoff committee's recent ranking decisions as she dissects her own SEC Network Power Rankings and the new challenges for contenders."
         }
       ]
     },
@@ -2353,7 +2345,7 @@
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Judge questions LSU's claims the SEC 'hallucinated' citations. At a hearing Wednesday in the SEC's lawsuit against LSU, a federal judge pushed back on LSU attorneys for using the word \"hallucinated\" in filing."
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
         }
       ]
     },
@@ -2507,6 +2499,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Florida State",
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Florida State going turquoise tops best uniforms of CFB Week 12. The color, which represents harmony, friendship and fellowship throughout Native American communities, pays homage to the school's relationship with the Seminole Tribe."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -2658,14 +2658,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Inside the complexities of clock management in college football. From Michigan-WMU to Notre Dame-BYU, the closing seconds of games seem to be more puzzling than ever."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Take a 360-degree look at college football's iconic rivalry trophies. Whether ancient, animal or absurd, college football's rivalry trophies take many shapes."
         }
       ]
     },
@@ -2695,14 +2687,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Washington overcomes challenging night of travel to beat Michigan State 21-14 on TD with 2:24 left. \u2014 Washington was one of the teams whose travel plans were delayed by the Federal Aviation Administration\u2019s decision to ground all flights."
         }
       ]
     },
@@ -2716,14 +2700,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Inside the complexities of clock management in college football. From Michigan-WMU to Notre Dame-BYU, the closing seconds of games seem to be more puzzling than ever."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Take a 360-degree look at college football's iconic rivalry trophies. Whether ancient, animal or absurd, college football's rivalry trophies take many shapes."
         }
       ]
     },
@@ -2738,6 +2714,14 @@
     "Minnesota": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+        },
         {
           "player_name": null,
           "position": null,
@@ -2771,6 +2755,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Take a 360-degree look at college football's iconic rivalry trophies. Whether ancient, animal or absurd, college football's rivalry trophies take many shapes."
@@ -2800,6 +2792,14 @@
     "Mississippi State": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+        },
         {
           "player_name": null,
           "position": null,
@@ -2840,14 +2840,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "CFB Week 12 best bets: Breaking down the numbers for Texas Tech, Kentucky and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 12."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Take a 360-degree look at college football's iconic rivalry trophies. Whether ancient, animal or absurd, college football's rivalry trophies take many shapes."
         }
       ]
     },
@@ -2861,14 +2853,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "CFB Week 12 best bets: Breaking down the numbers for Texas Tech, Kentucky and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 12."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Take a 360-degree look at college football's iconic rivalry trophies. Whether ancient, animal or absurd, college football's rivalry trophies take many shapes."
         }
       ]
     },
@@ -3004,6 +2988,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Can Nebraska's Matt",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Can Nebraska's Matt Rhule end his drought against ranked opponents?. Rhule and Nebraska face back-to-back tests against ranked opponents to end the year, marking an opportunity for the Cornhuskers' coach to end a nearly decade-long streak."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -3018,14 +3010,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -3438,12 +3422,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Sam Hartman's",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Sam Hartman's next drive: 'The Bachelor' questions answered. A guide to the Commanders quarterback's upcoming search for love and how his NFL commitments could shape the season."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
         },
         {
           "player_name": null,
@@ -3451,7 +3443,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
         }
       ]
     },
@@ -3487,9 +3479,17 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Take a 360-degree look at college football's iconic rivalry trophies. Whether ancient, animal or absurd, college football's rivalry trophies take many shapes."
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
         }
       ]
     },
@@ -3518,6 +3518,22 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Draft buzz: Interest in Oklahoma State's Drew Mestemaker could spur draft trade. If the Titans or Chargers wind up with the No. 1 selection and stick with their franchise quarterbacks, interest in Oklahoma State's Drew Mestemaker could lead to a team seeking to trade up for the top overall pick."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+        },
+        {
           "player_name": "CFB Week",
           "position": null,
           "status": null,
@@ -3532,22 +3548,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft: Dolphins, Titans, Eagles, Jets, Chargers in race for No. 1 pick. Five NFL teams have at least 5% odds to land the No. 1 pick in 2027, per ESPN's Football Power Index: the Dolphins, Titans, Eagles, Jets and Chargers."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -3567,6 +3567,14 @@
     "Ole Miss": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+        },
         {
           "player_name": "What Chizik",
           "position": null,
@@ -3638,6 +3646,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Hall of Famer Jack Ham returning to broadcast booth after health scare. Hall of Fame linebacker and Penn State radio analyst Jack Ham will return to the broadcast booth on Saturday, just two weeks after suffering a medical emergency."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
@@ -3657,14 +3673,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "2026-27 Week 11 College Football Playoff, bowl projections. Our bowl gurus take a look at how the postseason picture shifted after Week 11."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "College football takeaways: Lasting impressions from Week 11. Our college football experts break down the most important things they saw in Week 11."
         }
       ]
     },
@@ -3832,6 +3840,14 @@
     "Rutgers": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+        },
         {
           "player_name": null,
           "position": null,
@@ -4264,9 +4280,17 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
         }
       ]
     },
@@ -4298,9 +4322,17 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
         }
       ]
     },
@@ -4311,9 +4343,17 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
         }
       ]
     },
@@ -4345,9 +4385,17 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
         }
       ]
     },
@@ -4484,6 +4532,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Florida State",
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Florida State going turquoise tops best uniforms of CFB Week 12. The color, which represents harmony, friendship and fellowship throughout Native American communities, pays homage to the school's relationship with the Seminole Tribe."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -4510,15 +4566,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Take a 360-degree look at college football's iconic rivalry trophies. Whether ancient, animal or absurd, college football's rivalry trophies take many shapes."
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
         }
       ]
     },
@@ -4564,6 +4612,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "Take a 360-degree look at college football's iconic rivalry trophies. Whether ancient, animal or absurd, college football's rivalry trophies take many shapes."
         },
         {
@@ -4573,14 +4629,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
         }
       ]
     },
@@ -4608,12 +4656,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "CFB Week",
+          "player_name": "Florida State",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Rib",
           "confidence_score": 0.75,
-          "source_headline": "CFB Week 12 best bets: Breaking down the numbers for Texas Tech, Kentucky and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 12."
+          "source_headline": "Florida State going turquoise tops best uniforms of CFB Week 12. The color, which represents harmony, friendship and fellowship throughout Native American communities, pays homage to the school's relationship with the Seminole Tribe."
         },
         {
           "player_name": null,
@@ -4621,7 +4669,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+        },
+        {
+          "player_name": "CFB Week",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "CFB Week 12 best bets: Breaking down the numbers for Texas Tech, Kentucky and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 12."
         }
       ]
     },
@@ -4642,12 +4698,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "CFB Week",
+          "player_name": "Florida State",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Rib",
           "confidence_score": 0.75,
-          "source_headline": "CFB Week 12 best bets: Breaking down the numbers for Texas Tech, Kentucky and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 12."
+          "source_headline": "Florida State going turquoise tops best uniforms of CFB Week 12. The color, which represents harmony, friendship and fellowship throughout Native American communities, pays homage to the school's relationship with the Seminole Tribe."
         },
         {
           "player_name": null,
@@ -4655,7 +4711,15 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+        },
+        {
+          "player_name": "CFB Week",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "CFB Week 12 best bets: Breaking down the numbers for Texas Tech, Kentucky and more. Pamela Maldonado and Mark Zinno break down the best bets they see around college football for Week 12."
         }
       ]
     },
@@ -4725,6 +4789,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Florida State",
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Florida State going turquoise tops best uniforms of CFB Week 12. The color, which represents harmony, friendship and fellowship throughout Native American communities, pays homage to the school's relationship with the Seminole Tribe."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -4760,20 +4832,20 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps. What is the \"College GameDay\" schedule? Find out more about where the program will be each week of the 2026 college football season."
         }
       ]
     },
     "Virginia Union": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": "Florida State",
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Florida State going turquoise tops best uniforms of CFB Week 12. The color, which represents harmony, friendship and fellowship throughout Native American communities, pays homage to the school's relationship with the Seminole Tribe."
+        },
         {
           "player_name": null,
           "position": null,
@@ -4800,12 +4872,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Sam Hartman's",
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2027 College Football Playoff National Championship odds. Odds and futures to win the 2027 College Football Playoff National Championship."
+          "source_headline": "Sam Hartman's next drive: 'The Bachelor' questions answered. A guide to the Commanders quarterback's upcoming search for love and how his NFL commitments could shape the season."
         },
         {
           "player_name": null,
@@ -4813,7 +4885,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
         }
       ]
     },
@@ -4853,20 +4925,12 @@
           "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
         },
         {
-          "player_name": "Big Ten",
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Big Ten matchup features No. 6 Indiana taking on Washington. No. 6 Indiana (9-1) at Washington (6-4), Nov. 21 at 3:30 p.m. EST."
-        },
-        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 11 College Football Playoff, bowl projections. Our bowl gurus take a look at how the postseason picture shifted after Week 11."
+          "source_headline": "No. 6 Indiana looks to keep College Football Playoff hopes on track against upset-minded Washington. \u2014 No. 6 Indiana heads to the Pacific Northwest to face Washington in what will be the Hoosiers\u2019 longest road trip of the 2026 season."
         }
       ]
     },
@@ -4927,20 +4991,12 @@
           "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
         },
         {
-          "player_name": "Big Ten",
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Big Ten matchup features No. 6 Indiana taking on Washington. No. 6 Indiana (9-1) at Washington (6-4), Nov. 21 at 3:30 p.m. EST."
-        },
-        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2026-27 Week 11 College Football Playoff, bowl projections. Our bowl gurus take a look at how the postseason picture shifted after Week 11."
+          "source_headline": "No. 6 Indiana looks to keep College Football Playoff hopes on track against upset-minded Washington. \u2014 No. 6 Indiana heads to the Pacific Northwest to face Washington in what will be the Hoosiers\u2019 longest road trip of the 2026 season."
         }
       ]
     },
