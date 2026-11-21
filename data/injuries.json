@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T19:02:14.910216+00:00",
+  "generated_at": "2026-11-21T17:48:23.393748+00:00",
   "season": 2026,
   "week": 12,
   "teams": {
@@ -34,14 +34,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Sizing up college football's best races down the homestretch. From spots in the CFP and SEC title game to the hunt for bowl eligibility, there's still a lot on the line."
-        },
-        {
-          "player_name": "Evan Medders",
-          "position": null,
-          "status": null,
-          "body_part": "Shin",
-          "confidence_score": 0.75,
-          "source_headline": "Evan Medders shows his speed on an 81-yard rushing TD. Evan Medders shows his speed on an 81-yard rushing TD"
         }
       ]
     },
@@ -256,9 +248,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Take a 360-degree look at college football's iconic rivalry trophies. Whether ancient, animal or absurd, college football's rivalry trophies take many shapes."
+          "source_headline": "No. 5 Texas' November dominance spells trouble for Arkansas. Despite signs of improvement from the Razorbacks, the SEC Now crew breaks down why the Longhorns' impressive track record in November gives them the edge heading into Week 12."
         },
         {
           "player_name": null,
@@ -266,7 +258,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
+          "source_headline": "Take a 360-degree look at college football's iconic rivalry trophies. Whether ancient, animal or absurd, college football's rivalry trophies take many shapes."
         }
       ]
     },
@@ -965,6 +957,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Clemson's QB",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Clemson's QB rotation of Pearman and Denson, defense help the Tigers beat Duke 20-10. \u2014 Trent Pearman and Chris Denson each ran for touchdowns while rotating at quarterback for injury-hit Clemson, helping the Tigers beat Duke 20-10 on Friday night to close their Atlantic Coast Conference schedule."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -979,14 +979,6 @@
           "body_part": "Rib",
           "confidence_score": 0.75,
           "source_headline": "Bottom 10 after Week 11: Paying tribute to our founding father. The originator of celebrating football's downtrodden, former Los Angeles columnist Steve Harvey, died last week."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
         }
       ]
     },
@@ -1262,6 +1254,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": "Clemson's QB",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Clemson's QB rotation of Pearman and Denson, defense help the Tigers beat Duke 20-10. \u2014 Trent Pearman and Chris Denson each ran for touchdowns while rotating at quarterback for injury-hit Clemson, helping the Tigers beat Duke 20-10 on Friday night to close their Atlantic Coast Conference schedule."
+        },
+        {
           "player_name": null,
           "position": null,
           "status": null,
@@ -1276,14 +1276,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Heisman of Week 11: Duke's Nate Sheppard has entered the running. In a season in which star running backs seem to be popping up out of nowhere, the Blue Devils' sophomore stands out."
         }
       ]
     },
@@ -1739,14 +1731,6 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
@@ -1951,10 +1935,10 @@
         {
           "player_name": null,
           "position": null,
-          "status": null,
-          "body_part": "Foot",
+          "status": "OUT",
+          "body_part": null,
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
+          "source_headline": "Sources: Houston QB Conner Weigman out; Henderson to start. Houston has ruled out starting QB Conner Weigman against West Virginia due to injury and instead will go with true freshman Keisean Henderson, sources told ESPN."
         },
         {
           "player_name": null,
@@ -1962,7 +1946,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
+          "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
         }
       ]
     },
@@ -1972,10 +1956,10 @@
         {
           "player_name": null,
           "position": null,
-          "status": null,
-          "body_part": "Foot",
+          "status": "OUT",
+          "body_part": null,
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
+          "source_headline": "Sources: Houston QB Conner Weigman out; Henderson to start. Houston has ruled out starting QB Conner Weigman against West Virginia due to injury and instead will go with true freshman Keisean Henderson, sources told ESPN."
         },
         {
           "player_name": null,
@@ -1983,7 +1967,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
+          "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
         }
       ]
     },
@@ -2137,6 +2121,14 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
           "source_headline": "'Another universe': How Indiana football changed Bloomington. The basketball haven has become a legend of the fall, where the reigning national champs take center stage."
         },
         {
@@ -2146,14 +2138,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
         }
       ]
     },
@@ -2177,6 +2161,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Barnett throws 3 of his 4 TD passes to Derry, UCF beats Iowa State to become bowl eligible. \u2014 Alonza Barnett III threw three of his four touchdown passes to Josh Derry and added a 15-yard rushing touchdown to help UCF beat Iowa State 48-17 on Friday night to become bowl eligible."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Take a 360-degree look at college football's iconic rivalry trophies. Whether ancient, animal or absurd, college football's rivalry trophies take many shapes."
@@ -2196,14 +2188,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Heisman of Week 11: Duke's Nate Sheppard has entered the running. In a season in which star running backs seem to be popping up out of nowhere, the Blue Devils' sophomore stands out."
         }
       ]
     },
@@ -2214,6 +2198,14 @@
           "player_name": null,
           "position": null,
           "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Barnett throws 3 of his 4 TD passes to Derry, UCF beats Iowa State to become bowl eligible. \u2014 Alonza Barnett III threw three of his four touchdown passes to Josh Derry and added a 15-yard rushing touchdown to help UCF beat Iowa State 48-17 on Friday night to become bowl eligible."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Take a 360-degree look at college football's iconic rivalry trophies. Whether ancient, animal or absurd, college football's rivalry trophies take many shapes."
@@ -2233,14 +2225,6 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Heisman of Week 11: Duke's Nate Sheppard has entered the running. In a season in which star running backs seem to be popping up out of nowhere, the Blue Devils' sophomore stands out."
         }
       ]
     },
@@ -2655,9 +2639,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Inside the complexities of clock management in college football. From Michigan-WMU to Notre Dame-BYU, the closing seconds of games seem to be more puzzling than ever."
+          "source_headline": "Sources: Michigan expected to start Bryce Underwood vs. UCLA. Michigan is again making a switch at quarterback, returning to Bryce Underwood against No. 4 UCLA after Tommy Carr had started the past four games, sources confirmed to ESPN."
         }
       ]
     },
@@ -2697,9 +2681,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Inside the complexities of clock management in college football. From Michigan-WMU to Notre Dame-BYU, the closing seconds of games seem to be more puzzling than ever."
+          "source_headline": "Sources: Michigan expected to start Bryce Underwood vs. UCLA. Michigan is again making a switch at quarterback, returning to Bryce Underwood against No. 4 UCLA after Tommy Carr had started the past four games, sources confirmed to ESPN."
         }
       ]
     },
@@ -3422,6 +3406,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+        },
+        {
           "player_name": "Sam Hartman's",
           "position": null,
           "status": null,
@@ -3436,14 +3428,6 @@
           "body_part": "Back",
           "confidence_score": 0.75,
           "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
         }
       ]
     },
@@ -3479,17 +3463,25 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Back",
+          "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+        },
+        {
+          "player_name": "Ohio State's",
+          "position": null,
+          "status": null,
+          "body_part": "Foot",
+          "confidence_score": 0.75,
+          "source_headline": "Ohio State's club team might be the Buckeyes' most dominant program. One football team in Columbus still has national title hopes. Just not the one with Jeremiah Smith."
         },
         {
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
         }
       ]
     },
@@ -3497,20 +3489,20 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Sources: Texas A&M expected to bench Marcel Reed, start Brady Hart. Texas A&M is expected to make a change at quarterback, going with sophomore Brady Hart over Marcel Reed against Oklahoma, sources confirmed to ESPN."
+        },
+        {
           "player_name": "Matt Stinchcomb",
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Matt Stinchcomb says OU showed the 'epitome of complimentary football'. After highlighting a Sooners QB John Mateer for spotless game streak, the SEC Now crew analyzes the improved Oklahoma offensive rhythm."
-        },
-        {
-          "player_name": null,
-          "position": null,
-          "status": null,
-          "body_part": "Foot",
-          "confidence_score": 0.75,
-          "source_headline": "Take a 360-degree look at college football's iconic rivalry trophies. Whether ancient, animal or absurd, college football's rivalry trophies take many shapes."
         }
       ]
     },
@@ -4277,12 +4269,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Saturday Spin",
           "position": null,
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+          "source_headline": "Saturday Spin: Manning's return to Texas, Stockton nation's best QB?. The SEC Nation crew spins the wheel and answers questions about what could be next for the conference's best quarterbacks."
         },
         {
           "player_name": null,
@@ -4291,6 +4283,14 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "No. 5 Texas' November dominance spells trouble for Arkansas. Despite signs of improvement from the Razorbacks, the SEC Now crew breaks down why the Longhorns' impressive track record in November gives them the edge heading into Week 12."
         }
       ]
     },
@@ -4301,9 +4301,9 @@
           "player_name": null,
           "position": null,
           "status": null,
-          "body_part": "Foot",
+          "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
+          "source_headline": "Sources: Texas A&M expected to bench Marcel Reed, start Brady Hart. Texas A&M is expected to make a change at quarterback, going with sophomore Brady Hart over Marcel Reed against Oklahoma, sources confirmed to ESPN."
         },
         {
           "player_name": null,
@@ -4311,7 +4311,7 @@
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
-          "source_headline": "Who's on College Football Playoff bubble after the committee's third ranking?. A conference-by-conference look at which teams are contending for the playoff, who's close and who's out."
+          "source_headline": "QB rankings for all 68 Power 4 college football teams. We're nearing the end of the season. How have our opinions about the top quarterbacks changed?"
         }
       ]
     },
@@ -4319,12 +4319,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Saturday Spin",
           "position": null,
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+          "source_headline": "Saturday Spin: Manning's return to Texas, Stockton nation's best QB?. The SEC Nation crew spins the wheel and answers questions about what could be next for the conference's best quarterbacks."
         },
         {
           "player_name": null,
@@ -4333,6 +4333,14 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "No. 5 Texas' November dominance spells trouble for Arkansas. Despite signs of improvement from the Razorbacks, the SEC Now crew breaks down why the Longhorns' impressive track record in November gives them the edge heading into Week 12."
         }
       ]
     },
@@ -4340,12 +4348,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Saturday Spin",
           "position": null,
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+          "source_headline": "Saturday Spin: Manning's return to Texas, Stockton nation's best QB?. The SEC Nation crew spins the wheel and answers questions about what could be next for the conference's best quarterbacks."
         },
         {
           "player_name": null,
@@ -4354,6 +4362,14 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "No. 5 Texas' November dominance spells trouble for Arkansas. Despite signs of improvement from the Razorbacks, the SEC Now crew breaks down why the Longhorns' impressive track record in November gives them the edge heading into Week 12."
         }
       ]
     },
@@ -4382,12 +4398,12 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": null,
+          "player_name": "Saturday Spin",
           "position": null,
           "status": null,
           "body_part": "Back",
           "confidence_score": 0.75,
-          "source_headline": "2027 NFL draft Big Board rankings: Mel Kiper's top 25 prospects, best by position. Six quarterbacks and six receivers ranked in the top 25? Mel Kiper Jr. stacks the best players on the 2027 draft board as of mid-November."
+          "source_headline": "Saturday Spin: Manning's return to Texas, Stockton nation's best QB?. The SEC Nation crew spins the wheel and answers questions about what could be next for the conference's best quarterbacks."
         },
         {
           "player_name": null,
@@ -4396,6 +4412,14 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "No. 5 Texas' November dominance spells trouble for Arkansas. Despite signs of improvement from the Razorbacks, the SEC Now crew breaks down why the Longhorns' impressive track record in November gives them the edge heading into Week 12."
         }
       ]
     },
@@ -4532,6 +4556,14 @@
       "matched": true,
       "injuries": [
         {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Shin",
+          "confidence_score": 0.75,
+          "source_headline": "Barnett throws 3 of his 4 TD passes to Derry, UCF beats Iowa State to become bowl eligible. \u2014 Alonza Barnett III threw three of his four touchdown passes to Josh Derry and added a 15-yard rushing touchdown to help UCF beat Iowa State 48-17 on Friday night to become bowl eligible."
+        },
+        {
           "player_name": "Florida State",
           "position": null,
           "status": null,
@@ -4567,6 +4599,14 @@
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+        },
+        {
+          "player_name": null,
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Sources: Michigan expected to start Bryce Underwood vs. UCLA. Michigan is again making a switch at quarterback, returning to Bryce Underwood against No. 4 UCLA after Tommy Carr had started the past four games, sources confirmed to ESPN."
         }
       ]
     },
@@ -4656,20 +4696,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "Florida State",
-          "position": null,
-          "status": null,
-          "body_part": "Rib",
-          "confidence_score": 0.75,
-          "source_headline": "Florida State going turquoise tops best uniforms of CFB Week 12. The color, which represents harmony, friendship and fellowship throughout Native American communities, pays homage to the school's relationship with the Seminole Tribe."
-        },
-        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+        },
+        {
+          "player_name": "Florida State",
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Florida State going turquoise tops best uniforms of CFB Week 12. The color, which represents harmony, friendship and fellowship throughout Native American communities, pays homage to the school's relationship with the Seminole Tribe."
         },
         {
           "player_name": "CFB Week",
@@ -4698,20 +4738,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "Florida State",
-          "position": null,
-          "status": null,
-          "body_part": "Rib",
-          "confidence_score": 0.75,
-          "source_headline": "Florida State going turquoise tops best uniforms of CFB Week 12. The color, which represents harmony, friendship and fellowship throughout Native American communities, pays homage to the school's relationship with the Seminole Tribe."
-        },
-        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+        },
+        {
+          "player_name": "Florida State",
+          "position": null,
+          "status": null,
+          "body_part": "Rib",
+          "confidence_score": 0.75,
+          "source_headline": "Florida State going turquoise tops best uniforms of CFB Week 12. The color, which represents harmony, friendship and fellowship throughout Native American communities, pays homage to the school's relationship with the Seminole Tribe."
         },
         {
           "player_name": "CFB Week",
@@ -4872,20 +4912,20 @@
       "matched": true,
       "injuries": [
         {
-          "player_name": "Sam Hartman's",
-          "position": null,
-          "status": null,
-          "body_part": "Back",
-          "confidence_score": 0.75,
-          "source_headline": "Sam Hartman's next drive: 'The Bachelor' questions answered. A guide to the Commanders quarterback's upcoming search for love and how his NFL commitments could shape the season."
-        },
-        {
           "player_name": null,
           "position": null,
           "status": null,
           "body_part": "Foot",
           "confidence_score": 0.75,
           "source_headline": "Which teams have the best odds to make the College Football Playoff?. We are tracking the odds for making the CFP, earning a bye and winning it all."
+        },
+        {
+          "player_name": "Sam Hartman's",
+          "position": null,
+          "status": null,
+          "body_part": "Back",
+          "confidence_score": 0.75,
+          "source_headline": "Sam Hartman's next drive: 'The Bachelor' questions answered. A guide to the Commanders quarterback's upcoming search for love and how his NFL commitments could shape the season."
         }
       ]
     },
@@ -5015,6 +5055,14 @@
     "West Virginia": {
       "matched": true,
       "injuries": [
+        {
+          "player_name": null,
+          "position": null,
+          "status": "OUT",
+          "body_part": null,
+          "confidence_score": 0.75,
+          "source_headline": "Sources: Houston QB Conner Weigman out; Henderson to start. Houston has ruled out starting QB Conner Weigman against West Virginia due to injury and instead will go with true freshman Keisean Henderson, sources told ESPN."
+        },
         {
           "player_name": null,
           "position": null,
